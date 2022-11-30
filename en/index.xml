@@ -1,0 +1,1552 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>HungPT&#39;s Blog</title>
+    <link>https://hungpt.info/en/</link>
+    <description>Recent content on HungPT&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
+    <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
+    <copyright>©2022, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 29 Nov 2022 23:27:16 +0700</lastBuildDate>
+    
+        <atom:link href="https://hungpt.info/en/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+
+      
+      <item>
+        <title>Docker là gì? Kiến thức cơ bản về Docker</title>
+        <link>https://hungpt.info/en/posts/docker_part1/</link>
+        <pubDate>Tue, 29 Nov 2022 23:27:16 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Tue, 29 Nov 2022 23:27:16 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/docker_part1/</guid>
+        <description>&lt;p&gt;Trong bài lab lần này, chúng ta sẽ tìm hiểu về docker. Vậy docker là gì?&lt;br /&gt;
+Docker là nền tảng phần mềm cho phép bạn dựng, kiểm thử và triển khai ứng dụng một cách nhanh chóng.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>docker</category>
+            
+          
+            
+              <category>devops</category>
+            
+          
+            
+              <category>aws</category>
+            
+          
+        
+        
+          
+            
+              <category>devops</category>
+            
+          
+        
+        
+          
+            
+              <category>devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Odoo JavaScript - Phần 4: Tạo OWL view</title>
+        <link>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture_part4/</link>
+        <pubDate>Sun, 06 Nov 2022 14:32:50 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 06 Nov 2022 14:32:50 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture_part4/</guid>
+        <description>&lt;p&gt;Ở 3 phần trước chúng ta đã cùng tìm hiểu từng thành phần trong mô hình MVC của Javascript Odoo. Ở phần này, mình sẽ tạo ra 1 view OWL&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo OWL</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Odoo JavaScript - Phần 3: Tổng quan về kiến trúc MVC trong Odoo</title>
+        <link>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture_part3/</link>
+        <pubDate>Sat, 05 Nov 2022 14:48:37 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sat, 05 Nov 2022 14:48:37 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture_part3/</guid>
+        <description>&lt;p&gt;MVC ở đây chúng ta có thể hiểu WebClient của odoo chính là view là Python chính là M và C.&lt;br /&gt;
+Nhưng chúng ta nên nghĩ về WebClient như một application riêng biệt cũng cần có kiến trúc MVC riêng của nó.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_3.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo OWL</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Odoo JavaScript - Phần 2: Tổng quan về classes và kiến trúc MVC trong Odoo</title>
+        <link>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture_part2/</link>
+        <pubDate>Fri, 04 Nov 2022 15:56:31 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Fri, 04 Nov 2022 15:56:31 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture_part2/</guid>
+        <description>&lt;p&gt;Bài viết lần này, chúng ta cùng đi tìm hiểu sâu hơn về web.Widget class nhé!&lt;/p&gt;
+&lt;p&gt;Bên cạnh việc extend từ những mixin khác như ở phần 1 mình có nói thì mục đích chính của web.Widget đó chính là render Qweb, thực hiện quản lý life cycle và thêm vào DOM.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_3.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo OWL</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Class Mixin là gì và Cách sử dụng class Mixin trong Odoo 15</title>
+        <link>https://hungpt.info/en/posts/what-is-mixin-class-how-to-use-mixin-classes-in-odoo-15/</link>
+        <pubDate>Thu, 03 Nov 2022 16:08:08 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Thu, 03 Nov 2022 16:08:08 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/what-is-mixin-class-how-to-use-mixin-classes-in-odoo-15/</guid>
+        <description>&lt;p&gt;Trong Python, mixin đề cập đến như một lớp cung cấp các phương thức có thể được sử dụng lại.Tính năng này cũng có thể được sử dụng trong nền tảng Odoo. Bài viết này chúng ta sẽ thảo luận về cách sử dụng các class mixin trong Odoo 15.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_4.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo15</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo OWL</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Odoo JavaScript - Phần 1: Tổng quan về classes và kiến trúc MVC trong Odoo</title>
+        <link>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture/</link>
+        <pubDate>Thu, 03 Nov 2022 16:03:13 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Thu, 03 Nov 2022 16:03:13 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture/</guid>
+        <description>&lt;p&gt;Trong bài viết này, chúng ta sẽ đi qua những kiến thức cơ bản về Odoo JavaScript Framework với mục tiêu cuối cùng là tạo&lt;br /&gt;
+một module trong OWL.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_3.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo OWL</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Viết API sử dụng Fiber Framework &#43; Postgresql trong Golang</title>
+        <link>https://hungpt.info/en/posts/api_golang_with_postgresql_part1/</link>
+        <pubDate>Wed, 02 Nov 2022 16:12:42 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Wed, 02 Nov 2022 16:12:42 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/api_golang_with_postgresql_part1/</guid>
+        <description>&lt;h3 id=&#34;fiber-là-gì&#34;&gt;Fiber là gì?&lt;/h3&gt;
+&lt;p&gt;Fiber là một khung web lấy cảm hứng từ Express Web Framewok của NodeJs được xây dựng trên Fasthttp, công cụ HTTP nhanh nhất dành cho Go.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_5.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>(Javascript trong Odoo) Phần 1 Tạo widget</title>
+        <link>https://hungpt.info/en/posts/odoo-javascript-programming-tutorial-part-one-create-widget-view/</link>
+        <pubDate>Sun, 30 Oct 2022 20:47:18 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 30 Oct 2022 20:47:18 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/odoo-javascript-programming-tutorial-part-one-create-widget-view/</guid>
+        <description>&lt;p&gt;Đối với lập trình viên odoo, Widget là một thứ khá mới mẻ bởi vì chúng ta hiếm khi lập trình với ngôn ngữ javascript.&lt;br /&gt;
+Hầu như tất cả logic được viết với python, ngoại trừ khi tùy chỉnh điểm bán hàng(POS) hoặc mô-đun thương mại điện tử(Website).&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_26.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>(Javascript trong Odoo) Phần 2 Tạo logic cho widget</title>
+        <link>https://hungpt.info/en/posts/odoo-javascript-programming-tutorial-part-two-widget-logic/</link>
+        <pubDate>Sun, 30 Oct 2022 20:47:18 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 30 Oct 2022 20:47:18 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/odoo-javascript-programming-tutorial-part-two-widget-logic/</guid>
+        <description>Trong phần 1, chúng ta đã tạo ra 1 Widget để hiển thị một đoạn text văn bản. Sang phần 2 này, chúng ta cùng nhau xây dựng một logic cho widget này.
+Tiếp theo bạn cần khai báo 1 trường như sau:
+1  field_one = fields.Integer(&amp;#39;Field One&amp;#39;)   Thông thường khi chúng ta khai báo 1 field như trên và thêm chúng vào XML, mặc định Odoo sẽ cho chúng ta sửa giá trị trên giao diện kiểu như sau:</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_26.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Ansible: Triển khai App Nodejs từ Private Reponsitory Gitlab</title>
+        <link>https://hungpt.info/en/posts/deploy_app_nodejs_from_gitlab/</link>
+        <pubDate>Tue, 18 Oct 2022 16:23:46 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Tue, 18 Oct 2022 16:23:46 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/deploy_app_nodejs_from_gitlab/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_6.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+            
+              <category>AWS</category>
+            
+          
+            
+              <category>Ansible</category>
+            
+          
+            
+              <category>Gitlab</category>
+            
+          
+        
+        
+          
+            
+              <category>AWS</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Sử dụng thư viện Select2 trong Odoo</title>
+        <link>https://hungpt.info/en/posts/how_to_use_select2_lib_in_odoo/</link>
+        <pubDate>Mon, 17 Oct 2022 16:25:53 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Mon, 17 Oct 2022 16:25:53 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/how_to_use_select2_lib_in_odoo/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_7.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[Dành cho Beginner] Phần 3: Template trong Ansible</title>
+        <link>https://hungpt.info/en/posts/template_in_ansible/</link>
+        <pubDate>Sun, 16 Oct 2022 16:39:36 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 16 Oct 2022 16:39:36 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/template_in_ansible/</guid>
+        <description>&lt;p&gt;Trước tiên chúng ta hãy cùng nói lại về khái niệm Template trong Ansible và tại sao chúng ta phải dùng nó&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_9.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+            
+              <category>Ansible</category>
+            
+          
+            
+              <category>AWS</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Tạo widget dashboard với thư viện Chart trong Odoo</title>
+        <link>https://hungpt.info/en/posts/how_to_use_widget_chart_in_odoo13/</link>
+        <pubDate>Sun, 16 Oct 2022 16:27:41 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 16 Oct 2022 16:27:41 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/how_to_use_widget_chart_in_odoo13/</guid>
+        <description>&lt;p&gt;Trong bài viết lần này, mình sẽ hướng dẫn các bạn tạo ra 1 widget để hỗ trợ chúng ta vẽ dashboard&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_8.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[Dành cho Beginner] Phần 2: Biến trong Ansible</title>
+        <link>https://hungpt.info/en/posts/bien_trong_ansible/</link>
+        <pubDate>Thu, 13 Oct 2022 16:41:43 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Thu, 13 Oct 2022 16:41:43 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/bien_trong_ansible/</guid>
+        <description>&lt;p&gt;Trước tiên chúng ta hãy cùng nói lại về khái niệm Playbook trong Ansible&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_10.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+            
+              <category>Aws</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Tìm hiểu framework OWL trong Odoo Phần 1- Components và Router</title>
+        <link>https://hungpt.info/en/posts/owl-odoo-web-library-part-1/</link>
+        <pubDate>Mon, 10 Oct 2022 17:01:52 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Mon, 10 Oct 2022 17:01:52 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/owl-odoo-web-library-part-1/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_11.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[Dành cho Beginner] AWS Amplify host CI/CD</title>
+        <link>https://hungpt.info/en/posts/aws_amplify_host_cicd/</link>
+        <pubDate>Sun, 09 Oct 2022 18:39:27 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 09 Oct 2022 18:39:27 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/aws_amplify_host_cicd/</guid>
+        <description>&lt;h3 id=&#34;aws-amplify-là-gì&#34;&gt;AWS Amplify là gì?&lt;/h3&gt;
+&lt;p&gt;AWS Amplify là một tập hợp các công cụ và tính năng được tạo ra có chủ đích, giúp nhà phát triển web và di động frontend xây dựng các ứng dụng fullstack một cách nhanh chóng và dễ dàng trên AWS với khả năng tận dụng linh hoạt các dịch vụ AWS phong phú khi các trường hợp sử dụng của bạn tiến triển.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_13.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+            
+              <category>AWS</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[Dành cho Beginner] Phần 1: Ansible Là Gì? Hướng Dẫn Cài Đặt Ansible? Viết 1 Playbook đơn giản</title>
+        <link>https://hungpt.info/en/posts/ansible_cat_dat/</link>
+        <pubDate>Sun, 09 Oct 2022 17:27:37 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 09 Oct 2022 17:27:37 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/ansible_cat_dat/</guid>
+        <description>&lt;p&gt;Trong một môi trường với nhiều server thì ta sẽ có vô vàn thứ phải lo. Từ setup crontab, update các gói phần mềm mới, deploy ứng dụng mới, chỉnh sửa file cấu hình…. Những công việc này tuy không khó, nhưng rất mất thời gian của những người quản trị (SysAdmin/SysEngineer/DevOps).&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_12.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+            
+              <category>Ansible</category>
+            
+          
+            
+              <category>AWS</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Hướng dẫn triển khai ứng dụng web front end cho AWS trên EC2 và S3 và scale EC2</title>
+        <link>https://hungpt.info/en/posts/create_chart_easy_in_odoo/</link>
+        <pubDate>Sat, 01 Oct 2022 18:54:16 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sat, 01 Oct 2022 18:54:16 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/create_chart_easy_in_odoo/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_14.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>devops</category>
+            
+          
+            
+              <category>AWS</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Sử dụng useState() Hook trong React như nào cho đúng?</title>
+        <link>https://hungpt.info/en/posts/su-dung-usestate-hook-trong-react-nhu-nao-cho-dung/</link>
+        <pubDate>Fri, 30 Sep 2022 21:03:38 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Fri, 30 Sep 2022 21:03:38 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/su-dung-usestate-hook-trong-react-nhu-nao-cho-dung/</guid>
+        <description>&lt;p&gt;Để quản lý State trong React Function Component, chúng ta dùng Hook useState().&lt;/p&gt;
+&lt;p&gt;Hàm useState trả về 1 mảng 2 phần tử, phần tử đầu tiên là để khởi tạo state, phần tử thứ 2 là hàm để cập nhật state. Tham số truyền vào hàm useState là giá trị khởi tạo của state. Ví dụ:&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_27.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[Dành cho Beginner] Hướng dẫn triển khai ứng dụng NodeJS cho AWS trên EC2 và S3</title>
+        <link>https://hungpt.info/en/posts/deploy_nodejd_ec2_s3_in_aws/</link>
+        <pubDate>Sat, 24 Sep 2022 18:56:10 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sat, 24 Sep 2022 18:56:10 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/deploy_nodejd_ec2_s3_in_aws/</guid>
+        <description>&lt;p&gt;Xin chào mọi người. Hôm nay chúng ta sẽ cùng tìm hiểu cách để có thể triển khai 1 ứng dụng NodeJS trên EC2 và thông tin dữ liệu được&lt;br /&gt;
+lưu ở S3 trên AWS nhé!&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_15.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+            
+              <category>AWS</category>
+            
+          
+            
+              <category>CI/CD</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Cách sử dụng safe_eval trong Odoo</title>
+        <link>https://hungpt.info/en/posts/safe_eval_in_odoo/</link>
+        <pubDate>Tue, 20 Sep 2022 19:52:53 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Tue, 20 Sep 2022 19:52:53 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/safe_eval_in_odoo/</guid>
+        <description>&lt;p&gt;Nếu bạn đọc soure code của core Odoo, đôi khi bạn sẽ tìm thấy safe_eval. Bạn đã bao giờ tự hỏi, safe_eval là gì chưa? Và nó sử dụng để làm gì?&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_20.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>Python</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[Dành cho Beginner] VPN trong AWS</title>
+        <link>https://hungpt.info/en/posts/vpn_in_aws/</link>
+        <pubDate>Tue, 20 Sep 2022 19:03:55 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Tue, 20 Sep 2022 19:03:55 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/vpn_in_aws/</guid>
+        <description>Xin chào mọi người. Hôm nay chúng ta sẽ cùng tìm hiểu về VPN trong AWS.</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_16.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[Dành cho Beginner] IAM trong AWS</title>
+        <link>https://hungpt.info/en/posts/aws_lab_1/</link>
+        <pubDate>Mon, 19 Sep 2022 19:09:16 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Mon, 19 Sep 2022 19:09:16 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/aws_lab_1/</guid>
+        <description>&lt;p&gt;Xin chào mọi người. Hôm nay chúng ta sẽ cùng tìm hiểu về IAM (Identity and Access Management) trong AWS.&lt;/p&gt;
+&lt;p&gt;Chắc hẳn khi mới bắt đầu tìm hiểu về Amazon Web Services, IAM là một trong những khái niệm mà chúng ta tiếp xúc đầu tiên. Cùng bắt đầu thôi!&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_18.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>AWS</category>
+            
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[Dành cho Beginner] VPC trong AWS</title>
+        <link>https://hungpt.info/en/posts/vpc_in_aws/</link>
+        <pubDate>Mon, 19 Sep 2022 19:05:58 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Mon, 19 Sep 2022 19:05:58 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/vpc_in_aws/</guid>
+        <description>&lt;p&gt;Xin chào mọi người. Hôm nay chúng ta sẽ cùng tìm hiểu về VPC (Virtual Private Cloud) trong AWS.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_17.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>VPC</category>
+            
+          
+            
+              <category>AWS</category>
+            
+          
+            
+              <category>Devops</category>
+            
+          
+            
+              <category>CI/CD</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[K8S] - Phần 1: K8S là gì ?</title>
+        <link>https://hungpt.info/en/posts/k8s_la_gi_part1/</link>
+        <pubDate>Sun, 11 Sep 2022 19:20:24 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 11 Sep 2022 19:20:24 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/k8s_la_gi_part1/</guid>
+        <description>Mình sẽ quay trở lại sớm với loại bài về K8s nhé 😄…</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_19.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+            
+              <category>AWS</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Mounted &amp; Unmounted?</title>
+        <link>https://hungpt.info/en/posts/mount_and_unmount/</link>
+        <pubDate>Mon, 11 Jul 2022 20:39:44 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Mon, 11 Jul 2022 20:39:44 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/mount_and_unmount/</guid>
+        <description>&lt;p&gt;Trong bài viết lần này chúng ta sẽ cùng hiểu 2 thuật ngữ Mount và Unmount. Trong đó Mount có nghĩa là gắn vào, Unmount&lt;br /&gt;
+nghĩa là tháo ra gỡ ra.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_24.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Cách sử dụng useMemo và memo trong ReactJS</title>
+        <link>https://hungpt.info/en/posts/use_memo_in_reactjs/</link>
+        <pubDate>Mon, 11 Jul 2022 20:02:48 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Mon, 11 Jul 2022 20:02:48 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/use_memo_in_reactjs/</guid>
+        <description>&lt;p&gt;Trong bài viết lần này, chúng ta hãy cùng tìm hiểu 1 hook mới trong ReactJS là useMemo và 1 HOC trong ReactJS là memo nhé!😄&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_21.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>ReactJS</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Cách sử dụng useRef trong ReactJS</title>
+        <link>https://hungpt.info/en/posts/use_ref/</link>
+        <pubDate>Sun, 10 Jul 2022 20:20:08 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 10 Jul 2022 20:20:08 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/use_ref/</guid>
+        <description>&lt;p&gt;Trong bài viết lần này, chúng ta hãy cùng tìm hiểu 1 hook mới trong ReactJS là useRef nhé!😄&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_22.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Cách sử dụng useReduce trong ReactJS</title>
+        <link>https://hungpt.info/en/posts/use_reduce_in_reactjs/</link>
+        <pubDate>Thu, 07 Jul 2022 20:14:00 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Thu, 07 Jul 2022 20:14:00 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/use_reduce_in_reactjs/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_21.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Tìm hiểu về phương thức Reduce trong Javascript</title>
+        <link>https://hungpt.info/en/posts/javascript-array-reduce/</link>
+        <pubDate>Thu, 30 Jun 2022 20:42:36 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Thu, 30 Jun 2022 20:42:36 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/javascript-array-reduce/</guid>
+        <description>Gỉa sử chúng có một mảng các chữ số như sau:
+1  const numbers = [2, 4, 6];   Làm sao chúng ta có thể tính tổng các chữ số trong mảng trên. Sử dụng reduce trong javascript chúng ta có dễ dàng làm việc này mà không cần sử dụng vòng lặp.
+1 2 3 4 5 6  const numbers = [2, 4, 6]; const sum = numbers.</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_25.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Cách sử dụng useEffect trong ReactJS (Phần 1)</title>
+        <link>https://hungpt.info/en/posts/use_effect_part1/</link>
+        <pubDate>Sun, 12 Jun 2022 20:28:34 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 12 Jun 2022 20:28:34 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/use_effect_part1/</guid>
+        <description>&lt;p&gt;useEffect là 1 hook cơ bản trong Reactjs, nhưng khi bạn mới học sẽ thấy nó hơi khó một chút😁. Lý do nó khó không phải vì hook&lt;br /&gt;
+này nó khó mà vì để có thể sử dụng được hook này đòi hỏi bạn phải nắm vững kiến thức Javascript cơ bản và nâng cao. Thế nên&lt;br /&gt;
+nếu bạn đi vào đây học quá nhanh hoặc quên mất kiến thức nền thì học sẽ bị khó.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_23.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Cách sử dụng useEffect trong ReactJS (Phần 2)</title>
+        <link>https://hungpt.info/en/posts/use_effect_part2/</link>
+        <pubDate>Sun, 12 Jun 2022 20:28:34 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 12 Jun 2022 20:28:34 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/use_effect_part2/</guid>
+        <description>&lt;p&gt;Ở phần 1, chúng ta đã tìm hiểu về trường hợp đầu tiên sử dụng useEffect, cùng hiểu tại sao phải sử dụng tham số thứ 2 trong useEffect. Trong&lt;br /&gt;
+phần này chúng ta sẽ tìm hiểu rõ hơn.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_23.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Cách sử dụng useEffect trong ReactJS (Phần 3)</title>
+        <link>https://hungpt.info/en/posts/use_effect_part3/</link>
+        <pubDate>Sun, 12 Jun 2022 20:28:34 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 12 Jun 2022 20:28:34 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/use_effect_part3/</guid>
+        <description>&lt;p&gt;Nội dung ở phần này mình muốn đưa cho các bạn sẽ có 3 phần chính:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cách listen DOMEvent trong React component&lt;/li&gt;
+&lt;li&gt;Vấn để xảy ra khi chúng ta listen DOM Event là gì?&lt;/li&gt;
+&lt;li&gt;Cách khắc phục vấn đề nàymột&lt;/li&gt;
+&lt;/ul&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_23.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Cách sử dụng useEffect trong ReactJS (Phần 4)</title>
+        <link>https://hungpt.info/en/posts/use_effect_part4/</link>
+        <pubDate>Sun, 12 Jun 2022 20:28:34 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 12 Jun 2022 20:28:34 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/use_effect_part4/</guid>
+        <description>Ở phần này, mình sẽ xây dựng app chat đơn giản để có thể giúp các bạn nắm rõ hơn cách sử dụng useEffect như thế nào nhé!😄
+Ở đây mình sẽ không tạo web socket server mà mình sẽ đi fake ra những bình luận</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_23.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Kiến thức Javascript cơ bản cần phải biết trước khi học ReactJS</title>
+        <link>https://hungpt.info/en/posts/kien-thuc-javascript-co-ban-can-phai-biet-truoc-khi-hoc-react-native-reactjs/</link>
+        <pubDate>Mon, 30 May 2022 21:22:08 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Mon, 30 May 2022 21:22:08 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/kien-thuc-javascript-co-ban-can-phai-biet-truoc-khi-hoc-react-native-reactjs/</guid>
+        <description>&lt;p&gt;ReactJS là một Javascript framework rất phổ biến với giới lập trình Web Frontend hiện nay, số lượng tuyển dụng lập trình viên ReactJS cũng rất lớn. Do đó nhiều người mới học Web Frontend sau khi học xong một chút HTML CSS JS là muốn nhảy vào lập trình ReactJS ngay. Điều này dẫn đến hệ lụy là các bạn sẽ bị hổng kiến thức cơ bản, hoặc khi học ReactJS sẽ rất chật vật vì không hiểu cú pháp, không hiểu bản chất, …&lt;/p&gt;
+&lt;p&gt;Vậy trước khi học ReactJS hoặc React Native, các bạn nên nẵm vững HTML CSS và những kiến thức sau trong JavaScript (ngoài các kiến thức ban đầu như biến, vòng lặp, điều kiện, …):&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_28.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Javascript</category>
+            
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Những lỗi cơ bản trong lập trình mà developer nên tránh</title>
+        <link>https://hungpt.info/en/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        
+        <guid>https://hungpt.info/en/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</guid>
+        <description>&lt;p&gt;Không lập trình viên nào code mà không có bug. Tuy nhiên có rất nhiều lỗi cơ bản chúng ta nên tránh để tạo ra ít bug hơn, code sạch và trong sáng hơn, dễ bảo trì hơn, đỡ bị ăn chửi hơn, …&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_29.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

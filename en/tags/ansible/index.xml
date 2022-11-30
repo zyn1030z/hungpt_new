@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Ansible on HungPT&#39;s Blog</title>
+    <link>https://hungpt.info/en/tags/ansible/</link>
+    <description>Recent content in Ansible on HungPT&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
+    <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
+    <copyright>©2022, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 18 Oct 2022 16:23:46 +0700</lastBuildDate>
+    
+        <atom:link href="https://hungpt.info/en/tags/ansible/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Ansible: Triển khai App Nodejs từ Private Reponsitory Gitlab</title>
+        <link>https://hungpt.info/en/posts/deploy_app_nodejs_from_gitlab/</link>
+        <pubDate>Tue, 18 Oct 2022 16:23:46 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Tue, 18 Oct 2022 16:23:46 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/deploy_app_nodejs_from_gitlab/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_6.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+            
+              <category>AWS</category>
+            
+          
+            
+              <category>Ansible</category>
+            
+          
+            
+              <category>Gitlab</category>
+            
+          
+        
+        
+          
+            
+              <category>AWS</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[Dành cho Beginner] Phần 3: Template trong Ansible</title>
+        <link>https://hungpt.info/en/posts/template_in_ansible/</link>
+        <pubDate>Sun, 16 Oct 2022 16:39:36 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 16 Oct 2022 16:39:36 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/template_in_ansible/</guid>
+        <description>&lt;p&gt;Trước tiên chúng ta hãy cùng nói lại về khái niệm Template trong Ansible và tại sao chúng ta phải dùng nó&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_9.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+            
+              <category>Ansible</category>
+            
+          
+            
+              <category>AWS</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[Dành cho Beginner] Phần 1: Ansible Là Gì? Hướng Dẫn Cài Đặt Ansible? Viết 1 Playbook đơn giản</title>
+        <link>https://hungpt.info/en/posts/ansible_cat_dat/</link>
+        <pubDate>Sun, 09 Oct 2022 17:27:37 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 09 Oct 2022 17:27:37 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/ansible_cat_dat/</guid>
+        <description>&lt;p&gt;Trong một môi trường với nhiều server thì ta sẽ có vô vàn thứ phải lo. Từ setup crontab, update các gói phần mềm mới, deploy ứng dụng mới, chỉnh sửa file cấu hình…. Những công việc này tuy không khó, nhưng rất mất thời gian của những người quản trị (SysAdmin/SysEngineer/DevOps).&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_12.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+            
+              <category>Ansible</category>
+            
+          
+            
+              <category>AWS</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

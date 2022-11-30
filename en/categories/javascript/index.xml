@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Javascript on HungPT&#39;s Blog</title>
+    <link>https://hungpt.info/en/categories/javascript/</link>
+    <description>Recent content in Javascript on HungPT&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
+    <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
+    <copyright>©2022, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 30 Jun 2022 20:42:36 +0700</lastBuildDate>
+    
+        <atom:link href="https://hungpt.info/en/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Tìm hiểu về phương thức Reduce trong Javascript</title>
+        <link>https://hungpt.info/en/posts/javascript-array-reduce/</link>
+        <pubDate>Thu, 30 Jun 2022 20:42:36 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Thu, 30 Jun 2022 20:42:36 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/javascript-array-reduce/</guid>
+        <description>Gỉa sử chúng có một mảng các chữ số như sau:
+1  const numbers = [2, 4, 6];   Làm sao chúng ta có thể tính tổng các chữ số trong mảng trên. Sử dụng reduce trong javascript chúng ta có dễ dàng làm việc này mà không cần sử dụng vòng lặp.
+1 2 3 4 5 6  const numbers = [2, 4, 6]; const sum = numbers.</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_25.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Reactjs</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Những lỗi cơ bản trong lập trình mà developer nên tránh</title>
+        <link>https://hungpt.info/en/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        
+        <guid>https://hungpt.info/en/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</guid>
+        <description>&lt;p&gt;Không lập trình viên nào code mà không có bug. Tuy nhiên có rất nhiều lỗi cơ bản chúng ta nên tránh để tạo ra ít bug hơn, code sạch và trong sáng hơn, dễ bảo trì hơn, đỡ bị ăn chửi hơn, …&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_29.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

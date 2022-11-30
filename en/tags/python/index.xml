@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Python on HungPT&#39;s Blog</title>
+    <link>https://hungpt.info/en/tags/python/</link>
+    <description>Recent content in Python on HungPT&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
+    <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
+    <copyright>©2022, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 20 Sep 2022 19:52:53 +0700</lastBuildDate>
+    
+        <atom:link href="https://hungpt.info/en/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Cách sử dụng safe_eval trong Odoo</title>
+        <link>https://hungpt.info/en/posts/safe_eval_in_odoo/</link>
+        <pubDate>Tue, 20 Sep 2022 19:52:53 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Tue, 20 Sep 2022 19:52:53 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/safe_eval_in_odoo/</guid>
+        <description>&lt;p&gt;Nếu bạn đọc soure code của core Odoo, đôi khi bạn sẽ tìm thấy safe_eval. Bạn đã bao giờ tự hỏi, safe_eval là gì chưa? Và nó sử dụng để làm gì?&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_20.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>Python</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
