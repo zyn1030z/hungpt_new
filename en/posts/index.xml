@@ -27,10 +27,11 @@
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         <atom:modified>Sun, 04 Dec 2022 20:51:13 +0700</atom:modified>
         <guid>https://hungpt.info/en/posts/kubernetes-tutorial/</guid>
-        <description>Comming soon</description>
+        <description>Kubernetes là công cụ điều phối phổ biến nhất để triển khai và nhân rộng các hệ thống được đóng gói(docker&amp;hellip;). Bạn có thể sử dụng Kubernetes để xây dựng và phân phối các ứng dụng của mình trên cloud một cách đáng tin cậy.
+Trong bài hướng dẫn dành cho người mới bắt đầu này, bạn sẽ tìm hiểu những gì Kubernetes có thể làm và cách bắt đầu sử dụng K8S qua một số ví dụ cụ thể.</description>
         
         <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_30.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hungpt.infoimages/feature1/img_31.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
