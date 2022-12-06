@@ -1787,7 +1787,7 @@ if (!doNotTrack) {
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;Dec 4, 2022 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;1&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;6&nbsp;min read </span>
   
   <span class="single__info">
      &middot; 👀<span id="busuanzi_value_page_pv">...</span> views
@@ -1814,14 +1814,81 @@ if (!doNotTrack) {
       <p><img src="/images/feature6/img.png" alt="" /><br />
 Kubernetes là công cụ điều phối phổ biến nhất để triển khai và nhân rộng các hệ thống được đóng gói(docker&hellip;). Bạn có thể sử dụng Kubernetes để xây dựng và phân phối các ứng dụng của mình trên cloud một cách đáng tin cậy.<br />
 Trong bài hướng dẫn dành cho người mới bắt đầu này, bạn sẽ tìm hiểu những gì Kubernetes có thể làm và cách bắt đầu sử dụng K8S qua một số ví dụ cụ thể.</p>
-<ol>
-<li>Kubernetes là gì?</li>
-<li>Tính năng</li>
-<li>Kubernetes hoạt động như thế nào?</li>
-<li>Cài đặt và thiết lập</li>
-<li>Thuật ngữ và khái niệm cơ bản</li>
-<li>Sử dụng Kubectl để tương tác với Kubernetes</li>
-</ol>
+<h3 id="1-kubernetes-là-gì">1. Kubernetes là gì?</h3>
+<p>Kubernetes, hoặc k8s là một nền tảng mã nguồn mở tự động hoá việc quản lý, scaling và triển khai ứng dụng dưới dạng container hay còn gọi là Container orchestration engine. Nó loại bỏ rất nhiều các quy trình thủ công liên quan đến việc triển khai và mở rộng các containerized applications.</p>
+<p>Gần đây, nhiều ứng dụng đã thực hiện container hoá bằng cách sử dụng docker và sử dụng nó như là môi trường production ngày càng tăng. Trên môi trường production, việc cấu trúc hệ thống chạy bằng container chỉ sử dụng docker là rất khó khăn. Cho nên việc sử dụng một nền tảng Container orchestration engine như là k8s thì khá phổ biến hiện nay.</p>
+<p>Các ứng dụng production thực tế mở rộng nhiều containers. Các containers đó phải được triển khai trên nhiều server hosts. Kubernetes cung cấp khả năng phối hợp và quản lý cần thiết để triển khai các containers theo quy mô cho các workloads đó.</p>
+<h3 id="2-tính-năng">2. Tính năng</h3>
+<p>Bằng việc sử dụng docker, trên 1 host bạn có thể tạo ra nhiều container. Tuy nhiên nếu bạn có ý định sử dụng trên môi trường production thì phải bắt buộc phải nghĩ đến những vấn đề dưới đây:</p>
+<ul>
+<li>Việc quản lý hàng loạt docker host</li>
+<li>Container Scheduling</li>
+<li>Rolling update</li>
+<li>Scaling/Auto Scaling</li>
+<li>Monitor vòng đời và tình trạng sống chết của container.</li>
+<li>Self-hearing trong trường hợp có lỗi xãy ra. (Có khả năng phát hiện và tự correct lỗi)</li>
+<li>Service discovery</li>
+<li>Load balancing</li>
+<li>Quản lý data, work node, log</li>
+<li>Infrastructure as Code</li>
+<li>Sự liên kết và mở rộng với các hệ thống khác</li>
+</ul>
+<h3 id="3-kubernetes-hoạt-động-như-thế-nào">3. Kubernetes hoạt động như thế nào?</h3>
+<p>Container thiết lập ứng dụng dưới hình thức di động và kiến trúc K8s được sử dụng để chạy các ứng dụng đó. Một cụm K8s bao gồm một Control Plan và một nút thực thi. Trong đó, Control Plan có nhiệm vụ hiển thị API K8s và quản lý các nút.</p>
+<p>Đơn vị thực thi nhỏ nhất cho một ứng dụng đang chạy trong Kubernetes là Kubernetes Pod, bao gồm một hoặc nhiều container. Kubernetes Pods chạy trên các nút thực thi.<br />
+<img src="/images/feature6/img_2.png" alt="" /><br />
+Các chức năng của K8s cũng là thành phần của Control Plan và thực thi trên các nút K8s.</p>
+<h4 id="control-plan-có-bốn-thành-phần-chính">Control Plan có bốn thành phần chính</h4>
+<ul>
+<li>Kube-apiserver giúp hiển thị API Kubernetes.</li>
+<li>etcd. là kho lưu trữ khóa-giá trị nơi lưu trữ tất cả dữ liệu liên quan đến cụm Kubernetes.</li>
+<li>Kube-scheduler giúp theo dõi các Kubernetes Pods linh hoạt không cần nút.</li>
+<li>Kube-controller-manager được sử dụng để quản lý và điều khiển các chức năng.</li>
+</ul>
+<h4 id="nút-k8s-có-ba-thành-phần-chính">Nút K8s có ba thành phần chính</h4>
+<ul>
+<li>Kubelet đảm bảo các container cần thiết cho Kubernetes Pod.</li>
+<li>Kube-proxy giúp duy trì các quy tắc mạng và cho phép giao tiếp.</li>
+<li>Container runtime là các phần mềm chạy container tuân thủ Kubernetes CRI.</li>
+</ul>
+<h4 id="một-số-điều-khoản-bổ-sung-cần-lưu-ý">Một số điều khoản bổ sung cần lưu ý</h4>
+<ul>
+<li>Kubernetes service sử dụng một chức năng để thực hiện các nhiệm vụ được yêu cầu.</li>
+<li>Controller đảm bảo trạng thái hiện tại của Kubernetes đáp ứng với mong muốn sử dụng.</li>
+<li>Operator có khả năng tự động hoá các tác vụ độc quyền giúp triển khai và quản lý ứng dụng trên K8s dễ dàng hơn.</li>
+</ul>
+<h3 id="4-thuật-ngữ-và-khái-niệm-cơ-bản">4. Thuật ngữ và khái niệm cơ bản</h3>
+<h6 id="master-node">Master node</h6>
+<p>Là server điều khiển các máy Worker chạy ứng dụng. Master node bao gồm 4 thành phần chính:</p>
+<ul>
+<li>Kubernetes API Server: là thành phần giúp các thành phần khác liên lạc nói chuyện với nhau. Lập trình viên khi triển khai ứng dụng sẽ gọi API Kubernetes API Server này.</li>
+<li>Scheduler: Thành phần này lập lịch triển khai cho các ứng dụng, ưng dụng được đặt vào Worker nào để chạy</li>
+<li>Controler Manager: Thành phần đảm nhiệm phần quản lý các Worker, kiểm tra các Worker sống hay chết, đảm nhận việc nhân bản ứng dụng…</li>
+<li>Etcd: Đây là cơ sở dữ liệu của Kubernetes, tất cả các thông tin của Kubernetes được lưu trữ cố định vào đây.</li>
+</ul>
+<h6 id="worker-node">Worker node</h6>
+<p>Là server chạy ứng dụng trên đó. Bao gồm 3 thành phần chính:</p>
+<ul>
+<li>Container runtime: Là thành phần giúp chạy các ứng dụng dưới dạng Container. Thông thường người ta sử dụng Docker.</li>
+<li>Kubelet: đây là thành phần giao tiếp với Kubernetes API Server, và cũng quản lý các container</li>
+<li>Kubernetes Service Proxy: Thành phần này đảm nhận việc phân tải giữa các ứng dụng</li>
+</ul>
+<h6 id="kubectl">kubectl</h6>
+<p>Tool quản trị Kubernetes, được cài đặt trên các máy trạm, cho phép các lập trình viên đẩy các ứng dụng mô tả triển khai vào cụm Kubernetes, cũng như là cho phép các quản trị viên có thể quản trị được cụm Kubernetes.</p>
+<h6 id="pod">Pod</h6>
+<p>Pod là khái niệm cơ bản và quan trọng nhất trên Kubernetes. Bản thân Pod có thể chứa 1 hoặc nhiều hơn 1 container. Pod chính là nơi ứng dụng được chạy trong đó. Pod là các tiến trình nằm trên các Worker Node. Bản thân Pod có tài nguyên riêng về file system, cpu, ram, volumes, địa chỉ network…</p>
+<h6 id="image">Image</h6>
+<p>Là phần mềm chạy ứng dụng đã được gói lại thành một chương trình để có thể chạy dưới dạng container. Các Pod sẽ sử dụng các Image để chạy.<br />
+Các Image này thông thường quản lý ở một nơi lưu trữ tập trung, ví dụ chúng ta có Docker Hub là nơi chứa Images của nhiều ứng dụng phổ biến như nginx, mysql, wordpress…</p>
+<h6 id="deployment">Deployment</h6>
+<p>Là cách thức để giúp triển khai, cập nhật, quản trị Pod.</p>
+<h6 id="replicas-controller">Replicas Controller</h6>
+<p>Là thành phần quản trị bản sao của Pod, giúp nhân bản hoặc giảm số lượng Pod.</p>
+<h6 id="service">Service</h6>
+<p>Là phần mạng (network) của Kubernetes giúp cho các Pod gọi nhau ổn định hơn, hoặc để Load Balancing giữa nhiều bản sao của Pod, và có thể dùng để dẫn traffic từ người dùng vào ứng dụng (Pod), giúp người dùng có thể sử dụng được ứng dụng.</p>
+<h6 id="label">Label</h6>
+<p>Label ra đời để phân loại và quản lý Pod,. Ví dụ chúng ta có thể đánh nhãn các Pod chạy ở theo chức năng frontend, backend, chạy ở môi trường dev, qc, uat, production…</p>
+<h3 id="5-sử-dụng-kubectl-để-tương-tác-với-kubernetes">5. Sử dụng Kubectl để tương tác với Kubernetes</h3>
 
     </article>
     
@@ -2636,7 +2703,29 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </div>
   <div class="toc " data-dir="ltr" data-folding="false" data-ani="true">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-kubernetes-là-gì">1. Kubernetes là gì?</a></li>
+        <li><a href="#2-tính-năng">2. Tính năng</a></li>
+        <li><a href="#3-kubernetes-hoạt-động-như-thế-nào">3. Kubernetes hoạt động như thế nào?</a>
+          <ul>
+            <li><a href="#control-plan-có-bốn-thành-phần-chính">Control Plan có bốn thành phần chính</a></li>
+            <li><a href="#nút-k8s-có-ba-thành-phần-chính">Nút K8s có ba thành phần chính</a></li>
+            <li><a href="#một-số-điều-khoản-bổ-sung-cần-lưu-ý">Một số điều khoản bổ sung cần lưu ý</a></li>
+          </ul>
+        </li>
+        <li><a href="#4-thuật-ngữ-và-khái-niệm-cơ-bản">4. Thuật ngữ và khái niệm cơ bản</a>
+          <ul>
+            <li></li>
+          </ul>
+        </li>
+        <li><a href="#5-sử-dụng-kubectl-để-tương-tác-với-kubernetes">5. Sử dụng Kubectl để tương tác với Kubernetes</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
   </div>
 </section>
 
