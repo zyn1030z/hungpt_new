@@ -14,11 +14,51 @@
     <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
     <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
     <copyright>©2022, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 04 Dec 2022 20:51:13 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 05 Dec 2022 15:11:51 +0700</lastBuildDate>
     
         <atom:link href="https://hungpt.info/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>OWL là gì? Những điều cần biết khi mới tìm hiểu về OWL?</title>
+        <link>https://hungpt.info/en/posts/owl-tutorial-part1/</link>
+        <pubDate>Mon, 05 Dec 2022 15:11:51 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Mon, 05 Dec 2022 15:11:51 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/owl-tutorial-part1/</guid>
+        <description>&lt;p&gt;Trong những năm gần đây các library/framework JavaScript cả front-end lẫn back-end đều lũ lượt ra đời và phát triển mạnh mẽ như Reactjs, VueJS&amp;hellip; Odoo cũng vậy từ bản Odoo 14 cũng đã có framework mới là OWL.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_33.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OWL</category>
+            
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>OWL</category>
+            
+          
+        
+        
+          
+            
+              <category>OWL</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Hướng dẫn Kubernetes cho người mới bắt đầu – Các khái niệm &amp; ví dụ cơ bản</title>

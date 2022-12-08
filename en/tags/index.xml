@@ -14,11 +14,47 @@
     <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
     <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
     <copyright>©2022, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 04 Dec 2022 20:51:13 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 05 Dec 2022 15:11:51 +0700</lastBuildDate>
     
         <atom:link href="https://hungpt.info/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Odoo</title>
+        <link>https://hungpt.info/en/tags/odoo/</link>
+        <pubDate>Mon, 05 Dec 2022 15:11:51 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        
+        <guid>https://hungpt.info/en/tags/odoo/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>OWL</title>
+        <link>https://hungpt.info/en/tags/owl/</link>
+        <pubDate>Mon, 05 Dec 2022 15:11:51 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        
+        <guid>https://hungpt.info/en/tags/owl/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>AWS</title>
@@ -99,42 +135,6 @@
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         
         <guid>https://hungpt.info/en/tags/javascript/</guid>
-        <description></description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Odoo</title>
-        <link>https://hungpt.info/en/tags/odoo/</link>
-        <pubDate>Sun, 06 Nov 2022 14:32:50 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        
-        <guid>https://hungpt.info/en/tags/odoo/</guid>
-        <description></description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>OWL</title>
-        <link>https://hungpt.info/en/tags/owl/</link>
-        <pubDate>Sun, 06 Nov 2022 14:32:50 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        
-        <guid>https://hungpt.info/en/tags/owl/</guid>
         <description></description>
         
         <dc:creator>Hùng Phạm</dc:creator>
