@@ -9,7 +9,7 @@
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/</loc>
-    <lastmod>2022-12-18T16:27:41+07:00</lastmod>
+    <lastmod>2022-12-26T17:58:07+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -22,7 +22,7 @@
                 />
   </url><url>
     <loc>https://hungpt.info/en/posts/</loc>
-    <lastmod>2022-12-18T16:27:41+07:00</lastmod>
+    <lastmod>2022-12-26T17:58:07+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -35,7 +35,7 @@
                 />
   </url><url>
     <loc>https://hungpt.info/en/categories/</loc>
-    <lastmod>2022-12-18T16:27:41+07:00</lastmod>
+    <lastmod>2022-12-26T17:58:07+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -47,20 +47,20 @@
                 href="https://hungpt.info/en/categories/"
                 />
   </url><url>
+    <loc>https://hungpt.info/en/posts/how_to_write_test_case_in_odoo/</loc>
+    <lastmod>2022-12-26T17:58:07+07:00</lastmod>
+  </url><url>
     <loc>https://hungpt.info/en/tags/odoo/</loc>
-    <lastmod>2022-12-18T16:27:41+07:00</lastmod>
+    <lastmod>2022-12-26T17:58:07+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/series/odoo/</loc>
-    <lastmod>2022-12-18T16:27:41+07:00</lastmod>
+    <lastmod>2022-12-26T17:58:07+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/categories/odoo/</loc>
-    <lastmod>2022-12-18T16:27:41+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/tags/owl/</loc>
-    <lastmod>2022-12-18T16:27:41+07:00</lastmod>
+    <lastmod>2022-12-26T17:58:07+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/series/</loc>
-    <lastmod>2022-12-18T16:27:41+07:00</lastmod>
+    <lastmod>2022-12-26T17:58:07+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -73,7 +73,7 @@
                 />
   </url><url>
     <loc>https://hungpt.info/en/tags/</loc>
-    <lastmod>2022-12-18T16:27:41+07:00</lastmod>
+    <lastmod>2022-12-26T17:58:07+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -84,6 +84,12 @@
                 hreflang="en"
                 href="https://hungpt.info/en/tags/"
                 />
+  </url><url>
+    <loc>https://hungpt.info/en/tags/test_case/</loc>
+    <lastmod>2022-12-26T17:58:07+07:00</lastmod>
+  </url><url>
+    <loc>https://hungpt.info/en/tags/owl/</loc>
+    <lastmod>2022-12-18T16:27:41+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/how_to_use_widget_chart_in_odoo13/</loc>
     <lastmod>2022-12-18T16:27:41+07:00</lastmod>
