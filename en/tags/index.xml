@@ -13,20 +13,20 @@
     <language>en</language>
     <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
     <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
-    <copyright>©2022, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 28 Dec 2022 15:00:21 +0700</lastBuildDate>
+    <copyright>©2023, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 09 Jan 2023 08:30:39 +0700</lastBuildDate>
     
         <atom:link href="https://hungpt.info/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>Tool</title>
-        <link>https://hungpt.info/en/tags/tool/</link>
-        <pubDate>Wed, 28 Dec 2022 15:00:21 +0700</pubDate>
+        <title>Odoo</title>
+        <link>https://hungpt.info/en/tags/odoo/</link>
+        <pubDate>Mon, 09 Jan 2023 08:30:39 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         
-        <guid>https://hungpt.info/en/tags/tool/</guid>
+        <guid>https://hungpt.info/en/tags/odoo/</guid>
         <description></description>
         
         <dc:creator>Hùng Phạm</dc:creator>
@@ -39,12 +39,30 @@
       </item>
       
       <item>
-        <title>Odoo</title>
-        <link>https://hungpt.info/en/tags/odoo/</link>
-        <pubDate>Wed, 28 Dec 2022 00:24:53 +0700</pubDate>
+        <title>XML</title>
+        <link>https://hungpt.info/en/tags/xml/</link>
+        <pubDate>Mon, 09 Jan 2023 08:30:39 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         
-        <guid>https://hungpt.info/en/tags/odoo/</guid>
+        <guid>https://hungpt.info/en/tags/xml/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Tool</title>
+        <link>https://hungpt.info/en/tags/tool/</link>
+        <pubDate>Wed, 28 Dec 2022 15:00:21 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        
+        <guid>https://hungpt.info/en/tags/tool/</guid>
         <description></description>
         
         <dc:creator>Hùng Phạm</dc:creator>
