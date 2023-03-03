@@ -14,7 +14,7 @@
     <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
     <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
     <copyright>©2023, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 09 Jan 2023 08:30:39 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 03 Mar 2023 11:32:30 +0700</lastBuildDate>
     
         <atom:link href="https://hungpt.info/en/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,6 +40,36 @@
         
       
 
+      
+      <item>
+        <title>Phát triển web FrontEnd với Quasar Framework</title>
+        <link>https://hungpt.info/en/posts/quasar_tutorial/</link>
+        <pubDate>Fri, 03 Mar 2023 11:32:30 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Fri, 03 Mar 2023 11:32:30 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/quasar_tutorial/</guid>
+        <description>&lt;p&gt;Quasar Framework là một framework mã nguồn mở được sử dụng để phát triển ứng dụng web và mobile. Nó được viết bằng Vue.js và cung cấp một số tính năng mạnh mẽ như thiết kế đáp ứng, tương tác người dùng, và tích hợp các công nghệ như Cordova và Electron để xây dựng ứng dụng di động và máy tính để bàn.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature6/img_16.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
       
       <item>
         <title>Gọi hàm từ XML trong Odoo</title>
