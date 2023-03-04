@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Vuejs on HungPT&#39;s Blog</title>
+    <link>https://hungpt.info/en/series/vuejs/</link>
+    <description>Recent content in Vuejs on HungPT&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
+    <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
+    <copyright>©2023, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 03 Mar 2023 11:32:30 +0700</lastBuildDate>
+    
+        <atom:link href="https://hungpt.info/en/series/vuejs/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Phát triển web FrontEnd với Quasar Framework</title>
+        <link>https://hungpt.info/en/posts/quasar_tutorial/</link>
+        <pubDate>Fri, 03 Mar 2023 11:32:30 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Fri, 03 Mar 2023 11:32:30 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/quasar_tutorial/</guid>
+        <description>&lt;p&gt;Quasar Framework là một framework mã nguồn mở được sử dụng để phát triển ứng dụng web và mobile. Nó được viết bằng Vue.js và cung cấp một số tính năng mạnh mẽ như thiết kế đáp ứng, tương tác người dùng, và tích hợp các công nghệ như Cordova và Electron để xây dựng ứng dụng di động và máy tính để bàn.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature6/img_16.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>Vuejs</category>
+            
+          
+        
+        
+          
+            
+              <category>Vuejs</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
