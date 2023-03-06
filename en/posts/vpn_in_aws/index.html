@@ -1494,7 +1494,7 @@ if (!doNotTrack) {
 </script>
 </head>
 
-<body id="root" class="theme__dark">
+<body id="root" class="theme__solarized">
     <script>
         var localTheme = localStorage.getItem('theme');
         if (localTheme) {
@@ -1533,23 +1533,7 @@ if (!doNotTrack) {
       
         
         <a href="#" class="dropdown-item select-theme__item is-active">
-          dark
-        </a>
-        
-        <a href="#" class="dropdown-item select-theme__item ">
-          light
-        </a>
-        
-        <a href="#" class="dropdown-item select-theme__item ">
-          hacker
-        </a>
-        
-        <a href="#" class="dropdown-item select-theme__item ">
           solarized
-        </a>
-        
-        <a href="#" class="dropdown-item select-theme__item ">
-          kimbie
         </a>
         
       
@@ -1678,23 +1662,7 @@ if (!doNotTrack) {
       
         
         <a href="#" class="dropdown-item select-theme__item is-active">
-          dark
-        </a>
-        
-        <a href="#" class="dropdown-item select-theme__item ">
-          light
-        </a>
-        
-        <a href="#" class="dropdown-item select-theme__item ">
-          hacker
-        </a>
-        
-        <a href="#" class="dropdown-item select-theme__item ">
           solarized
-        </a>
-        
-        <a href="#" class="dropdown-item select-theme__item ">
-          kimbie
         </a>
         
       
@@ -2976,7 +2944,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (lib && lib.includes('mermaid')) {
       
-      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"dark\"");
+      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"solarized\"");
 
       if (themeVariant === "dark" || themeVariant === "hacker") {
         mermaid.initialize({ theme: 'dark' });
