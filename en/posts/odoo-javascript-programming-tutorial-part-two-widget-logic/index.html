@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
 
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.115.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1784,8 +1784,8 @@ Tiếp theo bạn cần khai báo 1 trường như sau:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">field_one</span> <span class="o">=</span> <span class="nx">fields</span><span class="p">.</span><span class="nx">Integer</span><span class="p">(</span><span class="s1">&#39;Field One&#39;</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">field_one</span> <span class="o">=</span> <span class="nx">fields</span><span class="p">.</span><span class="nx">Integer</span><span class="p">(</span><span class="s1">&#39;Field One&#39;</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Thông thường khi chúng ta khai báo 1 field như trên và thêm chúng vào XML, mặc định Odoo sẽ cho chúng ta sửa giá trị trên giao diện kiểu như sau:<br />
 <img src="/images/feature5/img_19.png" alt="" /><br />
@@ -1818,30 +1818,30 @@ Dưới đây là đoạn code:</p>
 </span><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="o">&lt;?</span><span class="nx">xml</span> <span class="nx">version</span><span class="o">=</span><span class="s2">&#34;1.0&#34;</span> <span class="nx">encoding</span><span class="o">=</span><span class="s2">&#34;UTF-8&#34;</span><span class="o">?&gt;</span>
-<span class="o">&lt;</span><span class="nx">template</span><span class="o">&gt;</span>
- 
-    <span class="o">&lt;</span><span class="nx">t</span> <span class="nx">t</span><span class="o">-</span><span class="nx">name</span><span class="o">=</span><span class="s2">&#34;WidgetOneTemplate&#34;</span><span class="o">&gt;</span>
-        <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
-            <span class="o">&lt;</span><span class="nx">t</span> <span class="nx">t</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">&#34;widget.mode == &#39;edit&#39; &#34;</span><span class="o">&gt;</span>
-                <span class="o">&lt;</span><span class="nx">div</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&#34;input-group&#34;</span><span class="o">&gt;</span>
-                    <span class="o">&lt;</span><span class="nx">div</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&#34;input-group-prepend&#34;</span><span class="o">&gt;</span>
-                        <span class="o">&lt;</span><span class="nx">button</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&#34;btn btn-danger btn-minus&#34;</span><span class="o">&gt;</span> <span class="o">-</span> <span class="o">&lt;</span><span class="err">/button&gt;</span>
-                    <span class="o">&lt;</span><span class="err">/div&gt;</span>
-                    <span class="o">&lt;</span><span class="nx">input</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text&#34;</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&#34;form-control&#34;</span> <span class="nx">t</span><span class="o">-</span><span class="nx">att</span><span class="o">-</span><span class="nx">value</span><span class="o">=</span><span class="s2">&#34;widget.value&#34;</span> <span class="nx">disabled</span><span class="o">=</span><span class="s2">&#34;disabled&#34;</span> <span class="o">/&gt;</span>
-                    <span class="o">&lt;</span><span class="nx">div</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&#34;input-group-append&#34;</span><span class="o">&gt;</span>
-                        <span class="o">&lt;</span><span class="nx">button</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&#34;btn btn-success btn-plus&#34;</span><span class="o">&gt;</span> <span class="o">+</span> <span class="o">&lt;</span><span class="err">/button&gt;</span>
-                    <span class="o">&lt;</span><span class="err">/div&gt;</span>
-                <span class="o">&lt;</span><span class="err">/div&gt;</span>
-            <span class="o">&lt;</span><span class="err">/t&gt;</span>
-            <span class="o">&lt;</span><span class="nx">t</span> <span class="nx">t</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">&#34;widget.mode == &#39;readonly&#39; &#34;</span><span class="o">&gt;</span>
-                <span class="o">&lt;</span><span class="nx">span</span> <span class="nx">t</span><span class="o">-</span><span class="nx">esc</span><span class="o">=</span><span class="s2">&#34;widget.value&#34;</span> <span class="o">/&gt;</span>
-            <span class="o">&lt;</span><span class="err">/t&gt;</span>
-        <span class="o">&lt;</span><span class="err">/div&gt;</span>
-    <span class="o">&lt;</span><span class="err">/t&gt;</span>
- 
-<span class="o">&lt;</span><span class="err">/template&gt;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="o">&lt;?</span><span class="nx">xml</span> <span class="nx">version</span><span class="o">=</span><span class="s2">&#34;1.0&#34;</span> <span class="nx">encoding</span><span class="o">=</span><span class="s2">&#34;UTF-8&#34;</span><span class="o">?&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">template</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">t</span> <span class="nx">t</span><span class="o">-</span><span class="nx">name</span><span class="o">=</span><span class="s2">&#34;WidgetOneTemplate&#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="nx">t</span> <span class="nx">t</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">&#34;widget.mode == &#39;edit&#39; &#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&lt;</span><span class="nx">div</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&#34;input-group&#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">                    <span class="o">&lt;</span><span class="nx">div</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&#34;input-group-prepend&#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">                        <span class="o">&lt;</span><span class="nx">button</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&#34;btn btn-danger btn-minus&#34;</span><span class="o">&gt;</span> <span class="o">-</span> <span class="o">&lt;</span><span class="err">/button&gt;</span>
+</span></span><span class="line"><span class="cl">                    <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">                    <span class="o">&lt;</span><span class="nx">input</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text&#34;</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&#34;form-control&#34;</span> <span class="nx">t</span><span class="o">-</span><span class="nx">att</span><span class="o">-</span><span class="nx">value</span><span class="o">=</span><span class="s2">&#34;widget.value&#34;</span> <span class="nx">disabled</span><span class="o">=</span><span class="s2">&#34;disabled&#34;</span> <span class="o">/&gt;</span>
+</span></span><span class="line"><span class="cl">                    <span class="o">&lt;</span><span class="nx">div</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&#34;input-group-append&#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">                        <span class="o">&lt;</span><span class="nx">button</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&#34;btn btn-success btn-plus&#34;</span><span class="o">&gt;</span> <span class="o">+</span> <span class="o">&lt;</span><span class="err">/button&gt;</span>
+</span></span><span class="line"><span class="cl">                    <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="err">/t&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="nx">t</span> <span class="nx">t</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">&#34;widget.mode == &#39;readonly&#39; &#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&lt;</span><span class="nx">span</span> <span class="nx">t</span><span class="o">-</span><span class="nx">esc</span><span class="o">=</span><span class="s2">&#34;widget.value&#34;</span> <span class="o">/&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="err">/t&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="err">/t&gt;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="err">/template&gt;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Trong form ở chế độ chỉnh sửa sẽ như sau:<br />
 <img src="/images/feature5/img_20.png" alt="" /><br />
@@ -1867,24 +1867,24 @@ Sau đó, ở file widget_one.js mình sẽ tiến hành thêm event với 2 but
 </span><span class="lnt">17
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">WidgetOne</span> <span class="o">=</span> <span class="nx">AbstractField</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
-    <span class="nx">template</span><span class="o">:</span> <span class="s1">&#39;WidgetOneTemplate&#39;</span><span class="p">,</span> <span class="c1">// fill with the template name that will be rendered by odoo
-</span><span class="c1"></span>    <span class="nx">events</span><span class="o">:</span> <span class="p">{</span> <span class="c1">// list of event, like jquery event
-</span><span class="c1"></span>        <span class="s1">&#39;click .btn-minus&#39;</span><span class="o">:</span> <span class="s1">&#39;btn_minus_action&#39;</span><span class="p">,</span>
-        <span class="s1">&#39;click .btn-plus&#39;</span><span class="o">:</span> <span class="s1">&#39;btn_plus_action&#39;</span><span class="p">,</span>
-    <span class="p">},</span>
-    <span class="nx">btn_minus_action</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
-        <span class="kd">var</span> <span class="nx">new_value</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">value</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">_setValue</span><span class="p">(</span><span class="nx">new_value</span><span class="p">.</span><span class="nx">toString</span><span class="p">());</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
-    <span class="p">},</span>
-    <span class="nx">btn_plus_action</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
-        <span class="kd">var</span> <span class="nx">new_value</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">value</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">_setValue</span><span class="p">(</span><span class="nx">new_value</span><span class="p">.</span><span class="nx">toString</span><span class="p">());</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
-    <span class="p">},</span>
-<span class="p">});</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">WidgetOne</span> <span class="o">=</span> <span class="nx">AbstractField</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">template</span><span class="o">:</span> <span class="s1">&#39;WidgetOneTemplate&#39;</span><span class="p">,</span> <span class="c1">// fill with the template name that will be rendered by odoo
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">events</span><span class="o">:</span> <span class="p">{</span> <span class="c1">// list of event, like jquery event
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="s1">&#39;click .btn-minus&#39;</span><span class="o">:</span> <span class="s1">&#39;btn_minus_action&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;click .btn-plus&#39;</span><span class="o">:</span> <span class="s1">&#39;btn_plus_action&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">btn_minus_action</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">new_value</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">value</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">_setValue</span><span class="p">(</span><span class="nx">new_value</span><span class="p">.</span><span class="nx">toString</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">btn_plus_action</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">new_value</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">value</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">_setValue</span><span class="p">(</span><span class="nx">new_value</span><span class="p">.</span><span class="nx">toString</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Các odoo viết sự kiện trong js cũng gần giống như jquery chỉ có điều là hơi đảo ngược 1 chút. Đối với jquery chúng ta sẽ viết như sau:</p>
 <div class="highlight"><div class="chroma">
@@ -1892,8 +1892,8 @@ Sau đó, ở file widget_one.js mình sẽ tiến hành thêm event với 2 but
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.btn-minus.&#39;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="nx">btn_minus_action</span><span class="p">);</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.btn-minus.&#39;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="nx">btn_minus_action</span><span class="p">);</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Thực tế chúng ta có thể sử dụng Jquery để thay thế cho đoạn code phía trên, tuy nhiên theo cá nhân mình thấy thì sử dụng code của Odoo sẽ dễ hiểu hơn.<br />
 Tuy nhiên nếu có cơ hội mình sẽ chia sẻ thêm về vấn đề này(cũng không phải là không có cách😄)</p>
@@ -1944,40 +1944,40 @@ Oh, nhưng khoan đã! Tại sao giá trị field của chúng ta vẫn là 0 v�
 </span><span class="lnt">33
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">odoo</span><span class="p">.</span><span class="nx">define</span><span class="p">(</span><span class="s1">&#39;tutorial_javascript.widget_one&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">require</span><span class="p">)</span> <span class="p">{</span>
-<span class="s2">&#34;use strict&#34;</span><span class="p">;</span>
-    <span class="kd">var</span> <span class="nx">AbstractField</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.AbstractField&#39;</span><span class="p">);</span>
-    <span class="kd">var</span> <span class="nx">FieldRegistry</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.field_registry&#39;</span><span class="p">);</span>
- 
-    <span class="kd">var</span> <span class="nx">core</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.core&#39;</span><span class="p">);</span>
-    <span class="kd">var</span> <span class="nx">qweb</span> <span class="o">=</span> <span class="nx">core</span><span class="p">.</span><span class="nx">qweb</span><span class="p">;</span>
- 
-    <span class="kd">var</span> <span class="nx">WidgetOne</span> <span class="o">=</span> <span class="nx">AbstractField</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
-        <span class="nx">template</span><span class="o">:</span> <span class="s1">&#39;WidgetOneTemplate&#39;</span><span class="p">,</span> 
-        <span class="nx">events</span><span class="o">:</span> <span class="p">{</span> 
-            <span class="s1">&#39;click .btn-minus&#39;</span><span class="o">:</span> <span class="s1">&#39;btn_minus_action&#39;</span><span class="p">,</span>
-            <span class="s1">&#39;click .btn-plus&#39;</span><span class="o">:</span> <span class="s1">&#39;btn_plus_action&#39;</span><span class="p">,</span>
-        <span class="p">},</span>
-        <span class="nx">btn_minus_action</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
-            <span class="kd">var</span> <span class="nx">new_value</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">value</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
-            <span class="k">this</span><span class="p">.</span><span class="nx">_setValue</span><span class="p">(</span><span class="nx">new_value</span><span class="p">.</span><span class="nx">toString</span><span class="p">());</span>            
-        <span class="p">},</span>
-        <span class="nx">btn_plus_action</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
-            <span class="kd">var</span> <span class="nx">new_value</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">value</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
-            <span class="k">this</span><span class="p">.</span><span class="nx">_setValue</span><span class="p">(</span><span class="nx">new_value</span><span class="p">.</span><span class="nx">toString</span><span class="p">());</span>
-        <span class="p">},</span>
-        <span class="nx">_render</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
-            <span class="k">this</span><span class="p">.</span><span class="nx">$el</span><span class="p">.</span><span class="nx">html</span><span class="p">(</span><span class="nx">$</span><span class="p">(</span><span class="nx">qweb</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;widget&#39;</span><span class="o">:</span> <span class="k">this</span><span class="p">})));</span>
-        <span class="p">},</span>
-    <span class="p">});</span>
- 
-    <span class="nx">FieldRegistry</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s1">&#39;widget_one&#39;</span><span class="p">,</span> <span class="nx">WidgetOne</span><span class="p">);</span>
- 
-    <span class="k">return</span> <span class="nx">WidgetOne</span><span class="p">;</span>
- 
-<span class="p">});</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">odoo</span><span class="p">.</span><span class="nx">define</span><span class="p">(</span><span class="s1">&#39;tutorial_javascript.widget_one&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">require</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;use strict&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">AbstractField</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.AbstractField&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">FieldRegistry</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.field_registry&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">core</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.core&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">qweb</span> <span class="o">=</span> <span class="nx">core</span><span class="p">.</span><span class="nx">qweb</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">WidgetOne</span> <span class="o">=</span> <span class="nx">AbstractField</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">template</span><span class="o">:</span> <span class="s1">&#39;WidgetOneTemplate&#39;</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">        <span class="nx">events</span><span class="o">:</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;click .btn-minus&#39;</span><span class="o">:</span> <span class="s1">&#39;btn_minus_action&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;click .btn-plus&#39;</span><span class="o">:</span> <span class="s1">&#39;btn_plus_action&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">btn_minus_action</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">            <span class="kd">var</span> <span class="nx">new_value</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">value</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">this</span><span class="p">.</span><span class="nx">_setValue</span><span class="p">(</span><span class="nx">new_value</span><span class="p">.</span><span class="nx">toString</span><span class="p">());</span>            
+</span></span><span class="line"><span class="cl">        <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">btn_plus_action</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">            <span class="kd">var</span> <span class="nx">new_value</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">value</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">this</span><span class="p">.</span><span class="nx">_setValue</span><span class="p">(</span><span class="nx">new_value</span><span class="p">.</span><span class="nx">toString</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">        <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">_render</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">this</span><span class="p">.</span><span class="nx">$el</span><span class="p">.</span><span class="nx">html</span><span class="p">(</span><span class="nx">$</span><span class="p">(</span><span class="nx">qweb</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;widget&#39;</span><span class="o">:</span> <span class="k">this</span><span class="p">})));</span>
+</span></span><span class="line"><span class="cl">        <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="p">});</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="nx">FieldRegistry</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s1">&#39;widget_one&#39;</span><span class="p">,</span> <span class="nx">WidgetOne</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nx">WidgetOne</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Tham số đầu tiên mà mình truyền vào qweb.render() đó là template mà chúng ta muốn render lại, tham số thứ 2 ở đây chính là widget của chúng ta, khi thay đổi giá trị của field<br />
 ,ở đây là widget do chúng ta đã viết nó trong xml như bên dưới:<br />
@@ -2464,7 +2464,7 @@ Restart Odoo, refresh trình duyệt chúng ta thấy rằng mọi thứ đã ch
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3147,7 +3147,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 

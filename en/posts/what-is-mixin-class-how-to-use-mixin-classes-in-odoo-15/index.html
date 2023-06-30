@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
 
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.115.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1784,41 +1784,41 @@ if (!doNotTrack) {
 Trong trường hợp này, phương thức tính tuổi từ ngày sinh được viết ở 3 chỗ tương ứng với 3 model, vì vậy ở đây chúng ta sẽ cần đến mixin để có thể tái sử dụng lại và không phải viết cùng 1 đoạn code ở nhiều chỗ khác nhau.</p>
 <h3 id="student-model">Student Model</h3>
 <pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">class Student(models.Model):
-   _name = &quot;student.student&quot;
-   _description = &quot;Student&quot;
-   name = fields.Char(string=&quot;Name&quot;, required=True)
-   partner_id = fields.Many2one('res.partner', string=&quot;Partner&quot;)
-   phone = fields.Char(string=&quot;Phone Number&quot;)
-   email = fields.Char(string=&quot;Email&quot;, required=True)
-   status = fields.Char(string=&quot;Status&quot;)
-   date = fields.Date(string=&quot;Date&quot;, default=fields.Date.today())
-   total_grade = fields.Float(string=&quot;Total Grade&quot;)
-   dob = fields.Date(string=&quot;DOB&quot;)
-   age = fields.Integer(string=&quot;Age&quot;, compute='_compute_age')
+   _name = &#34;student.student&#34;
+   _description = &#34;Student&#34;
+   name = fields.Char(string=&#34;Name&#34;, required=True)
+   partner_id = fields.Many2one(&#39;res.partner&#39;, string=&#34;Partner&#34;)
+   phone = fields.Char(string=&#34;Phone Number&#34;)
+   email = fields.Char(string=&#34;Email&#34;, required=True)
+   status = fields.Char(string=&#34;Status&#34;)
+   date = fields.Date(string=&#34;Date&#34;, default=fields.Date.today())
+   total_grade = fields.Float(string=&#34;Total Grade&#34;)
+   dob = fields.Date(string=&#34;DOB&#34;)
+   age = fields.Integer(string=&#34;Age&#34;, compute=&#39;_compute_age&#39;)
 </code></pre><h3 id="parent-model">Parent Model</h3>
 <pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">class Parent(models.Model):
-   _name = &quot;student.parent&quot;
-   _description = &quot;Parent&quot;
-   name = fields.Char(string=&quot;Name&quot;, required=True)
-   phone = fields.Char(string=&quot;Phone Number&quot;)
-   email = fields.Char(string=&quot;Email&quot;)
-   partner_id = fields.Many2one('res.partner', string=&quot;Partner&quot;, required=True)
-   date = fields.Date(string=&quot;Date&quot;, default=fields.Date.today())
-   student_ids = fields.Many2many('student.student', string=&quot;Students&quot;)
-   dob = fields.Date(string=&quot;DOB&quot;)
-   age = fields.Integer(string=&quot;Age&quot;, compute='_compute_age')
+   _name = &#34;student.parent&#34;
+   _description = &#34;Parent&#34;
+   name = fields.Char(string=&#34;Name&#34;, required=True)
+   phone = fields.Char(string=&#34;Phone Number&#34;)
+   email = fields.Char(string=&#34;Email&#34;)
+   partner_id = fields.Many2one(&#39;res.partner&#39;, string=&#34;Partner&#34;, required=True)
+   date = fields.Date(string=&#34;Date&#34;, default=fields.Date.today())
+   student_ids = fields.Many2many(&#39;student.student&#39;, string=&#34;Students&#34;)
+   dob = fields.Date(string=&#34;DOB&#34;)
+   age = fields.Integer(string=&#34;Age&#34;, compute=&#39;_compute_age&#39;)
 </code></pre><h3 id="teacher-model">Teacher Model</h3>
 <pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">class Teacher(models.Model):
-   _name = &quot;teacher.teacher&quot;
-   _description = &quot;Teacher&quot;
-   name = fields.Char(string=&quot;Name&quot;, required=True)
-   phone = fields.Char(string=&quot;Phone Number&quot;)
-   email = fields.Char(string=&quot;Email&quot;)
-   partner_id = fields.Many2one('res.partner', string=&quot;Partner&quot;, required=True)
-   date = fields.Date(string=&quot;Date&quot;, default=fields.Date.today())
-   student_ids = fields.Many2many('student.student', string=&quot;Students&quot;)
-   dob = fields.Date(string=&quot;DOB&quot;)
-   age = fields.Integer(string=&quot;Age&quot;, compute='_compute_age')
+   _name = &#34;teacher.teacher&#34;
+   _description = &#34;Teacher&#34;
+   name = fields.Char(string=&#34;Name&#34;, required=True)
+   phone = fields.Char(string=&#34;Phone Number&#34;)
+   email = fields.Char(string=&#34;Email&#34;)
+   partner_id = fields.Many2one(&#39;res.partner&#39;, string=&#34;Partner&#34;, required=True)
+   date = fields.Date(string=&#34;Date&#34;, default=fields.Date.today())
+   student_ids = fields.Many2many(&#39;student.student&#39;, string=&#34;Students&#34;)
+   dob = fields.Date(string=&#34;DOB&#34;)
+   age = fields.Integer(string=&#34;Age&#34;, compute=&#39;_compute_age&#39;)
 </code></pre><p>Bây giờ chúng ta sẽ tạo ra 1 class mixin để viết phương thức tính tuổi từ ngày sinh như sau:</p>
 <h3 id="mixin-class">Mixin Class</h3>
 <pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">from odoo import fields
@@ -1828,9 +1828,9 @@ _logger = logging.getLogger(__name__)
 
 class GetAgeMixin:
    def get_age_from_dob(self, dob):
-       &quot;&quot;&quot;
+       &#34;&#34;&#34;
       :return: Returns age.
-      &quot;&quot;&quot;
+      &#34;&#34;&#34;
        age = 0
        today = fields.Date.today()
        if dob:
@@ -1838,10 +1838,10 @@ class GetAgeMixin:
        return age
 </code></pre><p>Chúng ta sẽ kế thừa lại lớp Mixin này như sau:</p>
 <pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">class Student(models.Model, GetAgeMixin):
-   _name = &quot;student.student&quot;
-   _description = &quot;Student&quot;
+   _name = &#34;student.student&#34;
+   _description = &#34;Student&#34;
 </code></pre><p>Và chúng ta sẽ viết hàm compute như sau:</p>
-<pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">@api.depends('dob')
+<pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">@api.depends(&#39;dob&#39;)
 def _compute_age(self):
    for rec in self:
        rec.age = self.get_age_from_dob(rec.dob)
@@ -2328,7 +2328,7 @@ def _compute_age(self):
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3022,7 +3022,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 

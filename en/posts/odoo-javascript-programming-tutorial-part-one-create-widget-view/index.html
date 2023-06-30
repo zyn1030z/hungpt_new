@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
 
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.115.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1794,8 +1794,8 @@ Trước tiên bạn phải chắc chắn widget_one.js đã được load trong
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;hello world !&#39;</span><span class="p">);</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;hello world !&#39;</span><span class="p">);</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Tiếp theo chúng ta phải khai báo file javascript này trong một file xml là asset.xml (tên có thể tùy chỉnh)</p>
 <div class="highlight"><div class="chroma">
@@ -1812,17 +1812,17 @@ Trước tiên bạn phải chắc chắn widget_one.js đã được load trong
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="o">&lt;?</span><span class="nx">xml</span> <span class="nx">version</span><span class="o">=</span><span class="s2">&#34;1.0&#34;</span> <span class="nx">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="o">?&gt;</span>
-<span class="o">&lt;</span><span class="nx">odoo</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="nx">data</span><span class="o">&gt;</span>
-        <span class="o">&lt;</span><span class="nx">template</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&#34;tutorial_javascript_assets_backend&#34;</span> <span class="nx">inherit_id</span><span class="o">=</span><span class="s2">&#34;web.assets_backend&#34;</span> <span class="nx">name</span><span class="o">=</span><span class="s2">&#34;assets backend&#34;</span><span class="o">&gt;</span>
-            <span class="o">&lt;</span><span class="nx">xpath</span> <span class="nx">expr</span><span class="o">=</span><span class="s2">&#34;script[last()]&#34;</span> <span class="nx">position</span><span class="o">=</span><span class="s2">&#34;after&#34;</span><span class="o">&gt;</span>
-                <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/javascript&#34;</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;/tutorial_javascript/static/src/js/widget_one.js&#34;</span><span class="o">/&gt;</span>
-            <span class="o">&lt;</span><span class="err">/xpath&gt;</span>
-        <span class="o">&lt;</span><span class="err">/template&gt;</span>
-    <span class="o">&lt;</span><span class="err">/data&gt;</span>
-<span class="o">&lt;</span><span class="err">/odoo&gt;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="o">&lt;?</span><span class="nx">xml</span> <span class="nx">version</span><span class="o">=</span><span class="s2">&#34;1.0&#34;</span> <span class="nx">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="o">?&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">odoo</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">data</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="nx">template</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&#34;tutorial_javascript_assets_backend&#34;</span> <span class="nx">inherit_id</span><span class="o">=</span><span class="s2">&#34;web.assets_backend&#34;</span> <span class="nx">name</span><span class="o">=</span><span class="s2">&#34;assets backend&#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="nx">xpath</span> <span class="nx">expr</span><span class="o">=</span><span class="s2">&#34;script[last()]&#34;</span> <span class="nx">position</span><span class="o">=</span><span class="s2">&#34;after&#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/javascript&#34;</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;/tutorial_javascript/static/src/js/widget_one.js&#34;</span><span class="o">/&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="err">/xpath&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="err">/template&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="err">/data&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="err">/odoo&gt;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Mục đích của việc này là kế thừa lại template web.assets_backend để khai báo thêm file javascipt của chúng ta. Điều này<br />
 sẽ không ảnh hưởng đến phần javascipt phía module POS và module Website thương mại điện tử.</p>
@@ -1838,13 +1838,13 @@ Tiếp theo khi mọi thứ đã hoạt động, chúng ta sẽ sửa lại file
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">odoo</span><span class="p">.</span><span class="nx">define</span><span class="p">(</span><span class="s1">&#39;tutorial_javascript.widget_one&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">require</span><span class="p">)</span> <span class="p">{</span>
-<span class="s2">&#34;use strict&#34;</span><span class="p">;</span>
- 
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Place your widget code here&#39;</span><span class="p">);</span>
- 
-<span class="p">});</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">odoo</span><span class="p">.</span><span class="nx">define</span><span class="p">(</span><span class="s1">&#39;tutorial_javascript.widget_one&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">require</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;use strict&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Place your widget code here&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Lưu ý, tất cả các Widget phải được mở rộng, hoặc là thành phần con của AbstractField cũng như được thêm vào field_registry. Vì vậy chúng ta sẽ viết tiếp như sau:</p>
 <div class="highlight"><div class="chroma">
@@ -1858,14 +1858,14 @@ Tiếp theo khi mọi thứ đã hoạt động, chúng ta sẽ sửa lại file
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">odoo</span><span class="p">.</span><span class="nx">define</span><span class="p">(</span><span class="s1">&#39;tutorial_javascript.widget_one&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">require</span><span class="p">)</span> <span class="p">{</span>
-<span class="s2">&#34;use strict&#34;</span><span class="p">;</span>
- 
-    <span class="kd">var</span> <span class="nx">AbstractField</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.AbstractFields&#39;</span><span class="p">);</span>
-    <span class="kd">var</span> <span class="nx">FieldRegistry</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.field_registry&#39;</span><span class="p">);</span>
- 
-<span class="p">});</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">odoo</span><span class="p">.</span><span class="nx">define</span><span class="p">(</span><span class="s1">&#39;tutorial_javascript.widget_one&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">require</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;use strict&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">AbstractField</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.AbstractFields&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">FieldRegistry</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.field_registry&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Trong bài viết này, mình sẽ tạo ra một widget đơn giản để hiện thị một đoạn thông tin ngắn. Để làm được việc này chúng ta có thể ghi đè các phương thức có sẵn như<br />
 _render, _renderEdit, hoặc _renderReadonly.<br />
@@ -1889,22 +1889,22 @@ _render, _renderEdit, hoặc _renderReadonly.<br />
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="o">&lt;?</span><span class="nx">xml</span> <span class="nx">version</span><span class="o">=</span><span class="s2">&#34;1.0&#34;</span> <span class="nx">encoding</span><span class="o">=</span><span class="s2">&#34;UTF-8&#34;</span><span class="o">?&gt;</span>
-<span class="o">&lt;</span><span class="nx">template</span><span class="o">&gt;</span>
- 
-    <span class="o">&lt;</span><span class="nx">t</span> <span class="nx">t</span><span class="o">-</span><span class="nx">name</span><span class="o">=</span><span class="s2">&#34;WidgetOneTemplate&#34;</span><span class="o">&gt;</span>
-        <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
-            <span class="o">&lt;</span><span class="nx">t</span> <span class="nx">t</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">&#34;widget.mode == &#39;edit&#39; &#34;</span><span class="o">&gt;</span>
-                <span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">This</span> <span class="nx">is</span> <span class="nx">the</span> <span class="nx">widget</span> <span class="nx">view</span> <span class="k">in</span> <span class="nx">edit</span> <span class="nx">mode</span> <span class="p">(</span><span class="nx">the</span> <span class="nx">user</span> <span class="nx">is</span> <span class="nx">editing</span> <span class="nx">the</span> <span class="nb">document</span><span class="p">)</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
-            <span class="o">&lt;</span><span class="err">/t&gt;</span>
-            <span class="o">&lt;</span><span class="nx">t</span> <span class="nx">t</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">&#34;widget.mode == &#39;readonly&#39; &#34;</span><span class="o">&gt;</span>
-                <span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">This</span> <span class="nx">is</span> <span class="nx">the</span> <span class="nx">widget</span> <span class="nx">view</span> <span class="k">in</span> <span class="nx">readonly</span> <span class="nx">mode</span> <span class="p">(</span><span class="nx">the</span> <span class="nx">user</span> <span class="nx">only</span> <span class="nx">sees</span> <span class="nx">the</span> <span class="nb">document</span><span class="p">)</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
-            <span class="o">&lt;</span><span class="err">/t&gt;</span>
-        <span class="o">&lt;</span><span class="err">/div&gt;</span>
-    <span class="o">&lt;</span><span class="err">/t&gt;</span>
- 
-<span class="o">&lt;</span><span class="err">/template&gt;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="o">&lt;?</span><span class="nx">xml</span> <span class="nx">version</span><span class="o">=</span><span class="s2">&#34;1.0&#34;</span> <span class="nx">encoding</span><span class="o">=</span><span class="s2">&#34;UTF-8&#34;</span><span class="o">?&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">template</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">t</span> <span class="nx">t</span><span class="o">-</span><span class="nx">name</span><span class="o">=</span><span class="s2">&#34;WidgetOneTemplate&#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="nx">t</span> <span class="nx">t</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">&#34;widget.mode == &#39;edit&#39; &#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">This</span> <span class="nx">is</span> <span class="nx">the</span> <span class="nx">widget</span> <span class="nx">view</span> <span class="k">in</span> <span class="nx">edit</span> <span class="nx">mode</span> <span class="p">(</span><span class="nx">the</span> <span class="nx">user</span> <span class="nx">is</span> <span class="nx">editing</span> <span class="nx">the</span> <span class="nb">document</span><span class="p">)</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="err">/t&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="nx">t</span> <span class="nx">t</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">&#34;widget.mode == &#39;readonly&#39; &#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">This</span> <span class="nx">is</span> <span class="nx">the</span> <span class="nx">widget</span> <span class="nx">view</span> <span class="k">in</span> <span class="nx">readonly</span> <span class="nx">mode</span> <span class="p">(</span><span class="nx">the</span> <span class="nx">user</span> <span class="nx">only</span> <span class="nx">sees</span> <span class="nx">the</span> <span class="nb">document</span><span class="p">)</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="err">/t&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="err">/t&gt;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="err">/template&gt;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Sau đó khai báo trong manifest.py như sau:<br />
 <img src="/images/feature5/img_18.png" alt="" /><br />
@@ -1936,30 +1936,30 @@ Sau đó mình sẽ viết 1 đoạn code cho widget này:</p>
 </span><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">odoo</span><span class="p">.</span><span class="nx">define</span><span class="p">(</span><span class="s1">&#39;tutorial_javascript.widget_one&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">require</span><span class="p">)</span> <span class="p">{</span>
-<span class="s2">&#34;use strict&#34;</span><span class="p">;</span>
-    <span class="c1">// import các đối tượng cần thiết để tạo widget
-</span><span class="c1"></span>    <span class="kd">var</span> <span class="nx">AbstractField</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.AbstractField&#39;</span><span class="p">);</span>
-    <span class="kd">var</span> <span class="nx">FieldRegistry</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.field_registry&#39;</span><span class="p">);</span>
- 
-    <span class="c1">// Tạo 1 object với tên tùy chỉnh
-</span><span class="c1"></span>    <span class="c1">// đừng quyên kế thừa lại web.AbstractField 
-</span><span class="c1"></span>    <span class="kd">var</span> <span class="nx">WidgetOne</span> <span class="o">=</span> <span class="nx">AbstractField</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
-        <span class="nx">template</span><span class="o">:</span> <span class="s1">&#39;WidgetOneTemplate&#39;</span><span class="p">,</span> <span class="c1">// template chính là tên template chúng ta khai cái trong file xml
-</span><span class="c1"></span>    <span class="p">});</span>
- 
-    <span class="c1">// đăng ký, nhúng object widget chúng ta vừa tạo vào web.field_registry object
-</span><span class="c1"></span>    <span class="c1">// bây giờ chúng ta có thể sử dụng widget odoo&#39;s view/xml file
-</span><span class="c1"></span>    <span class="c1">// ví dụ với code như dưới đây
-</span><span class="c1"></span>    <span class="c1">// &lt;field name=&#34;field_one&#34; widget=&#34;widget_one&#34; /&gt;
-</span><span class="c1"></span>    <span class="c1">// the &#39;widget_one&#39; name is up to you, as long as it&#39;s always connected/without spaces
-</span><span class="c1"></span>    <span class="nx">FieldRegistry</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s1">&#39;widget_one&#39;</span><span class="p">,</span> <span class="nx">WidgetOne</span><span class="p">);</span>
- 
-    <span class="c1">// trả về widget object
-</span><span class="c1"></span>    <span class="c1">// vì vậy chúng ta có thể kế thừa hoặc ghi đè trên các module khác
-</span><span class="c1"></span>    <span class="k">return</span> <span class="nx">WidgetOne</span><span class="p">;</span>
-<span class="p">});</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">odoo</span><span class="p">.</span><span class="nx">define</span><span class="p">(</span><span class="s1">&#39;tutorial_javascript.widget_one&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">require</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;use strict&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// import các đối tượng cần thiết để tạo widget
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kd">var</span> <span class="nx">AbstractField</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.AbstractField&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">FieldRegistry</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.field_registry&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="c1">// Tạo 1 object với tên tùy chỉnh
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// đừng quyên kế thừa lại web.AbstractField 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kd">var</span> <span class="nx">WidgetOne</span> <span class="o">=</span> <span class="nx">AbstractField</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">template</span><span class="o">:</span> <span class="s1">&#39;WidgetOneTemplate&#39;</span><span class="p">,</span> <span class="c1">// template chính là tên template chúng ta khai cái trong file xml
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">});</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="c1">// đăng ký, nhúng object widget chúng ta vừa tạo vào web.field_registry object
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// bây giờ chúng ta có thể sử dụng widget odoo&#39;s view/xml file
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// ví dụ với code như dưới đây
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// &lt;field name=&#34;field_one&#34; widget=&#34;widget_one&#34; /&gt;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// the &#39;widget_one&#39; name is up to you, as long as it&#39;s always connected/without spaces
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">FieldRegistry</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s1">&#39;widget_one&#39;</span><span class="p">,</span> <span class="nx">WidgetOne</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="c1">// trả về widget object
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// vì vậy chúng ta có thể kế thừa hoặc ghi đè trên các module khác
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">return</span> <span class="nx">WidgetOne</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Đây là phần đầu tiên trong loạt bài Javascript trong Odoo, hy vọng bài viết sẽ giúp ích cho bạn 😀</p>
     </article>
@@ -2440,7 +2440,7 @@ Sau đó mình sẽ viết 1 đoạn code cho widget này:</p>
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3123,7 +3123,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 

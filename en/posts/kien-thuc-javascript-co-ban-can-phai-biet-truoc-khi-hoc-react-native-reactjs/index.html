@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
 
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.115.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1817,33 +1817,33 @@ Ví dụ</p>
 </span><span class="lnt">26
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="cm">/*
-</span><span class="cm"> * File util.js
-</span><span class="cm"> */</span>
-
-<span class="c1">// export một mảng
-</span><span class="c1"></span><span class="kr">export</span> <span class="kd">let</span> <span class="nx">month</span> <span class="o">=</span> <span class="p">[</span>
-  <span class="s2">&#34;Jan&#34;</span><span class="p">,</span>
-  <span class="s2">&#34;Feb&#34;</span><span class="p">,</span>
-  <span class="s2">&#34;Mar&#34;</span><span class="p">,</span>
-  <span class="s2">&#34;Apr&#34;</span><span class="p">,</span>
-  <span class="s2">&#34;Aug&#34;</span><span class="p">,</span>
-  <span class="s2">&#34;Sep&#34;</span><span class="p">,</span>
-  <span class="s2">&#34;Oct&#34;</span><span class="p">,</span>
-  <span class="s2">&#34;Nov&#34;</span><span class="p">,</span>
-  <span class="s2">&#34;Dec&#34;</span><span class="p">,</span>
-<span class="p">];</span>
-
-<span class="c1">// export một hằng số
-</span><span class="c1"></span><span class="kr">export</span> <span class="kr">const</span> <span class="nx">YEAR</span> <span class="o">=</span> <span class="mi">2020</span><span class="p">;</span>
-
-<span class="c1">// export một class
-</span><span class="c1"></span><span class="kr">export</span> <span class="kr">class</span> <span class="nx">User</span> <span class="p">{</span>
-  <span class="nx">constructor</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="cm">/*
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * File util.js
+</span></span></span><span class="line"><span class="cl"><span class="cm"> */</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// export một mảng
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">export</span> <span class="kd">let</span> <span class="nx">month</span> <span class="o">=</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;Jan&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;Feb&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;Mar&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;Apr&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;Aug&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;Sep&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;Oct&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;Nov&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;Dec&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">];</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// export một hằng số
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">export</span> <span class="kr">const</span> <span class="nx">YEAR</span> <span class="o">=</span> <span class="mi">2020</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// export một class
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">export</span> <span class="kr">class</span> <span class="nx">User</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">constructor</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="arrow-function">Arrow function</h3>
 <p>Arrow function được sử dụng khá nhiều bởi cách viết ngắn gọn và không có “this”.</p>
@@ -1855,10 +1855,10 @@ Ví dụ</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">sum</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
-<span class="k">return</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">sum</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="k">return</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Viết lại bằng arrow function:</p>
 <div class="highlight"><div class="chroma">
@@ -1866,8 +1866,8 @@ Ví dụ</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">sum</span> <span class="o">=</span> <span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">sum</span> <span class="o">=</span> <span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="destructuring-assignment">Destructuring assignment</h3>
 <p>Là cú pháp cho phép tách các object, array ra thành các biến, giúp cho code ngắn gọn hơn thay vì khai báo biến nhiều lần. Ví dụ hay sử dụng trong ReactJS:</p>
@@ -1887,19 +1887,19 @@ Ví dụ</p>
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// Không sử dụng destructuring assignment
-</span><span class="c1"></span><span class="kd">function</span> <span class="nx">MyComponent</span><span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kd">let</span> <span class="nx">navigation</span> <span class="o">=</span> <span class="nx">props</span><span class="p">.</span><span class="nx">navigation</span><span class="p">;</span>
-  <span class="kd">let</span> <span class="nx">route</span> <span class="o">=</span> <span class="nx">props</span><span class="p">.</span><span class="nx">route</span><span class="p">;</span>
-
-  <span class="p">...</span>
-<span class="p">}</span>
-
-<span class="c1">// Sử dụng destructuring assignment
-</span><span class="c1"></span><span class="kd">function</span> <span class="nx">MyComponent</span><span class="p">({</span><span class="nx">navigation</span><span class="p">,</span> <span class="nx">route</span><span class="p">})</span> <span class="p">{</span>
-  <span class="p">...</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// Không sử dụng destructuring assignment
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">function</span> <span class="nx">MyComponent</span><span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kd">let</span> <span class="nx">navigation</span> <span class="o">=</span> <span class="nx">props</span><span class="p">.</span><span class="nx">navigation</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="kd">let</span> <span class="nx">route</span> <span class="o">=</span> <span class="nx">props</span><span class="p">.</span><span class="nx">route</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">...</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Sử dụng destructuring assignment
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">function</span> <span class="nx">MyComponent</span><span class="p">({</span><span class="nx">navigation</span><span class="p">,</span> <span class="nx">route</span><span class="p">})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="p">...</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Hoặc khi sử dụng useState hook:</p>
 <div class="highlight"><div class="chroma">
@@ -1909,10 +1909,10 @@ Ví dụ</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">MyComponent</span><span class="p">()</span> <span class="p">{</span>
-  <span class="kr">const</span> <span class="p">[</span><span class="nx">count</span><span class="p">,</span> <span class="nx">setCount</span><span class="p">]</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nx">useState</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">MyComponent</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kr">const</span> <span class="p">[</span><span class="nx">count</span><span class="p">,</span> <span class="nx">setCount</span><span class="p">]</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nx">useState</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="rest-parameters-and-spread-syntax">Rest parameters and spread syntax</h3>
 <p>Rest parameters cho phép chúng ta viết 1 hàm với số lượng tham số là linh động (không biết trước). Ví dụ:</p>
@@ -1932,19 +1932,19 @@ Ví dụ</p>
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">sumAll</span><span class="p">(...</span><span class="nx">args</span><span class="p">)</span> <span class="p">{</span>
-  <span class="c1">// args là tên biến đại diện cho mảng các tham số
-</span><span class="c1"></span>  <span class="kd">let</span> <span class="nx">sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-
-  <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">arg</span> <span class="k">of</span> <span class="nx">args</span><span class="p">)</span> <span class="nx">sum</span> <span class="o">+=</span> <span class="nx">arg</span><span class="p">;</span>
-
-  <span class="k">return</span> <span class="nx">sum</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nx">alert</span><span class="p">(</span><span class="nx">sumAll</span><span class="p">(</span><span class="mi">1</span><span class="p">));</span> <span class="c1">// 1
-</span><span class="c1"></span><span class="nx">alert</span><span class="p">(</span><span class="nx">sumAll</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">));</span> <span class="c1">// 3
-</span><span class="c1"></span><span class="nx">alert</span><span class="p">(</span><span class="nx">sumAll</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">));</span> <span class="c1">// 6
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">sumAll</span><span class="p">(...</span><span class="nx">args</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// args là tên biến đại diện cho mảng các tham số
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kd">let</span> <span class="nx">sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">arg</span> <span class="k">of</span> <span class="nx">args</span><span class="p">)</span> <span class="nx">sum</span> <span class="o">+=</span> <span class="nx">arg</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">sum</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">alert</span><span class="p">(</span><span class="nx">sumAll</span><span class="p">(</span><span class="mi">1</span><span class="p">));</span> <span class="c1">// 1
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">alert</span><span class="p">(</span><span class="nx">sumAll</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">));</span> <span class="c1">// 3
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">alert</span><span class="p">(</span><span class="nx">sumAll</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">));</span> <span class="c1">// 6
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>hoặc:</p>
 <div class="highlight"><div class="chroma">
@@ -1962,18 +1962,18 @@ Ví dụ</p>
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">showName</span><span class="p">(</span><span class="nx">firstName</span><span class="p">,</span> <span class="nx">lastName</span><span class="p">,</span> <span class="p">...</span><span class="nx">otherNames</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nx">alert</span><span class="p">(</span><span class="nx">firstName</span> <span class="o">+</span> <span class="s2">&#34; &#34;</span> <span class="o">+</span> <span class="nx">lastName</span><span class="p">);</span> <span class="c1">// Robin Huy
-</span><span class="c1"></span>
-  <span class="c1">// Rest parameters ...otherNames đại diện cho các tham số còn lại ngoài 2 tham số đầu tiên
-</span><span class="c1"></span>  <span class="c1">// ví dụ ở đây otherNames sẽ là [&#34;Robin&#34;, &#34;Huy&#34;]
-</span><span class="c1"></span>  <span class="nx">alert</span><span class="p">(</span><span class="nx">otherNames</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span> <span class="c1">// Chris
-</span><span class="c1"></span>  <span class="nx">alert</span><span class="p">(</span><span class="nx">otherNames</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span> <span class="c1">// Robert
-</span><span class="c1"></span>  <span class="nx">alert</span><span class="p">(</span><span class="nx">otherNames</span><span class="p">.</span><span class="nx">length</span><span class="p">);</span> <span class="c1">// 2
-</span><span class="c1"></span><span class="p">}</span>
-
-<span class="nx">showName</span><span class="p">(</span><span class="s2">&#34;Robin&#34;</span><span class="p">,</span> <span class="s2">&#34;Huy&#34;</span><span class="p">,</span> <span class="s2">&#34;Chris&#34;</span><span class="p">,</span> <span class="s2">&#34;Robert&#34;</span><span class="p">);</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">showName</span><span class="p">(</span><span class="nx">firstName</span><span class="p">,</span> <span class="nx">lastName</span><span class="p">,</span> <span class="p">...</span><span class="nx">otherNames</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">alert</span><span class="p">(</span><span class="nx">firstName</span> <span class="o">+</span> <span class="s2">&#34; &#34;</span> <span class="o">+</span> <span class="nx">lastName</span><span class="p">);</span> <span class="c1">// Robin Huy
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Rest parameters ...otherNames đại diện cho các tham số còn lại ngoài 2 tham số đầu tiên
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// ví dụ ở đây otherNames sẽ là [&#34;Robin&#34;, &#34;Huy&#34;]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nx">alert</span><span class="p">(</span><span class="nx">otherNames</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span> <span class="c1">// Chris
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nx">alert</span><span class="p">(</span><span class="nx">otherNames</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span> <span class="c1">// Robert
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nx">alert</span><span class="p">(</span><span class="nx">otherNames</span><span class="p">.</span><span class="nx">length</span><span class="p">);</span> <span class="c1">// 2
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">showName</span><span class="p">(</span><span class="s2">&#34;Robin&#34;</span><span class="p">,</span> <span class="s2">&#34;Huy&#34;</span><span class="p">,</span> <span class="s2">&#34;Chris&#34;</span><span class="p">,</span> <span class="s2">&#34;Robert&#34;</span><span class="p">);</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Spread syntax có cú pháp và cách hoạt động gần giống như rest parameters, nó cho phép “duỗi” một object hoặc array ra thành nhiều biến. Ví dụ:</p>
 <div class="highlight"><div class="chroma">
@@ -1987,14 +1987,14 @@ Ví dụ</p>
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// Hàm Math.max cần truyền vào các số để tính max
-</span><span class="c1"></span><span class="nx">alert</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">max</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">));</span> <span class="c1">// Trả về 5
-</span><span class="c1"></span>
-<span class="c1">// Tuy nhiên nếu có 1 mảng các số thì chúng ta có thể spread mảng đó ra để sử dụng hàm Math.max
-</span><span class="c1"></span><span class="kr">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">];</span>
-<span class="nx">alert</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">max</span><span class="p">(</span><span class="nx">numbers</span><span class="p">));</span> <span class="c1">// Trả về NaN
-</span><span class="c1"></span><span class="nx">alert</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">max</span><span class="p">(...</span><span class="nx">numbers</span><span class="p">));</span> <span class="c1">// Trả về 5
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// Hàm Math.max cần truyền vào các số để tính max
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">alert</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">max</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">));</span> <span class="c1">// Trả về 5
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Tuy nhiên nếu có 1 mảng các số thì chúng ta có thể spread mảng đó ra để sử dụng hàm Math.max
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="nx">alert</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">max</span><span class="p">(</span><span class="nx">numbers</span><span class="p">));</span> <span class="c1">// Trả về NaN
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">alert</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">max</span><span class="p">(...</span><span class="nx">numbers</span><span class="p">));</span> <span class="c1">// Trả về 5
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="các-hàm-xử-lý-mảng">Các hàm xử lý mảng</h3>
 <p>Code ReactJS sẽ phải làm việc với mảng rất nhiều nên phải sử dụng thành thạo các phương thức xử lý mảng như: map, filter, reduce, push, splice, …</p>
@@ -2005,9 +2005,9 @@ Ví dụ</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">];</span>
-<span class="kr">const</span> <span class="nx">doubled</span> <span class="o">=</span> <span class="nx">numbers</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">number</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">number</span> <span class="o">*</span> <span class="mi">2</span><span class="p">);</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">doubled</span> <span class="o">=</span> <span class="nx">numbers</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">number</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">number</span> <span class="o">*</span> <span class="mi">2</span><span class="p">);</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Hoặc sử dụng filter để lọc phần tử ra khỏi mảng:</p>
 <div class="highlight"><div class="chroma">
@@ -2020,13 +2020,13 @@ Ví dụ</p>
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// Xóa 1 sản phẩm ra khỏi mảng các sản phẩm dựa theo ID truyền vào
-</span><span class="c1"></span><span class="kd">function</span> <span class="nx">removeProduct</span><span class="p">(</span><span class="nx">productId</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kr">const</span> <span class="nx">newProducts</span> <span class="o">=</span> <span class="nx">products</span><span class="p">.</span><span class="nx">filter</span><span class="p">((</span><span class="nx">product</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">product</span><span class="p">.</span><span class="nx">id</span> <span class="o">!==</span> <span class="nx">productId</span><span class="p">);</span>
-
-  <span class="nx">setProducts</span><span class="p">(</span><span class="nx">newProducts</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// Xóa 1 sản phẩm ra khỏi mảng các sản phẩm dựa theo ID truyền vào
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">function</span> <span class="nx">removeProduct</span><span class="p">(</span><span class="nx">productId</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kr">const</span> <span class="nx">newProducts</span> <span class="o">=</span> <span class="nx">products</span><span class="p">.</span><span class="nx">filter</span><span class="p">((</span><span class="nx">product</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">product</span><span class="p">.</span><span class="nx">id</span> <span class="o">!==</span> <span class="nx">productId</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nx">setProducts</span><span class="p">(</span><span class="nx">newProducts</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Trên đây là một vài kiến thức cơ bản mình nghĩ newbie cần phải biết trước khi học ReactJS. Nếu các bạn thấy còn thiếu thì góp ý bổ sung giúp mình ở phần bình luận bên dưới nhé 😘.</p>
     </article>
@@ -2495,7 +2495,7 @@ Ví dụ</p>
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3191,7 +3191,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 

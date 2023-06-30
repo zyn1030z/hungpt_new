@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
 
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.115.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1791,7 +1791,7 @@ if (!doNotTrack) {
   gather_facts: true
 
   tasks:
-    - name: &quot;Show target server IP&quot;
+    - name: &#34;Show target server IP&#34;
       debug:
         msg: “Target system (Web server) IP= {{inventory_hostname}}”
         #var: inventory_hostname
@@ -1801,8 +1801,8 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">ansible-playbook -i hosts playbookVar.yml
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">ansible-playbook -i hosts playbookVar.yml
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><img src="/images/feature4/img_15.png" alt="" /><br />
 Chúng ta có thể định nghĩa biến ngay trong file Playbook như sau, biến khai báo trùng tên trong file hosts và trong Playbook thì Ansible ưu tiên trong playbook hơn :</p>
@@ -1812,13 +1812,13 @@ Chúng ta có thể định nghĩa biến ngay trong file Playbook như sau, bi�
   gather_facts: true
 
   tasks:
-    - name: &quot;Show NTP Server Infor&quot;
+    - name: &#34;Show NTP Server Infor&#34;
       debug:
         # msg: “Target system (Web server) IP= {{inventory_hostname}}”
         var: ntp_server_test, ntp_port_test
   vars:
     ntp_server_test: 192.168.11.1
-    ntp_port_test: &quot;UDP 1313&quot;
+    ntp_port_test: &#34;UDP 1313&#34;
 </code></pre><p>Chúng ta sẽ có kết quả như sau:<br />
 <img src="/images/feature4/img_16.png" alt="" /><br />
 Hoặc chúng ta cũng có thể định nghĩa biến trong file riêng:</p>
@@ -1837,14 +1837,14 @@ upassword: abc
   gather_facts: true
 
   tasks:
-    - name: &quot;Show NTP Server Infor&quot;
+    - name: &#34;Show NTP Server Infor&#34;
       debug:
         # msg: “Target system (Web server) IP= {{inventory_hostname}}”
-        var: ntp_server['IP'], httpd_port[1], mysql_port
+        var: ntp_server[&#39;IP&#39;], httpd_port[1], mysql_port
   vars:
     ntp_server:
      IP: 192.168.122.1
-     ntp_port: &quot;UDP 1312&quot;
+     ntp_port: &#34;UDP 1312&#34;
     httpd_port:
      - 80
      - 443
@@ -1859,20 +1859,20 @@ Chúng ta cũng có thể in các giá trị của biến OUTPUT từ lệnh kh�
   gather_facts: true
 
   tasks:
-    - name: &quot;Show NTP Server Infor&quot;
+    - name: &#34;Show NTP Server Infor&#34;
       debug:
         # msg: “Target system (Web server) IP= {{inventory_hostname}}”
-        var: ntp_server['IP'], httpd_port[1], mysql_port
+        var: ntp_server[&#39;IP&#39;], httpd_port[1], mysql_port
     - name: Check uptime target server
       shell: uptime
       register: output
-    - name: &quot;Show uptime from shell&quot;
+    - name: &#34;Show uptime from shell&#34;
       debug:
        var: output
   vars:
     ntp_server:
      IP: 192.168.122.1
-     ntp_port: &quot;UDP 1312&quot;
+     ntp_port: &#34;UDP 1312&#34;
     httpd_port:
      - 80
      - 443
@@ -1887,7 +1887,7 @@ Tiếp theo chúng ta có thể đọc dữ liệu từ các biến Built-in c�
   gather_facts: true
 
   tasks:
-    - name: &quot;Show ansiblr Facts&quot;
+    - name: &#34;Show ansiblr Facts&#34;
       debug:
         var: ansible_facts
 </code></pre><p>Sau đó chúng ta chạy lệnh sẽ được kết quả như sau:</p>
@@ -1904,538 +1904,538 @@ ok: [16.163.95.41]
 
 TASK [Show ansiblr Facts] ******************************************************
 ok: [16.163.95.41] =&gt; {
-    &quot;ansible_facts&quot;: {
-        &quot;_facts_gathered&quot;: true,
-        &quot;all_ipv4_addresses&quot;: [
-            &quot;10.32.1.186&quot;
+    &#34;ansible_facts&#34;: {
+        &#34;_facts_gathered&#34;: true,
+        &#34;all_ipv4_addresses&#34;: [
+            &#34;10.32.1.186&#34;
         ],
-        &quot;all_ipv6_addresses&quot;: [
-            &quot;fe80::42d:d5ff:fef3:7b08&quot;
+        &#34;all_ipv6_addresses&#34;: [
+            &#34;fe80::42d:d5ff:fef3:7b08&#34;
         ],
-        &quot;ansible_local&quot;: {},
-        &quot;apparmor&quot;: {
-            &quot;status&quot;: &quot;disabled&quot;
+        &#34;ansible_local&#34;: {},
+        &#34;apparmor&#34;: {
+            &#34;status&#34;: &#34;disabled&#34;
         },
-        &quot;architecture&quot;: &quot;x86_64&quot;,
-        &quot;bios_date&quot;: &quot;10/16/2017&quot;,
-        &quot;bios_version&quot;: &quot;1.0&quot;,
-        &quot;cmdline&quot;: {
-            &quot;BOOT_IMAGE&quot;: &quot;/boot/vmlinuz-5.10.135-122.509.amzn2.x86_64&quot;,
-            &quot;biosdevname&quot;: &quot;0&quot;,
-            &quot;console&quot;: &quot;ttyS0,115200n8&quot;,
-            &quot;net.ifnames&quot;: &quot;0&quot;,
-            &quot;nvme_core.io_timeout&quot;: &quot;4294967295&quot;,
-            &quot;rd.emergency&quot;: &quot;poweroff&quot;,
-            &quot;rd.shell&quot;: &quot;0&quot;,
-            &quot;ro&quot;: true,
-            &quot;root&quot;: &quot;UUID=2318d4b7-b8cd-4579-ab46-47af13e15000&quot;
+        &#34;architecture&#34;: &#34;x86_64&#34;,
+        &#34;bios_date&#34;: &#34;10/16/2017&#34;,
+        &#34;bios_version&#34;: &#34;1.0&#34;,
+        &#34;cmdline&#34;: {
+            &#34;BOOT_IMAGE&#34;: &#34;/boot/vmlinuz-5.10.135-122.509.amzn2.x86_64&#34;,
+            &#34;biosdevname&#34;: &#34;0&#34;,
+            &#34;console&#34;: &#34;ttyS0,115200n8&#34;,
+            &#34;net.ifnames&#34;: &#34;0&#34;,
+            &#34;nvme_core.io_timeout&#34;: &#34;4294967295&#34;,
+            &#34;rd.emergency&#34;: &#34;poweroff&#34;,
+            &#34;rd.shell&#34;: &#34;0&#34;,
+            &#34;ro&#34;: true,
+            &#34;root&#34;: &#34;UUID=2318d4b7-b8cd-4579-ab46-47af13e15000&#34;
         },
-        &quot;date_time&quot;: {
-            &quot;date&quot;: &quot;2022-10-15&quot;,
-            &quot;day&quot;: &quot;15&quot;,
-            &quot;epoch&quot;: &quot;1665854220&quot;,
-            &quot;hour&quot;: &quot;17&quot;,
-            &quot;iso8601&quot;: &quot;2022-10-15T17:17:00Z&quot;,
-            &quot;iso8601_basic&quot;: &quot;20221015T171700106679&quot;,
-            &quot;iso8601_basic_short&quot;: &quot;20221015T171700&quot;,
-            &quot;iso8601_micro&quot;: &quot;2022-10-15T17:17:00.106749Z&quot;,
-            &quot;minute&quot;: &quot;17&quot;,
-            &quot;month&quot;: &quot;10&quot;,
-            &quot;second&quot;: &quot;00&quot;,
-            &quot;time&quot;: &quot;17:17:00&quot;,
-            &quot;tz&quot;: &quot;UTC&quot;,
-            &quot;tz_offset&quot;: &quot;+0000&quot;,
-            &quot;weekday&quot;: &quot;Saturday&quot;,
-            &quot;weekday_number&quot;: &quot;6&quot;,
-            &quot;weeknumber&quot;: &quot;41&quot;,
-            &quot;year&quot;: &quot;2022&quot;
+        &#34;date_time&#34;: {
+            &#34;date&#34;: &#34;2022-10-15&#34;,
+            &#34;day&#34;: &#34;15&#34;,
+            &#34;epoch&#34;: &#34;1665854220&#34;,
+            &#34;hour&#34;: &#34;17&#34;,
+            &#34;iso8601&#34;: &#34;2022-10-15T17:17:00Z&#34;,
+            &#34;iso8601_basic&#34;: &#34;20221015T171700106679&#34;,
+            &#34;iso8601_basic_short&#34;: &#34;20221015T171700&#34;,
+            &#34;iso8601_micro&#34;: &#34;2022-10-15T17:17:00.106749Z&#34;,
+            &#34;minute&#34;: &#34;17&#34;,
+            &#34;month&#34;: &#34;10&#34;,
+            &#34;second&#34;: &#34;00&#34;,
+            &#34;time&#34;: &#34;17:17:00&#34;,
+            &#34;tz&#34;: &#34;UTC&#34;,
+            &#34;tz_offset&#34;: &#34;+0000&#34;,
+            &#34;weekday&#34;: &#34;Saturday&#34;,
+            &#34;weekday_number&#34;: &#34;6&#34;,
+            &#34;weeknumber&#34;: &#34;41&#34;,
+            &#34;year&#34;: &#34;2022&#34;
         },
-        &quot;default_ipv4&quot;: {
-            &quot;address&quot;: &quot;10.32.1.186&quot;,
-            &quot;alias&quot;: &quot;eth0&quot;,
-            &quot;broadcast&quot;: &quot;10.32.1.255&quot;,
-            &quot;gateway&quot;: &quot;10.32.1.1&quot;,
-            &quot;interface&quot;: &quot;eth0&quot;,
-            &quot;macaddress&quot;: &quot;06:2d:d5:f3:7b:08&quot;,
-            &quot;mtu&quot;: 9001,
-            &quot;netmask&quot;: &quot;255.255.255.0&quot;,
-            &quot;network&quot;: &quot;10.32.1.0&quot;,
-            &quot;type&quot;: &quot;ether&quot;
+        &#34;default_ipv4&#34;: {
+            &#34;address&#34;: &#34;10.32.1.186&#34;,
+            &#34;alias&#34;: &#34;eth0&#34;,
+            &#34;broadcast&#34;: &#34;10.32.1.255&#34;,
+            &#34;gateway&#34;: &#34;10.32.1.1&#34;,
+            &#34;interface&#34;: &#34;eth0&#34;,
+            &#34;macaddress&#34;: &#34;06:2d:d5:f3:7b:08&#34;,
+            &#34;mtu&#34;: 9001,
+            &#34;netmask&#34;: &#34;255.255.255.0&#34;,
+            &#34;network&#34;: &#34;10.32.1.0&#34;,
+            &#34;type&#34;: &#34;ether&#34;
         },
-        &quot;default_ipv6&quot;: {},
-        &quot;device_links&quot;: {
-            &quot;ids&quot;: {
-                &quot;nvme0n1&quot;: [
-                    &quot;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc&quot;,
-                    &quot;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-ns-1&quot;,
-                    &quot;nvme-nvme.1d0f-766f6c3034623163353036373364646139616263-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001&quot;
+        &#34;default_ipv6&#34;: {},
+        &#34;device_links&#34;: {
+            &#34;ids&#34;: {
+                &#34;nvme0n1&#34;: [
+                    &#34;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc&#34;,
+                    &#34;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-ns-1&#34;,
+                    &#34;nvme-nvme.1d0f-766f6c3034623163353036373364646139616263-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001&#34;
                 ],
-                &quot;nvme0n1p1&quot;: [
-                    &quot;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-ns-1-part1&quot;,
-                    &quot;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-part1&quot;,
-                    &quot;nvme-nvme.1d0f-766f6c3034623163353036373364646139616263-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part1&quot;
+                &#34;nvme0n1p1&#34;: [
+                    &#34;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-ns-1-part1&#34;,
+                    &#34;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-part1&#34;,
+                    &#34;nvme-nvme.1d0f-766f6c3034623163353036373364646139616263-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part1&#34;
                 ],
-                &quot;nvme0n1p128&quot;: [
-                    &quot;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-ns-1-part128&quot;,
-                    &quot;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-part128&quot;,
-                    &quot;nvme-nvme.1d0f-766f6c3034623163353036373364646139616263-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part128&quot;
+                &#34;nvme0n1p128&#34;: [
+                    &#34;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-ns-1-part128&#34;,
+                    &#34;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-part128&#34;,
+                    &#34;nvme-nvme.1d0f-766f6c3034623163353036373364646139616263-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part128&#34;
                 ]
             },
-            &quot;labels&quot;: {
-                &quot;nvme0n1p1&quot;: [
-                    &quot;\\x2f&quot;
+            &#34;labels&#34;: {
+                &#34;nvme0n1p1&#34;: [
+                    &#34;\\x2f&#34;
                 ]
             },
-            &quot;masters&quot;: {},
-            &quot;uuids&quot;: {
-                &quot;nvme0n1p1&quot;: [
-                    &quot;2318d4b7-b8cd-4579-ab46-47af13e15000&quot;
+            &#34;masters&#34;: {},
+            &#34;uuids&#34;: {
+                &#34;nvme0n1p1&#34;: [
+                    &#34;2318d4b7-b8cd-4579-ab46-47af13e15000&#34;
                 ]
             }
         },
-        &quot;devices&quot;: {
-            &quot;nvme0n1&quot;: {
-                &quot;holders&quot;: [],
-                &quot;host&quot;: &quot;Non-Volatile memory controller: Amazon.com, Inc. Device 8061&quot;,
-                &quot;links&quot;: {
-                    &quot;ids&quot;: [
-                        &quot;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc&quot;,
-                        &quot;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-ns-1&quot;,
-                        &quot;nvme-nvme.1d0f-766f6c3034623163353036373364646139616263-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001&quot;
+        &#34;devices&#34;: {
+            &#34;nvme0n1&#34;: {
+                &#34;holders&#34;: [],
+                &#34;host&#34;: &#34;Non-Volatile memory controller: Amazon.com, Inc. Device 8061&#34;,
+                &#34;links&#34;: {
+                    &#34;ids&#34;: [
+                        &#34;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc&#34;,
+                        &#34;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-ns-1&#34;,
+                        &#34;nvme-nvme.1d0f-766f6c3034623163353036373364646139616263-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001&#34;
                     ],
-                    &quot;labels&quot;: [],
-                    &quot;masters&quot;: [],
-                    &quot;uuids&quot;: []
+                    &#34;labels&#34;: [],
+                    &#34;masters&#34;: [],
+                    &#34;uuids&#34;: []
                 },
-                &quot;model&quot;: &quot;Amazon Elastic Block Store&quot;,
-                &quot;partitions&quot;: {
-                    &quot;nvme0n1p1&quot;: {
-                        &quot;holders&quot;: [],
-                        &quot;links&quot;: {
-                            &quot;ids&quot;: [
-                                &quot;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-ns-1-part1&quot;,
-                                &quot;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-part1&quot;,
-                                &quot;nvme-nvme.1d0f-766f6c3034623163353036373364646139616263-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part1&quot;
+                &#34;model&#34;: &#34;Amazon Elastic Block Store&#34;,
+                &#34;partitions&#34;: {
+                    &#34;nvme0n1p1&#34;: {
+                        &#34;holders&#34;: [],
+                        &#34;links&#34;: {
+                            &#34;ids&#34;: [
+                                &#34;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-ns-1-part1&#34;,
+                                &#34;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-part1&#34;,
+                                &#34;nvme-nvme.1d0f-766f6c3034623163353036373364646139616263-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part1&#34;
                             ],
-                            &quot;labels&quot;: [
-                                &quot;\\x2f&quot;
+                            &#34;labels&#34;: [
+                                &#34;\\x2f&#34;
                             ],
-                            &quot;masters&quot;: [],
-                            &quot;uuids&quot;: [
-                                &quot;2318d4b7-b8cd-4579-ab46-47af13e15000&quot;
+                            &#34;masters&#34;: [],
+                            &#34;uuids&#34;: [
+                                &#34;2318d4b7-b8cd-4579-ab46-47af13e15000&#34;
                             ]
                         },
-                        &quot;sectors&quot;: &quot;16773087&quot;,
-                        &quot;sectorsize&quot;: 512,
-                        &quot;size&quot;: &quot;8.00 GB&quot;,
-                        &quot;start&quot;: &quot;4096&quot;,
-                        &quot;uuid&quot;: &quot;2318d4b7-b8cd-4579-ab46-47af13e15000&quot;
+                        &#34;sectors&#34;: &#34;16773087&#34;,
+                        &#34;sectorsize&#34;: 512,
+                        &#34;size&#34;: &#34;8.00 GB&#34;,
+                        &#34;start&#34;: &#34;4096&#34;,
+                        &#34;uuid&#34;: &#34;2318d4b7-b8cd-4579-ab46-47af13e15000&#34;
                     },
-                    &quot;nvme0n1p128&quot;: {
-                        &quot;holders&quot;: [],
-                        &quot;links&quot;: {
-                            &quot;ids&quot;: [
-                                &quot;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-ns-1-part128&quot;,
-                                &quot;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-part128&quot;,
-                                &quot;nvme-nvme.1d0f-766f6c3034623163353036373364646139616263-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part128&quot;
+                    &#34;nvme0n1p128&#34;: {
+                        &#34;holders&#34;: [],
+                        &#34;links&#34;: {
+                            &#34;ids&#34;: [
+                                &#34;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-ns-1-part128&#34;,
+                                &#34;nvme-Amazon_Elastic_Block_Store_vol04b1c50673dda9abc-part128&#34;,
+                                &#34;nvme-nvme.1d0f-766f6c3034623163353036373364646139616263-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part128&#34;
                             ],
-                            &quot;labels&quot;: [],
-                            &quot;masters&quot;: [],
-                            &quot;uuids&quot;: []
+                            &#34;labels&#34;: [],
+                            &#34;masters&#34;: [],
+                            &#34;uuids&#34;: []
                         },
-                        &quot;sectors&quot;: &quot;2048&quot;,
-                        &quot;sectorsize&quot;: 512,
-                        &quot;size&quot;: &quot;1.00 MB&quot;,
-                        &quot;start&quot;: &quot;2048&quot;,
-                        &quot;uuid&quot;: null
+                        &#34;sectors&#34;: &#34;2048&#34;,
+                        &#34;sectorsize&#34;: 512,
+                        &#34;size&#34;: &#34;1.00 MB&#34;,
+                        &#34;start&#34;: &#34;2048&#34;,
+                        &#34;uuid&#34;: null
                     }
                 },
-                &quot;removable&quot;: &quot;0&quot;,
-                &quot;rotational&quot;: &quot;0&quot;,
-                &quot;sas_address&quot;: null,
-                &quot;sas_device_handle&quot;: null,
-                &quot;scheduler_mode&quot;: &quot;none&quot;,
-                &quot;sectors&quot;: &quot;16777216&quot;,
-                &quot;sectorsize&quot;: &quot;512&quot;,
-                &quot;size&quot;: &quot;8.00 GB&quot;,
-                &quot;support_discard&quot;: &quot;0&quot;,
-                &quot;vendor&quot;: null,
-                &quot;virtual&quot;: 1
+                &#34;removable&#34;: &#34;0&#34;,
+                &#34;rotational&#34;: &#34;0&#34;,
+                &#34;sas_address&#34;: null,
+                &#34;sas_device_handle&#34;: null,
+                &#34;scheduler_mode&#34;: &#34;none&#34;,
+                &#34;sectors&#34;: &#34;16777216&#34;,
+                &#34;sectorsize&#34;: &#34;512&#34;,
+                &#34;size&#34;: &#34;8.00 GB&#34;,
+                &#34;support_discard&#34;: &#34;0&#34;,
+                &#34;vendor&#34;: null,
+                &#34;virtual&#34;: 1
             }
         },
-        &quot;discovered_interpreter_python&quot;: &quot;/usr/bin/python&quot;,
-        &quot;distribution&quot;: &quot;Amazon&quot;,
-        &quot;distribution_file_parsed&quot;: true,
-        &quot;distribution_file_path&quot;: &quot;/etc/system-release&quot;,
-        &quot;distribution_file_variety&quot;: &quot;Amazon&quot;,
-        &quot;distribution_major_version&quot;: &quot;2&quot;,
-        &quot;distribution_release&quot;: &quot;NA&quot;,
-        &quot;distribution_version&quot;: &quot;2&quot;,
-        &quot;dns&quot;: {
-            &quot;nameservers&quot;: [
-                &quot;10.32.0.2&quot;
+        &#34;discovered_interpreter_python&#34;: &#34;/usr/bin/python&#34;,
+        &#34;distribution&#34;: &#34;Amazon&#34;,
+        &#34;distribution_file_parsed&#34;: true,
+        &#34;distribution_file_path&#34;: &#34;/etc/system-release&#34;,
+        &#34;distribution_file_variety&#34;: &#34;Amazon&#34;,
+        &#34;distribution_major_version&#34;: &#34;2&#34;,
+        &#34;distribution_release&#34;: &#34;NA&#34;,
+        &#34;distribution_version&#34;: &#34;2&#34;,
+        &#34;dns&#34;: {
+            &#34;nameservers&#34;: [
+                &#34;10.32.0.2&#34;
             ],
-            &quot;options&quot;: {
-                &quot;attempts&quot;: &quot;5&quot;,
-                &quot;timeout&quot;: &quot;2&quot;
+            &#34;options&#34;: {
+                &#34;attempts&#34;: &#34;5&#34;,
+                &#34;timeout&#34;: &#34;2&#34;
             },
-            &quot;search&quot;: [
-                &quot;ap-east-1.compute.internal&quot;
+            &#34;search&#34;: [
+                &#34;ap-east-1.compute.internal&#34;
             ]
         },
-        &quot;domain&quot;: &quot;ap-east-1.compute.internal&quot;,
-        &quot;effective_group_id&quot;: 1000,
-        &quot;effective_user_id&quot;: 1000,
-        &quot;env&quot;: {
-            &quot;HOME&quot;: &quot;/home/ec2-user&quot;,
-            &quot;LANG&quot;: &quot;C.UTF-8&quot;,
-            &quot;LC_ADDRESS&quot;: &quot;C.UTF-8&quot;,
-            &quot;LC_IDENTIFICATION&quot;: &quot;C.UTF-8&quot;,
-            &quot;LC_MEASUREMENT&quot;: &quot;C.UTF-8&quot;,
-            &quot;LC_MONETARY&quot;: &quot;C.UTF-8&quot;,
-            &quot;LC_NAME&quot;: &quot;C.UTF-8&quot;,
-            &quot;LC_NUMERIC&quot;: &quot;C.UTF-8&quot;,
-            &quot;LC_PAPER&quot;: &quot;C.UTF-8&quot;,
-            &quot;LC_TELEPHONE&quot;: &quot;C.UTF-8&quot;,
-            &quot;LC_TIME&quot;: &quot;C.UTF-8&quot;,
-            &quot;LESSOPEN&quot;: &quot;||/usr/bin/lesspipe.sh %s&quot;,
-            &quot;LOGNAME&quot;: &quot;ec2-user&quot;,
-            &quot;LS_COLORS&quot;: &quot;rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:&quot;,
-            &quot;MAIL&quot;: &quot;/var/mail/ec2-user&quot;,
-            &quot;PATH&quot;: &quot;/usr/local/bin:/usr/bin&quot;,
-            &quot;PWD&quot;: &quot;/home/ec2-user&quot;,
-            &quot;SHELL&quot;: &quot;/bin/bash&quot;,
-            &quot;SHLVL&quot;: &quot;2&quot;,
-            &quot;SSH_CLIENT&quot;: &quot;18.162.41.145 50404 22&quot;,
-            &quot;SSH_CONNECTION&quot;: &quot;18.162.41.145 50404 10.32.1.186 22&quot;,
-            &quot;SSH_TTY&quot;: &quot;/dev/pts/0&quot;,
-            &quot;TERM&quot;: &quot;xterm-256color&quot;,
-            &quot;USER&quot;: &quot;ec2-user&quot;,
-            &quot;XDG_RUNTIME_DIR&quot;: &quot;/run/user/1000&quot;,
-            &quot;XDG_SESSION_ID&quot;: &quot;34&quot;,
-            &quot;_&quot;: &quot;/usr/bin/python&quot;
+        &#34;domain&#34;: &#34;ap-east-1.compute.internal&#34;,
+        &#34;effective_group_id&#34;: 1000,
+        &#34;effective_user_id&#34;: 1000,
+        &#34;env&#34;: {
+            &#34;HOME&#34;: &#34;/home/ec2-user&#34;,
+            &#34;LANG&#34;: &#34;C.UTF-8&#34;,
+            &#34;LC_ADDRESS&#34;: &#34;C.UTF-8&#34;,
+            &#34;LC_IDENTIFICATION&#34;: &#34;C.UTF-8&#34;,
+            &#34;LC_MEASUREMENT&#34;: &#34;C.UTF-8&#34;,
+            &#34;LC_MONETARY&#34;: &#34;C.UTF-8&#34;,
+            &#34;LC_NAME&#34;: &#34;C.UTF-8&#34;,
+            &#34;LC_NUMERIC&#34;: &#34;C.UTF-8&#34;,
+            &#34;LC_PAPER&#34;: &#34;C.UTF-8&#34;,
+            &#34;LC_TELEPHONE&#34;: &#34;C.UTF-8&#34;,
+            &#34;LC_TIME&#34;: &#34;C.UTF-8&#34;,
+            &#34;LESSOPEN&#34;: &#34;||/usr/bin/lesspipe.sh %s&#34;,
+            &#34;LOGNAME&#34;: &#34;ec2-user&#34;,
+            &#34;LS_COLORS&#34;: &#34;rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:&#34;,
+            &#34;MAIL&#34;: &#34;/var/mail/ec2-user&#34;,
+            &#34;PATH&#34;: &#34;/usr/local/bin:/usr/bin&#34;,
+            &#34;PWD&#34;: &#34;/home/ec2-user&#34;,
+            &#34;SHELL&#34;: &#34;/bin/bash&#34;,
+            &#34;SHLVL&#34;: &#34;2&#34;,
+            &#34;SSH_CLIENT&#34;: &#34;18.162.41.145 50404 22&#34;,
+            &#34;SSH_CONNECTION&#34;: &#34;18.162.41.145 50404 10.32.1.186 22&#34;,
+            &#34;SSH_TTY&#34;: &#34;/dev/pts/0&#34;,
+            &#34;TERM&#34;: &#34;xterm-256color&#34;,
+            &#34;USER&#34;: &#34;ec2-user&#34;,
+            &#34;XDG_RUNTIME_DIR&#34;: &#34;/run/user/1000&#34;,
+            &#34;XDG_SESSION_ID&#34;: &#34;34&#34;,
+            &#34;_&#34;: &#34;/usr/bin/python&#34;
         },
-        &quot;eth0&quot;: {
-            &quot;active&quot;: true,
-            &quot;device&quot;: &quot;eth0&quot;,
-            &quot;features&quot;: {
-                &quot;esp_hw_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;esp_tx_csum_hw_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;fcoe_mtu&quot;: &quot;off [fixed]&quot;,
-                &quot;generic_receive_offload&quot;: &quot;on&quot;,
-                &quot;generic_segmentation_offload&quot;: &quot;on&quot;,
-                &quot;highdma&quot;: &quot;on&quot;,
-                &quot;hw_tc_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;l2_fwd_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;large_receive_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;loopback&quot;: &quot;off [fixed]&quot;,
-                &quot;macsec_hw_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;netns_local&quot;: &quot;off [fixed]&quot;,
-                &quot;ntuple_filters&quot;: &quot;off [fixed]&quot;,
-                &quot;receive_hashing&quot;: &quot;on&quot;,
-                &quot;rx_all&quot;: &quot;off [fixed]&quot;,
-                &quot;rx_checksumming&quot;: &quot;off [fixed]&quot;,
-                &quot;rx_fcs&quot;: &quot;off [fixed]&quot;,
-                &quot;rx_gro_hw&quot;: &quot;off [fixed]&quot;,
-                &quot;rx_gro_list&quot;: &quot;off&quot;,
-                &quot;rx_udp_tunnel_port_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;rx_vlan_filter&quot;: &quot;off [fixed]&quot;,
-                &quot;rx_vlan_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;rx_vlan_stag_filter&quot;: &quot;off [fixed]&quot;,
-                &quot;rx_vlan_stag_hw_parse&quot;: &quot;off [fixed]&quot;,
-                &quot;scatter_gather&quot;: &quot;on&quot;,
-                &quot;tcp_segmentation_offload&quot;: &quot;off&quot;,
-                &quot;tls_hw_record&quot;: &quot;off [fixed]&quot;,
-                &quot;tls_hw_rx_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;tls_hw_tx_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_checksum_fcoe_crc&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_checksum_ip_generic&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_checksum_ipv4&quot;: &quot;on&quot;,
-                &quot;tx_checksum_ipv6&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_checksum_sctp&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_checksumming&quot;: &quot;on&quot;,
-                &quot;tx_esp_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_fcoe_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_gre_csum_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_gre_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_gso_list&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_gso_partial&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_gso_robust&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_ipxip4_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_ipxip6_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_lockless&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_nocache_copy&quot;: &quot;off&quot;,
-                &quot;tx_scatter_gather&quot;: &quot;on&quot;,
-                &quot;tx_scatter_gather_fraglist&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_sctp_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_tcp6_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_tcp_ecn_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_tcp_mangleid_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_tcp_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_tunnel_remcsum_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_udp_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_udp_tnl_csum_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_udp_tnl_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_vlan_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_vlan_stag_hw_insert&quot;: &quot;off [fixed]&quot;,
-                &quot;udp_fragmentation_offload&quot;: &quot;off&quot;,
-                &quot;vlan_challenged&quot;: &quot;off [fixed]&quot;
+        &#34;eth0&#34;: {
+            &#34;active&#34;: true,
+            &#34;device&#34;: &#34;eth0&#34;,
+            &#34;features&#34;: {
+                &#34;esp_hw_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;esp_tx_csum_hw_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;fcoe_mtu&#34;: &#34;off [fixed]&#34;,
+                &#34;generic_receive_offload&#34;: &#34;on&#34;,
+                &#34;generic_segmentation_offload&#34;: &#34;on&#34;,
+                &#34;highdma&#34;: &#34;on&#34;,
+                &#34;hw_tc_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;l2_fwd_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;large_receive_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;loopback&#34;: &#34;off [fixed]&#34;,
+                &#34;macsec_hw_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;netns_local&#34;: &#34;off [fixed]&#34;,
+                &#34;ntuple_filters&#34;: &#34;off [fixed]&#34;,
+                &#34;receive_hashing&#34;: &#34;on&#34;,
+                &#34;rx_all&#34;: &#34;off [fixed]&#34;,
+                &#34;rx_checksumming&#34;: &#34;off [fixed]&#34;,
+                &#34;rx_fcs&#34;: &#34;off [fixed]&#34;,
+                &#34;rx_gro_hw&#34;: &#34;off [fixed]&#34;,
+                &#34;rx_gro_list&#34;: &#34;off&#34;,
+                &#34;rx_udp_tunnel_port_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;rx_vlan_filter&#34;: &#34;off [fixed]&#34;,
+                &#34;rx_vlan_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;rx_vlan_stag_filter&#34;: &#34;off [fixed]&#34;,
+                &#34;rx_vlan_stag_hw_parse&#34;: &#34;off [fixed]&#34;,
+                &#34;scatter_gather&#34;: &#34;on&#34;,
+                &#34;tcp_segmentation_offload&#34;: &#34;off&#34;,
+                &#34;tls_hw_record&#34;: &#34;off [fixed]&#34;,
+                &#34;tls_hw_rx_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;tls_hw_tx_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_checksum_fcoe_crc&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_checksum_ip_generic&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_checksum_ipv4&#34;: &#34;on&#34;,
+                &#34;tx_checksum_ipv6&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_checksum_sctp&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_checksumming&#34;: &#34;on&#34;,
+                &#34;tx_esp_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_fcoe_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_gre_csum_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_gre_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_gso_list&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_gso_partial&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_gso_robust&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_ipxip4_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_ipxip6_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_lockless&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_nocache_copy&#34;: &#34;off&#34;,
+                &#34;tx_scatter_gather&#34;: &#34;on&#34;,
+                &#34;tx_scatter_gather_fraglist&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_sctp_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_tcp6_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_tcp_ecn_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_tcp_mangleid_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_tcp_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_tunnel_remcsum_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_udp_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_udp_tnl_csum_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_udp_tnl_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_vlan_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_vlan_stag_hw_insert&#34;: &#34;off [fixed]&#34;,
+                &#34;udp_fragmentation_offload&#34;: &#34;off&#34;,
+                &#34;vlan_challenged&#34;: &#34;off [fixed]&#34;
             },
-            &quot;hw_timestamp_filters&quot;: [],
-            &quot;ipv4&quot;: {
-                &quot;address&quot;: &quot;10.32.1.186&quot;,
-                &quot;broadcast&quot;: &quot;10.32.1.255&quot;,
-                &quot;netmask&quot;: &quot;255.255.255.0&quot;,
-                &quot;network&quot;: &quot;10.32.1.0&quot;
+            &#34;hw_timestamp_filters&#34;: [],
+            &#34;ipv4&#34;: {
+                &#34;address&#34;: &#34;10.32.1.186&#34;,
+                &#34;broadcast&#34;: &#34;10.32.1.255&#34;,
+                &#34;netmask&#34;: &#34;255.255.255.0&#34;,
+                &#34;network&#34;: &#34;10.32.1.0&#34;
             },
-            &quot;ipv6&quot;: [
+            &#34;ipv6&#34;: [
                 {
-                    &quot;address&quot;: &quot;fe80::42d:d5ff:fef3:7b08&quot;,
-                    &quot;prefix&quot;: &quot;64&quot;,
-                    &quot;scope&quot;: &quot;link&quot;
+                    &#34;address&#34;: &#34;fe80::42d:d5ff:fef3:7b08&#34;,
+                    &#34;prefix&#34;: &#34;64&#34;,
+                    &#34;scope&#34;: &#34;link&#34;
                 }
             ],
-            &quot;macaddress&quot;: &quot;06:2d:d5:f3:7b:08&quot;,
-            &quot;module&quot;: &quot;ena&quot;,
-            &quot;mtu&quot;: 9001,
-            &quot;pciid&quot;: &quot;0000:00:05.0&quot;,
-            &quot;promisc&quot;: false,
-            &quot;timestamping&quot;: [
-                &quot;tx_software&quot;,
-                &quot;rx_software&quot;,
-                &quot;software&quot;
+            &#34;macaddress&#34;: &#34;06:2d:d5:f3:7b:08&#34;,
+            &#34;module&#34;: &#34;ena&#34;,
+            &#34;mtu&#34;: 9001,
+            &#34;pciid&#34;: &#34;0000:00:05.0&#34;,
+            &#34;promisc&#34;: false,
+            &#34;timestamping&#34;: [
+                &#34;tx_software&#34;,
+                &#34;rx_software&#34;,
+                &#34;software&#34;
             ],
-            &quot;type&quot;: &quot;ether&quot;
+            &#34;type&#34;: &#34;ether&#34;
         },
-        &quot;fibre_channel_wwn&quot;: [],
-        &quot;fips&quot;: false,
-        &quot;form_factor&quot;: &quot;Other&quot;,
-        &quot;fqdn&quot;: &quot;ip-10-32-1-186.ap-east-1.compute.internal&quot;,
-        &quot;gather_subset&quot;: [
-            &quot;all&quot;
+        &#34;fibre_channel_wwn&#34;: [],
+        &#34;fips&#34;: false,
+        &#34;form_factor&#34;: &#34;Other&#34;,
+        &#34;fqdn&#34;: &#34;ip-10-32-1-186.ap-east-1.compute.internal&#34;,
+        &#34;gather_subset&#34;: [
+            &#34;all&#34;
         ],
-        &quot;hostname&quot;: &quot;ip-10-32-1-186&quot;,
-        &quot;hostnqn&quot;: &quot;&quot;,
-        &quot;interfaces&quot;: [
-            &quot;lo&quot;,
-            &quot;eth0&quot;
+        &#34;hostname&#34;: &#34;ip-10-32-1-186&#34;,
+        &#34;hostnqn&#34;: &#34;&#34;,
+        &#34;interfaces&#34;: [
+            &#34;lo&#34;,
+            &#34;eth0&#34;
         ],
-        &quot;is_chroot&quot;: true,
-        &quot;iscsi_iqn&quot;: &quot;&quot;,
-        &quot;kernel&quot;: &quot;5.10.135-122.509.amzn2.x86_64&quot;,
-        &quot;kernel_version&quot;: &quot;#1 SMP Thu Aug 11 22:41:16 UTC 2022&quot;,
-        &quot;lo&quot;: {
-            &quot;active&quot;: true,
-            &quot;device&quot;: &quot;lo&quot;,
-            &quot;features&quot;: {
-                &quot;esp_hw_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;esp_tx_csum_hw_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;fcoe_mtu&quot;: &quot;off [fixed]&quot;,
-                &quot;generic_receive_offload&quot;: &quot;on&quot;,
-                &quot;generic_segmentation_offload&quot;: &quot;on&quot;,
-                &quot;highdma&quot;: &quot;on [fixed]&quot;,
-                &quot;hw_tc_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;l2_fwd_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;large_receive_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;loopback&quot;: &quot;on [fixed]&quot;,
-                &quot;macsec_hw_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;netns_local&quot;: &quot;on [fixed]&quot;,
-                &quot;ntuple_filters&quot;: &quot;off [fixed]&quot;,
-                &quot;receive_hashing&quot;: &quot;off [fixed]&quot;,
-                &quot;rx_all&quot;: &quot;off [fixed]&quot;,
-                &quot;rx_checksumming&quot;: &quot;on [fixed]&quot;,
-                &quot;rx_fcs&quot;: &quot;off [fixed]&quot;,
-                &quot;rx_gro_hw&quot;: &quot;off [fixed]&quot;,
-                &quot;rx_gro_list&quot;: &quot;off&quot;,
-                &quot;rx_udp_tunnel_port_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;rx_vlan_filter&quot;: &quot;off [fixed]&quot;,
-                &quot;rx_vlan_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;rx_vlan_stag_filter&quot;: &quot;off [fixed]&quot;,
-                &quot;rx_vlan_stag_hw_parse&quot;: &quot;off [fixed]&quot;,
-                &quot;scatter_gather&quot;: &quot;on&quot;,
-                &quot;tcp_segmentation_offload&quot;: &quot;on&quot;,
-                &quot;tls_hw_record&quot;: &quot;off [fixed]&quot;,
-                &quot;tls_hw_rx_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;tls_hw_tx_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_checksum_fcoe_crc&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_checksum_ip_generic&quot;: &quot;on [fixed]&quot;,
-                &quot;tx_checksum_ipv4&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_checksum_ipv6&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_checksum_sctp&quot;: &quot;on [fixed]&quot;,
-                &quot;tx_checksumming&quot;: &quot;on&quot;,
-                &quot;tx_esp_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_fcoe_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_gre_csum_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_gre_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_gso_list&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_gso_partial&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_gso_robust&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_ipxip4_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_ipxip6_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_lockless&quot;: &quot;on [fixed]&quot;,
-                &quot;tx_nocache_copy&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_scatter_gather&quot;: &quot;on [fixed]&quot;,
-                &quot;tx_scatter_gather_fraglist&quot;: &quot;on [fixed]&quot;,
-                &quot;tx_sctp_segmentation&quot;: &quot;on&quot;,
-                &quot;tx_tcp6_segmentation&quot;: &quot;on&quot;,
-                &quot;tx_tcp_ecn_segmentation&quot;: &quot;on&quot;,
-                &quot;tx_tcp_mangleid_segmentation&quot;: &quot;on&quot;,
-                &quot;tx_tcp_segmentation&quot;: &quot;on&quot;,
-                &quot;tx_tunnel_remcsum_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_udp_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_udp_tnl_csum_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_udp_tnl_segmentation&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_vlan_offload&quot;: &quot;off [fixed]&quot;,
-                &quot;tx_vlan_stag_hw_insert&quot;: &quot;off [fixed]&quot;,
-                &quot;udp_fragmentation_offload&quot;: &quot;off&quot;,
-                &quot;vlan_challenged&quot;: &quot;on [fixed]&quot;
+        &#34;is_chroot&#34;: true,
+        &#34;iscsi_iqn&#34;: &#34;&#34;,
+        &#34;kernel&#34;: &#34;5.10.135-122.509.amzn2.x86_64&#34;,
+        &#34;kernel_version&#34;: &#34;#1 SMP Thu Aug 11 22:41:16 UTC 2022&#34;,
+        &#34;lo&#34;: {
+            &#34;active&#34;: true,
+            &#34;device&#34;: &#34;lo&#34;,
+            &#34;features&#34;: {
+                &#34;esp_hw_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;esp_tx_csum_hw_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;fcoe_mtu&#34;: &#34;off [fixed]&#34;,
+                &#34;generic_receive_offload&#34;: &#34;on&#34;,
+                &#34;generic_segmentation_offload&#34;: &#34;on&#34;,
+                &#34;highdma&#34;: &#34;on [fixed]&#34;,
+                &#34;hw_tc_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;l2_fwd_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;large_receive_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;loopback&#34;: &#34;on [fixed]&#34;,
+                &#34;macsec_hw_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;netns_local&#34;: &#34;on [fixed]&#34;,
+                &#34;ntuple_filters&#34;: &#34;off [fixed]&#34;,
+                &#34;receive_hashing&#34;: &#34;off [fixed]&#34;,
+                &#34;rx_all&#34;: &#34;off [fixed]&#34;,
+                &#34;rx_checksumming&#34;: &#34;on [fixed]&#34;,
+                &#34;rx_fcs&#34;: &#34;off [fixed]&#34;,
+                &#34;rx_gro_hw&#34;: &#34;off [fixed]&#34;,
+                &#34;rx_gro_list&#34;: &#34;off&#34;,
+                &#34;rx_udp_tunnel_port_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;rx_vlan_filter&#34;: &#34;off [fixed]&#34;,
+                &#34;rx_vlan_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;rx_vlan_stag_filter&#34;: &#34;off [fixed]&#34;,
+                &#34;rx_vlan_stag_hw_parse&#34;: &#34;off [fixed]&#34;,
+                &#34;scatter_gather&#34;: &#34;on&#34;,
+                &#34;tcp_segmentation_offload&#34;: &#34;on&#34;,
+                &#34;tls_hw_record&#34;: &#34;off [fixed]&#34;,
+                &#34;tls_hw_rx_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;tls_hw_tx_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_checksum_fcoe_crc&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_checksum_ip_generic&#34;: &#34;on [fixed]&#34;,
+                &#34;tx_checksum_ipv4&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_checksum_ipv6&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_checksum_sctp&#34;: &#34;on [fixed]&#34;,
+                &#34;tx_checksumming&#34;: &#34;on&#34;,
+                &#34;tx_esp_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_fcoe_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_gre_csum_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_gre_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_gso_list&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_gso_partial&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_gso_robust&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_ipxip4_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_ipxip6_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_lockless&#34;: &#34;on [fixed]&#34;,
+                &#34;tx_nocache_copy&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_scatter_gather&#34;: &#34;on [fixed]&#34;,
+                &#34;tx_scatter_gather_fraglist&#34;: &#34;on [fixed]&#34;,
+                &#34;tx_sctp_segmentation&#34;: &#34;on&#34;,
+                &#34;tx_tcp6_segmentation&#34;: &#34;on&#34;,
+                &#34;tx_tcp_ecn_segmentation&#34;: &#34;on&#34;,
+                &#34;tx_tcp_mangleid_segmentation&#34;: &#34;on&#34;,
+                &#34;tx_tcp_segmentation&#34;: &#34;on&#34;,
+                &#34;tx_tunnel_remcsum_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_udp_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_udp_tnl_csum_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_udp_tnl_segmentation&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_vlan_offload&#34;: &#34;off [fixed]&#34;,
+                &#34;tx_vlan_stag_hw_insert&#34;: &#34;off [fixed]&#34;,
+                &#34;udp_fragmentation_offload&#34;: &#34;off&#34;,
+                &#34;vlan_challenged&#34;: &#34;on [fixed]&#34;
             },
-            &quot;hw_timestamp_filters&quot;: [],
-            &quot;ipv4&quot;: {
-                &quot;address&quot;: &quot;127.0.0.1&quot;,
-                &quot;broadcast&quot;: &quot;host&quot;,
-                &quot;netmask&quot;: &quot;255.0.0.0&quot;,
-                &quot;network&quot;: &quot;127.0.0.0&quot;
+            &#34;hw_timestamp_filters&#34;: [],
+            &#34;ipv4&#34;: {
+                &#34;address&#34;: &#34;127.0.0.1&#34;,
+                &#34;broadcast&#34;: &#34;host&#34;,
+                &#34;netmask&#34;: &#34;255.0.0.0&#34;,
+                &#34;network&#34;: &#34;127.0.0.0&#34;
             },
-            &quot;ipv6&quot;: [
+            &#34;ipv6&#34;: [
                 {
-                    &quot;address&quot;: &quot;::1&quot;,
-                    &quot;prefix&quot;: &quot;128&quot;,
-                    &quot;scope&quot;: &quot;host&quot;
+                    &#34;address&#34;: &#34;::1&#34;,
+                    &#34;prefix&#34;: &#34;128&#34;,
+                    &#34;scope&#34;: &#34;host&#34;
                 }
             ],
-            &quot;mtu&quot;: 65536,
-            &quot;promisc&quot;: false,
-            &quot;timestamping&quot;: [
-                &quot;tx_software&quot;,
-                &quot;rx_software&quot;,
-                &quot;software&quot;
+            &#34;mtu&#34;: 65536,
+            &#34;promisc&#34;: false,
+            &#34;timestamping&#34;: [
+                &#34;tx_software&#34;,
+                &#34;rx_software&#34;,
+                &#34;software&#34;
             ],
-            &quot;type&quot;: &quot;loopback&quot;
+            &#34;type&#34;: &#34;loopback&#34;
         },
-        &quot;lsb&quot;: {},
-        &quot;machine&quot;: &quot;x86_64&quot;,
-        &quot;machine_id&quot;: &quot;ec2a0c93cafdf59f762c6748bad6ea6e&quot;,
-        &quot;memfree_mb&quot;: 578,
-        &quot;memory_mb&quot;: {
-            &quot;nocache&quot;: {
-                &quot;free&quot;: 794,
-                &quot;used&quot;: 146
+        &#34;lsb&#34;: {},
+        &#34;machine&#34;: &#34;x86_64&#34;,
+        &#34;machine_id&#34;: &#34;ec2a0c93cafdf59f762c6748bad6ea6e&#34;,
+        &#34;memfree_mb&#34;: 578,
+        &#34;memory_mb&#34;: {
+            &#34;nocache&#34;: {
+                &#34;free&#34;: 794,
+                &#34;used&#34;: 146
             },
-            &quot;real&quot;: {
-                &quot;free&quot;: 578,
-                &quot;total&quot;: 940,
-                &quot;used&quot;: 362
+            &#34;real&#34;: {
+                &#34;free&#34;: 578,
+                &#34;total&#34;: 940,
+                &#34;used&#34;: 362
             },
-            &quot;swap&quot;: {
-                &quot;cached&quot;: 0,
-                &quot;free&quot;: 0,
-                &quot;total&quot;: 0,
-                &quot;used&quot;: 0
+            &#34;swap&#34;: {
+                &#34;cached&#34;: 0,
+                &#34;free&#34;: 0,
+                &#34;total&#34;: 0,
+                &#34;used&#34;: 0
             }
         },
-        &quot;memtotal_mb&quot;: 940,
-        &quot;module_setup&quot;: true,
-        &quot;mounts&quot;: [
+        &#34;memtotal_mb&#34;: 940,
+        &#34;module_setup&#34;: true,
+        &#34;mounts&#34;: [
             {
-                &quot;block_available&quot;: 1668655,
-                &quot;block_size&quot;: 4096,
-                &quot;block_total&quot;: 2094075,
-                &quot;block_used&quot;: 425420,
-                &quot;device&quot;: &quot;/dev/nvme0n1p1&quot;,
-                &quot;fstype&quot;: &quot;xfs&quot;,
-                &quot;inode_available&quot;: 4145004,
-                &quot;inode_total&quot;: 4193216,
-                &quot;inode_used&quot;: 48212,
-                &quot;mount&quot;: &quot;/&quot;,
-                &quot;options&quot;: &quot;rw,noatime,attr2,inode64,logbufs=8,logbsize=32k,noquota&quot;,
-                &quot;size_available&quot;: 6834810880,
-                &quot;size_total&quot;: 8577331200,
-                &quot;uuid&quot;: &quot;2318d4b7-b8cd-4579-ab46-47af13e15000&quot;
+                &#34;block_available&#34;: 1668655,
+                &#34;block_size&#34;: 4096,
+                &#34;block_total&#34;: 2094075,
+                &#34;block_used&#34;: 425420,
+                &#34;device&#34;: &#34;/dev/nvme0n1p1&#34;,
+                &#34;fstype&#34;: &#34;xfs&#34;,
+                &#34;inode_available&#34;: 4145004,
+                &#34;inode_total&#34;: 4193216,
+                &#34;inode_used&#34;: 48212,
+                &#34;mount&#34;: &#34;/&#34;,
+                &#34;options&#34;: &#34;rw,noatime,attr2,inode64,logbufs=8,logbsize=32k,noquota&#34;,
+                &#34;size_available&#34;: 6834810880,
+                &#34;size_total&#34;: 8577331200,
+                &#34;uuid&#34;: &#34;2318d4b7-b8cd-4579-ab46-47af13e15000&#34;
             }
         ],
-        &quot;nodename&quot;: &quot;ip-10-32-1-186.ap-east-1.compute.internal&quot;,
-        &quot;os_family&quot;: &quot;RedHat&quot;,
-        &quot;pkg_mgr&quot;: &quot;yum&quot;,
-        &quot;proc_cmdline&quot;: {
-            &quot;BOOT_IMAGE&quot;: &quot;/boot/vmlinuz-5.10.135-122.509.amzn2.x86_64&quot;,
-            &quot;biosdevname&quot;: &quot;0&quot;,
-            &quot;console&quot;: [
-                &quot;tty0&quot;,
-                &quot;ttyS0,115200n8&quot;
+        &#34;nodename&#34;: &#34;ip-10-32-1-186.ap-east-1.compute.internal&#34;,
+        &#34;os_family&#34;: &#34;RedHat&#34;,
+        &#34;pkg_mgr&#34;: &#34;yum&#34;,
+        &#34;proc_cmdline&#34;: {
+            &#34;BOOT_IMAGE&#34;: &#34;/boot/vmlinuz-5.10.135-122.509.amzn2.x86_64&#34;,
+            &#34;biosdevname&#34;: &#34;0&#34;,
+            &#34;console&#34;: [
+                &#34;tty0&#34;,
+                &#34;ttyS0,115200n8&#34;
             ],
-            &quot;net.ifnames&quot;: &quot;0&quot;,
-            &quot;nvme_core.io_timeout&quot;: &quot;4294967295&quot;,
-            &quot;rd.emergency&quot;: &quot;poweroff&quot;,
-            &quot;rd.shell&quot;: &quot;0&quot;,
-            &quot;ro&quot;: true,
-            &quot;root&quot;: &quot;UUID=2318d4b7-b8cd-4579-ab46-47af13e15000&quot;
+            &#34;net.ifnames&#34;: &#34;0&#34;,
+            &#34;nvme_core.io_timeout&#34;: &#34;4294967295&#34;,
+            &#34;rd.emergency&#34;: &#34;poweroff&#34;,
+            &#34;rd.shell&#34;: &#34;0&#34;,
+            &#34;ro&#34;: true,
+            &#34;root&#34;: &#34;UUID=2318d4b7-b8cd-4579-ab46-47af13e15000&#34;
         },
-        &quot;processor&quot;: [
-            &quot;0&quot;,
-            &quot;GenuineIntel&quot;,
-            &quot;Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz&quot;,
-            &quot;1&quot;,
-            &quot;GenuineIntel&quot;,
-            &quot;Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz&quot;
+        &#34;processor&#34;: [
+            &#34;0&#34;,
+            &#34;GenuineIntel&#34;,
+            &#34;Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz&#34;,
+            &#34;1&#34;,
+            &#34;GenuineIntel&#34;,
+            &#34;Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz&#34;
         ],
-        &quot;processor_cores&quot;: 1,
-        &quot;processor_count&quot;: 1,
-        &quot;processor_threads_per_core&quot;: 2,
-        &quot;processor_vcpus&quot;: 2,
-        &quot;product_name&quot;: &quot;t3.micro&quot;,
-        &quot;product_serial&quot;: &quot;NA&quot;,
-        &quot;product_uuid&quot;: &quot;NA&quot;,
-        &quot;product_version&quot;: &quot;NA&quot;,
-        &quot;python&quot;: {
-            &quot;executable&quot;: &quot;/usr/bin/python&quot;,
-            &quot;has_sslcontext&quot;: true,
-            &quot;type&quot;: &quot;CPython&quot;,
-            &quot;version&quot;: {
-                &quot;major&quot;: 2,
-                &quot;micro&quot;: 18,
-                &quot;minor&quot;: 7,
-                &quot;releaselevel&quot;: &quot;final&quot;,
-                &quot;serial&quot;: 0
+        &#34;processor_cores&#34;: 1,
+        &#34;processor_count&#34;: 1,
+        &#34;processor_threads_per_core&#34;: 2,
+        &#34;processor_vcpus&#34;: 2,
+        &#34;product_name&#34;: &#34;t3.micro&#34;,
+        &#34;product_serial&#34;: &#34;NA&#34;,
+        &#34;product_uuid&#34;: &#34;NA&#34;,
+        &#34;product_version&#34;: &#34;NA&#34;,
+        &#34;python&#34;: {
+            &#34;executable&#34;: &#34;/usr/bin/python&#34;,
+            &#34;has_sslcontext&#34;: true,
+            &#34;type&#34;: &#34;CPython&#34;,
+            &#34;version&#34;: {
+                &#34;major&#34;: 2,
+                &#34;micro&#34;: 18,
+                &#34;minor&#34;: 7,
+                &#34;releaselevel&#34;: &#34;final&#34;,
+                &#34;serial&#34;: 0
             },
-            &quot;version_info&quot;: [
+            &#34;version_info&#34;: [
                 2,
                 7,
                 18,
-                &quot;final&quot;,
+                &#34;final&#34;,
                 0
             ]
         },
-        &quot;python_version&quot;: &quot;2.7.18&quot;,
-        &quot;real_group_id&quot;: 1000,
-        &quot;real_user_id&quot;: 1000,
-        &quot;selinux&quot;: {
-            &quot;status&quot;: &quot;Missing selinux Python library&quot;
+        &#34;python_version&#34;: &#34;2.7.18&#34;,
+        &#34;real_group_id&#34;: 1000,
+        &#34;real_user_id&#34;: 1000,
+        &#34;selinux&#34;: {
+            &#34;status&#34;: &#34;Missing selinux Python library&#34;
         },
-        &quot;selinux_python_present&quot;: false,
-        &quot;service_mgr&quot;: &quot;systemd&quot;,
-        &quot;ssh_host_key_ecdsa_public&quot;: &quot;AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMQHztuwL47pwpF7HDjl61XRcALUQSBkQB+xJhMA5m7+z0CZxtyY1W93Jz7YcFEbYuGNzbnb51i67iTOG+0+oOs=&quot;,
-        &quot;ssh_host_key_ed25519_public&quot;: &quot;AAAAC3NzaC1lZDI1NTE5AAAAIGctEOyP5SdD+z5uIV/UPvpn8e2cbgw0zNjFegk8haAf&quot;,
-        &quot;ssh_host_key_rsa_public&quot;: &quot;AAAAB3NzaC1yc2EAAAADAQABAAABAQC+oJTDejKkf4IX/+vwayNQ3OSD+HwRnDIQT73cbZsDpMo0Hnl2ORwVxwCibih2nTc9VrF839ItfP8NBIQHADFz6EqAMJQ+qyMMy5Vlm+w1AajSNk7SxZEfGqo4w8bbXnLgmWmCk5Q5lhzIXvwsECnLs98Ld3tGSKqHgCJLJ1qec/UNa4NGoyey+0wwAvUfjAInjUWE20U5ZHAq7Ji8fxo6Ws6hZ0tgy/XZ5EkqV0jVwqzsCl6eQH11q/Dm9N+YetNr5oJrIH/R5syiSc6ChgFjXBhjoonf5YzUuPoPdXqR6y8snuuZKGIadG3a72G0pZbpx5u97bQZODwcC267NG+v&quot;,
-        &quot;swapfree_mb&quot;: 0,
-        &quot;swaptotal_mb&quot;: 0,
-        &quot;system&quot;: &quot;Linux&quot;,
-        &quot;system_capabilities&quot;: [
-            &quot;&quot;
+        &#34;selinux_python_present&#34;: false,
+        &#34;service_mgr&#34;: &#34;systemd&#34;,
+        &#34;ssh_host_key_ecdsa_public&#34;: &#34;AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMQHztuwL47pwpF7HDjl61XRcALUQSBkQB+xJhMA5m7+z0CZxtyY1W93Jz7YcFEbYuGNzbnb51i67iTOG+0+oOs=&#34;,
+        &#34;ssh_host_key_ed25519_public&#34;: &#34;AAAAC3NzaC1lZDI1NTE5AAAAIGctEOyP5SdD+z5uIV/UPvpn8e2cbgw0zNjFegk8haAf&#34;,
+        &#34;ssh_host_key_rsa_public&#34;: &#34;AAAAB3NzaC1yc2EAAAADAQABAAABAQC+oJTDejKkf4IX/+vwayNQ3OSD+HwRnDIQT73cbZsDpMo0Hnl2ORwVxwCibih2nTc9VrF839ItfP8NBIQHADFz6EqAMJQ+qyMMy5Vlm+w1AajSNk7SxZEfGqo4w8bbXnLgmWmCk5Q5lhzIXvwsECnLs98Ld3tGSKqHgCJLJ1qec/UNa4NGoyey+0wwAvUfjAInjUWE20U5ZHAq7Ji8fxo6Ws6hZ0tgy/XZ5EkqV0jVwqzsCl6eQH11q/Dm9N+YetNr5oJrIH/R5syiSc6ChgFjXBhjoonf5YzUuPoPdXqR6y8snuuZKGIadG3a72G0pZbpx5u97bQZODwcC267NG+v&#34;,
+        &#34;swapfree_mb&#34;: 0,
+        &#34;swaptotal_mb&#34;: 0,
+        &#34;system&#34;: &#34;Linux&#34;,
+        &#34;system_capabilities&#34;: [
+            &#34;&#34;
         ],
-        &quot;system_capabilities_enforced&quot;: &quot;True&quot;,
-        &quot;system_vendor&quot;: &quot;Amazon EC2&quot;,
-        &quot;uptime_seconds&quot;: 11454,
-        &quot;user_dir&quot;: &quot;/home/ec2-user&quot;,
-        &quot;user_gecos&quot;: &quot;EC2 Default User&quot;,
-        &quot;user_gid&quot;: 1000,
-        &quot;user_id&quot;: &quot;ec2-user&quot;,
-        &quot;user_shell&quot;: &quot;/bin/bash&quot;,
-        &quot;user_uid&quot;: 1000,
-        &quot;userspace_architecture&quot;: &quot;x86_64&quot;,
-        &quot;userspace_bits&quot;: &quot;64&quot;,
-        &quot;virtualization_role&quot;: &quot;guest&quot;,
-        &quot;virtualization_type&quot;: &quot;kvm&quot;
+        &#34;system_capabilities_enforced&#34;: &#34;True&#34;,
+        &#34;system_vendor&#34;: &#34;Amazon EC2&#34;,
+        &#34;uptime_seconds&#34;: 11454,
+        &#34;user_dir&#34;: &#34;/home/ec2-user&#34;,
+        &#34;user_gecos&#34;: &#34;EC2 Default User&#34;,
+        &#34;user_gid&#34;: 1000,
+        &#34;user_id&#34;: &#34;ec2-user&#34;,
+        &#34;user_shell&#34;: &#34;/bin/bash&#34;,
+        &#34;user_uid&#34;: 1000,
+        &#34;userspace_architecture&#34;: &#34;x86_64&#34;,
+        &#34;userspace_bits&#34;: &#34;64&#34;,
+        &#34;virtualization_role&#34;: &#34;guest&#34;,
+        &#34;virtualization_type&#34;: &#34;kvm&#34;
     }
 }
 
@@ -2447,9 +2447,9 @@ PLAY RECAP *********************************************************************
   gather_facts: true
 
   tasks:
-    - name: &quot;Show ansiblr Facts&quot;
+    - name: &#34;Show ansiblr Facts&#34;
       debug:
-        var: ansible_facts['python_version']
+        var: ansible_facts[&#39;python_version&#39;]
 </code></pre><p>và đây là kết quả:</p>
 <p><img src="/images/feature4/img_19.png" alt="" /><br />
 bài viết lần này của mình tạm dừng ở đây, hy vọng khi bạn làm theo những bước mình đã viết, bạn có thể hiểu được phần nào về biến trong Ansible, học phải đi đôi với hành đúng k nào!!!!</p>
@@ -2935,7 +2935,7 @@ bài viết lần này của mình tạm dừng ở đây, hy vọng khi bạn l
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3627,7 +3627,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 

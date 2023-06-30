@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
 
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.115.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1808,31 +1808,31 @@ truy cập an toàn vào các tài nguyên AWS. Bạn sử dụng IAM để ki�
 <p>Mọi thứ trong AWS đều là API, điều này rất quan trọng, nó cũng có nghĩa là để thực thi API, trước hết chúng ta phải xác thực, nhưng sau đó chúng ta phải ủy quyền. Đó chính là lý do vì sao chúng ta cần có Policy.</p>
 <p>Policy là những file JSON được đính kèm trực tiếp vào User, Group hoặc Role. 1 Policy sẽ có dạng cấu trúc cơ bản như sau:</p>
 <pre tabindex="0"><code> {
-     &quot;Version&quot;: &quot;2012-10-17&quot;,
-     &quot;Statement&quot;: [
+     &#34;Version&#34;: &#34;2012-10-17&#34;,
+     &#34;Statement&#34;: [
        {
-         &quot;Sid&quot;: &quot;Stmt1571671788500&quot;,
-         &quot;Action&quot;: [
-           &quot;ec2:CreateImage&quot;,
-           &quot;ec2:CreateNetworkAcl&quot;,
-           &quot;ec2:CreateNetworkAclEntry&quot;,
-           &quot;ec2:CreateVpc&quot;
+         &#34;Sid&#34;: &#34;Stmt1571671788500&#34;,
+         &#34;Action&#34;: [
+           &#34;ec2:CreateImage&#34;,
+           &#34;ec2:CreateNetworkAcl&#34;,
+           &#34;ec2:CreateNetworkAclEntry&#34;,
+           &#34;ec2:CreateVpc&#34;
          ],
-         &quot;Effect&quot;: &quot;Allow&quot;,
-         &quot;Resource&quot;: &quot;*&quot;
+         &#34;Effect&#34;: &#34;Allow&#34;,
+         &#34;Resource&#34;: &#34;*&#34;
        },
        {
-         &quot;Sid&quot;: &quot;Stmt1571717009297&quot;,
-         &quot;Action&quot;: [
-           &quot;s3:CreateBucket&quot;,
-           &quot;s3:CreateJob&quot;,
-           &quot;s3:DeleteBucket&quot;,
-           &quot;s3:DeleteBucketPolicy&quot;,
-           &quot;s3:DeleteBucketWebsite&quot;,
-           &quot;s3:DeleteObject&quot;
+         &#34;Sid&#34;: &#34;Stmt1571717009297&#34;,
+         &#34;Action&#34;: [
+           &#34;s3:CreateBucket&#34;,
+           &#34;s3:CreateJob&#34;,
+           &#34;s3:DeleteBucket&#34;,
+           &#34;s3:DeleteBucketPolicy&#34;,
+           &#34;s3:DeleteBucketWebsite&#34;,
+           &#34;s3:DeleteObject&#34;
          ],
-         &quot;Effect&quot;: &quot;Allow&quot;,
-         &quot;Resource&quot;: &quot;*&quot;
+         &#34;Effect&#34;: &#34;Allow&#34;,
+         &#34;Resource&#34;: &#34;*&#34;
        }
      ]
    }
@@ -2325,7 +2325,7 @@ Cảm ơn các bạn đã theo dõi blog! Hẹn gặp lại vào những blog ti
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3025,7 +3025,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 

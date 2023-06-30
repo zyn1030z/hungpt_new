@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
 
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.115.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1786,10 +1786,10 @@ if (!doNotTrack) {
 
 
 class ProductTemplate(models.Model):
-    _inherit = &quot;product.template&quot;
+    _inherit = &#34;product.template&#34;
 
     image = fields.Binary(
-        string=&quot;Product Image&quot;,
+        string=&#34;Product Image&#34;,
         attachment=False,
     )
 </code></pre><p>Trong đoạn code trên trường image của product_template là Binary nhưng không phải là 1 attachment. Mặc định với <em><strong>Binary</strong></em> thì attachment=False.<br />
@@ -1802,30 +1802,30 @@ from odoo.addons.module_test.models.store_image_mixin import StoresImages
 
 
 class CustomModel(models.Model, StoresImages):
-    _name = &quot;my.custom.model&quot;
+    _name = &#34;my.custom.model&#34;
 
-    image_url = fields.Char(string=&quot;Image URL&quot;, required=True)
+    image_url = fields.Char(string=&#34;Image URL&#34;, required=True)
     image = fields.Binary(
-        string=&quot;Image&quot;,
-        compute=&quot;_compute_image&quot;,
+        string=&#34;Image&#34;,
+        compute=&#34;_compute_image&#34;,
         store=True,
         attachment=False
     )
 
-    @api.depends(&quot;image_url&quot;)
+    @api.depends(&#34;image_url&#34;)
     def _compute_image(self):
-        &quot;&quot;&quot;
+        &#34;&#34;&#34;
         Computes the image Binary from the image_url per database record
         automatically.
-        &quot;&quot;&quot;
+        &#34;&#34;&#34;
         for record in self:
             image = None
             if record.image_url:
                 image = self.fetch_image_from_url(record.image_url)
-            record.update({&quot;image&quot;: image, })
+            record.update({&#34;image&#34;: image, })
 </code></pre><p>Bây giờ khi bạn viết 1 đoạn code xử lý ở đâu đó như:</p>
-<pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">obj = self.env[&quot;my.custom.model&quot;].create({
-    &quot;image_url&quot;: &quot;https://...&quot;
+<pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">obj = self.env[&#34;my.custom.model&#34;].create({
+    &#34;image_url&#34;: &#34;https://...&#34;
 })
 </code></pre>
     </article>
@@ -2310,7 +2310,7 @@ class CustomModel(models.Model, StoresImages):
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3005,7 +3005,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 

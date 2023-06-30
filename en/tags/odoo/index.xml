@@ -446,7 +446,7 @@ Hầu như tất cả logic được viết với python, ngoại trừ khi tùy
         <guid>https://hungpt.info/en/posts/odoo-javascript-programming-tutorial-part-two-widget-logic/</guid>
         <description>Trong phần 1, chúng ta đã tạo ra 1 Widget để hiển thị một đoạn text văn bản. Sang phần 2 này, chúng ta cùng nhau xây dựng một logic cho widget này.
 Tiếp theo bạn cần khai báo 1 trường như sau:
-1  field_one = fields.Integer(&amp;#39;Field One&amp;#39;)   Thông thường khi chúng ta khai báo 1 field như trên và thêm chúng vào XML, mặc định Odoo sẽ cho chúng ta sửa giá trị trên giao diện kiểu như sau:</description>
+1 field_one = fields.Integer(&amp;#39;Field One&amp;#39;) Thông thường khi chúng ta khai báo 1 field như trên và thêm chúng vào XML, mặc định Odoo sẽ cho chúng ta sửa giá trị trên giao diện kiểu như sau:</description>
         
         <dc:creator>Hùng Phạm</dc:creator>
         <media:content url="https://hungpt.infoimages/feature1/img_26.png" medium="image"><media:title type="html">featured image</media:title></media:content>

@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
 
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.115.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1830,23 +1830,23 @@ Bạn có thể theo đường dẫn addons/web/static/src/js/views/basic/basic_
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"> <span class="nx">_load</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">dataPoint</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">if</span> <span class="p">(</span><span class="nx">options</span> <span class="o">&amp;&amp;</span> <span class="nx">options</span><span class="p">.</span><span class="nx">onlyGroups</span> <span class="o">&amp;&amp;</span>
-          <span class="o">!</span><span class="p">(</span><span class="nx">dataPoint</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="s1">&#39;list&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">dataPoint</span><span class="p">.</span><span class="nx">groupedBy</span><span class="p">.</span><span class="nx">length</span><span class="p">))</span> <span class="p">{</span>
-            <span class="k">return</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">resolve</span><span class="p">(</span><span class="nx">dataPoint</span><span class="p">);</span>
-        <span class="p">}</span>
-
-        <span class="k">if</span> <span class="p">(</span><span class="nx">dataPoint</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="s1">&#39;record&#39;</span><span class="p">)</span> <span class="p">{</span>
-            <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">_fetchRecord</span><span class="p">(</span><span class="nx">dataPoint</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span>
-        <span class="p">}</span>
-        <span class="k">if</span> <span class="p">(</span><span class="nx">dataPoint</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="s1">&#39;list&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">dataPoint</span><span class="p">.</span><span class="nx">groupedBy</span><span class="p">.</span><span class="nx">length</span><span class="p">)</span> <span class="p">{</span>
-            <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">_readGroup</span><span class="p">(</span><span class="nx">dataPoint</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span>
-        <span class="p">}</span>
-        <span class="k">if</span> <span class="p">(</span><span class="nx">dataPoint</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="s1">&#39;list&#39;</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="nx">dataPoint</span><span class="p">.</span><span class="nx">groupedBy</span><span class="p">.</span><span class="nx">length</span><span class="p">)</span> <span class="p">{</span>
-            <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">_fetchUngroupedList</span><span class="p">(</span><span class="nx">dataPoint</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span>
-        <span class="p">}</span>
-    <span class="p">},</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"> <span class="nx">_load</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">dataPoint</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nx">options</span> <span class="o">&amp;&amp;</span> <span class="nx">options</span><span class="p">.</span><span class="nx">onlyGroups</span> <span class="o">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">          <span class="o">!</span><span class="p">(</span><span class="nx">dataPoint</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="s1">&#39;list&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">dataPoint</span><span class="p">.</span><span class="nx">groupedBy</span><span class="p">.</span><span class="nx">length</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">resolve</span><span class="p">(</span><span class="nx">dataPoint</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nx">dataPoint</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="s1">&#39;record&#39;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">_fetchRecord</span><span class="p">(</span><span class="nx">dataPoint</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nx">dataPoint</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="s1">&#39;list&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">dataPoint</span><span class="p">.</span><span class="nx">groupedBy</span><span class="p">.</span><span class="nx">length</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">_readGroup</span><span class="p">(</span><span class="nx">dataPoint</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nx">dataPoint</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="s1">&#39;list&#39;</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="nx">dataPoint</span><span class="p">.</span><span class="nx">groupedBy</span><span class="p">.</span><span class="nx">length</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">_fetchUngroupedList</span><span class="p">(</span><span class="nx">dataPoint</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Tương ứng với hàm _fetchRecord thực hiện gọi RPC và update dữ liệu hiển thị ra màn hình</p>
 <div class="highlight"><div class="chroma">
@@ -1883,37 +1883,37 @@ Bạn có thể theo đường dẫn addons/web/static/src/js/views/basic/basic_
 </span><span class="lnt">30
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">_fetchRecord</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">record</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
-        <span class="nx">options</span> <span class="o">=</span> <span class="nx">options</span> <span class="o">||</span> <span class="p">{};</span>
-        <span class="kd">var</span> <span class="nx">fieldNames</span> <span class="o">=</span> <span class="nx">options</span><span class="p">.</span><span class="nx">fieldNames</span> <span class="o">||</span> <span class="nx">record</span><span class="p">.</span><span class="nx">getFieldNames</span><span class="p">(</span><span class="nx">options</span><span class="p">);</span>
-        <span class="nx">fieldNames</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">uniq</span><span class="p">(</span><span class="nx">fieldNames</span><span class="p">.</span><span class="nx">concat</span><span class="p">([</span><span class="s1">&#39;display_name&#39;</span><span class="p">]));</span>
-        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">_rpc</span><span class="p">({</span>
-                <span class="nx">model</span><span class="o">:</span> <span class="nx">record</span><span class="p">.</span><span class="nx">model</span><span class="p">,</span>
-                <span class="nx">method</span><span class="o">:</span> <span class="s1">&#39;read&#39;</span><span class="p">,</span>
-                <span class="nx">args</span><span class="o">:</span> <span class="p">[[</span><span class="nx">record</span><span class="p">.</span><span class="nx">res_id</span><span class="p">],</span> <span class="nx">fieldNames</span><span class="p">],</span>
-                <span class="nx">context</span><span class="o">:</span> <span class="nx">_</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span><span class="nx">bin_size</span><span class="o">:</span> <span class="kc">true</span><span class="p">},</span> <span class="nx">record</span><span class="p">.</span><span class="nx">getContext</span><span class="p">()),</span>
-            <span class="p">})</span>
-            <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">result</span><span class="p">)</span> <span class="p">{</span>
-                <span class="k">if</span> <span class="p">(</span><span class="nx">result</span><span class="p">.</span><span class="nx">length</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
-                    <span class="k">return</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">reject</span><span class="p">();</span>
-                <span class="p">}</span>
-                <span class="nx">result</span> <span class="o">=</span> <span class="nx">result</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
-                <span class="nx">record</span><span class="p">.</span><span class="nx">data</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">extend</span><span class="p">({},</span> <span class="nx">record</span><span class="p">.</span><span class="nx">data</span><span class="p">,</span> <span class="nx">result</span><span class="p">);</span>
-            <span class="p">})</span>
-            <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-                <span class="nx">self</span><span class="p">.</span><span class="nx">_parseServerData</span><span class="p">(</span><span class="nx">fieldNames</span><span class="p">,</span> <span class="nx">record</span><span class="p">,</span> <span class="nx">record</span><span class="p">.</span><span class="nx">data</span><span class="p">);</span>
-            <span class="p">})</span>
-            <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-                <span class="k">return</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">all</span><span class="p">([</span>
-                    <span class="nx">self</span><span class="p">.</span><span class="nx">_fetchX2Manys</span><span class="p">(</span><span class="nx">record</span><span class="p">,</span> <span class="nx">options</span><span class="p">),</span>
-                    <span class="nx">self</span><span class="p">.</span><span class="nx">_fetchReferences</span><span class="p">(</span><span class="nx">record</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span>
-                <span class="p">]).</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-                    <span class="k">return</span> <span class="nx">self</span><span class="p">.</span><span class="nx">_postprocess</span><span class="p">(</span><span class="nx">record</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span>
-                <span class="p">});</span>
-            <span class="p">});</span>
-    <span class="p">},</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">_fetchRecord</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">record</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">options</span> <span class="o">=</span> <span class="nx">options</span> <span class="o">||</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">fieldNames</span> <span class="o">=</span> <span class="nx">options</span><span class="p">.</span><span class="nx">fieldNames</span> <span class="o">||</span> <span class="nx">record</span><span class="p">.</span><span class="nx">getFieldNames</span><span class="p">(</span><span class="nx">options</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">fieldNames</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">uniq</span><span class="p">(</span><span class="nx">fieldNames</span><span class="p">.</span><span class="nx">concat</span><span class="p">([</span><span class="s1">&#39;display_name&#39;</span><span class="p">]));</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">_rpc</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">model</span><span class="o">:</span> <span class="nx">record</span><span class="p">.</span><span class="nx">model</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">method</span><span class="o">:</span> <span class="s1">&#39;read&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">args</span><span class="o">:</span> <span class="p">[[</span><span class="nx">record</span><span class="p">.</span><span class="nx">res_id</span><span class="p">],</span> <span class="nx">fieldNames</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">context</span><span class="o">:</span> <span class="nx">_</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span><span class="nx">bin_size</span><span class="o">:</span> <span class="kc">true</span><span class="p">},</span> <span class="nx">record</span><span class="p">.</span><span class="nx">getContext</span><span class="p">()),</span>
+</span></span><span class="line"><span class="cl">            <span class="p">})</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">result</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="p">(</span><span class="nx">result</span><span class="p">.</span><span class="nx">length</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">return</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">reject</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">result</span> <span class="o">=</span> <span class="nx">result</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">record</span><span class="p">.</span><span class="nx">data</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">extend</span><span class="p">({},</span> <span class="nx">record</span><span class="p">.</span><span class="nx">data</span><span class="p">,</span> <span class="nx">result</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="p">})</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">self</span><span class="p">.</span><span class="nx">_parseServerData</span><span class="p">(</span><span class="nx">fieldNames</span><span class="p">,</span> <span class="nx">record</span><span class="p">,</span> <span class="nx">record</span><span class="p">.</span><span class="nx">data</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="p">})</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">all</span><span class="p">([</span>
+</span></span><span class="line"><span class="cl">                    <span class="nx">self</span><span class="p">.</span><span class="nx">_fetchX2Manys</span><span class="p">(</span><span class="nx">record</span><span class="p">,</span> <span class="nx">options</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">                    <span class="nx">self</span><span class="p">.</span><span class="nx">_fetchReferences</span><span class="p">(</span><span class="nx">record</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="p">]).</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">return</span> <span class="nx">self</span><span class="p">.</span><span class="nx">_postprocess</span><span class="p">(</span><span class="nx">record</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                <span class="p">});</span>
+</span></span><span class="line"><span class="cl">            <span class="p">});</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Từ 2 hàm trên chúng ta có thể thấy lớp trừu tượng model hoạt động như thế nào rồi phải không nhỉ?</p>
 <h3 id="renderer">Renderer</h3>
@@ -1944,22 +1944,22 @@ Như đây là đoạn code của BasicRender:</li>
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">_render</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-        <span class="kd">var</span> <span class="nx">oldAllFieldWidgets</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">allFieldWidgets</span><span class="p">;</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">allFieldWidgets</span> <span class="o">=</span> <span class="p">{};</span> <span class="c1">// TODO maybe merging allFieldWidgets and allModifiersData into &#34;nodesData&#34; in some way could be great
-</span><span class="c1"></span>        <span class="k">this</span><span class="p">.</span><span class="nx">allModifiersData</span> <span class="o">=</span> <span class="p">[];</span>
-        <span class="kd">var</span> <span class="nx">oldWidgets</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">widgets</span><span class="p">;</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">widgets</span> <span class="o">=</span> <span class="p">[];</span>
-        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">_renderView</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-            <span class="nx">_</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">oldAllFieldWidgets</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">recordWidgets</span><span class="p">)</span> <span class="p">{</span>
-                <span class="nx">_</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">recordWidgets</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">widget</span><span class="p">)</span> <span class="p">{</span>
-                    <span class="nx">widget</span><span class="p">.</span><span class="nx">destroy</span><span class="p">();</span>
-                <span class="p">});</span>
-            <span class="p">});</span>
-            <span class="nx">_</span><span class="p">.</span><span class="nx">invoke</span><span class="p">(</span><span class="nx">oldWidgets</span><span class="p">,</span> <span class="s1">&#39;destroy&#39;</span><span class="p">);</span>
-        <span class="p">});</span>
-    <span class="p">},</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">_render</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">oldAllFieldWidgets</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">allFieldWidgets</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">allFieldWidgets</span> <span class="o">=</span> <span class="p">{};</span> <span class="c1">// TODO maybe merging allFieldWidgets and allModifiersData into &#34;nodesData&#34; in some way could be great
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">this</span><span class="p">.</span><span class="nx">allModifiersData</span> <span class="o">=</span> <span class="p">[];</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">oldWidgets</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">widgets</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">widgets</span> <span class="o">=</span> <span class="p">[];</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">_renderView</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">_</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">oldAllFieldWidgets</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">recordWidgets</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">_</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">recordWidgets</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">widget</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="nx">widget</span><span class="p">.</span><span class="nx">destroy</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">                <span class="p">});</span>
+</span></span><span class="line"><span class="cl">            <span class="p">});</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">_</span><span class="p">.</span><span class="nx">invoke</span><span class="p">(</span><span class="nx">oldWidgets</span><span class="p">,</span> <span class="s1">&#39;destroy&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Khi Controller muốn update, Render sẽ thiết lập và trả lại trạng thái của mình với getLocalState và setLocalState, trước khi được gỡ khỏi DOM, Rendercũng phải reset state với hàm resetLocalState</p>
 <ul>
@@ -1976,13 +1976,13 @@ OwlRendererWrapper như một người đứng giữa Render và Controller</li>
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">class</span> <span class="nx">RendererWrapper</span> <span class="kr">extends</span> <span class="nx">ComponentWrapper</span> <span class="p">{</span>
-    <span class="nx">getLocalState</span><span class="p">()</span> <span class="p">{</span> <span class="p">}</span>
-    <span class="nx">setLocalState</span><span class="p">()</span> <span class="p">{</span> <span class="p">}</span>
-    <span class="nx">giveFocus</span><span class="p">()</span> <span class="p">{</span> <span class="p">}</span>
-    <span class="nx">resetLocalState</span><span class="p">()</span> <span class="p">{</span> <span class="p">}</span> 
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kr">class</span> <span class="nx">RendererWrapper</span> <span class="kr">extends</span> <span class="nx">ComponentWrapper</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">getLocalState</span><span class="p">()</span> <span class="p">{</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">setLocalState</span><span class="p">()</span> <span class="p">{</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">giveFocus</span><span class="p">()</span> <span class="p">{</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">resetLocalState</span><span class="p">()</span> <span class="p">{</span> <span class="p">}</span> 
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Theo như mình biết thì các hàm ở đây không làm gì cả, nếu bạn muốn chúng hoạt động được thì phải override lại nó<br />
 Ví dụ như class PivotRenderer override lại resetLocalState để đặt lại trạng thái OWL component. Bạn có thể vào code của core Odoo từ 14 trở lên tìm class PivotRenderer các bạn sẽ thấy như sau:</p>
@@ -2005,22 +2005,22 @@ Ví dụ như class PivotRenderer override lại resetLocalState để đặt l�
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">_resetState</span><span class="p">()</span> <span class="p">{</span>
-    <span class="c1">// This check is used to avoid the destruction of the dropdown.
-</span><span class="c1"></span>    <span class="c1">// The click on the header bubbles to window in order to hide
-</span><span class="c1"></span>    <span class="c1">// all the other dropdowns (in this component or other components).
-</span><span class="c1"></span>    <span class="c1">// So we need isHeaderClicked to cancel this behaviour.
-</span><span class="c1"></span>    <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">isHeaderClicked</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">isHeaderClicked</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
-        <span class="k">return</span><span class="p">;</span>
-    <span class="p">}</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">activeNodeHeader</span> <span class="o">=</span> <span class="p">{</span>
-        <span class="nx">groupId</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
-        <span class="nx">isXAxis</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
-        <span class="nx">click</span><span class="o">:</span> <span class="kc">false</span>
-    <span class="p">};</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">_resetState</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// This check is used to avoid the destruction of the dropdown.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// The click on the header bubbles to window in order to hide
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// all the other dropdowns (in this component or other components).
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// So we need isHeaderClicked to cancel this behaviour.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">isHeaderClicked</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">isHeaderClicked</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">this</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">activeNodeHeader</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">groupId</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">isXAxis</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">click</span><span class="o">:</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">    <span class="p">};</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="controller">Controller</h3>
 <p>Controller thường quản lý giao tiếp giữa Render và Model. Nhưng nó cũng chịu trách nhiệm trả lời các sự kiện từ ControlPanel hoặc SearchPanel.<br />
@@ -2035,13 +2035,13 @@ Ví dụ như class PivotRenderer override lại resetLocalState để đặt l�
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">_startRenderer</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-    <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">renderer</span> <span class="k">instanceof</span> <span class="nx">owl</span><span class="p">.</span><span class="nx">Component</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">renderer</span><span class="p">.</span><span class="nx">mount</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.o_content&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]);</span>
-    <span class="p">}</span>
-    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">renderer</span><span class="p">.</span><span class="nx">appendTo</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.o_content&#39;</span><span class="p">));</span>
-<span class="p">},</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">_startRenderer</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">renderer</span> <span class="k">instanceof</span> <span class="nx">owl</span><span class="p">.</span><span class="nx">Component</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">renderer</span><span class="p">.</span><span class="nx">mount</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.o_content&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">renderer</span><span class="p">.</span><span class="nx">appendTo</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.o_content&#39;</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl"><span class="p">},</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Khi phương thức được start, Render sẽ được thêm vào DOM thông qua $el</p>
 <p>Bây giờ chúng ta sẽ điểm qua 2 chức năng chính của Controller:</p>
@@ -2059,12 +2059,12 @@ Với sự trợ giúp của ActionsMixin, Controller có thể đăng ký một
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">custom_events</span><span class="o">:</span> <span class="nx">_</span><span class="p">.</span><span class="nx">extend</span><span class="p">({},</span> <span class="nx">ActionMixin</span><span class="p">.</span><span class="nx">custom_events</span><span class="p">,</span> <span class="p">{</span>
-    <span class="nx">navigation_move</span><span class="o">:</span> <span class="s1">&#39;_onNavigationMove&#39;</span><span class="p">,</span>
-    <span class="nx">open_record</span><span class="o">:</span> <span class="s1">&#39;_onOpenRecord&#39;</span><span class="p">,</span>
-    <span class="nx">switch_view</span><span class="o">:</span> <span class="s1">&#39;_onSwitchView&#39;</span><span class="p">,</span>
-<span class="p">}),</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">custom_events</span><span class="o">:</span> <span class="nx">_</span><span class="p">.</span><span class="nx">extend</span><span class="p">({},</span> <span class="nx">ActionMixin</span><span class="p">.</span><span class="nx">custom_events</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">navigation_move</span><span class="o">:</span> <span class="s1">&#39;_onNavigationMove&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">open_record</span><span class="o">:</span> <span class="s1">&#39;_onOpenRecord&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">switch_view</span><span class="o">:</span> <span class="s1">&#39;_onSwitchView&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">}),</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Controller cũng xử lý một số sự kiện khi chúng ta click vào các nút trên giao diện có sẵn của Odoo</p>
 <div class="highlight"><div class="chroma">
@@ -2102,38 +2102,38 @@ Với sự trợ giúp của ActionsMixin, Controller có thể đăng ký một
 </span><span class="lnt">31
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="cm">/**
-</span><span class="cm"> * This is the main entry point for the controller.  Changes from the search
-</span><span class="cm"> * view arrive in this method, and internal changes can sometimes also call
-</span><span class="cm"> * this method.  It is basically the way everything notifies the controller
-</span><span class="cm"> * that something has changed.
-</span><span class="cm"> *
-</span><span class="cm"> * The update method is responsible for fetching necessary data, then
-</span><span class="cm"> * updating the renderer and wait for the rendering to complete.
-</span><span class="cm"> *
-</span><span class="cm"> * @param {Object} params will be given to the model and to the renderer
-</span><span class="cm"> * @param {Object} [options={}]
-</span><span class="cm"> * @param {boolean} [options.reload=true] if true, the model will reload data
-</span><span class="cm"> * @returns {Promise}
-</span><span class="cm"> */</span>
-<span class="kr">async</span> <span class="nx">update</span><span class="p">(</span><span class="nx">params</span><span class="p">,</span> <span class="nx">options</span> <span class="o">=</span> <span class="p">{})</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="nx">shouldReload</span> <span class="o">=</span> <span class="s1">&#39;reload&#39;</span> <span class="k">in</span> <span class="nx">options</span> <span class="o">?</span> <span class="nx">options</span><span class="p">.</span><span class="nx">reload</span> <span class="o">:</span> <span class="kc">true</span><span class="p">;</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nx">shouldReload</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">handle</span> <span class="o">=</span> <span class="kr">await</span> <span class="k">this</span><span class="p">.</span><span class="nx">dp</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">model</span><span class="p">.</span><span class="nx">reload</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">handle</span><span class="p">,</span> <span class="nx">params</span><span class="p">));</span>
-    <span class="p">}</span>
-    <span class="kr">const</span> <span class="nx">localState</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">renderer</span><span class="p">.</span><span class="nx">getLocalState</span><span class="p">();</span>
-    <span class="kr">const</span> <span class="nx">state</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">model</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">handle</span><span class="p">,</span> <span class="p">{</span> <span class="nx">withSampleData</span><span class="o">:</span> <span class="kc">true</span> <span class="p">});</span>
-    <span class="kr">const</span> <span class="nx">promises</span> <span class="o">=</span> <span class="p">[</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">_updateRendererState</span><span class="p">(</span><span class="nx">state</span><span class="p">,</span> <span class="nx">params</span><span class="p">).</span><span class="nx">then</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="p">{</span>
-            <span class="k">this</span><span class="p">.</span><span class="nx">renderer</span><span class="p">.</span><span class="nx">setLocalState</span><span class="p">(</span><span class="nx">localState</span><span class="p">);</span>
-        <span class="p">}),</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">_update</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">model</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">handle</span><span class="p">),</span> <span class="nx">params</span><span class="p">)</span>
-    <span class="p">];</span>
-    <span class="kr">await</span> <span class="k">this</span><span class="p">.</span><span class="nx">dp</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="nb">Promise</span><span class="p">.</span><span class="nx">all</span><span class="p">(</span><span class="nx">promises</span><span class="p">));</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">updateButtons</span><span class="p">();</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">el</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">toggle</span><span class="p">(</span><span class="s1">&#39;o_view_sample_data&#39;</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">model</span><span class="p">.</span><span class="nx">isInSampleMode</span><span class="p">());</span>
-<span class="p">},</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * This is the main entry point for the controller.  Changes from the search
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * view arrive in this method, and internal changes can sometimes also call
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * this method.  It is basically the way everything notifies the controller
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * that something has changed.
+</span></span></span><span class="line"><span class="cl"><span class="cm"> *
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * The update method is responsible for fetching necessary data, then
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * updating the renderer and wait for the rendering to complete.
+</span></span></span><span class="line"><span class="cl"><span class="cm"> *
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * @param {Object} params will be given to the model and to the renderer
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * @param {Object} [options={}]
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * @param {boolean} [options.reload=true] if true, the model will reload data
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * @returns {Promise}
+</span></span></span><span class="line"><span class="cl"><span class="cm"> */</span>
+</span></span><span class="line"><span class="cl"><span class="kr">async</span> <span class="nx">update</span><span class="p">(</span><span class="nx">params</span><span class="p">,</span> <span class="nx">options</span> <span class="o">=</span> <span class="p">{})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">shouldReload</span> <span class="o">=</span> <span class="s1">&#39;reload&#39;</span> <span class="k">in</span> <span class="nx">options</span> <span class="o">?</span> <span class="nx">options</span><span class="p">.</span><span class="nx">reload</span> <span class="o">:</span> <span class="kc">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nx">shouldReload</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">handle</span> <span class="o">=</span> <span class="kr">await</span> <span class="k">this</span><span class="p">.</span><span class="nx">dp</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">model</span><span class="p">.</span><span class="nx">reload</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">handle</span><span class="p">,</span> <span class="nx">params</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">localState</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">renderer</span><span class="p">.</span><span class="nx">getLocalState</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">state</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">model</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">handle</span><span class="p">,</span> <span class="p">{</span> <span class="nx">withSampleData</span><span class="o">:</span> <span class="kc">true</span> <span class="p">});</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">promises</span> <span class="o">=</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">_updateRendererState</span><span class="p">(</span><span class="nx">state</span><span class="p">,</span> <span class="nx">params</span><span class="p">).</span><span class="nx">then</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">this</span><span class="p">.</span><span class="nx">renderer</span><span class="p">.</span><span class="nx">setLocalState</span><span class="p">(</span><span class="nx">localState</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}),</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">_update</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">model</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">handle</span><span class="p">),</span> <span class="nx">params</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">await</span> <span class="k">this</span><span class="p">.</span><span class="nx">dp</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="nb">Promise</span><span class="p">.</span><span class="nx">all</span><span class="p">(</span><span class="nx">promises</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">    <span class="k">this</span><span class="p">.</span><span class="nx">updateButtons</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="k">this</span><span class="p">.</span><span class="nx">el</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">toggle</span><span class="p">(</span><span class="s1">&#39;o_view_sample_data&#39;</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">model</span><span class="p">.</span><span class="nx">isInSampleMode</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl"><span class="p">},</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><ul>
 <li>Truy cập vào Control Panel và Search Panel</li>
@@ -2154,19 +2154,19 @@ Với sự trợ giúp của ActionsMixin, Controller có thể đăng ký một
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">withControlPanel</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">_updateControlPanelProps</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">initialState</span><span class="p">);</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">_controlPanelWrapper</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ComponentWrapper</span><span class="p">(</span><span class="k">this</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">ControlPanel</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">controlPanelProps</span><span class="p">);</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">_controlPanelWrapper</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">bus</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;focus-view&#39;</span><span class="p">,</span> <span class="k">this</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="k">this</span><span class="p">.</span><span class="nx">_giveFocus</span><span class="p">());</span>
-    <span class="nx">promises</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">_controlPanelWrapper</span><span class="p">.</span><span class="nx">mount</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">el</span><span class="p">,</span> <span class="p">{</span> <span class="nx">position</span><span class="o">:</span> <span class="s1">&#39;first-child&#39;</span> <span class="p">}));</span>
-<span class="p">}</span>
-<span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">withSearchPanel</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">_searchPanelWrapper</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ComponentWrapper</span><span class="p">(</span><span class="k">this</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">SearchPanel</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">searchPanelProps</span><span class="p">);</span>
-    <span class="kr">const</span> <span class="nx">content</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">el</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;:scope .o_content&#39;</span><span class="p">);</span>
-    <span class="nx">content</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s1">&#39;o_controller_with_searchpanel&#39;</span><span class="p">);</span>
-    <span class="nx">promises</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">_searchPanelWrapper</span><span class="p">.</span><span class="nx">mount</span><span class="p">(</span><span class="nx">content</span><span class="p">,</span> <span class="p">{</span> <span class="nx">position</span><span class="o">:</span> <span class="s1">&#39;first-child&#39;</span> <span class="p">}));</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">withControlPanel</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">this</span><span class="p">.</span><span class="nx">_updateControlPanelProps</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">initialState</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">this</span><span class="p">.</span><span class="nx">_controlPanelWrapper</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ComponentWrapper</span><span class="p">(</span><span class="k">this</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">ControlPanel</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">controlPanelProps</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">this</span><span class="p">.</span><span class="nx">_controlPanelWrapper</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">bus</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;focus-view&#39;</span><span class="p">,</span> <span class="k">this</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="k">this</span><span class="p">.</span><span class="nx">_giveFocus</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">promises</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">_controlPanelWrapper</span><span class="p">.</span><span class="nx">mount</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">el</span><span class="p">,</span> <span class="p">{</span> <span class="nx">position</span><span class="o">:</span> <span class="s1">&#39;first-child&#39;</span> <span class="p">}));</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">withSearchPanel</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">this</span><span class="p">.</span><span class="nx">_searchPanelWrapper</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ComponentWrapper</span><span class="p">(</span><span class="k">this</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">SearchPanel</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">searchPanelProps</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">content</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">el</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;:scope .o_content&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">content</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s1">&#39;o_controller_with_searchpanel&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">promises</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">_searchPanelWrapper</span><span class="p">.</span><span class="nx">mount</span><span class="p">(</span><span class="nx">content</span><span class="p">,</span> <span class="p">{</span> <span class="nx">position</span><span class="o">:</span> <span class="s1">&#39;first-child&#39;</span> <span class="p">}));</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="view">View</h3>
 <p><img src="/images/feature4/img_6.png" alt="" /><br />
@@ -2178,10 +2178,10 @@ Khởi tạo 1 view thường có 2 tham số:</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">init</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">viewInfo</span><span class="p">,</span> <span class="nx">params</span><span class="p">)</span> <span class="p">{</span>
-    <span class="c1">//...
-</span><span class="c1"></span><span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">init</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">viewInfo</span><span class="p">,</span> <span class="nx">params</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">//...
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Mục tiêu chính của quá trình khởi tạo là điền các đối tượng cấu hình sẽ được chuyển đến các sub_component để tạo chúng:</p>
 <div class="highlight"><div class="chroma">
@@ -2192,11 +2192,11 @@ Khởi tạo 1 view thường có 2 tham số:</p>
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="k">this</span><span class="p">.</span><span class="nx">rendererParams</span> <span class="o">=</span> <span class="p">{};</span>
-<span class="k">this</span><span class="p">.</span><span class="nx">controllerParams</span> <span class="o">=</span> <span class="p">{};</span>
-<span class="k">this</span><span class="p">.</span><span class="nx">modelParams</span> <span class="o">=</span> <span class="p">{};</span>
-<span class="k">this</span><span class="p">.</span><span class="nx">loadParams</span> <span class="o">=</span> <span class="p">{};</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="k">this</span><span class="p">.</span><span class="nx">rendererParams</span> <span class="o">=</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="cl"><span class="k">this</span><span class="p">.</span><span class="nx">controllerParams</span> <span class="o">=</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="cl"><span class="k">this</span><span class="p">.</span><span class="nx">modelParams</span> <span class="o">=</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="cl"><span class="k">this</span><span class="p">.</span><span class="nx">loadParams</span> <span class="o">=</span> <span class="p">{};</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>3 dòng đầu thể hiện rõ ứng với 3 phần là : Renderer, Controller và Model, còn ***this.loadParams = {};***LoadParams sẽ được sử dụng để tải dữ liệu ban đầu với _loadData và nó sẽ chứa thông tin nếu view đang được “mở” với group-bey, context, domain, limit<br />
 Mục tiêu đối với mình là hiểu cách thức JS View thực hiện khi chúng ta tạo ra và bắt đầu từ XML mà chúng ta thường code hằng ngày như thế nào?</p>
@@ -2682,7 +2682,7 @@ Mục tiêu đối với mình là hiểu cách thức JS View thực hiện khi
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3382,7 +3382,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 

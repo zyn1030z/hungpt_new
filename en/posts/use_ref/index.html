@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
 
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.115.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1818,47 +1818,45 @@ if (!doNotTrack) {
 </span><span class="lnt">34
 </span><span class="lnt">35
 </span><span class="lnt">36
-</span><span class="lnt">37
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">import</span> <span class="p">{</span><span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span><span class="p">,</span> <span class="nx">useRef</span><span class="p">}</span> <span class="nx">from</span> <span class="s2">&#34;react&#34;</span><span class="p">;</span>
-
-<span class="kd">function</span> <span class="nx">Content</span><span class="p">()</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="p">[</span><span class="nx">number</span><span class="p">,</span> <span class="nx">setNumber</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useState</span><span class="p">(</span><span class="mi">9000</span><span class="p">)</span>
-
-    <span class="kr">const</span> <span class="nx">handle_start</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
-        <span class="nx">setInterval</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="p">{</span>
-            <span class="nx">setNumber</span><span class="p">(</span><span class="nx">preNumber</span>  <span class="p">=&gt;</span> <span class="nx">preNumber</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
-        <span class="p">},</span><span class="mi">100</span><span class="p">)</span>
-    <span class="p">}</span>
-    <span class="kr">const</span> <span class="nx">handle_stop</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
-
-    <span class="p">}</span>
-
-    <span class="k">return</span> <span class="p">(</span>
-        <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
-            <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">style</span><span class="o">=</span><span class="p">{</span>
-                <span class="p">{</span><span class="s1">&#39;fontSize&#39;</span><span class="o">:</span> <span class="s1">&#39;100px&#39;</span><span class="p">}</span>
-            <span class="p">}</span><span class="o">&gt;</span>
-                <span class="p">{</span><span class="nx">number</span><span class="p">}</span>
-            <span class="o">&lt;</span><span class="err">/div&gt;</span>
-            <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
-                <span class="o">&lt;</span><span class="nx">button</span>
-                    <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handle_start</span><span class="p">}</span>
-                <span class="o">&gt;</span><span class="nx">Start</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
-
-                <span class="o">&lt;</span><span class="nx">button</span>
-                    <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handle_stop</span><span class="p">}</span>
-                <span class="o">&gt;</span><span class="nx">Stop</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
-            <span class="o">&lt;</span><span class="err">/div&gt;</span>
-
-        <span class="o">&lt;</span><span class="err">/div&gt;</span>
-    <span class="p">)</span>
-<span class="p">}</span>
-
-<span class="kr">export</span> <span class="k">default</span> <span class="nx">Content</span><span class="p">;</span>
-
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span><span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span><span class="p">,</span> <span class="nx">useRef</span><span class="p">}</span> <span class="nx">from</span> <span class="s2">&#34;react&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">Content</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="p">[</span><span class="nx">number</span><span class="p">,</span> <span class="nx">setNumber</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useState</span><span class="p">(</span><span class="mi">9000</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">handle_start</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">setInterval</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">setNumber</span><span class="p">(</span><span class="nx">preNumber</span>  <span class="p">=&gt;</span> <span class="nx">preNumber</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">},</span><span class="mi">100</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">handle_stop</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">style</span><span class="o">=</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="p">{</span><span class="s1">&#39;fontSize&#39;</span><span class="o">:</span> <span class="s1">&#39;100px&#39;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">{</span><span class="nx">number</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&lt;</span><span class="nx">button</span>
+</span></span><span class="line"><span class="cl">                    <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handle_start</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&gt;</span><span class="nx">Start</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">                <span class="o">&lt;</span><span class="nx">button</span>
+</span></span><span class="line"><span class="cl">                    <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handle_stop</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&gt;</span><span class="nx">Stop</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="k">default</span> <span class="nx">Content</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Giao diện đơn giản nó sẽ như thế này 😄<br />
 <img src="/images/feature5/img_13.png" alt="" /><br />
@@ -1907,45 +1905,45 @@ vậy để stop chúng ta chỉ cần clearInterval ở button stop thôi. Như
 </span><span class="lnt">38
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">import</span> <span class="p">{</span><span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span><span class="p">,</span> <span class="nx">useRef</span><span class="p">}</span> <span class="nx">from</span> <span class="s2">&#34;react&#34;</span><span class="p">;</span>
-
-<span class="kd">function</span> <span class="nx">Content</span><span class="p">()</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="p">[</span><span class="nx">number</span><span class="p">,</span> <span class="nx">setNumber</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useState</span><span class="p">(</span><span class="mi">9000</span><span class="p">)</span>
-    <span class="kd">let</span> <span class="nx">timeId</span>
-    <span class="kr">const</span> <span class="nx">handle_start</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
-        <span class="nx">setInterval</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="p">{</span>
-            <span class="nx">timeId</span> <span class="o">=</span> <span class="nx">setNumber</span><span class="p">(</span><span class="nx">preNumber</span>  <span class="p">=&gt;</span> <span class="nx">preNumber</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
-        <span class="p">},</span><span class="mi">100</span><span class="p">)</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;start&#39;</span><span class="p">,</span> <span class="nx">timeId</span><span class="p">)</span>
-    <span class="p">}</span>
-    <span class="kr">const</span> <span class="nx">handle_stop</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
-        <span class="nx">clearInterval</span><span class="p">(</span><span class="nx">timeId</span><span class="p">)</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;stop&#39;</span><span class="p">,</span> <span class="nx">timeId</span><span class="p">)</span>
-    <span class="p">}</span>
-
-    <span class="k">return</span> <span class="p">(</span>
-        <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
-            <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">style</span><span class="o">=</span><span class="p">{</span>
-                <span class="p">{</span><span class="s1">&#39;fontSize&#39;</span><span class="o">:</span> <span class="s1">&#39;100px&#39;</span><span class="p">}</span>
-            <span class="p">}</span><span class="o">&gt;</span>
-                <span class="p">{</span><span class="nx">number</span><span class="p">}</span>
-            <span class="o">&lt;</span><span class="err">/div&gt;</span>
-            <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
-                <span class="o">&lt;</span><span class="nx">button</span>
-                    <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handle_start</span><span class="p">}</span>
-                <span class="o">&gt;</span><span class="nx">Start</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
-
-                <span class="o">&lt;</span><span class="nx">button</span>
-                    <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handle_stop</span><span class="p">}</span>
-                <span class="o">&gt;</span><span class="nx">Stop</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
-            <span class="o">&lt;</span><span class="err">/div&gt;</span>
-
-        <span class="o">&lt;</span><span class="err">/div&gt;</span>
-    <span class="p">)</span>
-<span class="p">}</span>
-
-<span class="kr">export</span> <span class="k">default</span> <span class="nx">Content</span><span class="p">;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span><span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span><span class="p">,</span> <span class="nx">useRef</span><span class="p">}</span> <span class="nx">from</span> <span class="s2">&#34;react&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">Content</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="p">[</span><span class="nx">number</span><span class="p">,</span> <span class="nx">setNumber</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useState</span><span class="p">(</span><span class="mi">9000</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">let</span> <span class="nx">timeId</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">handle_start</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">setInterval</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">timeId</span> <span class="o">=</span> <span class="nx">setNumber</span><span class="p">(</span><span class="nx">preNumber</span>  <span class="p">=&gt;</span> <span class="nx">preNumber</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">},</span><span class="mi">100</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;start&#39;</span><span class="p">,</span> <span class="nx">timeId</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">handle_stop</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">clearInterval</span><span class="p">(</span><span class="nx">timeId</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;stop&#39;</span><span class="p">,</span> <span class="nx">timeId</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">style</span><span class="o">=</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="p">{</span><span class="s1">&#39;fontSize&#39;</span><span class="o">:</span> <span class="s1">&#39;100px&#39;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">{</span><span class="nx">number</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&lt;</span><span class="nx">button</span>
+</span></span><span class="line"><span class="cl">                    <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handle_start</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&gt;</span><span class="nx">Start</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">                <span class="o">&lt;</span><span class="nx">button</span>
+</span></span><span class="line"><span class="cl">                    <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handle_stop</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&gt;</span><span class="nx">Stop</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="k">default</span> <span class="nx">Content</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Nhưng bài toán vẫn chưa được giải quyết? Chúng ta thử xem log timeID hiển thị trước và sau thế nào nhé!<br />
 <img src="/images/feature5/img_15.png" alt="" /><br />
@@ -1995,46 +1993,46 @@ sẽ render lại dẫn đến biến *** timeID*** sẽ được set lại giá
 </span><span class="lnt">39
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">import</span> <span class="p">{</span><span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span><span class="p">,</span> <span class="nx">useRef</span><span class="p">}</span> <span class="nx">from</span> <span class="s2">&#34;react&#34;</span><span class="p">;</span>
-<span class="kd">let</span> <span class="nx">timeId</span>
-
-<span class="kd">function</span> <span class="nx">Content</span><span class="p">()</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="p">[</span><span class="nx">number</span><span class="p">,</span> <span class="nx">setNumber</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useState</span><span class="p">(</span><span class="mi">9000</span><span class="p">)</span>
-    <span class="kr">const</span> <span class="nx">handle_start</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
-        <span class="nx">timeId</span> <span class="o">=</span> <span class="nx">setInterval</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="p">{</span>
-            <span class="nx">setNumber</span><span class="p">(</span><span class="nx">preNumber</span>  <span class="p">=&gt;</span> <span class="nx">preNumber</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
-        <span class="p">},</span><span class="mi">1000</span><span class="p">)</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;start&#39;</span><span class="p">,</span> <span class="nx">timeId</span><span class="p">)</span>
-    <span class="p">}</span>
-    <span class="kr">const</span> <span class="nx">handle_stop</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
-        <span class="nx">clearInterval</span><span class="p">(</span><span class="nx">timeId</span><span class="p">)</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;stop&#39;</span><span class="p">,</span> <span class="nx">timeId</span><span class="p">)</span>
-    <span class="p">}</span>
-
-
-    <span class="k">return</span> <span class="p">(</span>
-        <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
-            <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">style</span><span class="o">=</span><span class="p">{</span>
-                <span class="p">{</span><span class="s1">&#39;fontSize&#39;</span><span class="o">:</span> <span class="s1">&#39;100px&#39;</span><span class="p">}</span>
-            <span class="p">}</span><span class="o">&gt;</span>
-                <span class="p">{</span><span class="nx">number</span><span class="p">}</span>
-            <span class="o">&lt;</span><span class="err">/div&gt;</span>
-            <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
-                <span class="o">&lt;</span><span class="nx">button</span>
-                    <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handle_start</span><span class="p">}</span>
-                <span class="o">&gt;</span><span class="nx">Start</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
-
-                <span class="o">&lt;</span><span class="nx">button</span>
-                    <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handle_stop</span><span class="p">}</span>
-                <span class="o">&gt;</span><span class="nx">Stop</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
-            <span class="o">&lt;</span><span class="err">/div&gt;</span>
-
-        <span class="o">&lt;</span><span class="err">/div&gt;</span>
-    <span class="p">)</span>
-<span class="p">}</span>
-
-<span class="kr">export</span> <span class="k">default</span> <span class="nx">Content</span><span class="p">;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span><span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span><span class="p">,</span> <span class="nx">useRef</span><span class="p">}</span> <span class="nx">from</span> <span class="s2">&#34;react&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">timeId</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">Content</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="p">[</span><span class="nx">number</span><span class="p">,</span> <span class="nx">setNumber</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useState</span><span class="p">(</span><span class="mi">9000</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">handle_start</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">timeId</span> <span class="o">=</span> <span class="nx">setInterval</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">setNumber</span><span class="p">(</span><span class="nx">preNumber</span>  <span class="p">=&gt;</span> <span class="nx">preNumber</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">},</span><span class="mi">1000</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;start&#39;</span><span class="p">,</span> <span class="nx">timeId</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">handle_stop</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">clearInterval</span><span class="p">(</span><span class="nx">timeId</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;stop&#39;</span><span class="p">,</span> <span class="nx">timeId</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">style</span><span class="o">=</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="p">{</span><span class="s1">&#39;fontSize&#39;</span><span class="o">:</span> <span class="s1">&#39;100px&#39;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">{</span><span class="nx">number</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&lt;</span><span class="nx">button</span>
+</span></span><span class="line"><span class="cl">                    <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handle_start</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&gt;</span><span class="nx">Start</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">                <span class="o">&lt;</span><span class="nx">button</span>
+</span></span><span class="line"><span class="cl">                    <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handle_stop</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&gt;</span><span class="nx">Stop</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="k">default</span> <span class="nx">Content</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Tuy nhiên với ReactJS chúng ta không nên làm thế 😄 có nhiều nguyên nhân……nên ở đây chúng ta sẽ sử dụng useRef.<br />
 Khi chúng ta dùng useRef để lưu giá trị, thì khi phải render lại một function component, giá trị đã lưu sẽ không bị thay đổi, mà vẫn giữ được giá trị đã lưu trước đó.</p>
@@ -2094,47 +2092,47 @@ Mình sẽ sửa lại code sử dụng useRef như sau:</li>
 </span><span class="lnt">40
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">import</span> <span class="p">{</span><span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span><span class="p">,</span> <span class="nx">useRef</span><span class="p">}</span> <span class="nx">from</span> <span class="s2">&#34;react&#34;</span><span class="p">;</span>
-
-<span class="kd">function</span> <span class="nx">Content</span><span class="p">()</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="p">[</span><span class="nx">number</span><span class="p">,</span> <span class="nx">setNumber</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useState</span><span class="p">(</span><span class="mi">9000</span><span class="p">)</span>
-
-    <span class="kr">const</span> <span class="nx">ref</span>  <span class="o">=</span> <span class="nx">useRef</span><span class="p">(</span><span class="mi">99</span><span class="p">)</span>
-    <span class="kd">let</span> <span class="nx">timeId</span> <span class="o">=</span> <span class="nx">useRef</span><span class="p">(</span><span class="mi">99</span><span class="p">)</span>
-    <span class="kr">const</span> <span class="nx">handle_start</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
-        <span class="nx">timeId</span><span class="p">.</span><span class="nx">current</span> <span class="o">=</span> <span class="nx">setInterval</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="p">{</span>
-            <span class="nx">setNumber</span><span class="p">(</span><span class="nx">prevNumber</span> <span class="p">=&gt;</span> <span class="nx">prevNumber</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
-        <span class="p">},</span> <span class="mi">1000</span><span class="p">)</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;start&#39;</span><span class="p">,</span> <span class="nx">timeId</span><span class="p">.</span><span class="nx">current</span><span class="p">)</span>
-    <span class="p">}</span>
-    <span class="kr">const</span> <span class="nx">handle_stop</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
-        <span class="nx">clearInterval</span><span class="p">(</span><span class="nx">timeId</span><span class="p">.</span><span class="nx">current</span><span class="p">)</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;stop&#39;</span><span class="p">,</span> <span class="nx">timeId</span><span class="p">.</span><span class="nx">current</span><span class="p">)</span>
-    <span class="p">}</span>
-
-    <span class="k">return</span> <span class="p">(</span>
-        <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
-            <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">style</span><span class="o">=</span><span class="p">{</span>
-                <span class="p">{</span><span class="s1">&#39;fontSize&#39;</span><span class="o">:</span> <span class="s1">&#39;100px&#39;</span><span class="p">}</span>
-            <span class="p">}</span><span class="o">&gt;</span>
-                <span class="p">{</span><span class="nx">number</span><span class="p">}</span>
-            <span class="o">&lt;</span><span class="err">/div&gt;</span>
-            <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
-                <span class="o">&lt;</span><span class="nx">button</span>
-                    <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handle_start</span><span class="p">}</span>
-                <span class="o">&gt;</span><span class="nx">Start</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
-
-                <span class="o">&lt;</span><span class="nx">button</span>
-                    <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handle_stop</span><span class="p">}</span>
-                <span class="o">&gt;</span><span class="nx">Stop</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
-            <span class="o">&lt;</span><span class="err">/div&gt;</span>
-
-        <span class="o">&lt;</span><span class="err">/div&gt;</span>
-    <span class="p">)</span>
-<span class="p">}</span>
-
-<span class="kr">export</span> <span class="k">default</span> <span class="nx">Content</span><span class="p">;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span><span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span><span class="p">,</span> <span class="nx">useRef</span><span class="p">}</span> <span class="nx">from</span> <span class="s2">&#34;react&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">Content</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="p">[</span><span class="nx">number</span><span class="p">,</span> <span class="nx">setNumber</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useState</span><span class="p">(</span><span class="mi">9000</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">ref</span>  <span class="o">=</span> <span class="nx">useRef</span><span class="p">(</span><span class="mi">99</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">let</span> <span class="nx">timeId</span> <span class="o">=</span> <span class="nx">useRef</span><span class="p">(</span><span class="mi">99</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">handle_start</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">timeId</span><span class="p">.</span><span class="nx">current</span> <span class="o">=</span> <span class="nx">setInterval</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">setNumber</span><span class="p">(</span><span class="nx">prevNumber</span> <span class="p">=&gt;</span> <span class="nx">prevNumber</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">},</span> <span class="mi">1000</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;start&#39;</span><span class="p">,</span> <span class="nx">timeId</span><span class="p">.</span><span class="nx">current</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">handle_stop</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">clearInterval</span><span class="p">(</span><span class="nx">timeId</span><span class="p">.</span><span class="nx">current</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;stop&#39;</span><span class="p">,</span> <span class="nx">timeId</span><span class="p">.</span><span class="nx">current</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">style</span><span class="o">=</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="p">{</span><span class="s1">&#39;fontSize&#39;</span><span class="o">:</span> <span class="s1">&#39;100px&#39;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">{</span><span class="nx">number</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&lt;</span><span class="nx">button</span>
+</span></span><span class="line"><span class="cl">                    <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handle_start</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&gt;</span><span class="nx">Start</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">                <span class="o">&lt;</span><span class="nx">button</span>
+</span></span><span class="line"><span class="cl">                    <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handle_stop</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="o">&gt;</span><span class="nx">Stop</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="k">default</span> <span class="nx">Content</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Lưu ý: Hạn chế việc sử dụng useRef mà thay vào đó nên sử dụng state, chỉ khi không thể sử dụng được state thì mới dùng useRef(), như trường hợp tuy cập DOM.</p>
 <p>Hi vọng bài viết sẽ giúp ích được các bạn hiểu rõ hơn khi nào thì sử dụng nó và áp dụng vào từng trường hợp cụ thể. Nếu có bất kì thắc mắc hay góp ý nào xin comment phía dưới. Mình xin cảm ơn!</p>
@@ -2620,7 +2618,7 @@ Mình sẽ sửa lại code sử dụng useRef như sau:</li>
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3303,7 +3301,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 

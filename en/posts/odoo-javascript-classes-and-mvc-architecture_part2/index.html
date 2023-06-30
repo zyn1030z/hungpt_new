@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
 
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.115.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1808,21 +1808,21 @@ Chú ý: Nếu bạn muốn truy cập đến this.el hoặc this.$el ở sai th
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="cm">/**
-</span><span class="cm">     * Renders the element. The default implementation renders the widget using
-</span><span class="cm">     * QWeb, `this.template` must be defined. The context given to QWeb contains
-</span><span class="cm">     * the &#34;widget&#34; key that references `this`.
-</span><span class="cm">     */</span>
-    <span class="nx">renderElement</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-        <span class="kd">var</span> <span class="nx">$el</span><span class="p">;</span>
-        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nx">$el</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="nx">core</span><span class="p">.</span><span class="nx">qweb</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">,</span> <span class="p">{</span><span class="nx">widget</span><span class="o">:</span> <span class="k">this</span><span class="p">}).</span><span class="nx">trim</span><span class="p">());</span>
-        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-            <span class="nx">$el</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">_makeDescriptive</span><span class="p">();</span>
-        <span class="p">}</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">_replaceElement</span><span class="p">(</span><span class="nx">$el</span><span class="p">);</span>
-    <span class="p">},</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * Renders the element. The default implementation renders the widget using
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * QWeb, `this.template` must be defined. The context given to QWeb contains
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * the &#34;widget&#34; key that references `this`.
+</span></span></span><span class="line"><span class="cl"><span class="cm">     */</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">renderElement</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">$el</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">$el</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="nx">core</span><span class="p">.</span><span class="nx">qweb</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">,</span> <span class="p">{</span><span class="nx">widget</span><span class="o">:</span> <span class="k">this</span><span class="p">}).</span><span class="nx">trim</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">$el</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">_makeDescriptive</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">_replaceElement</span><span class="p">(</span><span class="nx">$el</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="lifecycle">Lifecycle</h3>
 <p>Vòng đời của 1 widget bao gồm init -&gt; willStart -&gt;[rendering]-&gt; start -&gt; destroy, tương ứng với các hàm có trong Widget.</p>
@@ -1846,20 +1846,20 @@ Chú ý: Nếu bạn muốn truy cập đến this.el hoặc this.$el ở sai th
 </span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">init</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">parent</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">mixins</span><span class="p">.</span><span class="nx">PropertiesMixin</span><span class="p">.</span><span class="nx">init</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">setParent</span><span class="p">(</span><span class="nx">parent</span><span class="p">);</span>
-        <span class="c1">// Bind on_/do_* methods to this
-</span><span class="c1"></span>        <span class="c1">// We might remove this automatic binding in the future
-</span><span class="c1"></span>        <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">name</span> <span class="k">in</span> <span class="k">this</span><span class="p">)</span> <span class="p">{</span>
-            <span class="k">if</span><span class="p">(</span><span class="k">typeof</span><span class="p">(</span><span class="k">this</span><span class="p">[</span><span class="nx">name</span><span class="p">])</span> <span class="o">===</span> <span class="s2">&#34;function&#34;</span><span class="p">)</span> <span class="p">{</span>
-                <span class="k">if</span><span class="p">((</span><span class="sr">/^on_|^do_/</span><span class="p">).</span><span class="nx">test</span><span class="p">(</span><span class="nx">name</span><span class="p">))</span> <span class="p">{</span>
-                    <span class="k">this</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span> <span class="o">=</span> <span class="k">this</span><span class="p">[</span><span class="nx">name</span><span class="p">].</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
-                <span class="p">}</span>
-            <span class="p">}</span>
-        <span class="p">}</span>
-    <span class="p">},</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">init</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">parent</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">mixins</span><span class="p">.</span><span class="nx">PropertiesMixin</span><span class="p">.</span><span class="nx">init</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">setParent</span><span class="p">(</span><span class="nx">parent</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Bind on_/do_* methods to this
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// We might remove this automatic binding in the future
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">name</span> <span class="k">in</span> <span class="k">this</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span><span class="p">(</span><span class="k">typeof</span><span class="p">(</span><span class="k">this</span><span class="p">[</span><span class="nx">name</span><span class="p">])</span> <span class="o">===</span> <span class="s2">&#34;function&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span><span class="p">((</span><span class="sr">/^on_|^do_/</span><span class="p">).</span><span class="nx">test</span><span class="p">(</span><span class="nx">name</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">this</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span> <span class="o">=</span> <span class="k">this</span><span class="p">[</span><span class="nx">name</span><span class="p">].</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><ul>
 <li>Hàm willStart sẽ thực hiện bất đồng bộ việc tải thư viện liên quan, file xml</li>
@@ -1882,21 +1882,21 @@ Chú ý: Nếu bạn muốn truy cập đến this.el hoặc this.$el ở sai th
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="o">*</span> <span class="err">@</span><span class="nx">returns</span> <span class="p">{</span><span class="nb">Promise</span><span class="p">}</span>
-     <span class="o">*</span><span class="err">/</span>
-    <span class="nx">willStart</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-        <span class="kd">var</span> <span class="nx">proms</span> <span class="o">=</span> <span class="p">[];</span>
-        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">xmlDependencies</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nx">proms</span><span class="p">.</span><span class="nx">push</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="nx">proms</span><span class="p">,</span> <span class="nx">_</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">xmlDependencies</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">xmlPath</span><span class="p">)</span> <span class="p">{</span>
-                <span class="k">return</span> <span class="nx">ajax</span><span class="p">.</span><span class="nx">loadXML</span><span class="p">(</span><span class="nx">xmlPath</span><span class="p">,</span> <span class="nx">core</span><span class="p">.</span><span class="nx">qweb</span><span class="p">);</span>
-            <span class="p">}));</span>
-        <span class="p">}</span>
-        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">jsLibs</span> <span class="o">||</span> <span class="k">this</span><span class="p">.</span><span class="nx">cssLibs</span> <span class="o">||</span> <span class="k">this</span><span class="p">.</span><span class="nx">assetLibs</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nx">proms</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">_loadLibs</span><span class="p">(</span><span class="k">this</span><span class="p">));</span>
-        <span class="p">}</span>
-        <span class="k">return</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">all</span><span class="p">(</span><span class="nx">proms</span><span class="p">);</span>
-    <span class="p">},</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="o">*</span> <span class="err">@</span><span class="nx">returns</span> <span class="p">{</span><span class="nb">Promise</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">     <span class="o">*</span><span class="err">/</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">willStart</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">proms</span> <span class="o">=</span> <span class="p">[];</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">xmlDependencies</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">proms</span><span class="p">.</span><span class="nx">push</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="nx">proms</span><span class="p">,</span> <span class="nx">_</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">xmlDependencies</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">xmlPath</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="nx">ajax</span><span class="p">.</span><span class="nx">loadXML</span><span class="p">(</span><span class="nx">xmlPath</span><span class="p">,</span> <span class="nx">core</span><span class="p">.</span><span class="nx">qweb</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}));</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">jsLibs</span> <span class="o">||</span> <span class="k">this</span><span class="p">.</span><span class="nx">cssLibs</span> <span class="o">||</span> <span class="k">this</span><span class="p">.</span><span class="nx">assetLibs</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">proms</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">_loadLibs</span><span class="p">(</span><span class="k">this</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">all</span><span class="p">(</span><span class="nx">proms</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><ul>
 <li>Hàm start</li>
@@ -1910,12 +1910,12 @@ Chú ý: Nếu bạn muốn truy cập đến this.el hoặc this.$el ở sai th
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"> <span class="o">*</span> <span class="err">@</span><span class="nx">returns</span> <span class="p">{</span><span class="nb">Promise</span><span class="p">}</span>
-     <span class="o">*</span><span class="err">/</span>
-    <span class="nx">start</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">resolve</span><span class="p">();</span>
-    <span class="p">},</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"> <span class="o">*</span> <span class="err">@</span><span class="nx">returns</span> <span class="p">{</span><span class="nb">Promise</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">     <span class="o">*</span><span class="err">/</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">start</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">resolve</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><ul>
 <li>Hàm destroy sẽ loại bỏ $ el khỏi DOM và xóa các phần tử con.</li>
@@ -1930,13 +1930,13 @@ Chú ý: Nếu bạn muốn truy cập đến this.el hoặc this.$el ở sai th
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">destroy</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-        <span class="nx">mixins</span><span class="p">.</span><span class="nx">PropertiesMixin</span><span class="p">.</span><span class="nx">destroy</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
-        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">$el</span><span class="p">)</span> <span class="p">{</span>
-            <span class="k">this</span><span class="p">.</span><span class="nx">$el</span><span class="p">.</span><span class="nx">remove</span><span class="p">();</span>
-        <span class="p">}</span>
-    <span class="p">},</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">destroy</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">mixins</span><span class="p">.</span><span class="nx">PropertiesMixin</span><span class="p">.</span><span class="nx">destroy</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">$el</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">this</span><span class="p">.</span><span class="nx">$el</span><span class="p">.</span><span class="nx">remove</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="insert-dom">Insert DOM</h3>
 <p>web.Widget có các hàm appendTo, insertAfter, attachTo, prependTo đều nhận đối số là 1 jquery element, bạn có thể tìm hiểu thêm trong code core của Odoo.</p>
@@ -2424,7 +2424,7 @@ Chú ý: Nếu bạn muốn truy cập đến this.el hoặc this.$el ở sai th
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3118,7 +3118,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 

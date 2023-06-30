@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
 
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.115.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1802,10 +1802,10 @@ if (!doNotTrack) {
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ mkdir Gofiber
-
-$ <span class="nb">cd</span> Gofiber
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ mkdir Gofiber
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$ <span class="nb">cd</span> Gofiber
+</span></span></code></pre></td></tr></table>
 </div>
 </div><ol start="2">
 <li>Khởi tạo project</li>
@@ -1815,8 +1815,8 @@ $ <span class="nb">cd</span> Gofiber
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ go mod init github.com/&lt;your GitHub username&gt;/Gofiber
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ go mod init github.com/&lt;your GitHub username&gt;/Gofiber
+</span></span></code></pre></td></tr></table>
 </div>
 </div><ol start="3">
 <li>Tạo các thư mục cần thiết</li>
@@ -1826,8 +1826,8 @@ $ <span class="nb">cd</span> Gofiber
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ mkdir service storage models
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ mkdir service storage models
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="install-the-required-libraries">Install the Required Libraries</h3>
 <p>1.Cài đặt Gofiber</p>
@@ -1836,8 +1836,8 @@ $ <span class="nb">cd</span> Gofiber
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ go get -u github.com/gofiber/fiber/v2
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ go get -u github.com/gofiber/fiber/v2
+</span></span></code></pre></td></tr></table>
 </div>
 </div><ol start="2">
 <li>Cài đặt Gorm</li>
@@ -1847,8 +1847,8 @@ $ <span class="nb">cd</span> Gofiber
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ go get -u gorm.io/gorm
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ go get -u gorm.io/gorm
+</span></span></code></pre></td></tr></table>
 </div>
 </div><ol start="3">
 <li>Install Gorm Postgres driver.</li>
@@ -1858,8 +1858,8 @@ $ <span class="nb">cd</span> Gofiber
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ go get -u gorm.io/driver/postgres
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ go get -u gorm.io/driver/postgres
+</span></span></code></pre></td></tr></table>
 </div>
 </div><ol start="4">
 <li>Install Godotenv, used for loading environment variables.</li>
@@ -1869,8 +1869,8 @@ $ <span class="nb">cd</span> Gofiber
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ go get github.com/joho/godotenv
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ go get github.com/joho/godotenv
+</span></span></code></pre></td></tr></table>
 </div>
 </div><ol start="5">
 <li>Install Validator.</li>
@@ -1880,8 +1880,8 @@ $ <span class="nb">cd</span> Gofiber
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ go get github.com/go-playground/validator/v10
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ go get github.com/go-playground/validator/v10
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="cài-đặt-database">Cài đặt database</h3>
 <ol>
@@ -1919,11 +1919,11 @@ DB_SSLMODE=disable
 
 import (
 
-    &quot;fmt&quot;
+    &#34;fmt&#34;
 
-    &quot;gorm.io/driver/postgres&quot;
+    &#34;gorm.io/driver/postgres&#34;
 
-    &quot;gorm.io/gorm&quot;
+    &#34;gorm.io/gorm&#34;
 
 )
 
@@ -1951,7 +1951,7 @@ func NewConnection(config *Config) (*gorm.DB, error) {
 
     dsn := fmt.Sprintf(
 
-        &quot;host=%s port=%s user=%s password=%s dbname=%s sslmode=%s&quot;,
+        &#34;host=%s port=%s user=%s password=%s dbname=%s sslmode=%s&#34;,
 
         config.Host, config.Port, config.User, config.Password, config.DBName, config.SSLMode,
 
@@ -1968,15 +1968,15 @@ func NewConnection(config *Config) (*gorm.DB, error) {
 </code></pre><h3 id="tạo-model">Tạo model</h3>
 <p>Chúng ta sẽ tạo 1 folder models và tạo 1 file mới là books.go</p>
 <pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">package models
-import &quot;gorm.io/gorm&quot;
+import &#34;gorm.io/gorm&#34;
 type Books struct {
-    ID        uint    `gorm:&quot;primary key;autoIncrement&quot; json:&quot;id&quot;`
+    ID        uint    `gorm:&#34;primary key;autoIncrement&#34; json:&#34;id&#34;`
 
-    Author    *string `json:&quot;author&quot;`
+    Author    *string `json:&#34;author&#34;`
 
-    Title     *string `json:&quot;title&quot;`
+    Title     *string `json:&#34;title&#34;`
 
-    Publisher *string `json:&quot;publisher&quot;`
+    Publisher *string `json:&#34;publisher&#34;`
 }
 func MigrateBooks(db *gorm.DB) error {
     err := db.AutoMigrate(&amp;Books{})
@@ -1986,11 +1986,11 @@ func MigrateBooks(db *gorm.DB) error {
 <p>Mục đích để chúng ta xây dựng 1 cầu nối đứng giữa để kết nối tới Database</p>
 <pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">type Book struct {
 
-Author    string `json:&quot;author&quot; validate:&quot;required&quot;`
+Author    string `json:&#34;author&#34; validate:&#34;required&#34;`
 
-Title     string `json:&quot;title&quot; validate:&quot;required&quot;`
+Title     string `json:&#34;title&#34; validate:&#34;required&#34;`
 
-Publisher string `json:&quot;publisher&quot; validate:&quot;required&quot;`
+Publisher string `json:&#34;publisher&#34; validate:&#34;required&#34;`
 
 }
 
@@ -2021,7 +2021,7 @@ DB *gorm.DB
 
         context.Status(http.StatusUnprocessableEntity).JSON(
 
-            &amp;fiber.Map{&quot;message&quot;: &quot;request failed&quot;})
+            &amp;fiber.Map{&#34;message&#34;: &#34;request failed&#34;})
 
         return err
 
@@ -2037,7 +2037,7 @@ DB *gorm.DB
 
         context.Status(http.StatusUnprocessableEntity).JSON(
 
-            &amp;fiber.Map{&quot;message&quot;: err},
+            &amp;fiber.Map{&#34;message&#34;: err},
 
         )
 
@@ -2055,7 +2055,7 @@ DB *gorm.DB
 
         context.Status(http.StatusBadRequest).JSON(
 
-            &amp;fiber.Map{&quot;message&quot;: &quot;could not create book&quot;})
+            &amp;fiber.Map{&#34;message&#34;: &#34;could not create book&#34;})
 
         return err
 
@@ -2065,7 +2065,7 @@ DB *gorm.DB
 
     context.Status(http.StatusOK).JSON(&amp;fiber.Map{
 
-        &quot;message&quot;: &quot;book has been successfully added&quot;,
+        &#34;message&#34;: &#34;book has been successfully added&#34;,
 
     })
 
@@ -2075,13 +2075,13 @@ DB *gorm.DB
 </code></pre><h3 id="update-books-by-id">Update Books by ID</h3>
 <pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">func (r *Repository) UpdateBook(context *fiber.Ctx) error {
 
-    id := context.Params(&quot;id&quot;)
+    id := context.Params(&#34;id&#34;)
 
-    if id == &quot;&quot; {
+    if id == &#34;&#34; {
 
         context.Status(http.StatusInternalServerError).JSON(&amp;fiber.Map{
 
-            &quot;message&quot;: &quot;id cannot be empty&quot;,
+            &#34;message&#34;: &#34;id cannot be empty&#34;,
 
         })
 
@@ -2105,7 +2105,7 @@ if err != nil {
 
     context.Status(http.StatusUnprocessableEntity).JSON(
 
-        &amp;fiber.Map{&quot;message&quot;: &quot;request failed&quot;})
+        &amp;fiber.Map{&#34;message&#34;: &#34;request failed&#34;})
 
     return err
 
@@ -2113,13 +2113,13 @@ if err != nil {
 
 
 
-err = r.DB.Model(bookModel).Where(&quot;id = ?&quot;, id).Updates(book).Error
+err = r.DB.Model(bookModel).Where(&#34;id = ?&#34;, id).Updates(book).Error
 
 if err != nil {
 
     context.Status(http.StatusBadRequest).JSON(&amp;fiber.Map{
 
-        &quot;message&quot;: &quot;could not update book&quot;,
+        &#34;message&#34;: &#34;could not update book&#34;,
 
     })
 
@@ -2131,7 +2131,7 @@ if err != nil {
 
     context.Status(http.StatusOK).JSON(&amp;fiber.Map{
 
-        &quot;message&quot;: &quot;book has been successfully updated&quot;,
+        &#34;message&#34;: &#34;book has been successfully updated&#34;,
 
     })
 
@@ -2147,13 +2147,13 @@ if err != nil {
 
 
 
-    id := context.Params(&quot;id&quot;)
+    id := context.Params(&#34;id&#34;)
 
-    if id == &quot;&quot; {
+    if id == &#34;&#34; {
 
         context.Status(http.StatusInternalServerError).JSON(&amp;fiber.Map{
 
-            &quot;message&quot;: &quot;id cannot be empty&quot;,
+            &#34;message&#34;: &#34;id cannot be empty&#34;,
 
         })
 
@@ -2171,7 +2171,7 @@ if err != nil {
 
         context.Status(http.StatusBadRequest).JSON(&amp;fiber.Map{
 
-            &quot;message&quot;: &quot;could not delete book&quot;,
+            &#34;message&#34;: &#34;could not delete book&#34;,
 
         })
 
@@ -2183,7 +2183,7 @@ if err != nil {
 
     context.Status(http.StatusOK).JSON(&amp;fiber.Map{
 
-        &quot;message&quot;: &quot;book has been successfully deleted&quot;,
+        &#34;message&#34;: &#34;book has been successfully deleted&#34;,
 
     })
 
@@ -2201,7 +2201,7 @@ if err != nil {
 
         context.Status(http.StatusBadRequest).JSON(
 
-            &amp;fiber.Map{&quot;message&quot;: &quot;could not get books&quot;})
+            &amp;fiber.Map{&#34;message&#34;: &#34;could not get books&#34;})
 
         return err
 
@@ -2211,9 +2211,9 @@ if err != nil {
 
     context.Status(http.StatusOK).JSON(&amp;fiber.Map{
 
-        &quot;message&quot;: &quot;books gotten successfully&quot;,
+        &#34;message&#34;: &#34;books gotten successfully&#34;,
 
-        &quot;data&quot;:    bookModels,
+        &#34;data&#34;:    bookModels,
 
     })
 
@@ -2225,15 +2225,15 @@ if err != nil {
 </code></pre><h3 id="get-books-by-id">Get Books by ID</h3>
 <pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">func (r *Repository) GetBookByID(context *fiber.Ctx) error {
 
-id := context.Params(&quot;id&quot;)
+id := context.Params(&#34;id&#34;)
 
 bookModel := &amp;models.Books{}
 
-if id == &quot;&quot; {
+if id == &#34;&#34; {
 
 context.Status(http.StatusInternalServerError).JSON(&amp;fiber.Map{
 
-&quot;message&quot;: &quot;id cannot be empty&quot;,
+&#34;message&#34;: &#34;id cannot be empty&#34;,
 
 })
 
@@ -2243,13 +2243,13 @@ return nil
 
 
 
-err := r.DB.Where(&quot;id = ?&quot;, id).First(bookModel).Error
+err := r.DB.Where(&#34;id = ?&#34;, id).First(bookModel).Error
 
 if err != nil {
 
 context.Status(http.StatusBadRequest).JSON(
 
-&amp;fiber.Map{&quot;message&quot;: &quot;could not get book&quot;})
+&amp;fiber.Map{&#34;message&#34;: &#34;could not get book&#34;})
 
 return err
 
@@ -2259,9 +2259,9 @@ return err
 
 context.Status(http.StatusOK).JSON(&amp;fiber.Map{
 
-&quot;message&quot;: &quot;books id gotten successfully&quot;,
+&#34;message&#34;: &#34;books id gotten successfully&#34;,
 
-&quot;data&quot;:    bookModel,
+&#34;data&#34;:    bookModel,
 
 })
 
@@ -2271,23 +2271,23 @@ return nil
 </code></pre><h3 id="cài-đặt-routes">Cài đặt Routes</h3>
 <pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">func (r *Repository) SetupRoutes(app *fiber.App) {
 
-    api := app.Group(&quot;/api&quot;)
+    api := app.Group(&#34;/api&#34;)
 
-    api.Post(&quot;/create_books&quot;, r.CreateBook)
+    api.Post(&#34;/create_books&#34;, r.CreateBook)
 
-    api.Delete(&quot;/delete_book/:id&quot;, r.DeleteBook)
+    api.Delete(&#34;/delete_book/:id&#34;, r.DeleteBook)
 
-    api.Put(&quot;/update_book/:id&quot;, r.UpdateBook)
+    api.Put(&#34;/update_book/:id&#34;, r.UpdateBook)
 
-    api.Get(&quot;/get_books/:id&quot;, r.GetBookByID)
+    api.Get(&#34;/get_books/:id&#34;, r.GetBookByID)
 
-    api.Get(&quot;/books&quot;, r.GetBooks)
+    api.Get(&#34;/books&#34;, r.GetBooks)
 
 }
 </code></pre><h3 id="tạo-main-function">Tạo main function</h3>
 <pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">func main() {
 
-    err := godotenv.Load(&quot;.env&quot;)
+    err := godotenv.Load(&#34;.env&#34;)
 
     if err != nil {
 
@@ -2299,17 +2299,17 @@ return nil
 
     config := &amp;storage.Config{
 
-        Host:     os.Getenv(&quot;DB_HOST&quot;),
+        Host:     os.Getenv(&#34;DB_HOST&#34;),
 
-        Port:     os.Getenv(&quot;DB_PORT&quot;),
+        Port:     os.Getenv(&#34;DB_PORT&#34;),
 
-        Password: os.Getenv(&quot;DB_PASS&quot;),
+        Password: os.Getenv(&#34;DB_PASS&#34;),
 
-        User:     os.Getenv(&quot;DB_USER&quot;),
+        User:     os.Getenv(&#34;DB_USER&#34;),
 
-        SSLMode:  os.Getenv(&quot;DB_SSLMODE&quot;),
+        SSLMode:  os.Getenv(&#34;DB_SSLMODE&#34;),
 
-        DBName:   os.Getenv(&quot;DB_NAME&quot;),
+        DBName:   os.Getenv(&#34;DB_NAME&#34;),
 
     }
 
@@ -2317,7 +2317,7 @@ return nil
 
     if err != nil {
 
-        log.Fatal(&quot;could not load database&quot;)
+        log.Fatal(&#34;could not load database&#34;)
 
     }
 
@@ -2327,7 +2327,7 @@ return nil
 
     if err != nil {
 
-        log.Fatal(&quot;could not migrate db&quot;)
+        log.Fatal(&#34;could not migrate db&#34;)
 
     }
 
@@ -2345,7 +2345,7 @@ return nil
 
 
 
-    app.Listen(&quot;:8080&quot;)
+    app.Listen(&#34;:8080&#34;)
 
 
 
@@ -2802,7 +2802,7 @@ return nil
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3506,7 +3506,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 

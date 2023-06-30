@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
 
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.115.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1814,32 +1814,32 @@ Việc kế thừa các lớp trong javascript trong Odoo được viết như s
 </span><span class="lnt">25
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"> <span class="o">*</span> <span class="err">@</span><span class="kr">class</span> <span class="nx">Class</span>
- <span class="o">*</span><span class="err">/</span>
-<span class="kd">function</span> <span class="nx">OdooClass</span><span class="p">(){}</span>
-
-<span class="kd">var</span> <span class="nx">initializing</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
-<span class="kd">var</span> <span class="nx">fnTest</span> <span class="o">=</span> <span class="sr">/xyz/</span><span class="p">.</span><span class="nx">test</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span><span class="nx">xyz</span><span class="p">();})</span> <span class="o">?</span> <span class="sr">/\b_super\b/</span> <span class="o">:</span> <span class="sr">/.*/</span><span class="p">;</span>
-
-<span class="cm">/**
-</span><span class="cm"> * Subclass an existing class
-</span><span class="cm"> *
-</span><span class="cm"> * @param {Object} prop class-level properties (class attributes and instance methods) to set on the new class
-</span><span class="cm"> */</span>
-<span class="nx">OdooClass</span><span class="p">.</span><span class="nx">extend</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-    <span class="kd">var</span> <span class="nx">_super</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">prototype</span><span class="p">;</span>
-    <span class="c1">// Support mixins arguments
-</span><span class="c1"></span>    <span class="kd">var</span> <span class="nx">args</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">toArray</span><span class="p">(</span><span class="nx">arguments</span><span class="p">);</span>
-    <span class="nx">args</span><span class="p">.</span><span class="nx">unshift</span><span class="p">({});</span>
-    <span class="kd">var</span> <span class="nx">prop</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">extend</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="nx">_</span><span class="p">,</span><span class="nx">args</span><span class="p">);</span>
-
-    <span class="c1">// Instantiate a web class (but only create the instance,
-</span><span class="c1"></span>    <span class="c1">// don&#39;t run the init constructor)
-</span><span class="c1"></span>    <span class="nx">initializing</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
-    <span class="kd">var</span> <span class="nx">This</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
-    <span class="kd">var</span> <span class="nx">prototype</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">This</span><span class="p">();</span>
-    <span class="nx">initializing</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"> <span class="o">*</span> <span class="err">@</span><span class="kr">class</span> <span class="nx">Class</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*</span><span class="err">/</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">OdooClass</span><span class="p">(){}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">initializing</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">fnTest</span> <span class="o">=</span> <span class="sr">/xyz/</span><span class="p">.</span><span class="nx">test</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span><span class="nx">xyz</span><span class="p">();})</span> <span class="o">?</span> <span class="sr">/\b_super\b/</span> <span class="o">:</span> <span class="sr">/.*/</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * Subclass an existing class
+</span></span></span><span class="line"><span class="cl"><span class="cm"> *
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * @param {Object} prop class-level properties (class attributes and instance methods) to set on the new class
+</span></span></span><span class="line"><span class="cl"><span class="cm"> */</span>
+</span></span><span class="line"><span class="cl"><span class="nx">OdooClass</span><span class="p">.</span><span class="nx">extend</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">_super</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">prototype</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// Support mixins arguments
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kd">var</span> <span class="nx">args</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">toArray</span><span class="p">(</span><span class="nx">arguments</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">args</span><span class="p">.</span><span class="nx">unshift</span><span class="p">({});</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">prop</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">extend</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="nx">_</span><span class="p">,</span><span class="nx">args</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">// Instantiate a web class (but only create the instance,
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// don&#39;t run the init constructor)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">initializing</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">This</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">prototype</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">This</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">initializing</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Điều này giúp Odoo có thể làm những việc như:</p>
 <div class="highlight"><div class="chroma">
@@ -1855,16 +1855,16 @@ Việc kế thừa các lớp trong javascript trong Odoo được viết như s
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">Class</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.Class&#39;</span><span class="p">);</span>
-<span class="kd">var</span> <span class="nx">mixins</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.mixins&#39;</span><span class="p">);</span>
-<span class="kd">var</span> <span class="nx">ServicesMixin</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.ServicesMixin&#39;</span><span class="p">);</span>
-
-
-<span class="kd">var</span> <span class="nx">MyCustomClass</span> <span class="o">=</span> <span class="nx">core</span><span class="p">.</span><span class="nx">Class</span><span class="p">.</span><span class="nx">extend</span><span class="p">(</span><span class="nx">mixins</span><span class="p">.</span><span class="nx">PropertiesMixin</span><span class="p">,</span> <span class="nx">ServicesMixin</span><span class="p">,</span> <span class="p">{</span>
-    <span class="nx">myProperty</span><span class="o">:</span> <span class="s1">&#39;test&#39;</span>
-    <span class="c1">// ...
-</span><span class="c1"></span><span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">Class</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.Class&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">mixins</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.mixins&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">ServicesMixin</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.ServicesMixin&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">MyCustomClass</span> <span class="o">=</span> <span class="nx">core</span><span class="p">.</span><span class="nx">Class</span><span class="p">.</span><span class="nx">extend</span><span class="p">(</span><span class="nx">mixins</span><span class="p">.</span><span class="nx">PropertiesMixin</span><span class="p">,</span> <span class="nx">ServicesMixin</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">myProperty</span><span class="o">:</span> <span class="s1">&#39;test&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// ...
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Kết luận lại thì Web.Class là thứ cho phép bạn thực hiện .extend() và .include trên mọi Widget JavaScript của Odoo, v.v.</p>
 <h3 id="webwidget-odoo-class">web.Widget Odoo Class.</h3>
@@ -1887,21 +1887,21 @@ Việc kế thừa các lớp trong javascript trong Odoo được viết như s
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">Widget</span> <span class="o">=</span> <span class="nx">core</span><span class="p">.</span><span class="nx">Class</span><span class="p">.</span><span class="nx">extend</span><span class="p">(</span><span class="nx">mixins</span><span class="p">.</span><span class="nx">PropertiesMixin</span><span class="p">,</span> <span class="nx">ServicesMixin</span><span class="p">,</span> <span class="p">{</span>
-    <span class="c1">// Backbone-ish API
-</span><span class="c1"></span>    <span class="nx">tagName</span><span class="o">:</span> <span class="s1">&#39;div&#39;</span><span class="p">,</span>
-    <span class="nx">id</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
-    <span class="nx">className</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
-    <span class="nx">attributes</span><span class="o">:</span> <span class="p">{},</span>
-    <span class="nx">events</span><span class="o">:</span> <span class="p">{},</span>
-    <span class="cm">/**
-</span><span class="cm">     * The name of the QWeb template that will be used for rendering. Must be
-</span><span class="cm">     * redefined in subclasses or the default render() method can not be used.
-</span><span class="cm">     *
-</span><span class="cm">     * @type {null|string}
-</span><span class="cm">     */</span>
-    <span class="nx">template</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">Widget</span> <span class="o">=</span> <span class="nx">core</span><span class="p">.</span><span class="nx">Class</span><span class="p">.</span><span class="nx">extend</span><span class="p">(</span><span class="nx">mixins</span><span class="p">.</span><span class="nx">PropertiesMixin</span><span class="p">,</span> <span class="nx">ServicesMixin</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// Backbone-ish API
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">tagName</span><span class="o">:</span> <span class="s1">&#39;div&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">id</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">className</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">attributes</span><span class="o">:</span> <span class="p">{},</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">events</span><span class="o">:</span> <span class="p">{},</span>
+</span></span><span class="line"><span class="cl">    <span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * The name of the QWeb template that will be used for rendering. Must be
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * redefined in subclasses or the default render() method can not be used.
+</span></span></span><span class="line"><span class="cl"><span class="cm">     *
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @type {null|string}
+</span></span></span><span class="line"><span class="cl"><span class="cm">     */</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">template</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Bằng cách mở rộng web.class, Class Widget này có thể có 2 mixin, PropertiesMixin và ServicesMixin.</p>
 <h3 id="webwidget-extends-the-propertiesmixin">web.Widget extends the PropertiesMixin</h3>
@@ -1970,67 +1970,67 @@ Việc kế thừa các lớp trong javascript trong Odoo được viết như s
 </span><span class="lnt">60
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript">
-<span class="cm">/**
-</span><span class="cm"> * @name PropertiesMixin
-</span><span class="cm"> * @mixin
-</span><span class="cm"> */</span>
-<span class="kd">var</span> <span class="nx">PropertiesMixin</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">extend</span><span class="p">({},</span> <span class="nx">EventDispatcherMixin</span><span class="p">,</span> <span class="p">{</span>
-    <span class="nx">init</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-        <span class="nx">EventDispatcherMixin</span><span class="p">.</span><span class="nx">init</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">__getterSetterInternalMap</span> <span class="o">=</span> <span class="p">{};</span>
-    <span class="p">},</span>
-    <span class="nx">set</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">arg1</span><span class="p">,</span> <span class="nx">arg2</span><span class="p">,</span> <span class="nx">arg3</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kd">var</span> <span class="nx">map</span><span class="p">;</span>
-        <span class="kd">var</span> <span class="nx">options</span><span class="p">;</span>
-        <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">arg1</span> <span class="o">===</span> <span class="s2">&#34;string&#34;</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nx">map</span> <span class="o">=</span> <span class="p">{};</span>
-            <span class="nx">map</span><span class="p">[</span><span class="nx">arg1</span><span class="p">]</span> <span class="o">=</span> <span class="nx">arg2</span><span class="p">;</span>
-            <span class="nx">options</span> <span class="o">=</span> <span class="nx">arg3</span> <span class="o">||</span> <span class="p">{};</span>
-        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-            <span class="nx">map</span> <span class="o">=</span> <span class="nx">arg1</span><span class="p">;</span>
-            <span class="nx">options</span> <span class="o">=</span> <span class="nx">arg2</span> <span class="o">||</span> <span class="p">{};</span>
-        <span class="p">}</span>
-        <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
-        <span class="kd">var</span> <span class="nx">changed</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
-        <span class="nx">_</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">map</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">val</span><span class="p">,</span> <span class="nx">key</span><span class="p">)</span> <span class="p">{</span>
-            <span class="kd">var</span> <span class="nx">tmp</span> <span class="o">=</span> <span class="nx">self</span><span class="p">.</span><span class="nx">__getterSetterInternalMap</span><span class="p">[</span><span class="nx">key</span><span class="p">];</span>
-            <span class="k">if</span> <span class="p">(</span><span class="nx">tmp</span> <span class="o">===</span> <span class="nx">val</span><span class="p">)</span>
-                <span class="k">return</span><span class="p">;</span>
-            <span class="c1">// seriously, why are you doing this? it is obviously a stupid design.
-</span><span class="c1"></span>            <span class="c1">// the properties mixin should not be concerned with handling fields details.
-</span><span class="c1"></span>            <span class="c1">// this also has the side effect of introducing a dependency on utils.  Todo:
-</span><span class="c1"></span>            <span class="c1">// remove this, or move it elsewhere.  Also, learn OO programming.
-</span><span class="c1"></span>            <span class="k">if</span> <span class="p">(</span><span class="nx">key</span> <span class="o">===</span> <span class="s1">&#39;value&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">self</span><span class="p">.</span><span class="nx">field</span> <span class="o">&amp;&amp;</span> <span class="nx">self</span><span class="p">.</span><span class="nx">field</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="s1">&#39;float&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">tmp</span> <span class="o">&amp;&amp;</span> <span class="nx">val</span><span class="p">){</span>
-                <span class="kd">var</span> <span class="nx">digits</span> <span class="o">=</span> <span class="nx">self</span><span class="p">.</span><span class="nx">field</span><span class="p">.</span><span class="nx">digits</span><span class="p">;</span>
-                <span class="k">if</span> <span class="p">(</span><span class="nx">_</span><span class="p">.</span><span class="nx">isArray</span><span class="p">(</span><span class="nx">digits</span><span class="p">))</span> <span class="p">{</span>
-                    <span class="k">if</span> <span class="p">(</span><span class="nx">utils</span><span class="p">.</span><span class="nx">float_is_zero</span><span class="p">(</span><span class="nx">tmp</span> <span class="o">-</span> <span class="nx">val</span><span class="p">,</span> <span class="nx">digits</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span> <span class="p">{</span>
-                        <span class="k">return</span><span class="p">;</span>
-                    <span class="p">}</span>
-                <span class="p">}</span>
-            <span class="p">}</span>
-            <span class="nx">changed</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
-            <span class="nx">self</span><span class="p">.</span><span class="nx">__getterSetterInternalMap</span><span class="p">[</span><span class="nx">key</span><span class="p">]</span> <span class="o">=</span> <span class="nx">val</span><span class="p">;</span>
-            <span class="k">if</span> <span class="p">(</span><span class="o">!</span> <span class="nx">options</span><span class="p">.</span><span class="nx">silent</span><span class="p">)</span>
-                <span class="nx">self</span><span class="p">.</span><span class="nx">trigger</span><span class="p">(</span><span class="s2">&#34;change:&#34;</span> <span class="o">+</span> <span class="nx">key</span><span class="p">,</span> <span class="nx">self</span><span class="p">,</span> <span class="p">{</span>
-                    <span class="nx">oldValue</span><span class="o">:</span> <span class="nx">tmp</span><span class="p">,</span>
-                    <span class="nx">newValue</span><span class="o">:</span> <span class="nx">val</span>
-                <span class="p">});</span>
-        <span class="p">});</span>
-        <span class="k">if</span> <span class="p">(</span><span class="nx">changed</span><span class="p">)</span>
-            <span class="nx">self</span><span class="p">.</span><span class="nx">trigger</span><span class="p">(</span><span class="s2">&#34;change&#34;</span><span class="p">,</span> <span class="nx">self</span><span class="p">);</span>
-    <span class="p">},</span>
-    <span class="nx">get</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">key</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">__getterSetterInternalMap</span><span class="p">[</span><span class="nx">key</span><span class="p">];</span>
-    <span class="p">}</span>
-<span class="p">});</span>
-
-<span class="k">return</span> <span class="p">{</span>
-    <span class="nx">ParentedMixin</span><span class="o">:</span> <span class="nx">ParentedMixin</span><span class="p">,</span>
-    <span class="nx">EventDispatcherMixin</span><span class="o">:</span> <span class="nx">EventDispatcherMixin</span><span class="p">,</span>
-    <span class="nx">PropertiesMixin</span><span class="o">:</span> <span class="nx">PropertiesMixin</span><span class="p">,</span>
-<span class="p">};</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * @name PropertiesMixin
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * @mixin
+</span></span></span><span class="line"><span class="cl"><span class="cm"> */</span>
+</span></span><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">PropertiesMixin</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">extend</span><span class="p">({},</span> <span class="nx">EventDispatcherMixin</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">init</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">EventDispatcherMixin</span><span class="p">.</span><span class="nx">init</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">__getterSetterInternalMap</span> <span class="o">=</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">set</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">arg1</span><span class="p">,</span> <span class="nx">arg2</span><span class="p">,</span> <span class="nx">arg3</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">map</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">options</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">arg1</span> <span class="o">===</span> <span class="s2">&#34;string&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">map</span> <span class="o">=</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">map</span><span class="p">[</span><span class="nx">arg1</span><span class="p">]</span> <span class="o">=</span> <span class="nx">arg2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">options</span> <span class="o">=</span> <span class="nx">arg3</span> <span class="o">||</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">map</span> <span class="o">=</span> <span class="nx">arg1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">options</span> <span class="o">=</span> <span class="nx">arg2</span> <span class="o">||</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">changed</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">_</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">map</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">val</span><span class="p">,</span> <span class="nx">key</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kd">var</span> <span class="nx">tmp</span> <span class="o">=</span> <span class="nx">self</span><span class="p">.</span><span class="nx">__getterSetterInternalMap</span><span class="p">[</span><span class="nx">key</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="nx">tmp</span> <span class="o">===</span> <span class="nx">val</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// seriously, why are you doing this? it is obviously a stupid design.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="c1">// the properties mixin should not be concerned with handling fields details.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="c1">// this also has the side effect of introducing a dependency on utils.  Todo:
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="c1">// remove this, or move it elsewhere.  Also, learn OO programming.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="k">if</span> <span class="p">(</span><span class="nx">key</span> <span class="o">===</span> <span class="s1">&#39;value&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">self</span><span class="p">.</span><span class="nx">field</span> <span class="o">&amp;&amp;</span> <span class="nx">self</span><span class="p">.</span><span class="nx">field</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="s1">&#39;float&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">tmp</span> <span class="o">&amp;&amp;</span> <span class="nx">val</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">                <span class="kd">var</span> <span class="nx">digits</span> <span class="o">=</span> <span class="nx">self</span><span class="p">.</span><span class="nx">field</span><span class="p">.</span><span class="nx">digits</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="p">(</span><span class="nx">_</span><span class="p">.</span><span class="nx">isArray</span><span class="p">(</span><span class="nx">digits</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">if</span> <span class="p">(</span><span class="nx">utils</span><span class="p">.</span><span class="nx">float_is_zero</span><span class="p">(</span><span class="nx">tmp</span> <span class="o">-</span> <span class="nx">val</span><span class="p">,</span> <span class="nx">digits</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">changed</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">self</span><span class="p">.</span><span class="nx">__getterSetterInternalMap</span><span class="p">[</span><span class="nx">key</span><span class="p">]</span> <span class="o">=</span> <span class="nx">val</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="o">!</span> <span class="nx">options</span><span class="p">.</span><span class="nx">silent</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">self</span><span class="p">.</span><span class="nx">trigger</span><span class="p">(</span><span class="s2">&#34;change:&#34;</span> <span class="o">+</span> <span class="nx">key</span><span class="p">,</span> <span class="nx">self</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="nx">oldValue</span><span class="o">:</span> <span class="nx">tmp</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                    <span class="nx">newValue</span><span class="o">:</span> <span class="nx">val</span>
+</span></span><span class="line"><span class="cl">                <span class="p">});</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nx">changed</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">self</span><span class="p">.</span><span class="nx">trigger</span><span class="p">(</span><span class="s2">&#34;change&#34;</span><span class="p">,</span> <span class="nx">self</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">get</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">key</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">__getterSetterInternalMap</span><span class="p">[</span><span class="nx">key</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">return</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">ParentedMixin</span><span class="o">:</span> <span class="nx">ParentedMixin</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">EventDispatcherMixin</span><span class="o">:</span> <span class="nx">EventDispatcherMixin</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">PropertiesMixin</span><span class="o">:</span> <span class="nx">PropertiesMixin</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>PropertiesMixin lại extends EventDispatcherMixin, mục đích chính của PropertiesMixin đó chính là xử lý các trigger event trên UI<br />
 Có một đoạn code khá hài hước mà hiện tại nó vẫn còn trong core của odoo</p>
@@ -2048,17 +2048,17 @@ Có một đoạn code khá hài hước mà hiện tại nó vẫn còn trong c
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">_</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">map</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">val</span><span class="p">,</span> <span class="nx">key</span><span class="p">)</span> <span class="p">{</span>
-            <span class="kd">var</span> <span class="nx">tmp</span> <span class="o">=</span> <span class="nx">self</span><span class="p">.</span><span class="nx">__getterSetterInternalMap</span><span class="p">[</span><span class="nx">key</span><span class="p">];</span>
-            <span class="k">if</span> <span class="p">(</span><span class="nx">tmp</span> <span class="o">===</span> <span class="nx">val</span><span class="p">)</span>
-                <span class="k">return</span><span class="p">;</span>
-            <span class="c1">// seriously, why are you doing this? it is obviously a stupid design.
-</span><span class="c1"></span>            <span class="c1">// the properties mixin should not be concerned with handling fields details.
-</span><span class="c1"></span>            <span class="c1">// this also has the side effect of introducing a dependency on utils.  Todo:
-</span><span class="c1"></span>            <span class="c1">// remove this, or move it elsewhere.  Also, learn OO programming.
-</span><span class="c1"></span>            <span class="k">if</span> <span class="p">(</span><span class="nx">key</span> <span class="o">===</span> <span class="s1">&#39;value&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">self</span><span class="p">.</span><span class="nx">field</span> <span class="o">&amp;&amp;</span> <span class="nx">self</span><span class="p">.</span><span class="nx">field</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="s1">&#39;float&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">tmp</span> <span class="o">&amp;&amp;</span> <span class="nx">val</span><span class="p">){</span>
-                <span class="kd">var</span> <span class="nx">digits</span> <span class="o">=</span> <span class="nx">self</span><span class="p">.</span><span class="nx">field</span><span class="p">.</span><span class="nx">digits</span><span class="p">;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">_</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">map</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">val</span><span class="p">,</span> <span class="nx">key</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kd">var</span> <span class="nx">tmp</span> <span class="o">=</span> <span class="nx">self</span><span class="p">.</span><span class="nx">__getterSetterInternalMap</span><span class="p">[</span><span class="nx">key</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="nx">tmp</span> <span class="o">===</span> <span class="nx">val</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// seriously, why are you doing this? it is obviously a stupid design.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="c1">// the properties mixin should not be concerned with handling fields details.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="c1">// this also has the side effect of introducing a dependency on utils.  Todo:
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="c1">// remove this, or move it elsewhere.  Also, learn OO programming.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="k">if</span> <span class="p">(</span><span class="nx">key</span> <span class="o">===</span> <span class="s1">&#39;value&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">self</span><span class="p">.</span><span class="nx">field</span> <span class="o">&amp;&amp;</span> <span class="nx">self</span><span class="p">.</span><span class="nx">field</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="s1">&#39;float&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">tmp</span> <span class="o">&amp;&amp;</span> <span class="nx">val</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">                <span class="kd">var</span> <span class="nx">digits</span> <span class="o">=</span> <span class="nx">self</span><span class="p">.</span><span class="nx">field</span><span class="p">.</span><span class="nx">digits</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Also, learn OO programming. =)))<br />
 Bản thân EventDispatcherMixin cũng extend từ ParentedMixin do đó, nó cũng có thể gọi được các function như getParent hoặc getChildren</p>
@@ -2251,190 +2251,190 @@ Bản thân EventDispatcherMixin cũng extend từ ParentedMixin do đó, nó c�
 </span><span class="lnt">183
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">odoo</span><span class="p">.</span><span class="nx">define</span><span class="p">(</span><span class="s1">&#39;web.ServicesMixin&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">require</span><span class="p">)</span> <span class="p">{</span>
-<span class="s2">&#34;use strict&#34;</span><span class="p">;</span>
-
-<span class="kd">var</span> <span class="nx">rpc</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.rpc&#39;</span><span class="p">);</span>
-
-<span class="cm">/**
-</span><span class="cm"> * @mixin
-</span><span class="cm"> * @name ServicesMixin
-</span><span class="cm"> */</span>
-<span class="kd">var</span> <span class="nx">ServicesMixin</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="cm">/**
-</span><span class="cm">     * @param  {string} service
-</span><span class="cm">     * @param  {string} method
-</span><span class="cm">     * @return {any} result of the service called
-</span><span class="cm">     */</span>
-    <span class="nx">call</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">service</span><span class="p">,</span> <span class="nx">method</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kd">var</span> <span class="nx">args</span> <span class="o">=</span> <span class="nb">Array</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">slice</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="nx">arguments</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
-        <span class="kd">var</span> <span class="nx">result</span><span class="p">;</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">trigger_up</span><span class="p">(</span><span class="s1">&#39;call_service&#39;</span><span class="p">,</span> <span class="p">{</span>
-            <span class="nx">service</span><span class="o">:</span> <span class="nx">service</span><span class="p">,</span>
-            <span class="nx">method</span><span class="o">:</span> <span class="nx">method</span><span class="p">,</span>
-            <span class="nx">args</span><span class="o">:</span> <span class="nx">args</span><span class="p">,</span>
-            <span class="nx">callback</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">r</span><span class="p">)</span> <span class="p">{</span>
-                <span class="nx">result</span> <span class="o">=</span> <span class="nx">r</span><span class="p">;</span>
-            <span class="p">},</span>
-        <span class="p">});</span>
-        <span class="k">return</span> <span class="nx">result</span><span class="p">;</span>
-    <span class="p">},</span>
-    <span class="cm">/**
-</span><span class="cm">     * @private
-</span><span class="cm">     * @param {Object} libs - @see ajax.loadLibs
-</span><span class="cm">     * @param {Object} [context] - @see ajax.loadLibs
-</span><span class="cm">     * @param {Object} [tplRoute=this._loadLibsTplRoute] - @see ajax.loadLibs
-</span><span class="cm">     * @returns {Promise}
-</span><span class="cm">     */</span>
-    <span class="nx">_loadLibs</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">libs</span><span class="p">,</span> <span class="nx">context</span><span class="p">,</span> <span class="nx">tplRoute</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="s1">&#39;ajax&#39;</span><span class="p">,</span> <span class="s1">&#39;loadLibs&#39;</span><span class="p">,</span> <span class="nx">libs</span><span class="p">,</span> <span class="nx">context</span><span class="p">,</span> <span class="nx">tplRoute</span> <span class="o">||</span> <span class="k">this</span><span class="p">.</span><span class="nx">_loadLibsTplRoute</span><span class="p">);</span>
-    <span class="p">},</span>
-    <span class="cm">/**
-</span><span class="cm">     * Builds and executes RPC query. Returns a promise resolved with
-</span><span class="cm">     * the RPC result.
-</span><span class="cm">     *
-</span><span class="cm">     * @param {string} params either a route or a model
-</span><span class="cm">     * @param {string} options if a model is given, this argument is a method
-</span><span class="cm">     * @returns {Promise}
-</span><span class="cm">     */</span>
-    <span class="nx">_rpc</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">params</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kd">var</span> <span class="nx">query</span> <span class="o">=</span> <span class="nx">rpc</span><span class="p">.</span><span class="nx">buildQuery</span><span class="p">(</span><span class="nx">params</span><span class="p">);</span>
-        <span class="kd">var</span> <span class="nx">prom</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="s1">&#39;ajax&#39;</span><span class="p">,</span> <span class="s1">&#39;rpc&#39;</span><span class="p">,</span> <span class="nx">query</span><span class="p">.</span><span class="nx">route</span><span class="p">,</span> <span class="nx">query</span><span class="p">.</span><span class="nx">params</span><span class="p">,</span> <span class="nx">options</span><span class="p">,</span> <span class="k">this</span><span class="p">);</span>
-        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">prom</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nx">prom</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{});</span>
-            <span class="nx">prom</span><span class="p">.</span><span class="nx">abort</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{};</span>
-        <span class="p">}</span>
-        <span class="kd">var</span> <span class="nx">abort</span> <span class="o">=</span> <span class="nx">prom</span><span class="p">.</span><span class="nx">abort</span> <span class="o">?</span> <span class="nx">prom</span><span class="p">.</span><span class="nx">abort</span> <span class="o">:</span> <span class="nx">prom</span><span class="p">.</span><span class="nx">reject</span><span class="p">;</span>
-        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">abort</span><span class="p">)</span> <span class="p">{</span>
-            <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="s2">&#34;a rpc promise should always have a reject function&#34;</span><span class="p">);</span>
-        <span class="p">}</span>
-        <span class="nx">prom</span><span class="p">.</span><span class="nx">abort</span> <span class="o">=</span> <span class="nx">abort</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="nx">prom</span><span class="p">);</span>
-        <span class="k">return</span> <span class="nx">prom</span><span class="p">;</span>
-    <span class="p">},</span>
-    <span class="nx">loadFieldView</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">modelName</span><span class="p">,</span> <span class="nx">context</span><span class="p">,</span> <span class="nx">view_id</span><span class="p">,</span> <span class="nx">view_type</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">loadViews</span><span class="p">(</span><span class="nx">modelName</span><span class="p">,</span> <span class="nx">context</span><span class="p">,</span> <span class="p">[[</span><span class="nx">view_id</span><span class="p">,</span> <span class="nx">view_type</span><span class="p">]],</span> <span class="nx">options</span><span class="p">).</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">result</span><span class="p">)</span> <span class="p">{</span>
-            <span class="k">return</span> <span class="nx">result</span><span class="p">[</span><span class="nx">view_type</span><span class="p">];</span>
-        <span class="p">});</span>
-    <span class="p">},</span>
-    <span class="nx">loadViews</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">modelName</span><span class="p">,</span> <span class="nx">context</span><span class="p">,</span> <span class="nx">views</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
-        <span class="k">return</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">resolve</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nx">self</span><span class="p">.</span><span class="nx">trigger_up</span><span class="p">(</span><span class="s1">&#39;load_views&#39;</span><span class="p">,</span> <span class="p">{</span>
-                <span class="nx">modelName</span><span class="o">:</span> <span class="nx">modelName</span><span class="p">,</span>
-                <span class="nx">context</span><span class="o">:</span> <span class="nx">context</span><span class="p">,</span>
-                <span class="nx">views</span><span class="o">:</span> <span class="nx">views</span><span class="p">,</span>
-                <span class="nx">options</span><span class="o">:</span> <span class="nx">options</span><span class="p">,</span>
-                <span class="nx">on_success</span><span class="o">:</span> <span class="nx">resolve</span><span class="p">,</span>
-            <span class="p">});</span>
-        <span class="p">});</span>
-    <span class="p">},</span>
-    <span class="nx">loadFilters</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">modelName</span><span class="p">,</span> <span class="nx">actionId</span><span class="p">,</span> <span class="nx">context</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
-        <span class="k">return</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nx">self</span><span class="p">.</span><span class="nx">trigger_up</span><span class="p">(</span><span class="s1">&#39;load_filters&#39;</span><span class="p">,</span> <span class="p">{</span>
-                <span class="nx">modelName</span><span class="o">:</span> <span class="nx">modelName</span><span class="p">,</span>
-                <span class="nx">actionId</span><span class="o">:</span> <span class="nx">actionId</span><span class="p">,</span>
-                <span class="nx">context</span><span class="o">:</span> <span class="nx">context</span><span class="p">,</span>
-                <span class="nx">on_success</span><span class="o">:</span> <span class="nx">resolve</span><span class="p">,</span>
-            <span class="p">});</span>
-        <span class="p">});</span>
-    <span class="p">},</span>
-    <span class="nx">createFilter</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">filter</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
-        <span class="k">return</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nx">self</span><span class="p">.</span><span class="nx">trigger_up</span><span class="p">(</span><span class="s1">&#39;create_filter&#39;</span><span class="p">,</span> <span class="p">{</span>
-                <span class="nx">filter</span><span class="o">:</span> <span class="nx">filter</span><span class="p">,</span>
-                <span class="nx">on_success</span><span class="o">:</span> <span class="nx">resolve</span><span class="p">,</span>
-            <span class="p">});</span>
-        <span class="p">});</span>
-    <span class="p">},</span>
-    <span class="nx">deleteFilter</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">filterId</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
-        <span class="k">return</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nx">self</span><span class="p">.</span><span class="nx">trigger_up</span><span class="p">(</span><span class="s1">&#39;delete_filter&#39;</span><span class="p">,</span> <span class="p">{</span>
-                <span class="nx">filterId</span><span class="o">:</span> <span class="nx">filterId</span><span class="p">,</span>
-                <span class="nx">on_success</span><span class="o">:</span> <span class="nx">resolve</span><span class="p">,</span>
-            <span class="p">});</span>
-        <span class="p">});</span>
-    <span class="p">},</span>
-    <span class="c1">// Session stuff
-</span><span class="c1"></span>    <span class="nx">getSession</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-        <span class="kd">var</span> <span class="nx">session</span><span class="p">;</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">trigger_up</span><span class="p">(</span><span class="s1">&#39;get_session&#39;</span><span class="p">,</span> <span class="p">{</span>
-            <span class="nx">callback</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">result</span><span class="p">)</span> <span class="p">{</span>
-                <span class="nx">session</span> <span class="o">=</span> <span class="nx">result</span><span class="p">;</span>
-            <span class="p">}</span>
-        <span class="p">});</span>
-        <span class="k">return</span> <span class="nx">session</span><span class="p">;</span>
-    <span class="p">},</span>
-    <span class="cm">/**
-</span><span class="cm">     * Informs the action manager to do an action. This supposes that the action
-</span><span class="cm">     * manager can be found amongst the ancestors of the current widget.
-</span><span class="cm">     * If that&#39;s not the case this method will simply return an unresolved
-</span><span class="cm">     * promise.
-</span><span class="cm">     *
-</span><span class="cm">     * @param {any} action
-</span><span class="cm">     * @param {any} options
-</span><span class="cm">     * @returns {Promise}
-</span><span class="cm">     */</span>
-    <span class="nx">do_action</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">action</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
-        <span class="k">return</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nx">self</span><span class="p">.</span><span class="nx">trigger_up</span><span class="p">(</span><span class="s1">&#39;do_action&#39;</span><span class="p">,</span> <span class="p">{</span>
-                <span class="nx">action</span><span class="o">:</span> <span class="nx">action</span><span class="p">,</span>
-                <span class="nx">options</span><span class="o">:</span> <span class="nx">options</span><span class="p">,</span>
-                <span class="nx">on_success</span><span class="o">:</span> <span class="nx">resolve</span><span class="p">,</span>
-                <span class="nx">on_fail</span><span class="o">:</span> <span class="nx">reject</span><span class="p">,</span>
-            <span class="p">});</span>
-        <span class="p">});</span>
-    <span class="p">},</span>
-    <span class="cm">/**
-</span><span class="cm">     * Displays a notification.
-</span><span class="cm">     *
-</span><span class="cm">     * @param {Object} options
-</span><span class="cm">     * @param {string} options.title
-</span><span class="cm">     * @param {string} [options.subtitle]
-</span><span class="cm">     * @param {string} [options.message]
-</span><span class="cm">     * @param {string} [options.type=&#39;warning&#39;] &#39;info&#39;, &#39;success&#39;, &#39;warning&#39;, &#39;danger&#39; or &#39;&#39;
-</span><span class="cm">     * @param {boolean} [options.sticky=false]
-</span><span class="cm">     * @param {string} [options.className]
-</span><span class="cm">     */</span>
-    <span class="nx">displayNotification</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="s1">&#39;notification&#39;</span><span class="p">,</span> <span class="s1">&#39;notify&#39;</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span>
-    <span class="p">},</span>
-    <span class="cm">/**
-</span><span class="cm">     * @deprecated will be removed as soon as the notification system is reviewed
-</span><span class="cm">     * @see displayNotification
-</span><span class="cm">     */</span>
-    <span class="nx">do_notify</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">title</span><span class="p">,</span> <span class="nx">message</span><span class="p">,</span> <span class="nx">sticky</span><span class="p">,</span> <span class="nx">className</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">displayNotification</span><span class="p">({</span>
-            <span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;warning&#39;</span><span class="p">,</span>
-            <span class="nx">title</span><span class="o">:</span> <span class="nx">title</span><span class="p">,</span>
-            <span class="nx">message</span><span class="o">:</span> <span class="nx">message</span><span class="p">,</span>
-            <span class="nx">sticky</span><span class="o">:</span> <span class="nx">sticky</span><span class="p">,</span>
-            <span class="nx">className</span><span class="o">:</span> <span class="nx">className</span><span class="p">,</span>
-        <span class="p">});</span>
-    <span class="p">},</span>
-    <span class="cm">/**
-</span><span class="cm">     * @deprecated will be removed as soon as the notification system is reviewed
-</span><span class="cm">     * @see displayNotification
-</span><span class="cm">     */</span>
-    <span class="nx">do_warn</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">title</span><span class="p">,</span> <span class="nx">message</span><span class="p">,</span> <span class="nx">sticky</span><span class="p">,</span> <span class="nx">className</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">warn</span><span class="p">(</span><span class="nx">title</span><span class="p">,</span> <span class="nx">message</span><span class="p">);</span>
-        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">displayNotification</span><span class="p">({</span>
-            <span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;danger&#39;</span><span class="p">,</span>
-            <span class="nx">title</span><span class="o">:</span> <span class="nx">title</span><span class="p">,</span>
-            <span class="nx">message</span><span class="o">:</span> <span class="nx">message</span><span class="p">,</span>
-            <span class="nx">sticky</span><span class="o">:</span> <span class="nx">sticky</span><span class="p">,</span>
-            <span class="nx">className</span><span class="o">:</span> <span class="nx">className</span><span class="p">,</span><span class="k">return</span>
-        <span class="p">});</span>
-    <span class="p">},</span>
-<span class="p">};</span>
-
-<span class="k">return</span> <span class="nx">ServicesMixin</span><span class="p">;</span>
-
-<span class="p">});</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">odoo</span><span class="p">.</span><span class="nx">define</span><span class="p">(</span><span class="s1">&#39;web.ServicesMixin&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">require</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;use strict&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">rpc</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.rpc&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * @mixin
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * @name ServicesMixin
+</span></span></span><span class="line"><span class="cl"><span class="cm"> */</span>
+</span></span><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">ServicesMixin</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @param  {string} service
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @param  {string} method
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @return {any} result of the service called
+</span></span></span><span class="line"><span class="cl"><span class="cm">     */</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">call</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">service</span><span class="p">,</span> <span class="nx">method</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">args</span> <span class="o">=</span> <span class="nb">Array</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">slice</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="nx">arguments</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">result</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">trigger_up</span><span class="p">(</span><span class="s1">&#39;call_service&#39;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">service</span><span class="o">:</span> <span class="nx">service</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">method</span><span class="o">:</span> <span class="nx">method</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">args</span><span class="o">:</span> <span class="nx">args</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">callback</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">r</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">result</span> <span class="o">=</span> <span class="nx">r</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nx">result</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @private
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @param {Object} libs - @see ajax.loadLibs
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @param {Object} [context] - @see ajax.loadLibs
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @param {Object} [tplRoute=this._loadLibsTplRoute] - @see ajax.loadLibs
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @returns {Promise}
+</span></span></span><span class="line"><span class="cl"><span class="cm">     */</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">_loadLibs</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">libs</span><span class="p">,</span> <span class="nx">context</span><span class="p">,</span> <span class="nx">tplRoute</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="s1">&#39;ajax&#39;</span><span class="p">,</span> <span class="s1">&#39;loadLibs&#39;</span><span class="p">,</span> <span class="nx">libs</span><span class="p">,</span> <span class="nx">context</span><span class="p">,</span> <span class="nx">tplRoute</span> <span class="o">||</span> <span class="k">this</span><span class="p">.</span><span class="nx">_loadLibsTplRoute</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * Builds and executes RPC query. Returns a promise resolved with
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * the RPC result.
+</span></span></span><span class="line"><span class="cl"><span class="cm">     *
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @param {string} params either a route or a model
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @param {string} options if a model is given, this argument is a method
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @returns {Promise}
+</span></span></span><span class="line"><span class="cl"><span class="cm">     */</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">_rpc</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">params</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">query</span> <span class="o">=</span> <span class="nx">rpc</span><span class="p">.</span><span class="nx">buildQuery</span><span class="p">(</span><span class="nx">params</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">prom</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="s1">&#39;ajax&#39;</span><span class="p">,</span> <span class="s1">&#39;rpc&#39;</span><span class="p">,</span> <span class="nx">query</span><span class="p">.</span><span class="nx">route</span><span class="p">,</span> <span class="nx">query</span><span class="p">.</span><span class="nx">params</span><span class="p">,</span> <span class="nx">options</span><span class="p">,</span> <span class="k">this</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">prom</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">prom</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{});</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">prom</span><span class="p">.</span><span class="nx">abort</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">abort</span> <span class="o">=</span> <span class="nx">prom</span><span class="p">.</span><span class="nx">abort</span> <span class="o">?</span> <span class="nx">prom</span><span class="p">.</span><span class="nx">abort</span> <span class="o">:</span> <span class="nx">prom</span><span class="p">.</span><span class="nx">reject</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">abort</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="s2">&#34;a rpc promise should always have a reject function&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">prom</span><span class="p">.</span><span class="nx">abort</span> <span class="o">=</span> <span class="nx">abort</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="nx">prom</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nx">prom</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">loadFieldView</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">modelName</span><span class="p">,</span> <span class="nx">context</span><span class="p">,</span> <span class="nx">view_id</span><span class="p">,</span> <span class="nx">view_type</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">loadViews</span><span class="p">(</span><span class="nx">modelName</span><span class="p">,</span> <span class="nx">context</span><span class="p">,</span> <span class="p">[[</span><span class="nx">view_id</span><span class="p">,</span> <span class="nx">view_type</span><span class="p">]],</span> <span class="nx">options</span><span class="p">).</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">result</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="nx">result</span><span class="p">[</span><span class="nx">view_type</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">loadViews</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">modelName</span><span class="p">,</span> <span class="nx">context</span><span class="p">,</span> <span class="nx">views</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">resolve</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">self</span><span class="p">.</span><span class="nx">trigger_up</span><span class="p">(</span><span class="s1">&#39;load_views&#39;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">modelName</span><span class="o">:</span> <span class="nx">modelName</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">context</span><span class="o">:</span> <span class="nx">context</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">views</span><span class="o">:</span> <span class="nx">views</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">options</span><span class="o">:</span> <span class="nx">options</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">on_success</span><span class="o">:</span> <span class="nx">resolve</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="p">});</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">loadFilters</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">modelName</span><span class="p">,</span> <span class="nx">actionId</span><span class="p">,</span> <span class="nx">context</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">self</span><span class="p">.</span><span class="nx">trigger_up</span><span class="p">(</span><span class="s1">&#39;load_filters&#39;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">modelName</span><span class="o">:</span> <span class="nx">modelName</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">actionId</span><span class="o">:</span> <span class="nx">actionId</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">context</span><span class="o">:</span> <span class="nx">context</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">on_success</span><span class="o">:</span> <span class="nx">resolve</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="p">});</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">createFilter</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">filter</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">self</span><span class="p">.</span><span class="nx">trigger_up</span><span class="p">(</span><span class="s1">&#39;create_filter&#39;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">filter</span><span class="o">:</span> <span class="nx">filter</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">on_success</span><span class="o">:</span> <span class="nx">resolve</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="p">});</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">deleteFilter</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">filterId</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">self</span><span class="p">.</span><span class="nx">trigger_up</span><span class="p">(</span><span class="s1">&#39;delete_filter&#39;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">filterId</span><span class="o">:</span> <span class="nx">filterId</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">on_success</span><span class="o">:</span> <span class="nx">resolve</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="p">});</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// Session stuff
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">getSession</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">session</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">trigger_up</span><span class="p">(</span><span class="s1">&#39;get_session&#39;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">callback</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">result</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">session</span> <span class="o">=</span> <span class="nx">result</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nx">session</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * Informs the action manager to do an action. This supposes that the action
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * manager can be found amongst the ancestors of the current widget.
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * If that&#39;s not the case this method will simply return an unresolved
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * promise.
+</span></span></span><span class="line"><span class="cl"><span class="cm">     *
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @param {any} action
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @param {any} options
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @returns {Promise}
+</span></span></span><span class="line"><span class="cl"><span class="cm">     */</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">do_action</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">action</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">self</span><span class="p">.</span><span class="nx">trigger_up</span><span class="p">(</span><span class="s1">&#39;do_action&#39;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">action</span><span class="o">:</span> <span class="nx">action</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">options</span><span class="o">:</span> <span class="nx">options</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">on_success</span><span class="o">:</span> <span class="nx">resolve</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">on_fail</span><span class="o">:</span> <span class="nx">reject</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="p">});</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * Displays a notification.
+</span></span></span><span class="line"><span class="cl"><span class="cm">     *
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @param {Object} options
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @param {string} options.title
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @param {string} [options.subtitle]
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @param {string} [options.message]
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @param {string} [options.type=&#39;warning&#39;] &#39;info&#39;, &#39;success&#39;, &#39;warning&#39;, &#39;danger&#39; or &#39;&#39;
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @param {boolean} [options.sticky=false]
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @param {string} [options.className]
+</span></span></span><span class="line"><span class="cl"><span class="cm">     */</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">displayNotification</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="s1">&#39;notification&#39;</span><span class="p">,</span> <span class="s1">&#39;notify&#39;</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @deprecated will be removed as soon as the notification system is reviewed
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @see displayNotification
+</span></span></span><span class="line"><span class="cl"><span class="cm">     */</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">do_notify</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">title</span><span class="p">,</span> <span class="nx">message</span><span class="p">,</span> <span class="nx">sticky</span><span class="p">,</span> <span class="nx">className</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">displayNotification</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;warning&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">title</span><span class="o">:</span> <span class="nx">title</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">message</span><span class="o">:</span> <span class="nx">message</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">sticky</span><span class="o">:</span> <span class="nx">sticky</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">className</span><span class="o">:</span> <span class="nx">className</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @deprecated will be removed as soon as the notification system is reviewed
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * @see displayNotification
+</span></span></span><span class="line"><span class="cl"><span class="cm">     */</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">do_warn</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">title</span><span class="p">,</span> <span class="nx">message</span><span class="p">,</span> <span class="nx">sticky</span><span class="p">,</span> <span class="nx">className</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">console</span><span class="p">.</span><span class="nx">warn</span><span class="p">(</span><span class="nx">title</span><span class="p">,</span> <span class="nx">message</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">displayNotification</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;danger&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">title</span><span class="o">:</span> <span class="nx">title</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">message</span><span class="o">:</span> <span class="nx">message</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">sticky</span><span class="o">:</span> <span class="nx">sticky</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">className</span><span class="o">:</span> <span class="nx">className</span><span class="p">,</span><span class="k">return</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">return</span> <span class="nx">ServicesMixin</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ở function do_action chúng ta có thể thấy rằng bản chất vẫn là gọi đến hàm trigger_up, tuy nhiên mixin này lại không extend EventDispatcherMixin do đó để có thể dụng hết các function của mixin này bạn phải extend cả EventsDispatcherMixin vào class của bạn, khá là phiền phức nhỉ?😁</p>
 <h3 id="ok-hãy-tóm-tắt-lại-mớ-hỗn-độn-này-vậy-webwidget-có-thể-làm-gì">OK, Hãy tóm tắt lại mớ hỗn độn này, vậy web.Widget có thể làm gì?😄</h3>
@@ -2927,7 +2927,7 @@ Bản thân EventDispatcherMixin cũng extend từ ParentedMixin do đó, nó c�
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3622,7 +3622,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 

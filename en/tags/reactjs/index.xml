@@ -230,8 +230,8 @@ nghĩa là tháo ra gỡ ra.&lt;/p&gt;</description>
         <atom:modified>Thu, 30 Jun 2022 20:42:36 +0700</atom:modified>
         <guid>https://hungpt.info/en/posts/javascript-array-reduce/</guid>
         <description>Gỉa sử chúng có một mảng các chữ số như sau:
-1  const numbers = [2, 4, 6];   Làm sao chúng ta có thể tính tổng các chữ số trong mảng trên. Sử dụng reduce trong javascript chúng ta có dễ dàng làm việc này mà không cần sử dụng vòng lặp.
-1 2 3 4 5 6  const numbers = [2, 4, 6]; const sum = numbers.</description>
+1 const numbers = [2, 4, 6]; Làm sao chúng ta có thể tính tổng các chữ số trong mảng trên. Sử dụng reduce trong javascript chúng ta có dễ dàng làm việc này mà không cần sử dụng vòng lặp.
+1 2 3 4 5 6 const numbers = [2, 4, 6]; const sum = numbers.reduce(function(sum, number) { const updatedSum = sum + number; return updatedSum; }, 0); sum; // 12 Trong bài viết này, chúng ta sẽ tìm hiểu về phương thức reduce và cách sử dụng array.</description>
         
         <dc:creator>Hùng Phạm</dc:creator>
         <media:content url="https://hungpt.infoimages/feature1/img_25.png" medium="image"><media:title type="html">featured image</media:title></media:content>

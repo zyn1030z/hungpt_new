@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
 
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.115.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1782,40 +1782,40 @@ if (!doNotTrack) {
 <pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">from odoo.tools import config
 
 
-config.get(&quot;db_name&quot;)
-# &quot;odoo&quot;
+config.get(&#34;db_name&#34;)
+# &#34;odoo&#34;
 
-config.filestore(config.get(&quot;db_name&quot;))
-# &quot;/var/lib/odoo/filestore/odoo&quot;
+config.filestore(config.get(&#34;db_name&#34;))
+# &#34;/var/lib/odoo/filestore/odoo&#34;
 
 config.session_dir
-# &quot;/var/lib/odoo/sessions&quot;
+# &#34;/var/lib/odoo/sessions&#34;
 
 config.options
 # {
-#     &quot;addons_paths&quot;: &quot;/opt/odoo/core/odoo/addons&quot;,
-#     &quot;auto_reload&quot;: False,
-#     &quot;db_host&quot;: &quot;db&quot;,
+#     &#34;addons_paths&#34;: &#34;/opt/odoo/core/odoo/addons&#34;,
+#     &#34;auto_reload&#34;: False,
+#     &#34;db_host&#34;: &#34;db&#34;,
 # }
 </code></pre><h4 id="convert">convert</h4>
 <p>Helper này chủ yếu tập trung vào việc chuyển đổi các loại dữ liệu như xml và csv dành riêng cho Odoo, trong đó có 1 hàm ***str2bool()***được sử dụng</p>
 <pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">from odoo.tools import convert
 
 
-convert.str2bool(&quot;0&quot;)  # False
-convert.str2bool(&quot;false&quot;)  # False
-convert.str2bool(&quot;False&quot;)  # False
+convert.str2bool(&#34;0&#34;)  # False
+convert.str2bool(&#34;false&#34;)  # False
+convert.str2bool(&#34;False&#34;)  # False
 
-convert.str2bool(&quot;1&quot;)  # True
-convert.str2bool(&quot;true&quot;)  # True
-convert.str2bool(&quot;True&quot;)  # True
+convert.str2bool(&#34;1&#34;)  # True
+convert.str2bool(&#34;true&#34;)  # True
+convert.str2bool(&#34;True&#34;)  # True
 </code></pre><h4 id="date_utils---getters">date_utils&mdash;getters</h4>
 <p>Helper này được sử dụng để thao tác với ngày tháng</p>
 <pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">from odoo import fields
 from odoo.tools import date_utils
 
 
-sample_date = fields.Datetime.now()  # assume it's March 3rd, 2019
+sample_date = fields.Datetime.now()  # assume it&#39;s March 3rd, 2019
 
 date_utils.get_month(sample_date)
 # Returns the range for the first day of the month to the last
@@ -1838,21 +1838,21 @@ from odoo import fields
 from odoo.tools import date_utils
 
 
-sample_date = fields.Datetime.now()  # assume it's March 3rd, 2019
+sample_date = fields.Datetime.now()  # assume it&#39;s March 3rd, 2019
 
-date_utils.start_of(sample_date, &quot;hour&quot;)  # datetime.datetime(2019, 3, 3, 17, 0)
-date_utils.start_of(sample_date, &quot;day&quot;)  # datetime.datetime(2019, 3, 3, 0, 0)
-date_utils.start_of(sample_date, &quot;week&quot;)  # datetime.datetime(2019, 2, 25, 0, 0)
-date_utils.start_of(sample_date, &quot;month&quot;)  # datetime.datetime(2019, 3, 1, 0, 0)
-date_utils.start_of(sample_date, &quot;quarter&quot;)  # datetime.datetime(2019, 1, 1, 0, 0)
-date_utils.start_of(sample_date, &quot;year&quot;)  # datetime.datetime(2019, 1, 1, 0, 0)
+date_utils.start_of(sample_date, &#34;hour&#34;)  # datetime.datetime(2019, 3, 3, 17, 0)
+date_utils.start_of(sample_date, &#34;day&#34;)  # datetime.datetime(2019, 3, 3, 0, 0)
+date_utils.start_of(sample_date, &#34;week&#34;)  # datetime.datetime(2019, 2, 25, 0, 0)
+date_utils.start_of(sample_date, &#34;month&#34;)  # datetime.datetime(2019, 3, 1, 0, 0)
+date_utils.start_of(sample_date, &#34;quarter&#34;)  # datetime.datetime(2019, 1, 1, 0, 0)
+date_utils.start_of(sample_date, &#34;year&#34;)  # datetime.datetime(2019, 1, 1, 0, 0)
 
-date_utils.end_of(sample_date, &quot;hour&quot;)  # datetime.datetime(2019, 3, 3, 17 59, 59, 999999)
-date_utils.end_of(sample_date, &quot;day&quot;)  # datetime.datetime(2019, 3, 3, 23, 59, 59, 999999)
-date_utils.end_of(sample_date, &quot;week&quot;)  # datetime.datetime(2019, 3, 3, 23, 59, 59, 999999)
-date_utils.end_of(sample_date, &quot;month&quot;)  # datetime.datetime(2019, 3, 31, 23, 59, 59, 999999)
-date_utils.end_of(sample_date, &quot;quarter&quot;)  # datetime.datetime(2019, 3, 31, 23, 59, 59, 999999)
-date_utils.end_of(sample_date, &quot;year&quot;)  # datetime.datetime(2019, 12, 31, 23, 59, 59, 999999)
+date_utils.end_of(sample_date, &#34;hour&#34;)  # datetime.datetime(2019, 3, 3, 17 59, 59, 999999)
+date_utils.end_of(sample_date, &#34;day&#34;)  # datetime.datetime(2019, 3, 3, 23, 59, 59, 999999)
+date_utils.end_of(sample_date, &#34;week&#34;)  # datetime.datetime(2019, 3, 3, 23, 59, 59, 999999)
+date_utils.end_of(sample_date, &#34;month&#34;)  # datetime.datetime(2019, 3, 31, 23, 59, 59, 999999)
+date_utils.end_of(sample_date, &#34;quarter&#34;)  # datetime.datetime(2019, 3, 31, 23, 59, 59, 999999)
+date_utils.end_of(sample_date, &#34;year&#34;)  # datetime.datetime(2019, 12, 31, 23, 59, 59, 999999)
 
 for date in date_utils.date_range(
     start=sample_date,
@@ -1883,7 +1883,7 @@ for date in date_utils.date_range(
 from odoo.tools import date_utils
 
 
-sample_date = fields.Datetime.now()  # assume it's March 3rd, 2019
+sample_date = fields.Datetime.now()  # assume it&#39;s March 3rd, 2019
 
 date_utils.add(sample_date, days=5)  # datetime.datetime(2019, 3, 8, 17, 29, 3)
 date_utils.add(sample_date, weeks=2)  # datetime.datetime(2019, 3, 17, 17, 29, 3)
@@ -1904,19 +1904,19 @@ date_utils.subtract(sample_date, days=2, months=6, years=1)  # datetime.datetime
 float_utils.float_round(
     1.5424,
     precision_digits=2,
-    rounding_method=&quot;DOWN&quot;,
+    rounding_method=&#34;DOWN&#34;,
 )  # 1.54
 
 float_utils.float_round(
     1.5424,
     precision_digits=3,
-    rounding_method=&quot;UP&quot;,
+    rounding_method=&#34;UP&#34;,
 )  # 1.543
 
 float_utils.float_round(
     1.5424,
     precision_digits=3,
-    rounding_method=&quot;HALF-UP&quot;,
+    rounding_method=&#34;HALF-UP&#34;,
 )  # 1.542
 
 float_utils.float_is_zero(0.04252, precision_digits=5)  # False
@@ -1932,34 +1932,34 @@ float_utils.float_compare(0.042555, 0.04256, precision_digits=6)  # -1 =&gt; val
 image.image_resize_image(img, size=(500, 500))
 image.image_resize_and_sharpen(img, size=(500, 500))
 
-with open(&quot;/tmp/my_image.png&quot;, &quot;w&quot;) as f:
+with open(&#34;/tmp/my_image.png&#34;, &#34;w&#34;) as f:
     image.image_save_for_web(img, f)
 </code></pre><h4 id="mail">mail</h4>
 <p>Liên quan đến việc tạo mail</p>
 <pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">from odoo.tools import mail
 
 
-mail.html_keep_url(&quot;http://google.com&quot;)
-# '&lt;a href=&quot;https://google.com&quot; rel=&quot;noreferrer&quot; target=&quot;_blank&quot;&gt;https://google.com&lt;/a&gt;'
+mail.html_keep_url(&#34;http://google.com&#34;)
+# &#39;&lt;a href=&#34;https://google.com&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://google.com&lt;/a&gt;&#39;
 
-html = '''
+html = &#39;&#39;&#39;
 &lt;html&gt;
   &lt;head&gt;
-    &lt;script src=&quot;/my/script.js&quot;/&gt;
+    &lt;script src=&#34;/my/script.js&#34;/&gt;
   &lt;/head&gt;
   &lt;body&gt;
     &lt;p&gt;
-      &lt;span&gt;A cool html email with &lt;a href=&quot;https://google.com&quot;&gt;a link to goolge.&lt;/a&gt;&lt;/span&gt;
+      &lt;span&gt;A cool html email with &lt;a href=&#34;https://google.com&#34;&gt;a link to goolge.&lt;/a&gt;&lt;/span&gt;
     &lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-'''
+&#39;&#39;&#39;
 
 mail.html.sanitize(html)
-# '
+# &#39;
 
 &lt;p&gt;
-&lt;span&gt;A cool html email with &lt;a href=&quot;https://google.com&quot;&gt;a link to google.&lt;/a&gt;&lt;/span&gt;'
+&lt;span&gt;A cool html email with &lt;a href=&#34;https://google.com&#34;&gt;a link to google.&lt;/a&gt;&lt;/span&gt;&#39;
 
 mail.html2plaintext(html)
 # A cool html email with a link to google.com. [1]
@@ -1972,14 +1972,14 @@ mail.plaintext2html(mail.html2plaintext(html))
 <pre tabindex="0"><code class="language-angular2html" data-lang="angular2html">from odoo.tools import misc
 
 
-misc.DEFAULT_SERVER_DATE_FORMAT  # &quot;%Y-%m-%d&quot;
-misc.DEFAULT_SERVER_TIME_FORMAT  # &quot;%H:%M:%S&quot;
-misc.DEFAULT_SERVER_DATETIME_FORMAT  # &quot;%Y-%m-%d %H:%M:%S&quot;
+misc.DEFAULT_SERVER_DATE_FORMAT  # &#34;%Y-%m-%d&#34;
+misc.DEFAULT_SERVER_TIME_FORMAT  # &#34;%H:%M:%S&#34;
+misc.DEFAULT_SERVER_DATETIME_FORMAT  # &#34;%Y-%m-%d %H:%M:%S&#34;
 
-misc.flatten([[[&quot;a&quot;, &quot;b&quot;], &quot;c&quot;], &quot;d&quot;, [&quot;e&quot;, [], &quot;f&quot;]])
-# [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;, &quot;f&quot;]
+misc.flatten([[[&#34;a&#34;, &#34;b&#34;], &#34;c&#34;], &#34;d&#34;, [&#34;e&#34;, [], &#34;f&#34;]])
+# [&#34;a&#34;, &#34;b&#34;, &#34;c&#34;, &#34;d&#34;, &#34;e&#34;, &#34;f&#34;]
 
-for i, el in misc.reverse_enumerate([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]):
+for i, el in misc.reverse_enumerate([&#34;a&#34;, &#34;b&#34;, &#34;c&#34;]):
     print(i, el)
 
 # 2 c
@@ -1988,57 +1988,57 @@ for i, el in misc.reverse_enumerate([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;
 
 misc.topological_sort(
     {
-        &quot;a&quot;: [&quot;b&quot;, &quot;c&quot;],
-        &quot;b&quot;: [&quot;c&quot;].
-        &quot;d&quot;: [&quot;a&quot;],
-        &quot;r&quot;: [&quot;y&quot;],
-        &quot;y&quot;: [&quot;z&quot;],
+        &#34;a&#34;: [&#34;b&#34;, &#34;c&#34;],
+        &#34;b&#34;: [&#34;c&#34;].
+        &#34;d&#34;: [&#34;a&#34;],
+        &#34;r&#34;: [&#34;y&#34;],
+        &#34;y&#34;: [&#34;z&#34;],
     }
 )
-# [&quot;y&quot;, &quot;b&quot;, &quot;a&quot;, &quot;r&quot;, &quot;d&quot;]
+# [&#34;y&#34;, &#34;b&#34;, &#34;a&#34;, &#34;r&#34;, &#34;d&#34;]
 
 misc.scan_languages()
 # [
-#     (&quot;sq_AL&quot;, &quot;Albanian / Shqip&quot;)],
+#     (&#34;sq_AL&#34;, &#34;Albanian / Shqip&#34;)],
 #     ...
-#     (&quot;zh_HK&quot;, &quot;Chinese (HK)&quot;)],
+#     (&#34;zh_HK&#34;, &#34;Chinese (HK)&#34;)],
 #     ...
 # ]
 
-misc.human_size(1024, * 10)  # &quot;10.00 Kb&quot;
-misc.human_size(1024 * 10000)  # &quot;9.77 Mb&quot;
-misc.human_size(1024 * 10000000)  # &quot;9.54 Gb&quot;
+misc.human_size(1024, * 10)  # &#34;10.00 Kb&#34;
+misc.human_size(1024 * 10000)  # &#34;9.77 Mb&#34;
+misc.human_size(1024 * 10000000)  # &#34;9.54 Gb&#34;
 
-for split in misc.split_every(iterable=[&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;], n=2):
+for split in misc.split_every(iterable=[&#34;a&#34;, &#34;b&#34;, &#34;c&#34;, &#34;d&#34;], n=2):
     print(split)
 
-# (&quot;a&quot;, &quot;b&quot;)
-# (&quot;c&quot;, &quot;d&quot;)
+# (&#34;a&#34;, &#34;b&#34;)
+# (&#34;c&#34;, &#34;d&#34;)
 
 misc.groupby(
     [
-        {&quot;first_name&quot;: &quot;Jon&quot;, &quot;last_name&quot;: &quot;Stewart&quot;},
-        {&quot;first_name&quot;: &quot;Martha&quot;, &quot;last_name&quot;: &quot;Stewart&quot;},
-        {&quot;first_name&quot;: &quot;Rod&quot;, &quot;last_name&quot;: &quot;Stewart&quot;},
-        {&quot;first_name&quot;: &quot;Jow&quot;, &quot;last_name&quot;: &quot;Jackson&quot;},
+        {&#34;first_name&#34;: &#34;Jon&#34;, &#34;last_name&#34;: &#34;Stewart&#34;},
+        {&#34;first_name&#34;: &#34;Martha&#34;, &#34;last_name&#34;: &#34;Stewart&#34;},
+        {&#34;first_name&#34;: &#34;Rod&#34;, &#34;last_name&#34;: &#34;Stewart&#34;},
+        {&#34;first_name&#34;: &#34;Jow&#34;, &#34;last_name&#34;: &#34;Jackson&#34;},
     ],
-    key=lambda el: el[&quot;last_name&quot;]
+    key=lambda el: el[&#34;last_name&#34;]
 )
 # dict_items(
 #     [
-#         (&quot;Jackson&quot;, [
-#             {&quot;first_name&quot;: &quot;Jow&quot;, &quot;last_name&quot;: &quot;Jackson&quot;},
+#         (&#34;Jackson&#34;, [
+#             {&#34;first_name&#34;: &#34;Jow&#34;, &#34;last_name&#34;: &#34;Jackson&#34;},
 #         ],
-#         (&quot;Stewart&quot;: [
-#             {&quot;first_name&quot;: &quot;Jon&quot;, &quot;last_name&quot;: &quot;Stewart&quot;},
-#             {&quot;first_name&quot;: &quot;Martha&quot;, &quot;last_name&quot;: &quot;Stewart&quot;},
-#             {&quot;first_name&quot;: &quot;Rod&quot;, &quot;last_name&quot;: &quot;Stewart&quot;},
+#         (&#34;Stewart&#34;: [
+#             {&#34;first_name&#34;: &#34;Jon&#34;, &#34;last_name&#34;: &#34;Stewart&#34;},
+#             {&#34;first_name&#34;: &#34;Martha&#34;, &#34;last_name&#34;: &#34;Stewart&#34;},
+#             {&#34;first_name&#34;: &#34;Rod&#34;, &#34;last_name&#34;: &#34;Stewart&#34;},
 #         ])
 #     ]
 # )
 
-list(misc.unique([&quot;a&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;]))
-# [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]
+list(misc.unique([&#34;a&#34;, &#34;a&#34;, &#34;b&#34;, &#34;c&#34;]))
+# [&#34;a&#34;, &#34;b&#34;, &#34;c&#34;]
 </code></pre>
     </article>
     
@@ -2491,7 +2491,7 @@ list(misc.unique([&quot;a&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;]))
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3194,7 +3194,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 

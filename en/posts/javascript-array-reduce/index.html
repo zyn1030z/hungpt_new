@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
 
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.115.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1405,7 +1405,7 @@
     "datePublished": "2022-06-30T20:42:36+07:00",
     "dateModified": "2022-06-30T20:42:36+07:00",
     "url" : "https://hungpt.info/en/posts/javascript-array-reduce/",
-    "description": "Gỉa sử chúng có một mảng các chữ số như sau: 1  const numbers = [2, 4, 6];   Làm sao chúng ta có thể tính tổng các chữ số trong mảng trên. Sử dụng reduce trong javascript …",
+    "description": "Gỉa sử chúng có một mảng các chữ số như sau: 1 const numbers = [2, 4, 6]; Làm sao chúng ta có thể tính tổng các chữ số trong mảng trên. Sử dụng reduce trong javascript …",
     "keywords": ["Reactjs","Javascript"],
     "image" : "https://hungpt.info/images/feature1/img_25.png",
     "mainEntityOfPage": {
@@ -1784,8 +1784,8 @@ Gỉa sử chúng có một mảng các chữ số như sau:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">];</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">];</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Làm sao chúng ta có thể tính tổng các chữ số trong mảng trên. Sử dụng reduce trong javascript chúng ta có dễ dàng làm việc này mà không cần sử dụng vòng lặp.</p>
 <div class="highlight"><div class="chroma">
@@ -1798,13 +1798,13 @@ Gỉa sử chúng có một mảng các chữ số như sau:</p>
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">];</span>
-<span class="kr">const</span> <span class="nx">sum</span> <span class="o">=</span> <span class="nx">numbers</span><span class="p">.</span><span class="nx">reduce</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">sum</span><span class="p">,</span> <span class="nx">number</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kr">const</span> <span class="nx">updatedSum</span> <span class="o">=</span> <span class="nx">sum</span> <span class="o">+</span> <span class="nx">number</span><span class="p">;</span>
-  <span class="k">return</span> <span class="nx">updatedSum</span><span class="p">;</span>
-<span class="p">},</span> <span class="mi">0</span><span class="p">);</span>
-<span class="nx">sum</span><span class="p">;</span> <span class="c1">// 12
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">sum</span> <span class="o">=</span> <span class="nx">numbers</span><span class="p">.</span><span class="nx">reduce</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">sum</span><span class="p">,</span> <span class="nx">number</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kr">const</span> <span class="nx">updatedSum</span> <span class="o">=</span> <span class="nx">sum</span> <span class="o">+</span> <span class="nx">number</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">updatedSum</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">},</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="nx">sum</span><span class="p">;</span> <span class="c1">// 12
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Trong bài viết này, chúng ta sẽ tìm hiểu về phương thức reduce và cách sử dụng array.reduce(callback, initialValue)</p>
 <h3 id="1phương-thức-reduce">1.Phương thức reduce</h3>
@@ -1819,8 +1819,8 @@ Gỉa sử chúng có một mảng các chữ số như sau:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">value</span> <span class="o">=</span> <span class="nx">array</span><span class="p">.</span><span class="nx">reduce</span><span class="p">(</span><span class="nx">callback</span><span class="p">[,</span> <span class="nx">initialValue</span><span class="p">]);</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">value</span> <span class="o">=</span> <span class="nx">array</span><span class="p">.</span><span class="nx">reduce</span><span class="p">(</span><span class="nx">callback</span><span class="p">[,</span> <span class="nx">initialValue</span><span class="p">]);</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Trong đó callback là đối số bắt buộc, initialValue không bát buộc và làm giá trị khởi tạo.</p>
 <p>Javascript gọi callback trên mỗi phần tử của mảng với 4 đối số (giá trị tích lũy, phần tử hiện tại của mảng, index của phần tử hiện tại trong mảng, mảng chính)</p>
@@ -1833,12 +1833,12 @@ Gỉa sử chúng có một mảng các chữ số như sau:</p>
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">array</span><span class="p">.</span><span class="nx">reduce</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">accumulator</span><span class="p">,</span> <span class="nx">item</span><span class="p">,</span> <span class="nx">index</span><span class="p">,</span> <span class="nx">array</span><span class="p">)</span> <span class="p">{</span>
-  <span class="c1">// Use `accumulator` and `item` 
-</span><span class="c1"></span>  <span class="c1">// to calculate `updatedAccumulator`...
-</span><span class="c1"></span>  <span class="k">return</span> <span class="nx">updatedAccumulator</span><span class="p">;</span>
-<span class="p">})</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">array</span><span class="p">.</span><span class="nx">reduce</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">accumulator</span><span class="p">,</span> <span class="nx">item</span><span class="p">,</span> <span class="nx">index</span><span class="p">,</span> <span class="nx">array</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Use `accumulator` and `item` 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// to calculate `updatedAccumulator`...
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">return</span> <span class="nx">updatedAccumulator</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Một ví dụ cụ thể hơn:</p>
 <div class="highlight"><div class="chroma">
@@ -1851,13 +1851,13 @@ Gỉa sử chúng có một mảng các chữ số như sau:</p>
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">];</span>
-<span class="kr">const</span> <span class="nx">sum</span> <span class="o">=</span> <span class="nx">numbers</span><span class="p">.</span><span class="nx">reduce</span><span class="p">(</span><span class="kd">function</span> <span class="nx">summarize</span><span class="p">(</span><span class="nx">sum</span><span class="p">,</span> <span class="nx">number</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kr">const</span> <span class="nx">updatedSum</span> <span class="o">=</span> <span class="nx">sum</span> <span class="o">+</span> <span class="nx">number</span><span class="p">;</span>
-  <span class="k">return</span> <span class="nx">updatedSum</span><span class="p">;</span>
-<span class="p">},</span> <span class="mi">0</span><span class="p">);</span>
-<span class="nx">sum</span><span class="p">;</span> <span class="c1">// 12
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">sum</span> <span class="o">=</span> <span class="nx">numbers</span><span class="p">.</span><span class="nx">reduce</span><span class="p">(</span><span class="kd">function</span> <span class="nx">summarize</span><span class="p">(</span><span class="nx">sum</span><span class="p">,</span> <span class="nx">number</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kr">const</span> <span class="nx">updatedSum</span> <span class="o">=</span> <span class="nx">sum</span> <span class="o">+</span> <span class="nx">number</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">updatedSum</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">},</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="nx">sum</span><span class="p">;</span> <span class="c1">// 12
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>numbers.reduce(summarize, 0) dùng để tính tổng tất cả các phần tử trong mảng</p>
 <p>Ngoài ra hãy lưu ý đối số thứ 2 numbers.reduce(summarize, 0) đó là tổng các phần tử trong mảng được gán mặc định ban đầu là 0.</p>
@@ -1873,10 +1873,10 @@ Nếu không truyền initialValue thì previousValue được khởi tạo là 
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">].</span><span class="nx">reduce</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">previousValue</span><span class="p">,</span> <span class="nx">currentValue</span><span class="p">,</span> <span class="nx">currentIndex</span><span class="p">,</span> <span class="nx">array</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">return</span> <span class="nx">previousValue</span> <span class="o">+</span> <span class="nx">currentValue</span> <span class="c1">// 10
-</span><span class="c1"></span><span class="p">})</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">].</span><span class="nx">reduce</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">previousValue</span><span class="p">,</span> <span class="nx">currentValue</span><span class="p">,</span> <span class="nx">currentIndex</span><span class="p">,</span> <span class="nx">array</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">previousValue</span> <span class="o">+</span> <span class="nx">currentValue</span> <span class="c1">// 10
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">})</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="đếm-số-lần-xuất-hiện-phần-tử-trong-mảng">Đếm số lần xuất hiện phần tử trong mảng</h4>
 <p>Một cách để đếm số lần xuất hiện của phần tử khá hay chính là dùng reduce 😁.</p>
@@ -1893,16 +1893,16 @@ Nếu không truyền initialValue thì previousValue được khởi tạo là 
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;John&#39;</span><span class="p">,</span> <span class="s1">&#39;Bob&#39;</span><span class="p">,</span> <span class="s1">&#39;Jonas&#39;</span><span class="p">,</span> <span class="s1">&#39;Bruce&#39;</span><span class="p">,</span> <span class="s1">&#39;John&#39;</span><span class="p">]</span>
-
-<span class="kd">let</span> <span class="nx">count</span> <span class="o">=</span> <span class="nx">names</span><span class="p">.</span><span class="nx">reduce</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">allNames</span><span class="p">,</span> <span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">if</span> <span class="p">(</span><span class="nx">name</span> <span class="k">in</span> <span class="nx">allNames</span><span class="p">)</span> <span class="nx">allNames</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span><span class="o">++</span>
-  <span class="k">else</span> <span class="nx">allNames</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
-
-  <span class="k">return</span> <span class="nx">allNames</span>
-<span class="p">},</span> <span class="p">{})</span>
-<span class="c1">// { &#39;John&#39;: 2, &#39;Bob&#39;: 1, &#39;Jonas&#39;: 1, &#39;Bruce&#39;: 1 }
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;John&#39;</span><span class="p">,</span> <span class="s1">&#39;Bob&#39;</span><span class="p">,</span> <span class="s1">&#39;Jonas&#39;</span><span class="p">,</span> <span class="s1">&#39;Bruce&#39;</span><span class="p">,</span> <span class="s1">&#39;John&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">count</span> <span class="o">=</span> <span class="nx">names</span><span class="p">.</span><span class="nx">reduce</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">allNames</span><span class="p">,</span> <span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="nx">name</span> <span class="k">in</span> <span class="nx">allNames</span><span class="p">)</span> <span class="nx">allNames</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span><span class="o">++</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span> <span class="nx">allNames</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">allNames</span>
+</span></span><span class="line"><span class="cl"><span class="p">},</span> <span class="p">{})</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// { &#39;John&#39;: 2, &#39;Bob&#39;: 1, &#39;Jonas&#39;: 1, &#39;Bruce&#39;: 1 }
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
     </article>
@@ -2387,7 +2387,7 @@ Nếu không truyền initialValue thì previousValue được khởi tạo là 
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3084,7 +3084,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 
