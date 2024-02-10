@@ -13,17 +13,35 @@
     <language>en</language>
     <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
     <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
-    <copyright>©2023, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 09 Jan 2023 08:30:39 +0700</lastBuildDate>
+    <copyright>©2024, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 10 Feb 2024 18:39:27 +0700</lastBuildDate>
     
         <atom:link href="https://hungpt.info/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>Devops</title>
+        <link>https://hungpt.info/en/tags/devops/</link>
+        <pubDate>Sat, 10 Feb 2024 18:39:27 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        
+        <guid>https://hungpt.info/en/tags/devops/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Odoo</title>
         <link>https://hungpt.info/en/tags/odoo/</link>
-        <pubDate>Mon, 09 Jan 2023 08:30:39 +0700</pubDate>
+        <pubDate>Sat, 10 Feb 2024 18:39:27 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         
         <guid>https://hungpt.info/en/tags/odoo/</guid>
@@ -117,24 +135,6 @@
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         
         <guid>https://hungpt.info/en/tags/aws/</guid>
-        <description></description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Devops</title>
-        <link>https://hungpt.info/en/tags/devops/</link>
-        <pubDate>Sun, 04 Dec 2022 20:51:13 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        
-        <guid>https://hungpt.info/en/tags/devops/</guid>
         <description></description>
         
         <dc:creator>Hùng Phạm</dc:creator>
