@@ -14,19 +14,19 @@
     <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
     <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 10 Feb 2024 18:39:27 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 11 Apr 2024 18:39:27 +0700</lastBuildDate>
     
         <atom:link href="https://hungpt.info/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>Devops</title>
-        <link>https://hungpt.info/en/tags/devops/</link>
-        <pubDate>Sat, 10 Feb 2024 18:39:27 +0700</pubDate>
+        <title>Odoo</title>
+        <link>https://hungpt.info/en/tags/odoo/</link>
+        <pubDate>Thu, 11 Apr 2024 18:39:27 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         
-        <guid>https://hungpt.info/en/tags/devops/</guid>
+        <guid>https://hungpt.info/en/tags/odoo/</guid>
         <description></description>
         
         <dc:creator>Hùng Phạm</dc:creator>
@@ -39,12 +39,30 @@
       </item>
       
       <item>
-        <title>Odoo</title>
-        <link>https://hungpt.info/en/tags/odoo/</link>
+        <title>SQL</title>
+        <link>https://hungpt.info/en/tags/sql/</link>
+        <pubDate>Thu, 11 Apr 2024 18:39:27 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        
+        <guid>https://hungpt.info/en/tags/sql/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Devops</title>
+        <link>https://hungpt.info/en/tags/devops/</link>
         <pubDate>Sat, 10 Feb 2024 18:39:27 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         
-        <guid>https://hungpt.info/en/tags/odoo/</guid>
+        <guid>https://hungpt.info/en/tags/devops/</guid>
         <description></description>
         
         <dc:creator>Hùng Phạm</dc:creator>
