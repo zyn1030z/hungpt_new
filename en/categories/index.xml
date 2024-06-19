@@ -14,19 +14,19 @@
     <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
     <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 11 Apr 2024 18:39:27 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2024 21:43:57 +0700</lastBuildDate>
     
         <atom:link href="https://hungpt.info/en/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>SQL</title>
-        <link>https://hungpt.info/en/categories/sql/</link>
-        <pubDate>Thu, 11 Apr 2024 18:39:27 +0700</pubDate>
+        <title>Devops</title>
+        <link>https://hungpt.info/en/categories/devops/</link>
+        <pubDate>Wed, 19 Jun 2024 21:43:57 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         
-        <guid>https://hungpt.info/en/categories/sql/</guid>
+        <guid>https://hungpt.info/en/categories/devops/</guid>
         <description></description>
         
         <dc:creator>Hùng Phạm</dc:creator>
@@ -39,12 +39,12 @@
       </item>
       
       <item>
-        <title>Devops</title>
-        <link>https://hungpt.info/en/categories/devops/</link>
-        <pubDate>Sat, 10 Feb 2024 18:39:27 +0700</pubDate>
+        <title>SQL</title>
+        <link>https://hungpt.info/en/categories/sql/</link>
+        <pubDate>Thu, 11 Apr 2024 18:39:27 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         
-        <guid>https://hungpt.info/en/categories/devops/</guid>
+        <guid>https://hungpt.info/en/categories/sql/</guid>
         <description></description>
         
         <dc:creator>Hùng Phạm</dc:creator>

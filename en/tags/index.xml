@@ -14,16 +14,34 @@
     <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
     <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 11 Apr 2024 18:39:27 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2024 21:43:57 +0700</lastBuildDate>
     
         <atom:link href="https://hungpt.info/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>Devops</title>
+        <link>https://hungpt.info/en/tags/devops/</link>
+        <pubDate>Wed, 19 Jun 2024 21:43:57 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        
+        <guid>https://hungpt.info/en/tags/devops/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Odoo</title>
         <link>https://hungpt.info/en/tags/odoo/</link>
-        <pubDate>Thu, 11 Apr 2024 18:39:27 +0700</pubDate>
+        <pubDate>Wed, 19 Jun 2024 21:43:57 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         
         <guid>https://hungpt.info/en/tags/odoo/</guid>
@@ -45,24 +63,6 @@
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         
         <guid>https://hungpt.info/en/tags/sql/</guid>
-        <description></description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Devops</title>
-        <link>https://hungpt.info/en/tags/devops/</link>
-        <pubDate>Sat, 10 Feb 2024 18:39:27 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        
-        <guid>https://hungpt.info/en/tags/devops/</guid>
         <description></description>
         
         <dc:creator>Hùng Phạm</dc:creator>
