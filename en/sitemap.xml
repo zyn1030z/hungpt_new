@@ -9,7 +9,7 @@
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/</loc>
-    <lastmod>2024-06-19T21:43:57+07:00</lastmod>
+    <lastmod>2024-10-24T23:42:00+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -22,7 +22,7 @@
                 />
   </url><url>
     <loc>https://hungpt.info/en/posts/</loc>
-    <lastmod>2024-06-19T21:43:57+07:00</lastmod>
+    <lastmod>2024-10-24T23:42:00+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -34,36 +34,17 @@
                 href="https://hungpt.info/en/posts/"
                 />
   </url><url>
-    <loc>https://hungpt.info/en/categories/</loc>
-    <lastmod>2024-06-19T21:43:57+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hungpt.info/ko/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hungpt.info/en/categories/"
-                />
+    <loc>https://hungpt.info/en/tags/golang/</loc>
+    <lastmod>2024-10-24T23:42:00+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/tags/devops/</loc>
-    <lastmod>2024-06-19T21:43:57+07:00</lastmod>
+    <loc>https://hungpt.info/en/series/golang/</loc>
+    <lastmod>2024-10-24T23:42:00+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/series/devops/</loc>
-    <lastmod>2024-06-19T21:43:57+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/categories/devops/</loc>
-    <lastmod>2024-06-19T21:43:57+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/posts/docker_redis_with_odoo/</loc>
-    <lastmod>2024-06-19T21:43:57+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/tags/odoo/</loc>
-    <lastmod>2024-06-19T21:43:57+07:00</lastmod>
+    <loc>https://hungpt.info/en/posts/golang_part1/</loc>
+    <lastmod>2024-10-24T23:42:00+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/series/</loc>
-    <lastmod>2024-06-19T21:43:57+07:00</lastmod>
+    <lastmod>2024-10-24T23:42:00+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -76,7 +57,7 @@
                 />
   </url><url>
     <loc>https://hungpt.info/en/tags/</loc>
-    <lastmod>2024-06-19T21:43:57+07:00</lastmod>
+    <lastmod>2024-10-24T23:42:00+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -87,6 +68,37 @@
                 hreflang="en"
                 href="https://hungpt.info/en/tags/"
                 />
+  </url><url>
+    <loc>https://hungpt.info/en/categories/</loc>
+    <lastmod>2024-06-20T12:12:10+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hungpt.info/ko/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hungpt.info/en/categories/"
+                />
+  </url><url>
+    <loc>https://hungpt.info/en/tags/devops/</loc>
+    <lastmod>2024-06-20T12:12:10+07:00</lastmod>
+  </url><url>
+    <loc>https://hungpt.info/en/series/devops/</loc>
+    <lastmod>2024-06-20T12:12:10+07:00</lastmod>
+  </url><url>
+    <loc>https://hungpt.info/en/categories/devops/</loc>
+    <lastmod>2024-06-20T12:12:10+07:00</lastmod>
+  </url><url>
+    <loc>https://hungpt.info/en/posts/docker_compose_run_and_debug_odoo/</loc>
+    <lastmod>2024-06-20T12:12:10+07:00</lastmod>
+  </url><url>
+    <loc>https://hungpt.info/en/tags/odoo/</loc>
+    <lastmod>2024-06-20T12:12:10+07:00</lastmod>
+  </url><url>
+    <loc>https://hungpt.info/en/posts/docker_redis_with_odoo/</loc>
+    <lastmod>2024-06-19T21:43:57+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/what_your_level_in_sql/</loc>
     <lastmod>2024-04-11T18:39:27+07:00</lastmod>
@@ -192,12 +204,6 @@
   </url><url>
     <loc>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture/</loc>
     <lastmod>2022-11-03T16:03:13+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/tags/golang/</loc>
-    <lastmod>2022-11-02T16:12:42+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/series/golang/</loc>
-    <lastmod>2022-11-02T16:12:42+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/categories/golang/</loc>
     <lastmod>2022-11-02T16:12:42+07:00</lastmod>

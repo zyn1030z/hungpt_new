@@ -14,7 +14,7 @@
     <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
     <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 19 Jun 2024 21:43:57 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2024 23:42:00 +0700</lastBuildDate>
     
         <atom:link href="https://hungpt.info/en/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,6 +40,76 @@
         
       
 
+      
+      <item>
+        <title>How to use the Melody package in a Go project?</title>
+        <link>https://hungpt.info/en/posts/golang_part1/</link>
+        <pubDate>Thu, 24 Oct 2024 23:42:00 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Thu, 24 Oct 2024 23:42:00 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/golang_part1/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature7/img_8.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>How to configure an interpreter using Docker Compose on Pycharm</title>
+        <link>https://hungpt.info/en/posts/docker_compose_run_and_debug_odoo/</link>
+        <pubDate>Thu, 20 Jun 2024 12:12:10 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Thu, 20 Jun 2024 12:12:10 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/docker_compose_run_and_debug_odoo/</guid>
+        <description>Continue&amp;hellip;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature7/img_7.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Docker_redis_with_odoo</title>

@@ -14,16 +14,34 @@
     <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
     <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 19 Jun 2024 21:43:57 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2024 23:42:00 +0700</lastBuildDate>
     
         <atom:link href="https://hungpt.info/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>Golang</title>
+        <link>https://hungpt.info/en/tags/golang/</link>
+        <pubDate>Thu, 24 Oct 2024 23:42:00 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        
+        <guid>https://hungpt.info/en/tags/golang/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Devops</title>
         <link>https://hungpt.info/en/tags/devops/</link>
-        <pubDate>Wed, 19 Jun 2024 21:43:57 +0700</pubDate>
+        <pubDate>Thu, 20 Jun 2024 12:12:10 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         
         <guid>https://hungpt.info/en/tags/devops/</guid>
@@ -41,7 +59,7 @@
       <item>
         <title>Odoo</title>
         <link>https://hungpt.info/en/tags/odoo/</link>
-        <pubDate>Wed, 19 Jun 2024 21:43:57 +0700</pubDate>
+        <pubDate>Thu, 20 Jun 2024 12:12:10 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         
         <guid>https://hungpt.info/en/tags/odoo/</guid>
@@ -225,24 +243,6 @@
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         
         <guid>https://hungpt.info/en/tags/odoo15/</guid>
-        <description></description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Golang</title>
-        <link>https://hungpt.info/en/tags/golang/</link>
-        <pubDate>Wed, 02 Nov 2022 16:12:42 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        
-        <guid>https://hungpt.info/en/tags/golang/</guid>
         <description></description>
         
         <dc:creator>Hùng Phạm</dc:creator>
