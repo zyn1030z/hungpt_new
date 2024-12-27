@@ -14,11 +14,51 @@
     <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
     <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 18 Dec 2022 16:27:41 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 27 Dec 2024 14:31:27 +0700</lastBuildDate>
     
         <atom:link href="https://hungpt.info/en/tags/owl/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Creating a New View in Odoo 18 Using JavaScript (OWL Framework)</title>
+        <link>https://hungpt.info/en/posts/odoo18_create_view/</link>
+        <pubDate>Fri, 27 Dec 2024 14:31:27 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Fri, 27 Dec 2024 14:31:27 +0700</atom:modified>
+        <guid>https://hungpt.info/en/posts/odoo18_create_view/</guid>
+        <description>Content here</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_35.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Tạo widget dashboard với thư viện Chart trong Odoo</title>

@@ -14,11 +14,29 @@
     <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
     <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 24 Oct 2024 23:42:00 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 27 Dec 2024 14:31:27 +0700</lastBuildDate>
     
         <atom:link href="https://hungpt.info/en/series/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Odoo</title>
+        <link>https://hungpt.info/en/series/odoo/</link>
+        <pubDate>Fri, 27 Dec 2024 14:31:27 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        
+        <guid>https://hungpt.info/en/series/odoo/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Golang</title>
@@ -81,24 +99,6 @@
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         
         <guid>https://hungpt.info/en/series/vuejs/</guid>
-        <description></description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Odoo</title>
-        <link>https://hungpt.info/en/series/odoo/</link>
-        <pubDate>Mon, 09 Jan 2023 08:30:39 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        
-        <guid>https://hungpt.info/en/series/odoo/</guid>
         <description></description>
         
         <dc:creator>Hùng Phạm</dc:creator>
