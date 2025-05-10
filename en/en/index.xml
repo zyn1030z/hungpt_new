@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>HungPT&#39;s Blog</title>
+    <link>https://hungpt.info/en/en/</link>
+    <description>Recent content on HungPT&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
+    <webMaster>thaihung412@gmail.com (Hùng Phạm)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 27 Dec 2024 14:31:27 +0700</lastBuildDate>
+    
+        <atom:link href="https://hungpt.info/en/en/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Bài viết</title>
+        <link>https://hungpt.info/en/en/posts/</link>
+        <pubDate>Fri, 27 Dec 2024 14:31:27 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        
+        <guid>https://hungpt.info/en/en/posts/</guid>
+        <description></description>
+        
+        <dc:creator>Hugo Authors</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>index</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Showcase overview</title>
+        <link>https://hungpt.info/en/en/showcase/</link>
+        <pubDate>Sun, 19 Jan 2020 15:43:38 +0900</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 19 Jan 2020 15:43:38 +0900</atom:modified>
+        <guid>https://hungpt.info/en/en/showcase/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Presentations</title>
+        <link>https://hungpt.info/en/en/presentation/</link>
+        <pubDate>Wed, 30 Oct 2019 20:48:10 +0900</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        
+        <guid>https://hungpt.info/en/en/presentation/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Lưu trữ</title>
+        <link>https://hungpt.info/en/en/archive/</link>
+        <pubDate>Sat, 19 Oct 2019 11:44:14 +0900</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sat, 19 Oct 2019 11:44:14 +0900</atom:modified>
+        <guid>https://hungpt.info/en/en/archive/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>About</title>
+        <link>https://hungpt.info/en/en/about/</link>
+        <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Thu, 28 Feb 2019 00:00:00 +0000</atom:modified>
+        <guid>https://hungpt.info/en/en/about/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

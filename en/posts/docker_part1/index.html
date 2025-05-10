@@ -1433,18 +1433,6 @@ if (!doNotTrack) {
 }
 </script>
 
-  
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'G-TY62Y47L9Z', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TY62Y47L9Z"></script>
@@ -1495,7 +1483,7 @@ if (!doNotTrack) {
     
 </head>
 
-<body id="root" class="theme__dark">
+<body id="root" class="theme__solarized">
     <script>
         var localTheme = localStorage.getItem('theme');
         if (localTheme) {
@@ -1534,7 +1522,7 @@ if (!doNotTrack) {
       
         
         <a href="#" class="dropdown-item select-theme__item is-active">
-          dark
+          solarized
         </a>
         
       
@@ -1663,7 +1651,7 @@ if (!doNotTrack) {
       
         
         <a href="#" class="dropdown-item select-theme__item is-active">
-          dark
+          solarized
         </a>
         
       
@@ -2224,7 +2212,15 @@ Nếu muốn export một image từ responsitory trở lại file tar để cop
     <ul class="related-ul">
         
         <li>
+          <a href="/en/en/posts/docker_part1/" class="related__link">Docker là gì? Kiến thức cơ bản về Docker</a>
+        </li>
+        
+        <li>
           <a href="/en/posts/create_chart_easy_in_odoo/" class="related__link">Hướng dẫn triển khai ứng dụng web front end cho AWS trên EC2 và S3 và scale EC2</a>
+        </li>
+        
+        <li>
+          <a href="/en/en/posts/create_chart_easy_in_odoo/" class="related__link">Hướng dẫn triển khai ứng dụng web front end cho AWS trên EC2 và S3 và scale EC2</a>
         </li>
         
     </ul>
@@ -3008,7 +3004,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (lib && lib.includes('mermaid')) {
       
-      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"dark\"");
+      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"solarized\"");
 
       if (themeVariant === "dark" || themeVariant === "hacker") {
         mermaid.initialize({ theme: 'dark' });
@@ -3219,14 +3215,14 @@ document.addEventListener('DOMContentLoaded', function () {
       
       
         
+      
+        
         
           
             
               <a href="https://hungpt.info/en/posts/docker_part1/" data-lang="en" class="dropdown-item is-active">English</a>
             
           
-        
-      
         
       
     

@@ -1433,18 +1433,6 @@ if (!doNotTrack) {
 }
 </script>
 
-  
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'G-TY62Y47L9Z', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TY62Y47L9Z"></script>
@@ -1495,7 +1483,7 @@ if (!doNotTrack) {
     
 </head>
 
-<body id="root" class="theme__dark">
+<body id="root" class="theme__solarized">
     <script>
         var localTheme = localStorage.getItem('theme');
         if (localTheme) {
@@ -1534,7 +1522,7 @@ if (!doNotTrack) {
       
         
         <a href="#" class="dropdown-item select-theme__item is-active">
-          dark
+          solarized
         </a>
         
       
@@ -1663,7 +1651,7 @@ if (!doNotTrack) {
       
         
         <a href="#" class="dropdown-item select-theme__item is-active">
-          dark
+          solarized
         </a>
         
       
@@ -2246,6 +2234,14 @@ Bài viết lần này của mình dừng lại ở đây, ở phần sau chúng
     <ul class="related-ul">
         
         <li>
+          <a href="/en/en/posts/ansible_cat_dat/" class="related__link">[Dành cho Beginner] Phần 1: Ansible Là Gì? Hướng Dẫn Cài Đặt Ansible? Viết 1 Playbook đơn giản</a>
+        </li>
+        
+        <li>
+          <a href="/en/en/posts/deploy_nodejd_ec2_s3_in_aws/" class="related__link">[Dành cho Beginner] Hướng dẫn triển khai ứng dụng NodeJS cho AWS trên EC2 và S3</a>
+        </li>
+        
+        <li>
           <a href="/en/posts/deploy_nodejd_ec2_s3_in_aws/" class="related__link">[Dành cho Beginner] Hướng dẫn triển khai ứng dụng NodeJS cho AWS trên EC2 và S3</a>
         </li>
         
@@ -2254,15 +2250,7 @@ Bài viết lần này của mình dừng lại ở đây, ở phần sau chúng
         </li>
         
         <li>
-          <a href="/en/posts/vpc_in_aws/" class="related__link">[Dành cho Beginner] VPC trong AWS</a>
-        </li>
-        
-        <li>
-          <a href="/en/posts/k8s_la_gi_part1/" class="related__link">[K8S] - Phần 1: K8S là gì ?</a>
-        </li>
-        
-        <li>
-          <a href="/en/posts/create_chart_easy_in_odoo/" class="related__link">Hướng dẫn triển khai ứng dụng web front end cho AWS trên EC2 và S3 và scale EC2</a>
+          <a href="/en/en/posts/aws_lab_1/" class="related__link">[Dành cho Beginner] IAM trong AWS</a>
         </li>
         
     </ul>
@@ -3048,7 +3036,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (lib && lib.includes('mermaid')) {
       
-      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"dark\"");
+      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"solarized\"");
 
       if (themeVariant === "dark" || themeVariant === "hacker") {
         mermaid.initialize({ theme: 'dark' });
@@ -3259,14 +3247,14 @@ document.addEventListener('DOMContentLoaded', function () {
       
       
         
+      
+        
         
           
             
               <a href="https://hungpt.info/en/posts/ansible_cat_dat/" data-lang="en" class="dropdown-item is-active">English</a>
             
           
-        
-      
         
       
     

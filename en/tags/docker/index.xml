@@ -22,6 +22,51 @@
       
       <item>
         <title>Docker là gì? Kiến thức cơ bản về Docker</title>
+        <link>https://hungpt.info/en/en/posts/docker_part1/</link>
+        <pubDate>Tue, 29 Nov 2022 23:27:16 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Tue, 29 Nov 2022 23:27:16 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/docker_part1/</guid>
+        <description>&lt;p&gt;Trong bài lab lần này, chúng ta sẽ tìm hiểu về docker. Vậy docker là gì?&lt;br /&gt;
+Docker là nền tảng phần mềm cho phép bạn dựng, kiểm thử và triển khai ứng dụng một cách nhanh chóng.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>docker</category>
+            
+          
+            
+              <category>devops</category>
+            
+          
+            
+              <category>aws</category>
+            
+          
+        
+        
+          
+            
+              <category>devops</category>
+            
+          
+        
+        
+          
+            
+              <category>devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Docker là gì? Kiến thức cơ bản về Docker</title>
         <link>https://hungpt.info/en/posts/docker_part1/</link>
         <pubDate>Tue, 29 Nov 2022 23:27:16 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>

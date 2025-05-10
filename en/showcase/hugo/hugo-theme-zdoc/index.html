@@ -1420,18 +1420,6 @@ if (!doNotTrack) {
 }
 </script>
 
-  
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'G-TY62Y47L9Z', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TY62Y47L9Z"></script>
@@ -1482,7 +1470,7 @@ if (!doNotTrack) {
     
 </head>
 
-<body id="root" class="theme__dark">
+<body id="root" class="theme__solarized">
     <script>
         var localTheme = localStorage.getItem('theme');
         if (localTheme) {
@@ -1521,7 +1509,7 @@ if (!doNotTrack) {
       
         
         <a href="#" class="dropdown-item select-theme__item is-active">
-          dark
+          solarized
         </a>
         
       
@@ -1650,7 +1638,7 @@ if (!doNotTrack) {
       
         
         <a href="#" class="dropdown-item select-theme__item is-active">
-          dark
+          solarized
         </a>
         
       
@@ -2152,14 +2140,14 @@ if (!doNotTrack) {
 <nav class="pagination-single">
   
     
-    <div class="grow"></div>
-    
-      <a href="https://hungpt.info/en/showcase/hugo/hugo-theme-zzo/" class="pagination-single__right">      
-        <div class="pagination-single__right-title">Hugo Zzo Theme</div>
+      <a href="https://hungpt.info/en/showcase/hugo/hugo-theme-zzo/" class="pagination-single__left">
         <div class="pagination-single__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
+        <div class="pagination-single__left-title"></div>      
       </a>
+    
+    <div class="grow"></div>
     
   
 </nav>
@@ -2906,7 +2894,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (lib && lib.includes('mermaid')) {
       
-      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"dark\"");
+      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"solarized\"");
 
       if (themeVariant === "dark" || themeVariant === "hacker") {
         mermaid.initialize({ theme: 'dark' });
@@ -3117,14 +3105,14 @@ document.addEventListener('DOMContentLoaded', function () {
       
       
         
+      
+        
         
           
             
               <a href="https://hungpt.info/en/showcase/hugo/hugo-theme-zdoc/" data-lang="en" class="dropdown-item is-active">English</a>
             
           
-        
-      
         
       
     

@@ -1433,18 +1433,6 @@ if (!doNotTrack) {
 }
 </script>
 
-  
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'G-TY62Y47L9Z', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TY62Y47L9Z"></script>
@@ -1495,7 +1483,7 @@ if (!doNotTrack) {
     
 </head>
 
-<body id="root" class="theme__dark">
+<body id="root" class="theme__solarized">
     <script>
         var localTheme = localStorage.getItem('theme');
         if (localTheme) {
@@ -1534,7 +1522,7 @@ if (!doNotTrack) {
       
         
         <a href="#" class="dropdown-item select-theme__item is-active">
-          dark
+          solarized
         </a>
         
       
@@ -1663,7 +1651,7 @@ if (!doNotTrack) {
       
         
         <a href="#" class="dropdown-item select-theme__item is-active">
-          dark
+          solarized
         </a>
         
       
@@ -2418,6 +2406,21 @@ list(misc.unique([&#34;a&#34;, &#34;a&#34;, &#34;b&#34;, &#34;c&#34;]))
 
     <section class="related">
     
+    
+    <h1 class="related__title">
+      <hr class="hr-dots"/>
+      <div>
+        Bài viết tương tự
+      </div>
+      <hr class="hr-dots"/>
+    </h1>
+    <ul class="related-ul">
+        
+        <li>
+          <a href="/en/en/posts/odoo_trick_and_tool/" class="related__link">Odoo trick and tool</a>
+        </li>
+        
+    </ul>
     
   </section>
     <div class="grow"></div>
@@ -3205,7 +3208,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (lib && lib.includes('mermaid')) {
       
-      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"dark\"");
+      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"solarized\"");
 
       if (themeVariant === "dark" || themeVariant === "hacker") {
         mermaid.initialize({ theme: 'dark' });
@@ -3416,14 +3419,14 @@ document.addEventListener('DOMContentLoaded', function () {
       
       
         
+      
+        
         
           
             
               <a href="https://hungpt.info/en/posts/odoo_trick_and_tool/" data-lang="en" class="dropdown-item is-active">English</a>
             
           
-        
-      
         
       
     

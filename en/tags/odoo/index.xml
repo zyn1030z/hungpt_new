@@ -22,6 +22,46 @@
       
       <item>
         <title>Creating a New View in Odoo 18 Using JavaScript (OWL Framework)</title>
+        <link>https://hungpt.info/en/en/posts/odoo18_create_view/</link>
+        <pubDate>Fri, 27 Dec 2024 14:31:27 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Fri, 27 Dec 2024 14:31:27 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/odoo18_create_view/</guid>
+        <description>Content here</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_35.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Creating a New View in Odoo 18 Using JavaScript (OWL Framework)</title>
         <link>https://hungpt.info/en/posts/odoo18_create_view/</link>
         <pubDate>Fri, 27 Dec 2024 14:31:27 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -62,6 +102,46 @@
       
       <item>
         <title>How to configure an interpreter using Docker Compose on Pycharm</title>
+        <link>https://hungpt.info/en/en/posts/docker_compose_run_and_debug_odoo/</link>
+        <pubDate>Thu, 20 Jun 2024 12:12:10 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Thu, 20 Jun 2024 12:12:10 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/docker_compose_run_and_debug_odoo/</guid>
+        <description>Continue&amp;hellip;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature7/img_7.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>How to configure an interpreter using Docker Compose on Pycharm</title>
         <link>https://hungpt.info/en/posts/docker_compose_run_and_debug_odoo/</link>
         <pubDate>Thu, 20 Jun 2024 12:12:10 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -71,6 +151,47 @@
         
         <dc:creator>Hùng Phạm</dc:creator>
         <media:content url="https://hungpt.infoimages/feature7/img_7.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Docker_redis_with_odoo</title>
+        <link>https://hungpt.info/en/en/posts/docker_redis_with_odoo/</link>
+        <pubDate>Wed, 19 Jun 2024 21:43:57 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Wed, 19 Jun 2024 21:43:57 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/docker_redis_with_odoo/</guid>
+        <description>Trong bài viết lần này, chúng ta sẽ thảo luận về một vấn đề khá thú vị, đó là việc tích hợp Redis với Odoo.
+Chuẩn bị </description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature7/img_6.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -143,6 +264,46 @@ Chuẩn bị </description>
       
       <item>
         <title>Bạn đang ở level nào trong SQL</title>
+        <link>https://hungpt.info/en/en/posts/what_your_level_in_sql/</link>
+        <pubDate>Thu, 11 Apr 2024 18:39:27 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Thu, 11 Apr 2024 18:39:27 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/what_your_level_in_sql/</guid>
+        <description>&lt;p&gt;Đừng chỉ dừng hành trình SQL của bạn với JOIN.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature7/img.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>SQL</category>
+            
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>SQL</category>
+            
+          
+        
+        
+          
+            
+              <category>SQL</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Bạn đang ở level nào trong SQL</title>
         <link>https://hungpt.info/en/posts/what_your_level_in_sql/</link>
         <pubDate>Thu, 11 Apr 2024 18:39:27 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -176,6 +337,46 @@ Chuẩn bị </description>
           
             
               <category>SQL</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Docker in Odoo</title>
+        <link>https://hungpt.info/en/en/posts/docker_in_odoo/</link>
+        <pubDate>Sat, 10 Feb 2024 18:39:27 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sat, 10 Feb 2024 18:39:27 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/docker_in_odoo/</guid>
+        <description>&lt;p&gt;Trong bài viết lần này, mình sẽ hướng dẫn các bạn deploy odoo 17 sử dụng Docker-compose&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_34.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
             
           
         
@@ -223,6 +424,46 @@ Chuẩn bị </description>
       
       <item>
         <title>Gọi hàm từ XML trong Odoo</title>
+        <link>https://hungpt.info/en/en/posts/invoke_function_in_odoo/</link>
+        <pubDate>Mon, 09 Jan 2023 08:30:39 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Mon, 09 Jan 2023 08:30:39 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/invoke_function_in_odoo/</guid>
+        <description>&lt;p&gt;View trong Odoo được tạo từ các record xml, chúng ta có thể tạo tất cả các dữ liệu dưới dạng xml. Tuy nhiên ở các case thực tế điều này khó có thể thực hiện được. Ví dụ: trong một số trường hợp, bạn có thể cần sửa đổi các bản ghi khi người dùng cài đặt một mô-đun trong môi trường producttion.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature6/img_10.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>XML</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Gọi hàm từ XML trong Odoo</title>
         <link>https://hungpt.info/en/posts/invoke_function_in_odoo/</link>
         <pubDate>Mon, 09 Jan 2023 08:30:39 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -263,6 +504,42 @@ Chuẩn bị </description>
       
       <item>
         <title>Odoo images and attachments — Load from URL using mixin</title>
+        <link>https://hungpt.info/en/en/posts/odoo_image_attachments_load_url/</link>
+        <pubDate>Wed, 28 Dec 2022 00:24:53 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Wed, 28 Dec 2022 00:24:53 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/odoo_image_attachments_load_url/</guid>
+        <description>&lt;p&gt;Bài viết lần này mình sẽ tìm hiểu cách sử dụng mixin thông qua ví dụ về việc tạo ảnh lưu vào database thông qua 1 URL&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature6/img_7.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Odoo images and attachments — Load from URL using mixin</title>
         <link>https://hungpt.info/en/posts/odoo_image_attachments_load_url/</link>
         <pubDate>Wed, 28 Dec 2022 00:24:53 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -278,6 +555,46 @@ Chuẩn bị </description>
           
             
               <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Cách viết test case trong Odoo</title>
+        <link>https://hungpt.info/en/en/posts/how_to_write_test_case_in_odoo/</link>
+        <pubDate>Mon, 26 Dec 2022 17:58:07 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Mon, 26 Dec 2022 17:58:07 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/how_to_write_test_case_in_odoo/</guid>
+        <description>&lt;p&gt;Kiểm thử phần mềm là quá trình triển khai một chương trình hoặc ứng dụng để phát hiện lỗi phần mềm. Nó cho phép nhà phát triển xác thực và kiểm tra chương trình phần mềm.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature6/img_3.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>test_case</category>
             
           
         
@@ -339,6 +656,46 @@ Chuẩn bị </description>
       
       <item>
         <title>Tạo widget dashboard với thư viện Chart trong Odoo</title>
+        <link>https://hungpt.info/en/en/posts/how_to_use_widget_chart_in_odoo13/</link>
+        <pubDate>Sun, 18 Dec 2022 16:27:41 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 18 Dec 2022 16:27:41 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/how_to_use_widget_chart_in_odoo13/</guid>
+        <description>&lt;p&gt;Trong bài viết lần này, mình sẽ hướng dẫn các bạn tạo ra 1 widget để hỗ trợ chúng ta vẽ dashboard&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_8.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Tạo widget dashboard với thư viện Chart trong Odoo</title>
         <link>https://hungpt.info/en/posts/how_to_use_widget_chart_in_odoo13/</link>
         <pubDate>Sun, 18 Dec 2022 16:27:41 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -372,6 +729,47 @@ Chuẩn bị </description>
           
             
               <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>OWL là gì? Những điều cần biết khi mới tìm hiểu về OWL?</title>
+        <link>https://hungpt.info/en/en/posts/owl-tutorial-part1/</link>
+        <pubDate>Mon, 05 Dec 2022 15:11:51 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Mon, 05 Dec 2022 15:11:51 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/owl-tutorial-part1/</guid>
+        <description>&lt;p&gt;Trong những năm gần đây các library/framework JavaScript cả front-end lẫn back-end đều lũ lượt ra đời và phát triển mạnh mẽ như Reactjs, VueJS&amp;hellip; Odoo cũng vậy từ bản Odoo 14 cũng đã có framework mới là OWL.&lt;br /&gt;
+Còn tiếp&amp;hellip;..&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_33.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OWL</category>
+            
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>OWL</category>
+            
+          
+        
+        
+          
+            
+              <category>OWL</category>
             
           
         
@@ -413,6 +811,50 @@ Còn tiếp&amp;hellip;..&lt;/p&gt;</description>
           
             
               <category>OWL</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Odoo JavaScript - Phần 4: Tạo OWL view</title>
+        <link>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture_part4/</link>
+        <pubDate>Sun, 06 Nov 2022 14:32:50 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 06 Nov 2022 14:32:50 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture_part4/</guid>
+        <description>&lt;p&gt;Ở 3 phần trước chúng ta đã cùng tìm hiểu từng thành phần trong mô hình MVC của Javascript Odoo. Ở phần này, mình sẽ tạo ra 1 view OWL&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo OWL</category>
             
           
         
@@ -464,6 +906,51 @@ Còn tiếp&amp;hellip;..&lt;/p&gt;</description>
       
       <item>
         <title>Odoo JavaScript - Phần 3: Tổng quan về kiến trúc MVC trong Odoo</title>
+        <link>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture_part3/</link>
+        <pubDate>Sat, 05 Nov 2022 14:48:37 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sat, 05 Nov 2022 14:48:37 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture_part3/</guid>
+        <description>&lt;p&gt;MVC ở đây chúng ta có thể hiểu WebClient của odoo chính là view là Python chính là M và C.&lt;br /&gt;
+Nhưng chúng ta nên nghĩ về WebClient như một application riêng biệt cũng cần có kiến trúc MVC riêng của nó.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_3.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo OWL</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Odoo JavaScript - Phần 3: Tổng quan về kiến trúc MVC trong Odoo</title>
         <link>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture_part3/</link>
         <pubDate>Sat, 05 Nov 2022 14:48:37 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -471,6 +958,51 @@ Còn tiếp&amp;hellip;..&lt;/p&gt;</description>
         <guid>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture_part3/</guid>
         <description>&lt;p&gt;MVC ở đây chúng ta có thể hiểu WebClient của odoo chính là view là Python chính là M và C.&lt;br /&gt;
 Nhưng chúng ta nên nghĩ về WebClient như một application riêng biệt cũng cần có kiến trúc MVC riêng của nó.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_3.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo OWL</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Odoo JavaScript - Phần 2: Tổng quan về classes và kiến trúc MVC trong Odoo</title>
+        <link>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture_part2/</link>
+        <pubDate>Fri, 04 Nov 2022 15:56:31 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Fri, 04 Nov 2022 15:56:31 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture_part2/</guid>
+        <description>&lt;p&gt;Bài viết lần này, chúng ta cùng đi tìm hiểu sâu hơn về web.Widget class nhé!&lt;/p&gt;
+&lt;p&gt;Bên cạnh việc extend từ những mixin khác như ở phần 1 mình có nói thì mục đích chính của web.Widget đó chính là render Qweb, thực hiện quản lý life cycle và thêm vào DOM.&lt;/p&gt;</description>
         
         <dc:creator>Hùng Phạm</dc:creator>
         <media:content url="https://hungpt.infoimages/feature1/img_3.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -554,6 +1086,51 @@ Nhưng chúng ta nên nghĩ về WebClient như một application riêng biệt 
       
       <item>
         <title>Odoo JavaScript - Phần 1: Tổng quan về classes và kiến trúc MVC trong Odoo</title>
+        <link>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture/</link>
+        <pubDate>Thu, 03 Nov 2022 16:03:13 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Thu, 03 Nov 2022 16:03:13 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture/</guid>
+        <description>&lt;p&gt;Trong bài viết này, chúng ta sẽ đi qua những kiến thức cơ bản về Odoo JavaScript Framework với mục tiêu cuối cùng là tạo&lt;br /&gt;
+một module trong OWL.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_3.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+            
+              <category>Javascript</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo OWL</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Odoo JavaScript - Phần 1: Tổng quan về classes và kiến trúc MVC trong Odoo</title>
         <link>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture/</link>
         <pubDate>Thu, 03 Nov 2022 16:03:13 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -599,6 +1176,47 @@ một module trong OWL.&lt;/p&gt;</description>
       
       <item>
         <title>(Javascript trong Odoo) Phần 1 Tạo widget</title>
+        <link>https://hungpt.info/en/en/posts/odoo-javascript-programming-tutorial-part-one-create-widget-view/</link>
+        <pubDate>Sun, 30 Oct 2022 20:47:18 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 30 Oct 2022 20:47:18 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/odoo-javascript-programming-tutorial-part-one-create-widget-view/</guid>
+        <description>&lt;p&gt;Đối với lập trình viên odoo, Widget là một thứ khá mới mẻ bởi vì chúng ta hiếm khi lập trình với ngôn ngữ javascript.&lt;br /&gt;
+Hầu như tất cả logic được viết với python, ngoại trừ khi tùy chỉnh điểm bán hàng(POS) hoặc mô-đun thương mại điện tử(Website).&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_26.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>(Javascript trong Odoo) Phần 1 Tạo widget</title>
         <link>https://hungpt.info/en/posts/odoo-javascript-programming-tutorial-part-one-create-widget-view/</link>
         <pubDate>Sun, 30 Oct 2022 20:47:18 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -606,6 +1224,48 @@ một module trong OWL.&lt;/p&gt;</description>
         <guid>https://hungpt.info/en/posts/odoo-javascript-programming-tutorial-part-one-create-widget-view/</guid>
         <description>&lt;p&gt;Đối với lập trình viên odoo, Widget là một thứ khá mới mẻ bởi vì chúng ta hiếm khi lập trình với ngôn ngữ javascript.&lt;br /&gt;
 Hầu như tất cả logic được viết với python, ngoại trừ khi tùy chỉnh điểm bán hàng(POS) hoặc mô-đun thương mại điện tử(Website).&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_26.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>(Javascript trong Odoo) Phần 2 Tạo logic cho widget</title>
+        <link>https://hungpt.info/en/en/posts/odoo-javascript-programming-tutorial-part-two-widget-logic/</link>
+        <pubDate>Sun, 30 Oct 2022 20:47:18 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sun, 30 Oct 2022 20:47:18 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/odoo-javascript-programming-tutorial-part-two-widget-logic/</guid>
+        <description>Trong phần 1, chúng ta đã tạo ra 1 Widget để hiển thị một đoạn text văn bản. Sang phần 2 này, chúng ta cùng nhau xây dựng một logic cho widget này.
+Tiếp theo bạn cần khai báo 1 trường như sau:
+1 field_one = fields.Integer(&amp;#39;Field One&amp;#39;) Thông thường khi chúng ta khai báo 1 field như trên và thêm chúng vào XML, mặc định Odoo sẽ cho chúng ta sửa giá trị trên giao diện kiểu như sau:</description>
         
         <dc:creator>Hùng Phạm</dc:creator>
         <media:content url="https://hungpt.infoimages/feature1/img_26.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -682,6 +1342,46 @@ Tiếp theo bạn cần khai báo 1 trường như sau:
       
       <item>
         <title>Sử dụng thư viện Select2 trong Odoo</title>
+        <link>https://hungpt.info/en/en/posts/how_to_use_select2_lib_in_odoo/</link>
+        <pubDate>Mon, 17 Oct 2022 16:25:53 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Mon, 17 Oct 2022 16:25:53 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/how_to_use_select2_lib_in_odoo/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_7.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Sử dụng thư viện Select2 trong Odoo</title>
         <link>https://hungpt.info/en/posts/how_to_use_select2_lib_in_odoo/</link>
         <pubDate>Mon, 17 Oct 2022 16:25:53 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -691,6 +1391,46 @@ Tiếp theo bạn cần khai báo 1 trường như sau:
         
         <dc:creator>Hùng Phạm</dc:creator>
         <media:content url="https://hungpt.infoimages/feature1/img_7.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>OWL</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Tìm hiểu framework OWL trong Odoo Phần 1- Components và Router</title>
+        <link>https://hungpt.info/en/en/posts/owl-odoo-web-library-part-1/</link>
+        <pubDate>Mon, 10 Oct 2022 17:01:52 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Mon, 10 Oct 2022 17:01:52 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/owl-odoo-web-library-part-1/</guid>
+        <description></description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_11.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -741,6 +1481,46 @@ Tiếp theo bạn cần khai báo 1 trường như sau:
           
             
               <category>OWL</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Cách sử dụng safe_eval trong Odoo</title>
+        <link>https://hungpt.info/en/en/posts/safe_eval_in_odoo/</link>
+        <pubDate>Tue, 20 Sep 2022 19:52:53 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Tue, 20 Sep 2022 19:52:53 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/safe_eval_in_odoo/</guid>
+        <description>&lt;p&gt;Nếu bạn đọc soure code của core Odoo, đôi khi bạn sẽ tìm thấy safe_eval. Bạn đã bao giờ tự hỏi, safe_eval là gì chưa? Và nó sử dụng để làm gì?&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_20.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Odoo</category>
+            
+          
+            
+              <category>Python</category>
             
           
         

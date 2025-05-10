@@ -21,12 +21,12 @@
 
       
       <item>
-        <title>Hugo Zzo Theme</title>
-        <link>https://hungpt.info/en/showcase/hugo/hugo-theme-zzo/</link>
+        <title>Hugo zDoc Theme</title>
+        <link>https://hungpt.info/en/showcase/hugo/hugo-theme-zdoc/</link>
         <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         <atom:modified>Sun, 19 Jan 2020 21:13:42 +0900</atom:modified>
-        <guid>https://hungpt.info/en/showcase/hugo/hugo-theme-zzo/</guid>
+        <guid>https://hungpt.info/en/showcase/hugo/hugo-theme-zdoc/</guid>
         <description></description>
         
         <dc:creator>Hùng Phạm</dc:creator>
@@ -39,12 +39,12 @@
       </item>
       
       <item>
-        <title>Hugo zDoc Theme</title>
-        <link>https://hungpt.info/en/showcase/hugo/hugo-theme-zdoc/</link>
-        <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
+        <title></title>
+        <link>https://hungpt.info/en/showcase/hugo/hugo-theme-zzo/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Sun, 19 Jan 2020 21:13:42 +0900</atom:modified>
-        <guid>https://hungpt.info/en/showcase/hugo/hugo-theme-zdoc/</guid>
+        
+        <guid>https://hungpt.info/en/showcase/hugo/hugo-theme-zzo/</guid>
         <description></description>
         
         <dc:creator>Hùng Phạm</dc:creator>

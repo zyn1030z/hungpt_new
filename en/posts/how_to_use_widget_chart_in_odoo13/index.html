@@ -1433,18 +1433,6 @@ if (!doNotTrack) {
 }
 </script>
 
-  
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'G-TY62Y47L9Z', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TY62Y47L9Z"></script>
@@ -1495,7 +1483,7 @@ if (!doNotTrack) {
     
 </head>
 
-<body id="root" class="theme__dark">
+<body id="root" class="theme__solarized">
     <script>
         var localTheme = localStorage.getItem('theme');
         if (localTheme) {
@@ -1534,7 +1522,7 @@ if (!doNotTrack) {
       
         
         <a href="#" class="dropdown-item select-theme__item is-active">
-          dark
+          solarized
         </a>
         
       
@@ -1663,7 +1651,7 @@ if (!doNotTrack) {
       
         
         <a href="#" class="dropdown-item select-theme__item is-active">
-          dark
+          solarized
         </a>
         
       
@@ -3059,6 +3047,14 @@ Chúng ta chỉ cần sửa hàm _render như sau, chúng ta sẽ có kết qu�
     <ul class="related-ul">
         
         <li>
+          <a href="/en/en/posts/how_to_use_widget_chart_in_odoo13/" class="related__link">Tạo widget dashboard với thư viện Chart trong Odoo</a>
+        </li>
+        
+        <li>
+          <a href="/en/en/posts/owl-tutorial-part1/" class="related__link">OWL là gì? Những điều cần biết khi mới tìm hiểu về OWL?</a>
+        </li>
+        
+        <li>
           <a href="/en/posts/owl-tutorial-part1/" class="related__link">OWL là gì? Những điều cần biết khi mới tìm hiểu về OWL?</a>
         </li>
         
@@ -3067,15 +3063,7 @@ Chúng ta chỉ cần sửa hàm _render như sau, chúng ta sẽ có kết qu�
         </li>
         
         <li>
-          <a href="/en/posts/odoo-javascript-classes-and-mvc-architecture_part3/" class="related__link">Odoo JavaScript - Phần 3: Tổng quan về kiến trúc MVC trong Odoo</a>
-        </li>
-        
-        <li>
-          <a href="/en/posts/odoo-javascript-classes-and-mvc-architecture_part2/" class="related__link">Odoo JavaScript - Phần 2: Tổng quan về classes và kiến trúc MVC trong Odoo</a>
-        </li>
-        
-        <li>
-          <a href="/en/posts/odoo-javascript-classes-and-mvc-architecture/" class="related__link">Odoo JavaScript - Phần 1: Tổng quan về classes và kiến trúc MVC trong Odoo</a>
+          <a href="/en/en/posts/odoo-javascript-classes-and-mvc-architecture_part4/" class="related__link">Odoo JavaScript - Phần 4: Tạo OWL view</a>
         </li>
         
     </ul>
@@ -3863,7 +3851,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (lib && lib.includes('mermaid')) {
       
-      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"dark\"");
+      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"solarized\"");
 
       if (themeVariant === "dark" || themeVariant === "hacker") {
         mermaid.initialize({ theme: 'dark' });
@@ -4074,14 +4062,14 @@ document.addEventListener('DOMContentLoaded', function () {
       
       
         
+      
+        
         
           
             
               <a href="https://hungpt.info/en/posts/how_to_use_widget_chart_in_odoo13/" data-lang="en" class="dropdown-item is-active">English</a>
             
           
-        
-      
         
       
     

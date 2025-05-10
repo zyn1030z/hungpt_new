@@ -21,6 +21,51 @@
       
       <item>
         <title>[Dành cho Beginner] Hướng dẫn triển khai ứng dụng NodeJS cho AWS trên EC2 và S3</title>
+        <link>https://hungpt.info/en/en/posts/deploy_nodejd_ec2_s3_in_aws/</link>
+        <pubDate>Sat, 24 Sep 2022 18:56:10 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Sat, 24 Sep 2022 18:56:10 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/deploy_nodejd_ec2_s3_in_aws/</guid>
+        <description>&lt;p&gt;Xin chào mọi người. Hôm nay chúng ta sẽ cùng tìm hiểu cách để có thể triển khai 1 ứng dụng NodeJS trên EC2 và thông tin dữ liệu được&lt;br /&gt;
+lưu ở S3 trên AWS nhé!&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_15.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+            
+              <category>AWS</category>
+            
+          
+            
+              <category>CI/CD</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[Dành cho Beginner] Hướng dẫn triển khai ứng dụng NodeJS cho AWS trên EC2 và S3</title>
         <link>https://hungpt.info/en/posts/deploy_nodejd_ec2_s3_in_aws/</link>
         <pubDate>Sat, 24 Sep 2022 18:56:10 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -41,6 +86,54 @@ lưu ở S3 trên AWS nhé!&lt;/p&gt;</description>
           
             
               <category>AWS</category>
+            
+          
+            
+              <category>CI/CD</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Devops</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[Dành cho Beginner] VPC trong AWS</title>
+        <link>https://hungpt.info/en/en/posts/vpc_in_aws/</link>
+        <pubDate>Mon, 19 Sep 2022 19:05:58 +0700</pubDate>
+        <author>thaihung412@gmail.com (Hùng Phạm)</author>
+        <atom:modified>Mon, 19 Sep 2022 19:05:58 +0700</atom:modified>
+        <guid>https://hungpt.info/en/en/posts/vpc_in_aws/</guid>
+        <description>&lt;p&gt;Xin chào mọi người. Hôm nay chúng ta sẽ cùng tìm hiểu về VPC (Virtual Private Cloud) trong AWS.&lt;/p&gt;</description>
+        
+        <dc:creator>Hùng Phạm</dc:creator>
+        <media:content url="https://hungpt.infoimages/feature1/img_17.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>VPC</category>
+            
+          
+            
+              <category>AWS</category>
+            
+          
+            
+              <category>Devops</category>
             
           
             
