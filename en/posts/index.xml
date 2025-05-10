@@ -27,7 +27,7 @@
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         <atom:modified>Sat, 10 May 2025 23:17:11 +0700</atom:modified>
         <guid>https://hungpt.info/en/posts/test1/</guid>
-        <description></description>
+        <description>Video minh họa </description>
         
         <dc:creator>Hùng Phạm</dc:creator>
         
@@ -57,7 +57,9 @@
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         <atom:modified>Fri, 27 Dec 2024 14:31:27 +0700</atom:modified>
         <guid>https://hungpt.info/en/posts/odoo18_create_view/</guid>
-        <description>Content here</description>
+        <description>Odoo 18 introduces powerful new frontend capabilities with OWL (Odoo Web Library) – a modern reactive JavaScript framework inspired by React and Vue.js. In this tutorial, we&amp;rsquo;ll walk through creating a new custom view using OWL in Odoo 18.
+📌 Prerequisites Before we begin, make sure you have:
+Odoo 18 running in developer mode Basic knowledge of JavaScript and Python Familiarity with XML QWeb templates and the Odoo module structure 🚀 Step 1: Create a Custom Module Start by generating a new module, e.</description>
         
         <dc:creator>Hùng Phạm</dc:creator>
         <media:content url="https://hungpt.infoimages/feature1/img_35.png" medium="image"><media:title type="html">featured image</media:title></media:content>
