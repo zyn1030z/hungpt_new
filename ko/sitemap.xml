@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hungpt.info/ko/ko/archive/</loc>
-    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/ko/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
     <xhtml:link
@@ -18,26 +15,39 @@
                 href="https://hungpt.info/ko/"
                 />
   </url><url>
-    <loc>https://hungpt.info/ko/ko/</loc>
+    <loc>https://hungpt.info/ko/archive/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hungpt.info/en/ko/"
+                href="https://hungpt.info/en/archive/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://hungpt.info/ko/ko/"
+                href="https://hungpt.info/ko/archive/"
                 />
   </url><url>
-    <loc>https://hungpt.info/ko/ko/about/</loc>
+    <loc>https://hungpt.info/ko/about/</loc>
     <lastmod>2019-10-09T11:44:14+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hungpt.info/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hungpt.info/ko/about/"
+                />
   </url><url>
-    <loc>https://hungpt.info/ko/ko/gallery/photo/</loc>
+    <loc>https://hungpt.info/ko/gallery/</loc>
     <lastmod>2018-10-12T10:20:16+09:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/ko/ko/gallery/cartoon/</loc>
+    <loc>https://hungpt.info/ko/gallery/photo/</loc>
+    <lastmod>2018-10-12T10:20:16+09:00</lastmod>
+  </url><url>
+    <loc>https://hungpt.info/ko/gallery/cartoon/</loc>
     <lastmod>2018-10-11T10:20:16+09:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/ko/categories/</loc>
@@ -64,7 +74,17 @@
                 href="https://hungpt.info/ko/tags/index/"
                 />
   </url><url>
-    <loc>https://hungpt.info/ko/ko/posts/</loc>
+    <loc>https://hungpt.info/ko/posts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hungpt.info/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hungpt.info/ko/posts/"
+                />
   </url><url>
     <loc>https://hungpt.info/ko/series/</loc>
     <xhtml:link

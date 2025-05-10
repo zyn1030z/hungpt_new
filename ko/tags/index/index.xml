@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>index on HungPT&#39;s Blog</title>
+    <title>index on Hugo Zzo Theme</title>
     <link>https://hungpt.info/ko/tags/index/</link>
-    <description>Recent content in index on HungPT&#39;s Blog</description>
+    <description>Recent content in index on Hugo Zzo Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <managingEditor>thaihung412@gmail.com (Hùng Phạm)</managingEditor>
@@ -21,11 +21,11 @@
       
       <item>
         <title>Posts</title>
-        <link>https://hungpt.info/ko/ko/posts/</link>
+        <link>https://hungpt.info/ko/posts/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
         
-        <guid>https://hungpt.info/ko/ko/posts/</guid>
+        <guid>https://hungpt.info/ko/posts/</guid>
         <description></description>
         
         <dc:creator>Hugo Authors</dc:creator>

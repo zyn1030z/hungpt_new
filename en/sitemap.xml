@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hungpt.info/en/en/showcase/hugo/hugo-theme-zdoc/</loc>
-    <lastmod>2020-01-19T21:13:42+09:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/showcase/hugo/hugo-theme-zdoc/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url><url>
@@ -21,14 +18,18 @@
                 href="https://hungpt.info/en/"
                 />
   </url><url>
-    <loc>https://hungpt.info/en/en/</loc>
-    <lastmod>2024-12-27T14:31:27+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/</loc>
-    <lastmod>2024-12-27T14:31:27+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/</loc>
     <lastmod>2024-12-27T14:31:27+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hungpt.info/ko/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hungpt.info/en/posts/"
+                />
   </url><url>
     <loc>https://hungpt.info/en/categories/</loc>
     <lastmod>2024-12-27T14:31:27+07:00</lastmod>
@@ -42,9 +43,6 @@
                 hreflang="en"
                 href="https://hungpt.info/en/categories/"
                 />
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/odoo18_create_view/</loc>
-    <lastmod>2024-12-27T14:31:27+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/odoo18_create_view/</loc>
     <lastmod>2024-12-27T14:31:27+07:00</lastmod>
@@ -93,9 +91,6 @@
     <loc>https://hungpt.info/en/series/golang/</loc>
     <lastmod>2024-10-24T23:42:00+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/golang_part1/</loc>
-    <lastmod>2024-10-24T23:42:00+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/golang_part1/</loc>
     <lastmod>2024-10-24T23:42:00+07:00</lastmod>
   </url><url>
@@ -108,20 +103,11 @@
     <loc>https://hungpt.info/en/categories/devops/</loc>
     <lastmod>2024-06-20T12:12:10+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/docker_compose_run_and_debug_odoo/</loc>
-    <lastmod>2024-06-20T12:12:10+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/docker_compose_run_and_debug_odoo/</loc>
     <lastmod>2024-06-20T12:12:10+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/docker_redis_with_odoo/</loc>
-    <lastmod>2024-06-19T21:43:57+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/docker_redis_with_odoo/</loc>
     <lastmod>2024-06-19T21:43:57+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/what_your_level_in_sql/</loc>
-    <lastmod>2024-04-11T18:39:27+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/what_your_level_in_sql/</loc>
     <lastmod>2024-04-11T18:39:27+07:00</lastmod>
@@ -135,14 +121,8 @@
     <loc>https://hungpt.info/en/categories/sql/</loc>
     <lastmod>2024-04-11T18:39:27+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/docker_in_odoo/</loc>
-    <lastmod>2024-02-10T18:39:27+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/docker_in_odoo/</loc>
     <lastmod>2024-02-10T18:39:27+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/quasar_tutorial/</loc>
-    <lastmod>2023-03-03T11:32:30+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/quasar_tutorial/</loc>
     <lastmod>2023-03-03T11:32:30+07:00</lastmod>
@@ -153,17 +133,11 @@
     <loc>https://hungpt.info/en/categories/vuejs/</loc>
     <lastmod>2023-03-03T11:32:30+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/invoke_function_in_odoo/</loc>
-    <lastmod>2023-01-09T08:30:39+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/invoke_function_in_odoo/</loc>
     <lastmod>2023-01-09T08:30:39+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/tags/xml/</loc>
     <lastmod>2023-01-09T08:30:39+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/odoo_trick_and_tool/</loc>
-    <lastmod>2022-12-28T15:00:21+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/odoo_trick_and_tool/</loc>
     <lastmod>2022-12-28T15:00:21+07:00</lastmod>
@@ -171,23 +145,14 @@
     <loc>https://hungpt.info/en/tags/tool/</loc>
     <lastmod>2022-12-28T15:00:21+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/odoo_image_attachments_load_url/</loc>
-    <lastmod>2022-12-28T00:24:53+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/odoo_image_attachments_load_url/</loc>
     <lastmod>2022-12-28T00:24:53+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/how_to_write_test_case_in_odoo/</loc>
-    <lastmod>2022-12-26T17:58:07+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/how_to_write_test_case_in_odoo/</loc>
     <lastmod>2022-12-26T17:58:07+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/tags/test_case/</loc>
     <lastmod>2022-12-26T17:58:07+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/how_to_use_widget_chart_in_odoo13/</loc>
-    <lastmod>2022-12-18T16:27:41+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/how_to_use_widget_chart_in_odoo13/</loc>
     <lastmod>2022-12-18T16:27:41+07:00</lastmod>
@@ -198,16 +163,10 @@
     <loc>https://hungpt.info/en/categories/owl/</loc>
     <lastmod>2022-12-05T15:11:51+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/owl-tutorial-part1/</loc>
-    <lastmod>2022-12-05T15:11:51+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/owl-tutorial-part1/</loc>
     <lastmod>2022-12-05T15:11:51+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/tags/aws/</loc>
-    <lastmod>2022-12-04T20:51:13+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/kubernetes-tutorial/</loc>
     <lastmod>2022-12-04T20:51:13+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/kubernetes-tutorial/</loc>
@@ -219,16 +178,10 @@
     <loc>https://hungpt.info/en/tags/docker/</loc>
     <lastmod>2022-11-29T23:27:16+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/docker_part1/</loc>
-    <lastmod>2022-11-29T23:27:16+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/docker_part1/</loc>
     <lastmod>2022-11-29T23:27:16+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/tags/javascript/</loc>
-    <lastmod>2022-11-06T14:32:50+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture_part4/</loc>
     <lastmod>2022-11-06T14:32:50+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture_part4/</loc>
@@ -237,20 +190,11 @@
     <loc>https://hungpt.info/en/series/odoo-owl/</loc>
     <lastmod>2022-11-06T14:32:50+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture_part3/</loc>
-    <lastmod>2022-11-05T14:48:37+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture_part3/</loc>
     <lastmod>2022-11-05T14:48:37+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture_part2/</loc>
-    <lastmod>2022-11-04T15:56:31+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture_part2/</loc>
     <lastmod>2022-11-04T15:56:31+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/what-is-mixin-class-how-to-use-mixin-classes-in-odoo-15/</loc>
-    <lastmod>2022-11-03T16:08:08+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/what-is-mixin-class-how-to-use-mixin-classes-in-odoo-15/</loc>
     <lastmod>2022-11-03T16:08:08+07:00</lastmod>
@@ -258,37 +202,22 @@
     <loc>https://hungpt.info/en/tags/odoo15/</loc>
     <lastmod>2022-11-03T16:08:08+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture/</loc>
-    <lastmod>2022-11-03T16:03:13+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture/</loc>
     <lastmod>2022-11-03T16:03:13+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/categories/golang/</loc>
     <lastmod>2022-11-02T16:12:42+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/api_golang_with_postgresql_part1/</loc>
-    <lastmod>2022-11-02T16:12:42+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/api_golang_with_postgresql_part1/</loc>
     <lastmod>2022-11-02T16:12:42+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/odoo-javascript-programming-tutorial-part-one-create-widget-view/</loc>
-    <lastmod>2022-10-30T20:47:18+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/odoo-javascript-programming-tutorial-part-one-create-widget-view/</loc>
-    <lastmod>2022-10-30T20:47:18+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/odoo-javascript-programming-tutorial-part-two-widget-logic/</loc>
     <lastmod>2022-10-30T20:47:18+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/odoo-javascript-programming-tutorial-part-two-widget-logic/</loc>
     <lastmod>2022-10-30T20:47:18+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/tags/ansible/</loc>
-    <lastmod>2022-10-18T16:23:46+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/deploy_app_nodejs_from_gitlab/</loc>
     <lastmod>2022-10-18T16:23:46+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/deploy_app_nodejs_from_gitlab/</loc>
@@ -300,44 +229,23 @@
     <loc>https://hungpt.info/en/tags/gitlab/</loc>
     <lastmod>2022-10-18T16:23:46+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/how_to_use_select2_lib_in_odoo/</loc>
-    <lastmod>2022-10-17T16:25:53+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/how_to_use_select2_lib_in_odoo/</loc>
     <lastmod>2022-10-17T16:25:53+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/template_in_ansible/</loc>
-    <lastmod>2022-10-16T16:39:36+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/template_in_ansible/</loc>
     <lastmod>2022-10-16T16:39:36+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/bien_trong_ansible/</loc>
-    <lastmod>2022-10-13T16:41:43+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/bien_trong_ansible/</loc>
     <lastmod>2022-10-13T16:41:43+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/owl-odoo-web-library-part-1/</loc>
-    <lastmod>2022-10-10T17:01:52+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/owl-odoo-web-library-part-1/</loc>
     <lastmod>2022-10-10T17:01:52+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/aws_amplify_host_cicd/</loc>
-    <lastmod>2022-10-09T18:39:27+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/aws_amplify_host_cicd/</loc>
     <lastmod>2022-10-09T18:39:27+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/ansible_cat_dat/</loc>
-    <lastmod>2022-10-09T17:27:37+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/ansible_cat_dat/</loc>
     <lastmod>2022-10-09T17:27:37+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/create_chart_easy_in_odoo/</loc>
-    <lastmod>2022-10-01T18:54:16+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/create_chart_easy_in_odoo/</loc>
     <lastmod>2022-10-01T18:54:16+07:00</lastmod>
@@ -351,20 +259,11 @@
     <loc>https://hungpt.info/en/categories/reactjs/</loc>
     <lastmod>2022-09-30T21:03:38+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/su-dung-usestate-hook-trong-react-nhu-nao-cho-dung/</loc>
-    <lastmod>2022-09-30T21:03:38+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/su-dung-usestate-hook-trong-react-nhu-nao-cho-dung/</loc>
     <lastmod>2022-09-30T21:03:38+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/deploy_nodejd_ec2_s3_in_aws/</loc>
-    <lastmod>2022-09-24T18:56:10+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/deploy_nodejd_ec2_s3_in_aws/</loc>
     <lastmod>2022-09-24T18:56:10+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/safe_eval_in_odoo/</loc>
-    <lastmod>2022-09-20T19:52:53+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/safe_eval_in_odoo/</loc>
     <lastmod>2022-09-20T19:52:53+07:00</lastmod>
@@ -372,20 +271,11 @@
     <loc>https://hungpt.info/en/tags/python/</loc>
     <lastmod>2022-09-20T19:52:53+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/vpn_in_aws/</loc>
-    <lastmod>2022-09-20T19:03:55+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/vpn_in_aws/</loc>
     <lastmod>2022-09-20T19:03:55+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/aws_lab_1/</loc>
-    <lastmod>2022-09-19T19:09:16+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/aws_lab_1/</loc>
     <lastmod>2022-09-19T19:09:16+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/vpc_in_aws/</loc>
-    <lastmod>2022-09-19T19:05:58+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/vpc_in_aws/</loc>
     <lastmod>2022-09-19T19:05:58+07:00</lastmod>
@@ -393,32 +283,17 @@
     <loc>https://hungpt.info/en/tags/vpc/</loc>
     <lastmod>2022-09-19T19:05:58+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/k8s_la_gi_part1/</loc>
-    <lastmod>2022-09-11T19:20:24+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/k8s_la_gi_part1/</loc>
     <lastmod>2022-09-11T19:20:24+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/mount_and_unmount/</loc>
-    <lastmod>2022-07-11T20:39:44+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/mount_and_unmount/</loc>
     <lastmod>2022-07-11T20:39:44+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/use_memo_in_reactjs/</loc>
-    <lastmod>2022-07-11T20:02:48+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/use_memo_in_reactjs/</loc>
     <lastmod>2022-07-11T20:02:48+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/use_ref/</loc>
-    <lastmod>2022-07-10T20:20:08+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/use_ref/</loc>
     <lastmod>2022-07-10T20:20:08+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/use_reduce_in_reactjs/</loc>
-    <lastmod>2022-07-07T20:14:00+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/use_reduce_in_reactjs/</loc>
     <lastmod>2022-07-07T20:14:00+07:00</lastmod>
@@ -429,55 +304,28 @@
     <loc>https://hungpt.info/en/categories/javascript/</loc>
     <lastmod>2022-06-30T20:42:36+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/javascript-array-reduce/</loc>
-    <lastmod>2022-06-30T20:42:36+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/javascript-array-reduce/</loc>
     <lastmod>2022-06-30T20:42:36+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/use_effect_part1/</loc>
-    <lastmod>2022-06-12T20:28:34+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/use_effect_part1/</loc>
-    <lastmod>2022-06-12T20:28:34+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/use_effect_part2/</loc>
     <lastmod>2022-06-12T20:28:34+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/use_effect_part2/</loc>
     <lastmod>2022-06-12T20:28:34+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/use_effect_part3/</loc>
-    <lastmod>2022-06-12T20:28:34+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/use_effect_part3/</loc>
-    <lastmod>2022-06-12T20:28:34+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/use_effect_part4/</loc>
     <lastmod>2022-06-12T20:28:34+07:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/posts/use_effect_part4/</loc>
     <lastmod>2022-06-12T20:28:34+07:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/posts/kien-thuc-javascript-co-ban-can-phai-biet-truoc-khi-hoc-react-native-reactjs/</loc>
-    <lastmod>2022-05-30T21:22:08+07:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/posts/kien-thuc-javascript-co-ban-can-phai-biet-truoc-khi-hoc-react-native-reactjs/</loc>
     <lastmod>2022-05-30T21:22:08+07:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/publication/article/</loc>
-    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/publication/article/</loc>
     <lastmod>2020-03-05T14:08:48+00:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/publication/book/</loc>
-    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/publication/book/</loc>
-    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/publication/misc/</loc>
     <lastmod>2020-03-05T14:08:48+00:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/publication/misc/</loc>
@@ -486,93 +334,63 @@
     <loc>https://hungpt.info/en/publication/</loc>
     <lastmod>2020-03-05T14:08:48+00:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/showcase/hugo/</loc>
-    <lastmod>2020-01-19T21:04:11+09:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/showcase/hugo/</loc>
     <lastmod>2020-01-19T21:04:11+09:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/showcase/</loc>
-    <lastmod>2020-01-19T15:43:38+09:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/showcase/</loc>
     <lastmod>2020-01-19T15:43:38+09:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/presentation/dir/fourth/</loc>
-    <lastmod>2019-10-30T20:48:10+09:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/presentation/dir/fourth/</loc>
-    <lastmod>2019-10-30T20:48:10+09:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/presentation/</loc>
     <lastmod>2019-10-30T20:48:10+09:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/presentation/</loc>
     <lastmod>2019-10-30T20:48:10+09:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/presentation/third/</loc>
-    <lastmod>2019-10-30T20:46:30+09:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/presentation/third/</loc>
     <lastmod>2019-10-30T20:46:30+09:00</lastmod>
   </url><url>
-    <loc>https://hungpt.info/en/en/presentation/second/</loc>
-    <lastmod>2019-10-30T20:45:24+09:00</lastmod>
-  </url><url>
     <loc>https://hungpt.info/en/presentation/second/</loc>
     <lastmod>2019-10-30T20:45:24+09:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/presentation/first/</loc>
-    <lastmod>2019-10-30T19:45:20+09:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/presentation/first/</loc>
     <lastmod>2019-10-30T19:45:20+09:00</lastmod>
   </url><url>
     <loc>https://hungpt.info/en/archive/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/archive/</loc>
-    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/publication/article/article_any_folder_name_1/</loc>
-    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/publication/article/article_any_folder_name_1/</loc>
-    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/publication/book/book_any_folder_name_1/</loc>
-    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/publication/book/book_any_folder_name_1/</loc>
-    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/publication/misc/misc_any_folder_name_1/</loc>
-    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/publication/misc/misc_any_folder_name_1/</loc>
-    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hungpt.info/en/en/showcase/hugo/hugo-theme-zzo/</loc>
-  </url><url>
-    <loc>https://hungpt.info/en/showcase/hugo/hugo-theme-zzo/</loc>
-  </url><url>
-    <loc>https://hungpt.info/en/ko/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://hungpt.info/ko/ko/"
+                href="https://hungpt.info/ko/archive/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hungpt.info/en/ko/"
+                href="https://hungpt.info/en/archive/"
                 />
+  </url><url>
+    <loc>https://hungpt.info/en/about/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hungpt.info/ko/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hungpt.info/en/about/"
+                />
+  </url><url>
+    <loc>https://hungpt.info/en/publication/article/article_any_folder_name_1/</loc>
+    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hungpt.info/en/publication/book/book_any_folder_name_1/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hungpt.info/en/publication/misc/misc_any_folder_name_1/</loc>
+    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hungpt.info/en/showcase/hugo/hugo-theme-zzo/</loc>
   </url><url>
     <loc>https://hungpt.info/en/tags/ci/cd/</loc>
   </url><url>
@@ -587,8 +405,6 @@
                 hreflang="en"
                 href="https://hungpt.info/en/tags/index/"
                 />
-  </url><url>
-    <loc>https://hungpt.info/en/en/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</loc>
   </url><url>
     <loc>https://hungpt.info/en/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</loc>
   </url>

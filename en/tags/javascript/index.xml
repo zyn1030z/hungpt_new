@@ -22,50 +22,6 @@
       
       <item>
         <title>Odoo JavaScript - Phần 4: Tạo OWL view</title>
-        <link>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture_part4/</link>
-        <pubDate>Sun, 06 Nov 2022 14:32:50 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Sun, 06 Nov 2022 14:32:50 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture_part4/</guid>
-        <description>&lt;p&gt;Ở 3 phần trước chúng ta đã cùng tìm hiểu từng thành phần trong mô hình MVC của Javascript Odoo. Ở phần này, mình sẽ tạo ra 1 view OWL&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Odoo</category>
-            
-          
-            
-              <category>OWL</category>
-            
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Odoo</category>
-            
-          
-        
-        
-          
-            
-              <category>Odoo OWL</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Odoo JavaScript - Phần 4: Tạo OWL view</title>
         <link>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture_part4/</link>
         <pubDate>Sun, 06 Nov 2022 14:32:50 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -110,51 +66,6 @@
       
       <item>
         <title>Odoo JavaScript - Phần 3: Tổng quan về kiến trúc MVC trong Odoo</title>
-        <link>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture_part3/</link>
-        <pubDate>Sat, 05 Nov 2022 14:48:37 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Sat, 05 Nov 2022 14:48:37 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture_part3/</guid>
-        <description>&lt;p&gt;MVC ở đây chúng ta có thể hiểu WebClient của odoo chính là view là Python chính là M và C.&lt;br /&gt;
-Nhưng chúng ta nên nghĩ về WebClient như một application riêng biệt cũng cần có kiến trúc MVC riêng của nó.&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_3.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Odoo</category>
-            
-          
-            
-              <category>OWL</category>
-            
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Odoo</category>
-            
-          
-        
-        
-          
-            
-              <category>Odoo OWL</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Odoo JavaScript - Phần 3: Tổng quan về kiến trúc MVC trong Odoo</title>
         <link>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture_part3/</link>
         <pubDate>Sat, 05 Nov 2022 14:48:37 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -162,51 +73,6 @@ Nhưng chúng ta nên nghĩ về WebClient như một application riêng biệt 
         <guid>https://hungpt.info/en/posts/odoo-javascript-classes-and-mvc-architecture_part3/</guid>
         <description>&lt;p&gt;MVC ở đây chúng ta có thể hiểu WebClient của odoo chính là view là Python chính là M và C.&lt;br /&gt;
 Nhưng chúng ta nên nghĩ về WebClient như một application riêng biệt cũng cần có kiến trúc MVC riêng của nó.&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_3.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Odoo</category>
-            
-          
-            
-              <category>OWL</category>
-            
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Odoo</category>
-            
-          
-        
-        
-          
-            
-              <category>Odoo OWL</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Odoo JavaScript - Phần 2: Tổng quan về classes và kiến trúc MVC trong Odoo</title>
-        <link>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture_part2/</link>
-        <pubDate>Fri, 04 Nov 2022 15:56:31 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Fri, 04 Nov 2022 15:56:31 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture_part2/</guid>
-        <description>&lt;p&gt;Bài viết lần này, chúng ta cùng đi tìm hiểu sâu hơn về web.Widget class nhé!&lt;/p&gt;
-&lt;p&gt;Bên cạnh việc extend từ những mixin khác như ở phần 1 mình có nói thì mục đích chính của web.Widget đó chính là render Qweb, thực hiện quản lý life cycle và thêm vào DOM.&lt;/p&gt;</description>
         
         <dc:creator>Hùng Phạm</dc:creator>
         <media:content url="https://hungpt.infoimages/feature1/img_3.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -290,50 +156,6 @@ Nhưng chúng ta nên nghĩ về WebClient như một application riêng biệt 
       
       <item>
         <title>Class Mixin là gì và Cách sử dụng class Mixin trong Odoo 15</title>
-        <link>https://hungpt.info/en/en/posts/what-is-mixin-class-how-to-use-mixin-classes-in-odoo-15/</link>
-        <pubDate>Thu, 03 Nov 2022 16:08:08 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Thu, 03 Nov 2022 16:08:08 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/what-is-mixin-class-how-to-use-mixin-classes-in-odoo-15/</guid>
-        <description>&lt;p&gt;Trong Python, mixin đề cập đến như một lớp cung cấp các phương thức có thể được sử dụng lại.Tính năng này cũng có thể được sử dụng trong nền tảng Odoo. Bài viết này chúng ta sẽ thảo luận về cách sử dụng các class mixin trong Odoo 15.&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_4.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Odoo15</category>
-            
-          
-            
-              <category>OWL</category>
-            
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Odoo</category>
-            
-          
-        
-        
-          
-            
-              <category>Odoo OWL</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Class Mixin là gì và Cách sử dụng class Mixin trong Odoo 15</title>
         <link>https://hungpt.info/en/posts/what-is-mixin-class-how-to-use-mixin-classes-in-odoo-15/</link>
         <pubDate>Thu, 03 Nov 2022 16:08:08 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -349,51 +171,6 @@ Nhưng chúng ta nên nghĩ về WebClient như một application riêng biệt 
           
             
               <category>Odoo15</category>
-            
-          
-            
-              <category>OWL</category>
-            
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Odoo</category>
-            
-          
-        
-        
-          
-            
-              <category>Odoo OWL</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Odoo JavaScript - Phần 1: Tổng quan về classes và kiến trúc MVC trong Odoo</title>
-        <link>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture/</link>
-        <pubDate>Thu, 03 Nov 2022 16:03:13 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Thu, 03 Nov 2022 16:03:13 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/odoo-javascript-classes-and-mvc-architecture/</guid>
-        <description>&lt;p&gt;Trong bài viết này, chúng ta sẽ đi qua những kiến thức cơ bản về Odoo JavaScript Framework với mục tiêu cuối cùng là tạo&lt;br /&gt;
-một module trong OWL.&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_3.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Odoo</category>
             
           
             
@@ -468,47 +245,6 @@ một module trong OWL.&lt;/p&gt;</description>
       
       <item>
         <title>Sử dụng useState() Hook trong React như nào cho đúng?</title>
-        <link>https://hungpt.info/en/en/posts/su-dung-usestate-hook-trong-react-nhu-nao-cho-dung/</link>
-        <pubDate>Fri, 30 Sep 2022 21:03:38 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Fri, 30 Sep 2022 21:03:38 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/su-dung-usestate-hook-trong-react-nhu-nao-cho-dung/</guid>
-        <description>&lt;p&gt;Để quản lý State trong React Function Component, chúng ta dùng Hook useState().&lt;/p&gt;
-&lt;p&gt;Hàm useState trả về 1 mảng 2 phần tử, phần tử đầu tiên là để khởi tạo state, phần tử thứ 2 là hàm để cập nhật state. Tham số truyền vào hàm useState là giá trị khởi tạo của state. Ví dụ:&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_27.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Sử dụng useState() Hook trong React như nào cho đúng?</title>
         <link>https://hungpt.info/en/posts/su-dung-usestate-hook-trong-react-nhu-nao-cho-dung/</link>
         <pubDate>Fri, 30 Sep 2022 21:03:38 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -519,47 +255,6 @@ một module trong OWL.&lt;/p&gt;</description>
         
         <dc:creator>Hùng Phạm</dc:creator>
         <media:content url="https://hungpt.infoimages/feature1/img_27.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Mounted &amp; Unmounted?</title>
-        <link>https://hungpt.info/en/en/posts/mount_and_unmount/</link>
-        <pubDate>Mon, 11 Jul 2022 20:39:44 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Mon, 11 Jul 2022 20:39:44 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/mount_and_unmount/</guid>
-        <description>&lt;p&gt;Trong bài viết lần này chúng ta sẽ cùng hiểu 2 thuật ngữ Mount và Unmount. Trong đó Mount có nghĩa là gắn vào, Unmount&lt;br /&gt;
-nghĩa là tháo ra gỡ ra.&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_24.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -632,46 +327,6 @@ nghĩa là tháo ra gỡ ra.&lt;/p&gt;</description>
       
       <item>
         <title>Cách sử dụng useMemo và memo trong ReactJS</title>
-        <link>https://hungpt.info/en/en/posts/use_memo_in_reactjs/</link>
-        <pubDate>Mon, 11 Jul 2022 20:02:48 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Mon, 11 Jul 2022 20:02:48 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/use_memo_in_reactjs/</guid>
-        <description>&lt;p&gt;Trong bài viết lần này, chúng ta hãy cùng tìm hiểu 1 hook mới trong ReactJS là useMemo và 1 HOC trong ReactJS là memo nhé!😄&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_21.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>ReactJS</category>
-            
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Cách sử dụng useMemo và memo trong ReactJS</title>
         <link>https://hungpt.info/en/posts/use_memo_in_reactjs/</link>
         <pubDate>Mon, 11 Jul 2022 20:02:48 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -712,46 +367,6 @@ nghĩa là tháo ra gỡ ra.&lt;/p&gt;</description>
       
       <item>
         <title>Cách sử dụng useRef trong ReactJS</title>
-        <link>https://hungpt.info/en/en/posts/use_ref/</link>
-        <pubDate>Sun, 10 Jul 2022 20:20:08 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Sun, 10 Jul 2022 20:20:08 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/use_ref/</guid>
-        <description>&lt;p&gt;Trong bài viết lần này, chúng ta hãy cùng tìm hiểu 1 hook mới trong ReactJS là useRef nhé!😄&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_22.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Cách sử dụng useRef trong ReactJS</title>
         <link>https://hungpt.info/en/posts/use_ref/</link>
         <pubDate>Sun, 10 Jul 2022 20:20:08 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -761,46 +376,6 @@ nghĩa là tháo ra gỡ ra.&lt;/p&gt;</description>
         
         <dc:creator>Hùng Phạm</dc:creator>
         <media:content url="https://hungpt.infoimages/feature1/img_22.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Cách sử dụng useReduce trong ReactJS</title>
-        <link>https://hungpt.info/en/en/posts/use_reduce_in_reactjs/</link>
-        <pubDate>Thu, 07 Jul 2022 20:14:00 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Thu, 07 Jul 2022 20:14:00 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/use_reduce_in_reactjs/</guid>
-        <description></description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_21.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -872,48 +447,6 @@ nghĩa là tháo ra gỡ ra.&lt;/p&gt;</description>
       
       <item>
         <title>Tìm hiểu về phương thức Reduce trong Javascript</title>
-        <link>https://hungpt.info/en/en/posts/javascript-array-reduce/</link>
-        <pubDate>Thu, 30 Jun 2022 20:42:36 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Thu, 30 Jun 2022 20:42:36 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/javascript-array-reduce/</guid>
-        <description>Gỉa sử chúng có một mảng các chữ số như sau:
-1 const numbers = [2, 4, 6]; Làm sao chúng ta có thể tính tổng các chữ số trong mảng trên. Sử dụng reduce trong javascript chúng ta có dễ dàng làm việc này mà không cần sử dụng vòng lặp.
-1 2 3 4 5 6 const numbers = [2, 4, 6]; const sum = numbers.reduce(function(sum, number) { const updatedSum = sum + number; return updatedSum; }, 0); sum; // 12 Trong bài viết này, chúng ta sẽ tìm hiểu về phương thức reduce và cách sử dụng array.</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_25.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Tìm hiểu về phương thức Reduce trong Javascript</title>
         <link>https://hungpt.info/en/posts/javascript-array-reduce/</link>
         <pubDate>Thu, 30 Jun 2022 20:42:36 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -949,48 +482,6 @@ nghĩa là tháo ra gỡ ra.&lt;/p&gt;</description>
           
             
               <category>Javascript</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Cách sử dụng useEffect trong ReactJS (Phần 1)</title>
-        <link>https://hungpt.info/en/en/posts/use_effect_part1/</link>
-        <pubDate>Sun, 12 Jun 2022 20:28:34 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Sun, 12 Jun 2022 20:28:34 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/use_effect_part1/</guid>
-        <description>&lt;p&gt;useEffect là 1 hook cơ bản trong Reactjs, nhưng khi bạn mới học sẽ thấy nó hơi khó một chút😁. Lý do nó khó không phải vì hook&lt;br /&gt;
-này nó khó mà vì để có thể sử dụng được hook này đòi hỏi bạn phải nắm vững kiến thức Javascript cơ bản và nâng cao. Thế nên&lt;br /&gt;
-nếu bạn đi vào đây học quá nhanh hoặc quên mất kiến thức nền thì học sẽ bị khó.&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_23.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
             
           
         
@@ -1040,47 +531,6 @@ nếu bạn đi vào đây học quá nhanh hoặc quên mất kiến thức n�
       
       <item>
         <title>Cách sử dụng useEffect trong ReactJS (Phần 2)</title>
-        <link>https://hungpt.info/en/en/posts/use_effect_part2/</link>
-        <pubDate>Sun, 12 Jun 2022 20:28:34 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Sun, 12 Jun 2022 20:28:34 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/use_effect_part2/</guid>
-        <description>&lt;p&gt;Ở phần 1, chúng ta đã tìm hiểu về trường hợp đầu tiên sử dụng useEffect, cùng hiểu tại sao phải sử dụng tham số thứ 2 trong useEffect. Trong&lt;br /&gt;
-phần này chúng ta sẽ tìm hiểu rõ hơn.&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_23.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Cách sử dụng useEffect trong ReactJS (Phần 2)</title>
         <link>https://hungpt.info/en/posts/use_effect_part2/</link>
         <pubDate>Sun, 12 Jun 2022 20:28:34 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -1088,51 +538,6 @@ phần này chúng ta sẽ tìm hiểu rõ hơn.&lt;/p&gt;</description>
         <guid>https://hungpt.info/en/posts/use_effect_part2/</guid>
         <description>&lt;p&gt;Ở phần 1, chúng ta đã tìm hiểu về trường hợp đầu tiên sử dụng useEffect, cùng hiểu tại sao phải sử dụng tham số thứ 2 trong useEffect. Trong&lt;br /&gt;
 phần này chúng ta sẽ tìm hiểu rõ hơn.&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_23.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Cách sử dụng useEffect trong ReactJS (Phần 3)</title>
-        <link>https://hungpt.info/en/en/posts/use_effect_part3/</link>
-        <pubDate>Sun, 12 Jun 2022 20:28:34 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Sun, 12 Jun 2022 20:28:34 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/use_effect_part3/</guid>
-        <description>&lt;p&gt;Nội dung ở phần này mình muốn đưa cho các bạn sẽ có 3 phần chính:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cách listen DOMEvent trong React component&lt;/li&gt;
-&lt;li&gt;Vấn để xảy ra khi chúng ta listen DOM Event là gì?&lt;/li&gt;
-&lt;li&gt;Cách khắc phục vấn đề nàymột&lt;/li&gt;
-&lt;/ul&gt;</description>
         
         <dc:creator>Hùng Phạm</dc:creator>
         <media:content url="https://hungpt.infoimages/feature1/img_23.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -1212,47 +617,6 @@ phần này chúng ta sẽ tìm hiểu rõ hơn.&lt;/p&gt;</description>
       
       <item>
         <title>Cách sử dụng useEffect trong ReactJS (Phần 4)</title>
-        <link>https://hungpt.info/en/en/posts/use_effect_part4/</link>
-        <pubDate>Sun, 12 Jun 2022 20:28:34 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Sun, 12 Jun 2022 20:28:34 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/use_effect_part4/</guid>
-        <description>Ở phần này, mình sẽ xây dựng app chat đơn giản để có thể giúp các bạn nắm rõ hơn cách sử dụng useEffect như thế nào nhé!😄
-Ở đây mình sẽ không tạo web socket server mà mình sẽ đi fake ra những bình luận</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_23.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Cách sử dụng useEffect trong ReactJS (Phần 4)</title>
         <link>https://hungpt.info/en/posts/use_effect_part4/</link>
         <pubDate>Sun, 12 Jun 2022 20:28:34 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -1273,47 +637,6 @@ phần này chúng ta sẽ tìm hiểu rõ hơn.&lt;/p&gt;</description>
           
             
               <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-        
-          
-            
-              <category>Reactjs</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Kiến thức Javascript cơ bản cần phải biết trước khi học ReactJS</title>
-        <link>https://hungpt.info/en/en/posts/kien-thuc-javascript-co-ban-can-phai-biet-truoc-khi-hoc-react-native-reactjs/</link>
-        <pubDate>Mon, 30 May 2022 21:22:08 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Mon, 30 May 2022 21:22:08 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/kien-thuc-javascript-co-ban-can-phai-biet-truoc-khi-hoc-react-native-reactjs/</guid>
-        <description>&lt;p&gt;ReactJS là một Javascript framework rất phổ biến với giới lập trình Web Frontend hiện nay, số lượng tuyển dụng lập trình viên ReactJS cũng rất lớn. Do đó nhiều người mới học Web Frontend sau khi học xong một chút HTML CSS JS là muốn nhảy vào lập trình ReactJS ngay. Điều này dẫn đến hệ lụy là các bạn sẽ bị hổng kiến thức cơ bản, hoặc khi học ReactJS sẽ rất chật vật vì không hiểu cú pháp, không hiểu bản chất, …&lt;/p&gt;
-&lt;p&gt;Vậy trước khi học ReactJS hoặc React Native, các bạn nên nẵm vững HTML CSS và những kiến thức sau trong JavaScript (ngoài các kiến thức ban đầu như biến, vòng lặp, điều kiện, …):&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_28.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Javascript</category>
-            
-          
-            
-              <category>Reactjs</category>
             
           
         
@@ -1369,42 +692,6 @@ phần này chúng ta sẽ tìm hiểu rõ hơn.&lt;/p&gt;</description>
           
             
               <category>Reactjs</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Những lỗi cơ bản trong lập trình mà developer nên tránh</title>
-        <link>https://hungpt.info/en/en/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        
-        <guid>https://hungpt.info/en/en/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</guid>
-        <description>&lt;p&gt;Không lập trình viên nào code mà không có bug. Tuy nhiên có rất nhiều lỗi cơ bản chúng ta nên tránh để tạo ra ít bug hơn, code sạch và trong sáng hơn, dễ bảo trì hơn, đỡ bị ăn chửi hơn, …&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_29.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Javascript</category>
-            
-          
-        
-        
-          
-            
-              <category>Javascript</category>
             
           
         

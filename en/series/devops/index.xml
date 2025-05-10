@@ -22,46 +22,6 @@
       
       <item>
         <title>How to configure an interpreter using Docker Compose on Pycharm</title>
-        <link>https://hungpt.info/en/en/posts/docker_compose_run_and_debug_odoo/</link>
-        <pubDate>Thu, 20 Jun 2024 12:12:10 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Thu, 20 Jun 2024 12:12:10 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/docker_compose_run_and_debug_odoo/</guid>
-        <description>Continue&amp;hellip;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature7/img_7.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-            
-              <category>Odoo</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>How to configure an interpreter using Docker Compose on Pycharm</title>
         <link>https://hungpt.info/en/posts/docker_compose_run_and_debug_odoo/</link>
         <pubDate>Thu, 20 Jun 2024 12:12:10 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -71,47 +31,6 @@
         
         <dc:creator>Hùng Phạm</dc:creator>
         <media:content url="https://hungpt.infoimages/feature7/img_7.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-            
-              <category>Odoo</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Docker_redis_with_odoo</title>
-        <link>https://hungpt.info/en/en/posts/docker_redis_with_odoo/</link>
-        <pubDate>Wed, 19 Jun 2024 21:43:57 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Wed, 19 Jun 2024 21:43:57 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/docker_redis_with_odoo/</guid>
-        <description>Trong bài viết lần này, chúng ta sẽ thảo luận về một vấn đề khá thú vị, đó là việc tích hợp Redis với Odoo.
-Chuẩn bị </description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature7/img_6.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -184,46 +103,6 @@ Chuẩn bị </description>
       
       <item>
         <title>Docker in Odoo</title>
-        <link>https://hungpt.info/en/en/posts/docker_in_odoo/</link>
-        <pubDate>Sat, 10 Feb 2024 18:39:27 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Sat, 10 Feb 2024 18:39:27 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/docker_in_odoo/</guid>
-        <description>&lt;p&gt;Trong bài viết lần này, mình sẽ hướng dẫn các bạn deploy odoo 17 sử dụng Docker-compose&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_34.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-            
-              <category>Odoo</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Docker in Odoo</title>
         <link>https://hungpt.info/en/posts/docker_in_odoo/</link>
         <pubDate>Sat, 10 Feb 2024 18:39:27 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -243,51 +122,6 @@ Chuẩn bị </description>
           
             
               <category>Odoo</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Hướng dẫn Kubernetes cho người mới bắt đầu – Các khái niệm &amp; ví dụ cơ bản</title>
-        <link>https://hungpt.info/en/en/posts/kubernetes-tutorial/</link>
-        <pubDate>Sun, 04 Dec 2022 20:51:13 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Sun, 04 Dec 2022 20:51:13 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/kubernetes-tutorial/</guid>
-        <description>Kubernetes là công cụ điều phối phổ biến nhất để triển khai và nhân rộng các hệ thống được đóng gói(docker&amp;hellip;). Bạn có thể sử dụng Kubernetes để xây dựng và phân phối các ứng dụng của mình trên cloud một cách đáng tin cậy.
-Trong bài hướng dẫn dành cho người mới bắt đầu này, bạn sẽ tìm hiểu những gì Kubernetes có thể làm và cách bắt đầu sử dụng K8S qua một số ví dụ cụ thể.</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_31.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>K8s</category>
-            
-          
-            
-              <category>Devops</category>
-            
-          
-            
-              <category>AWS</category>
             
           
         
@@ -354,51 +188,6 @@ Trong bài hướng dẫn dành cho người mới bắt đầu này, bạn sẽ
       
       <item>
         <title>Docker là gì? Kiến thức cơ bản về Docker</title>
-        <link>https://hungpt.info/en/en/posts/docker_part1/</link>
-        <pubDate>Tue, 29 Nov 2022 23:27:16 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Tue, 29 Nov 2022 23:27:16 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/docker_part1/</guid>
-        <description>&lt;p&gt;Trong bài lab lần này, chúng ta sẽ tìm hiểu về docker. Vậy docker là gì?&lt;br /&gt;
-Docker là nền tảng phần mềm cho phép bạn dựng, kiểm thử và triển khai ứng dụng một cách nhanh chóng.&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>docker</category>
-            
-          
-            
-              <category>devops</category>
-            
-          
-            
-              <category>aws</category>
-            
-          
-        
-        
-          
-            
-              <category>devops</category>
-            
-          
-        
-        
-          
-            
-              <category>devops</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Docker là gì? Kiến thức cơ bản về Docker</title>
         <link>https://hungpt.info/en/posts/docker_part1/</link>
         <pubDate>Tue, 29 Nov 2022 23:27:16 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -437,54 +226,6 @@ Docker là nền tảng phần mềm cho phép bạn dựng, kiểm thử và tr
           
             
               <category>devops</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Ansible: Triển khai App Nodejs từ Private Reponsitory Gitlab</title>
-        <link>https://hungpt.info/en/en/posts/deploy_app_nodejs_from_gitlab/</link>
-        <pubDate>Tue, 18 Oct 2022 16:23:46 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Tue, 18 Oct 2022 16:23:46 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/deploy_app_nodejs_from_gitlab/</guid>
-        <description></description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_6.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-            
-              <category>AWS</category>
-            
-          
-            
-              <category>Ansible</category>
-            
-          
-            
-              <category>Gitlab</category>
-            
-          
-        
-        
-          
-            
-              <category>AWS</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
             
           
         
@@ -540,50 +281,6 @@ Docker là nền tảng phần mềm cho phép bạn dựng, kiểm thử và tr
       
       <item>
         <title>[Dành cho Beginner] Phần 3: Template trong Ansible</title>
-        <link>https://hungpt.info/en/en/posts/template_in_ansible/</link>
-        <pubDate>Sun, 16 Oct 2022 16:39:36 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Sun, 16 Oct 2022 16:39:36 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/template_in_ansible/</guid>
-        <description>&lt;p&gt;Trước tiên chúng ta hãy cùng nói lại về khái niệm Template trong Ansible và tại sao chúng ta phải dùng nó&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_9.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-            
-              <category>Ansible</category>
-            
-          
-            
-              <category>AWS</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>[Dành cho Beginner] Phần 3: Template trong Ansible</title>
         <link>https://hungpt.info/en/posts/template_in_ansible/</link>
         <pubDate>Sun, 16 Oct 2022 16:39:36 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -607,46 +304,6 @@ Docker là nền tảng phần mềm cho phép bạn dựng, kiểm thử và tr
           
             
               <category>AWS</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>[Dành cho Beginner] Phần 2: Biến trong Ansible</title>
-        <link>https://hungpt.info/en/en/posts/bien_trong_ansible/</link>
-        <pubDate>Thu, 13 Oct 2022 16:41:43 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Thu, 13 Oct 2022 16:41:43 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/bien_trong_ansible/</guid>
-        <description>&lt;p&gt;Trước tiên chúng ta hãy cùng nói lại về khái niệm Playbook trong Ansible&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_10.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-            
-              <category>Aws</category>
             
           
         
@@ -708,47 +365,6 @@ Docker là nền tảng phần mềm cho phép bạn dựng, kiểm thử và tr
       
       <item>
         <title>[Dành cho Beginner] AWS Amplify host CI/CD</title>
-        <link>https://hungpt.info/en/en/posts/aws_amplify_host_cicd/</link>
-        <pubDate>Sun, 09 Oct 2022 18:39:27 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Sun, 09 Oct 2022 18:39:27 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/aws_amplify_host_cicd/</guid>
-        <description>&lt;h3 id=&#34;aws-amplify-là-gì&#34;&gt;AWS Amplify là gì?&lt;/h3&gt;
-&lt;p&gt;AWS Amplify là một tập hợp các công cụ và tính năng được tạo ra có chủ đích, giúp nhà phát triển web và di động frontend xây dựng các ứng dụng fullstack một cách nhanh chóng và dễ dàng trên AWS với khả năng tận dụng linh hoạt các dịch vụ AWS phong phú khi các trường hợp sử dụng của bạn tiến triển.&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_13.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-            
-              <category>AWS</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>[Dành cho Beginner] AWS Amplify host CI/CD</title>
         <link>https://hungpt.info/en/posts/aws_amplify_host_cicd/</link>
         <pubDate>Sun, 09 Oct 2022 18:39:27 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -765,50 +381,6 @@ Docker là nền tảng phần mềm cho phép bạn dựng, kiểm thử và tr
           
             
               <category>Devops</category>
-            
-          
-            
-              <category>AWS</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>[Dành cho Beginner] Phần 1: Ansible Là Gì? Hướng Dẫn Cài Đặt Ansible? Viết 1 Playbook đơn giản</title>
-        <link>https://hungpt.info/en/en/posts/ansible_cat_dat/</link>
-        <pubDate>Sun, 09 Oct 2022 17:27:37 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Sun, 09 Oct 2022 17:27:37 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/ansible_cat_dat/</guid>
-        <description>&lt;p&gt;Trong một môi trường với nhiều server thì ta sẽ có vô vàn thứ phải lo. Từ setup crontab, update các gói phần mềm mới, deploy ứng dụng mới, chỉnh sửa file cấu hình…. Những công việc này tuy không khó, nhưng rất mất thời gian của những người quản trị (SysAdmin/SysEngineer/DevOps).&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_12.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-            
-              <category>Ansible</category>
             
           
             
@@ -878,46 +450,6 @@ Docker là nền tảng phần mềm cho phép bạn dựng, kiểm thử và tr
       
       <item>
         <title>Hướng dẫn triển khai ứng dụng web front end cho AWS trên EC2 và S3 và scale EC2</title>
-        <link>https://hungpt.info/en/en/posts/create_chart_easy_in_odoo/</link>
-        <pubDate>Sat, 01 Oct 2022 18:54:16 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Sat, 01 Oct 2022 18:54:16 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/create_chart_easy_in_odoo/</guid>
-        <description></description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_14.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>devops</category>
-            
-          
-            
-              <category>AWS</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Hướng dẫn triển khai ứng dụng web front end cho AWS trên EC2 và S3 và scale EC2</title>
         <link>https://hungpt.info/en/posts/create_chart_easy_in_odoo/</link>
         <pubDate>Sat, 01 Oct 2022 18:54:16 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -937,51 +469,6 @@ Docker là nền tảng phần mềm cho phép bạn dựng, kiểm thử và tr
           
             
               <category>AWS</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>[Dành cho Beginner] Hướng dẫn triển khai ứng dụng NodeJS cho AWS trên EC2 và S3</title>
-        <link>https://hungpt.info/en/en/posts/deploy_nodejd_ec2_s3_in_aws/</link>
-        <pubDate>Sat, 24 Sep 2022 18:56:10 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Sat, 24 Sep 2022 18:56:10 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/deploy_nodejd_ec2_s3_in_aws/</guid>
-        <description>&lt;p&gt;Xin chào mọi người. Hôm nay chúng ta sẽ cùng tìm hiểu cách để có thể triển khai 1 ứng dụng NodeJS trên EC2 và thông tin dữ liệu được&lt;br /&gt;
-lưu ở S3 trên AWS nhé!&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_15.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-            
-              <category>AWS</category>
-            
-          
-            
-              <category>CI/CD</category>
             
           
         
@@ -1048,42 +535,6 @@ lưu ở S3 trên AWS nhé!&lt;/p&gt;</description>
       
       <item>
         <title>[Dành cho Beginner] VPN trong AWS</title>
-        <link>https://hungpt.info/en/en/posts/vpn_in_aws/</link>
-        <pubDate>Tue, 20 Sep 2022 19:03:55 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Tue, 20 Sep 2022 19:03:55 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/vpn_in_aws/</guid>
-        <description>Xin chào mọi người. Hôm nay chúng ta sẽ cùng tìm hiểu về VPN trong AWS.</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_16.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>[Dành cho Beginner] VPN trong AWS</title>
         <link>https://hungpt.info/en/posts/vpn_in_aws/</link>
         <pubDate>Tue, 20 Sep 2022 19:03:55 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -1096,47 +547,6 @@ lưu ở S3 trên AWS nhé!&lt;/p&gt;</description>
         
         
         
-          
-            
-              <category>Devops</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>[Dành cho Beginner] IAM trong AWS</title>
-        <link>https://hungpt.info/en/en/posts/aws_lab_1/</link>
-        <pubDate>Mon, 19 Sep 2022 19:09:16 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Mon, 19 Sep 2022 19:09:16 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/aws_lab_1/</guid>
-        <description>&lt;p&gt;Xin chào mọi người. Hôm nay chúng ta sẽ cùng tìm hiểu về IAM (Identity and Access Management) trong AWS.&lt;/p&gt;
-&lt;p&gt;Chắc hẳn khi mới bắt đầu tìm hiểu về Amazon Web Services, IAM là một trong những khái niệm mà chúng ta tiếp xúc đầu tiên. Cùng bắt đầu thôi!&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_18.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>AWS</category>
-            
           
             
               <category>Devops</category>
@@ -1202,54 +612,6 @@ lưu ở S3 trên AWS nhé!&lt;/p&gt;</description>
       
       <item>
         <title>[Dành cho Beginner] VPC trong AWS</title>
-        <link>https://hungpt.info/en/en/posts/vpc_in_aws/</link>
-        <pubDate>Mon, 19 Sep 2022 19:05:58 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Mon, 19 Sep 2022 19:05:58 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/vpc_in_aws/</guid>
-        <description>&lt;p&gt;Xin chào mọi người. Hôm nay chúng ta sẽ cùng tìm hiểu về VPC (Virtual Private Cloud) trong AWS.&lt;/p&gt;</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_17.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>VPC</category>
-            
-          
-            
-              <category>AWS</category>
-            
-          
-            
-              <category>Devops</category>
-            
-          
-            
-              <category>CI/CD</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>[Dành cho Beginner] VPC trong AWS</title>
         <link>https://hungpt.info/en/posts/vpc_in_aws/</link>
         <pubDate>Mon, 19 Sep 2022 19:05:58 +0700</pubDate>
         <author>thaihung412@gmail.com (Hùng Phạm)</author>
@@ -1277,46 +639,6 @@ lưu ở S3 trên AWS nhé!&lt;/p&gt;</description>
           
             
               <category>CI/CD</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>[K8S] - Phần 1: K8S là gì ?</title>
-        <link>https://hungpt.info/en/en/posts/k8s_la_gi_part1/</link>
-        <pubDate>Sun, 11 Sep 2022 19:20:24 +0700</pubDate>
-        <author>thaihung412@gmail.com (Hùng Phạm)</author>
-        <atom:modified>Sun, 11 Sep 2022 19:20:24 +0700</atom:modified>
-        <guid>https://hungpt.info/en/en/posts/k8s_la_gi_part1/</guid>
-        <description>Mình sẽ quay trở lại sớm với loại bài về K8s nhé 😄…</description>
-        
-        <dc:creator>Hùng Phạm</dc:creator>
-        <media:content url="https://hungpt.infoimages/feature1/img_19.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Devops</category>
-            
-          
-            
-              <category>AWS</category>
             
           
         
